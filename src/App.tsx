@@ -14,7 +14,7 @@ const Reveal = ({ children, delay = 0, y = 30 }: { children: React.ReactNode; de
 );
 
 const NodeMap = ({ isFull = false }: { isFull?: boolean }) => {
-  const nodes = [
+  const standardNodes = [
     { id: 1, x: 200, y: 150, label: "Lead Origination" },
     { id: 2, x: 500, y: 100, label: "Matching Engine" },
     { id: 3, x: 450, y: 300, label: "Contextual Enrichment" },
@@ -22,9 +22,30 @@ const NodeMap = ({ isFull = false }: { isFull?: boolean }) => {
     { id: 5, x: 800, y: 200, label: "Alpha Output" },
   ];
 
-  const connections = [
+  const crossNodes = [
+    // Vertical line
+    { id: 1, x: 500, y: 50, label: "Stewardship" },
+    { id: 2, x: 500, y: 150, label: "Foundation" },
+    { id: 3, x: 500, y: 250, label: "Discipline" },
+    { id: 4, x: 500, y: 350, label: "Integrity" },
+    { id: 5, x: 500, y: 450, label: "Resilience" },
+    // Horizontal arms
+    { id: 6, x: 350, y: 150, label: "Compassion" },
+    { id: 7, x: 650, y: 150, label: "Responsibility" },
+  ];
+
+  const nodes = isFull ? crossNodes : standardNodes;
+
+  const standardConnections = [
     [1, 2], [1, 3], [2, 5], [3, 2], [3, 4], [4, 5]
   ];
+
+  const crossConnections = [
+    [1, 2], [2, 3], [3, 4], [4, 5], // Vertical
+    [6, 2], [2, 7]                  // Horizontal arms
+  ];
+
+  const connections = isFull ? crossConnections : standardConnections;
 
   return (
     <div className={`relative w-full ${isFull ? 'h-screen' : 'h-[450px] bg-white/[0.02] border border-white/10'} rounded-sm overflow-hidden flex items-center justify-center`}>
@@ -37,7 +58,7 @@ const NodeMap = ({ isFull = false }: { isFull?: boolean }) => {
       />
       <div className="absolute inset-0 pointer-events-none opacity-20 bg-[radial-gradient(circle_at_50%_50%,rgba(196,162,101,0.1),transparent)]" />
       
-      <svg className="w-full h-full max-w-[1000px] max-h-[400px]" viewBox="0 0 1000 450">
+      <svg className="w-full h-full max-w-[1000px] max-h-[450px]" viewBox="0 0 1000 500">
         <defs>
           <filter id="glow">
             <feGaussianBlur stdDeviation="3.5" result="coloredBlur" />
@@ -53,7 +74,7 @@ const NodeMap = ({ isFull = false }: { isFull?: boolean }) => {
           const end = nodes.find(n => n.id === endId)!;
           return (
             <motion.line
-              key={i}
+              key={`${isFull ? 'c' : 's'}-${i}`}
               x1={start.x} y1={start.y} x2={end.x} y2={end.y}
               stroke="white"
               strokeWidth="1.5"
