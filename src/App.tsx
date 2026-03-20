@@ -112,7 +112,7 @@ export default function App() {
       <nav className="fixed top-0 w-full z-50 border-b border-white/5 bg-dark/80 backdrop-blur-xl px-8 flex items-center justify-between h-20">
         <div className="flex items-center gap-12">
           <div className="flex items-center gap-3 opacity-10 hover:opacity-100 transition-all duration-1000 group">
-            <img src="/hylten-gear.png" className="h-4 w-auto grayscale invert opacity-50 group-hover:opacity-100 transition-opacity" alt="Gear" />
+            <img src="hylten-gear.png" className="h-4 w-auto grayscale invert opacity-50 group-hover:opacity-100 transition-opacity" alt="Gear" />
             <span className="text-[10px] font-black uppercase tracking-[5px] text-white/40 italic">Hyltén Invest</span>
           </div>
           <div className="hidden md:flex gap-8 text-[10px] uppercase tracking-[4px] text-white/30">
@@ -208,16 +208,16 @@ export default function App() {
               
               <div className="flex flex-wrap justify-center items-center gap-[80px] relative z-10 max-w-5xl mx-auto">
                 <div className="flex justify-center opacity-10 group-hover:opacity-50 transition-all duration-1000 shrink-0">
-                  <img src="/logo-saab.png" className="h-20 md:h-24 w-auto object-contain invert grayscale" alt="Saab" />
+                  <img src="logo-saab.png" className="h-10 md:h-14 w-auto object-contain invert grayscale" alt="Saab" />
                 </div>
                 <div className="flex justify-center opacity-10 group-hover:opacity-50 transition-all duration-1000 shrink-0">
-                  <img src="/logo-volvo.png" className="h-16 md:h-20 w-auto object-contain grayscale brightness-150" alt="Volvo" />
+                  <img src="logo-volvo.png" className="h-10 md:h-14 w-auto object-contain grayscale brightness-150" alt="Volvo" />
                 </div>
                 <div className="flex justify-center opacity-10 group-hover:opacity-50 transition-all duration-1000 shrink-0">
-                  <img src="/logo-fm.png" className="h-10 md:h-12 w-auto object-contain grayscale brightness-150" alt="Försvarsmakten" />
+                  <img src="logo-fm.png" className="h-10 md:h-14 w-auto object-contain grayscale brightness-150" alt="Försvarsmakten" />
                 </div>
                 <div className="flex justify-center opacity-10 group-hover:opacity-50 transition-all duration-1000 shrink-0">
-                  <img src="/logo-husqvarna.png" className="h-8 md:h-10 w-auto object-contain invert grayscale brightness-200" alt="Husqvarna" />
+                  <img src="logo-husqvarna.png" className="h-10 md:h-14 w-auto object-contain invert grayscale brightness-200" alt="Husqvarna" />
                 </div>
               </div>
             </div>
@@ -304,7 +304,7 @@ export default function App() {
         <div className="max-w-4xl mx-auto text-center">
           <Reveal>
              <div className="opacity-10 mx-auto mb-10 flex justify-center">
-               <img src="/hylten-gear.png" className="h-10 w-auto grayscale invert" alt="Gear" />
+               <img src="hylten-gear.png" className="h-10 w-auto grayscale invert" alt="Gear" />
              </div>
              <h2 className="text-4xl md:text-5xl font-black mb-8 tracking-tighter uppercase text-white/60">Expansion Protocol</h2>
              <p className="text-white/20 text-lg leading-relaxed font-medium italic">
@@ -325,7 +325,7 @@ export default function App() {
             <Reveal delay={0.2}>
               <div className="bg-white/[0.02] border border-white/5 p-12 flex gap-10 items-center">
                 <div className="h-16 flex-shrink-0 opacity-20 grayscale hover:opacity-100 transition-opacity duration-1000 flex items-center gap-4">
-                  <img src="/hylten-gear.png" className="h-10 w-auto grayscale invert opacity-50" alt="Gear" />
+                  <img src="hylten-gear.png" className="h-10 w-auto grayscale invert opacity-50" alt="Gear" />
                   <span className="text-lg font-bold text-white/30 uppercase tracking-[4px] italic">Hyltén Invest</span>
                 </div>
               </div>
@@ -384,7 +384,7 @@ export default function App() {
 
       <footer className="px-8 md:px-24 py-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8 bg-dark">
         <div className="flex items-center gap-3 opacity-10 hover:opacity-100 transition-all duration-1000 group">
-          <img src="/hylten-gear.png" className="h-4 w-auto grayscale invert opacity-50 group-hover:opacity-100 transition-opacity" alt="Gear" />
+          <img src="hylten-gear.png" className="h-4 w-auto grayscale invert opacity-50 group-hover:opacity-100 transition-opacity" alt="Gear" />
           <span className="text-[10px] font-black uppercase tracking-[5px] text-white/40 italic">Hyltén Invest</span>
         </div>
         <div className="flex flex-col md:flex-row items-center gap-8">
@@ -396,7 +396,6 @@ export default function App() {
           </div>
         </div>
       </footer>
-
     </div>
   );
 }
