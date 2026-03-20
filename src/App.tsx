@@ -13,7 +13,7 @@ const Reveal = ({ children, delay = 0, y = 30 }: { children: React.ReactNode; de
   </motion.div>
 );
 
-const NodeMap = () => {
+const NodeMap = ({ isFull = false }: { isFull?: boolean }) => {
   const nodes = [
     { id: 1, x: 200, y: 150, label: "Lead Origination" },
     { id: 2, x: 500, y: 100, label: "Matching Engine" },
@@ -27,7 +27,7 @@ const NodeMap = () => {
   ];
 
   return (
-    <div className="relative w-full h-[450px] bg-white/[0.02] border border-white/10 rounded-sm overflow-hidden flex items-center justify-center">
+    <div className={`relative w-full ${isFull ? 'h-screen' : 'h-[450px] bg-white/[0.02] border border-white/10'} rounded-sm overflow-hidden flex items-center justify-center`}>
       {/* Scanline Overlay */}
       <div 
         className="absolute inset-0 pointer-events-none z-20"
@@ -35,7 +35,7 @@ const NodeMap = () => {
           background: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0, 255, 65, 0.015) 2px, rgba(0, 255, 65, 0.015) 4px)'
         }}
       />
-      <div className="absolute inset-0 pointer-events-none opacity-20 bg-[radial-gradient(circle_at_50%_50%,rgba(196,162,101,0.05),transparent)]" />
+      <div className="absolute inset-0 pointer-events-none opacity-20 bg-[radial-gradient(circle_at_50%_50%,rgba(196,162,101,0.1),transparent)]" />
       
       <svg className="w-full h-full max-w-[1000px] max-h-[400px]" viewBox="0 0 1000 450">
         <defs>
@@ -59,23 +59,25 @@ const NodeMap = () => {
               strokeWidth="1.5"
               strokeDasharray="4 4"
               initial={{ pathLength: 0, opacity: 0, strokeDashoffset: 0 }}
-              animate={{ pathLength: 1, opacity: 0.6, strokeDashoffset: -20 }}
+              animate={{ pathLength: [0, 1, 1, 0], opacity: [0, 0.6, 0.6, 0], strokeDashoffset: -40 }}
               transition={{ 
-                pathLength: { duration: 2, delay: i * 0.2 },
-                opacity: { duration: 1 },
-                strokeDashoffset: { duration: 2, repeat: Infinity, ease: "linear" }
+                duration: 4,
+                repeat: Infinity,
+                delay: i * 0.4,
+                ease: "easeInOut",
+                strokeDashoffset: { duration: 3, repeat: Infinity, ease: "linear" }
               }}
             />
           );
         })}
 
         {nodes.map((node) => (
-          <motion.g key={node.id} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: node.id * 0.1 }}>
+          <motion.g key={node.id} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: node.id * 0.2 }}>
             <motion.circle 
               cx={node.x} cy={node.y} r="4" 
               fill="#C4A265" 
               filter="url(#glow)" 
-              animate={{ scale: [1, 1.2, 1] }}
+              animate={{ scale: [1, 1.4, 1], opacity: [0.6, 1, 0.6] }}
               transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: node.id * 0.5 }}
             />
             <text x={node.x + 15} y={node.y + 5} fill="rgba(255,255,255,0.4)" fontSize="10" fontFamily="Inter" className="uppercase tracking-[2px]">
@@ -84,9 +86,9 @@ const NodeMap = () => {
           </motion.g>
         ))}
       </svg>
-      <div className="absolute top-6 left-8 flex items-center gap-3">
+      <div className="absolute top-12 left-1/2 -translate-x-1/2 md:left-8 md:translate-x-0 flex items-center gap-3">
         <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 shadow-[0_0_10px_rgba(16,185,129,0.5)]" />
-        <span className="text-[10px] uppercase tracking-[3px] text-white/40 font-mono">Active_Agentic_Network_In_Progress_</span>
+        <span className="text-[10px] uppercase tracking-[5px] text-white/60 font-mono font-bold animate-pulse">Active_Agentic_Network_In_Progress_</span>
       </div>
     </div>
   );
@@ -94,8 +96,12 @@ const NodeMap = () => {
 
 export default function App() {
   const [timestamp, setTimestamp] = useState("");
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    // 2.4s Preloader
+    const timer = setTimeout(() => setLoading(false), 2400);
+
     const updateTime = () => {
       const now = new Date();
       const format = `LAST_UPDATE: ${now.getUTCFullYear()}-${String(now.getUTCMonth() + 1).padStart(2, '0')}-${String(now.getUTCDate()).padStart(2, '0')}_${String(now.getUTCHours()).padStart(2, '0')}:${String(now.getUTCMinutes()).padStart(2, '0')}:${String(now.getUTCSeconds()).padStart(2, '0')}_UTC`;
@@ -103,8 +109,32 @@ export default function App() {
     };
     updateTime();
     const interval = setInterval(updateTime, 1000);
-    return () => clearInterval(interval);
+    return () => {
+      clearInterval(interval);
+      clearTimeout(timer);
+    };
   }, []);
+
+  if (loading) {
+    return (
+      <div className="fixed inset-0 bg-dark z-[100] flex flex-col items-center justify-center p-8">
+        <div className="max-w-4xl w-full">
+          <NodeMap isFull />
+          <div className="mt-8 flex flex-col items-center gap-4">
+            <div className="h-[1px] w-64 bg-white/10 relative overflow-hidden">
+              <motion.div 
+                className="absolute inset-0 bg-[#C4A265]"
+                initial={{ x: "-100%" }}
+                animate={{ x: "0%" }}
+                transition={{ duration: 2.4, ease: "easeInOut" }}
+              />
+            </div>
+            <span className="text-[10px] uppercase tracking-[8px] text-white/20 font-mono italic animate-pulse">Initialising Alpha OS...</span>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="bg-dark min-h-screen text-white selection:bg-[#C4A265]/30 font-sans">
