@@ -120,8 +120,8 @@ export default function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // 4.7s Preloader for maximum institutional gravitas
-    const timer = setTimeout(() => setLoading(false), 4700);
+    // 5.5s Preloader for maximum institutional gravitas
+    const timer = setTimeout(() => setLoading(false), 5500);
 
     const updateTime = () => {
       const now = new Date();
@@ -147,7 +147,7 @@ export default function App() {
                 className="absolute inset-0 bg-[#C4A265]"
                 initial={{ x: "-100%" }}
                 animate={{ x: "0%" }}
-                transition={{ duration: 4.7, ease: "easeInOut" }}
+                transition={{ duration: 5.5, ease: "easeInOut" }}
               />
             </div>
             <span className="text-[10px] uppercase tracking-[8px] text-white/20 font-mono italic animate-pulse">Initialising Alpha OS...</span>
