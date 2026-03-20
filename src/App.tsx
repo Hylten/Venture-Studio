@@ -211,13 +211,13 @@ export default function App() {
                   <img src="logo-saab.png" className="h-20 md:h-24 w-auto object-contain invert grayscale" alt="Saab" />
                 </div>
                 <div className="flex justify-center opacity-10 group-hover:opacity-50 transition-all duration-1000 shrink-0">
-                  <img src="logo-volvo.png" className="h-20 md:h-24 w-auto object-contain grayscale brightness-150" alt="Volvo" />
+                  <img src="logo-volvo.png" className="h-14 md:h-18 w-auto object-contain grayscale brightness-150" alt="Volvo" />
                 </div>
                 <div className="flex justify-center opacity-10 group-hover:opacity-50 transition-all duration-1000 shrink-0">
-                  <img src="logo-fm.png" className="h-10 md:h-14 w-auto object-contain grayscale brightness-150" alt="Försvarsmakten" />
+                  <img src="logo-fm.png" className="h-10 md:h-12 w-auto object-contain grayscale brightness-150" alt="Försvarsmakten" />
                 </div>
                 <div className="flex justify-center opacity-10 group-hover:opacity-50 transition-all duration-1000 shrink-0">
-                  <img src="logo-husqvarna.png" className="h-18 md:h-24 w-auto object-contain invert grayscale brightness-200" alt="Husqvarna" />
+                  <img src="logo-husqvarna.png" className="h-7 md:h-9 w-auto object-contain invert grayscale brightness-200" alt="Husqvarna" />
                 </div>
               </div>
             </div>
