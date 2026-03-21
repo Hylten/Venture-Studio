@@ -15,23 +15,23 @@ const Reveal = ({ children, delay = 0, y = 30 }: { children: React.ReactNode; de
 
 const NodeMap = ({ isFull = false }: { isFull?: boolean }) => {
   const standardNodes = [
-    { id: 1, x: 200, y: 150, label: "Lead Origination" },
-    { id: 2, x: 500, y: 100, label: "Matching Engine" },
-    { id: 3, x: 450, y: 300, label: "Contextual Enrichment" },
-    { id: 4, x: 150, y: 350, label: "GTM Integration" },
-    { id: 5, x: 800, y: 200, label: "Alpha Output" },
+    { id: 1, x: 200, y: 150, label: "Order" },
+    { id: 2, x: 500, y: 100, label: "Resilience" },
+    { id: 3, x: 450, y: 300, label: "Prudence" },
+    { id: 4, x: 150, y: 350, label: "Endurance" },
+    { id: 5, x: 800, y: 200, label: "Continuity" },
   ];
 
   const crossNodes = [
     // Vertical line
-    { id: 1, x: 500, y: 50, label: "Stewardship" },
-    { id: 2, x: 500, y: 150, label: "Foundation" },
-    { id: 3, x: 500, y: 250, label: "Discipline" },
-    { id: 4, x: 500, y: 350, label: "Integrity" },
-    { id: 5, x: 500, y: 450, label: "Resilience" },
+    { id: 1, x: 500, y: 50, label: "Providence" },
+    { id: 2, x: 500, y: 150, label: "Stewardship" },
+    { id: 3, x: 500, y: 250, label: "Sovereignty" },
+    { id: 4, x: 500, y: 350, label: "Foundational" },
+    { id: 5, x: 500, y: 450, label: "Persistence" },
     // Horizontal arms
-    { id: 6, x: 350, y: 150, label: "Compassion" },
-    { id: 7, x: 650, y: 150, label: "Responsibility" },
+    { id: 6, x: 350, y: 150, label: "Integrity" },
+    { id: 7, x: 650, y: 150, label: "Discipline" },
   ];
 
   const nodes = isFull ? crossNodes : standardNodes;
