@@ -148,6 +148,34 @@ const NodeMap = ({ isFull = false }: { isFull?: boolean }) => {
 
 export default function App() {
   const [loading, setLoading] = useState(true);
+  const [showAdmin, setShowAdmin] = useState(false);
+  const [formData, setFormData] = useState({
+    entity: "",
+    revenueFY: "",
+    revenueMonthly: "",
+    arrMrr: "",
+    mandate: ""
+  });
+  const [adminLog, setAdminLog] = useState<any[]>([]);
+
+  useEffect(() => {
+    // Load existing logs
+    const saved = localStorage.getItem('hylten_audits');
+    if (saved) setAdminLog(JSON.parse(saved));
+    
+    // Hidden Admin Trigger: Type 'ALPHA' anywhere
+    let keys = "";
+    const handleKey = (e: KeyboardEvent) => {
+      keys += e.key.toUpperCase();
+      if (keys.endsWith("ALPHA")) {
+        setShowAdmin(prev => !prev);
+        keys = "";
+      }
+      if (keys.length > 10) keys = keys.slice(-10);
+    };
+    window.addEventListener('keydown', handleKey);
+    return () => window.removeEventListener('keydown', handleKey);
+  }, []);
 
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 5500);
@@ -174,6 +202,28 @@ export default function App() {
       </div>
     );
   }
+
+  const handleAuditSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    
+    const message = `RE: HYLTÉN VENTURE STUDIO - QUALIFICATION AUDIT\n\n` +
+      `ENTITY: ${formData.entity}\n` +
+      `REVENUE_FY: ${formData.revenueFY}\n` +
+      `REVENUE_MONTHLY: ${formData.revenueMonthly}\n` +
+      `ARR_MRR: ${formData.arrMrr}\n` +
+      `MANDATE: ${formData.mandate}\n\n` +
+      `TIMESTAMP: ${new Date().toISOString()}`;
+
+    // Save locally
+    const newEntry = { ...formData, timestamp: new Date().toISOString() };
+    const updatedLog = [newEntry, ...adminLog];
+    localStorage.setItem('hylten_audits', JSON.stringify(updatedLog));
+    setAdminLog(updatedLog);
+
+    // Redirect to WhatsApp
+    const waUrl = `https://wa.me/46701619978?text=${encodeURIComponent(message)}`;
+    window.open(waUrl, '_blank');
+  };
 
   const submitButtonClass = "group border border-white/30 text-white/40 w-full md:w-auto py-5 px-16 font-black uppercase tracking-[3px] text-xs hover:border-[#C4A265] hover:text-white hover:tracking-[4px] transition-all duration-500 flex items-center justify-center gap-2 bg-dark";
 
@@ -473,18 +523,21 @@ export default function App() {
               </p>
             </div>
             
-            <form className="space-y-6">
+            <form className="space-y-6" onSubmit={handleAuditSubmit}>
               {[
-                { label: "Entity", placeholder: "FORM_ID" },
-                { label: "Current Revenue (FY)", placeholder: "MSEK" },
-                { label: "Current Monthly Revenue", placeholder: "RUN_RATE" },
-                { label: "ARR / MRR", placeholder: "ANNUAL_RECURRING" },
-                { label: "Qualification Mandate", placeholder: "State your qualification mandate." }
+                { id: 'entity', label: "Entity", placeholder: "FORM_ID" },
+                { id: 'revenueFY', label: "Current Revenue (FY)", placeholder: "MSEK" },
+                { id: 'revenueMonthly', label: "Current Monthly Revenue", placeholder: "RUN_RATE" },
+                { id: 'arrMrr', label: "ARR / MRR", placeholder: "ANNUAL_RECURRING" },
+                { id: 'mandate', label: "Qualification Mandate", placeholder: "State your qualification mandate." }
               ].map((step, i) => (
                 <div key={i} className="mb-6">
                   <label className="text-[10px] uppercase tracking-[5px] text-white/20 font-black mb-3 block font-mono">{step.label}</label>
                   <input 
                     type="text" 
+                    required
+                    value={(formData as any)[step.id]}
+                    onChange={(e) => setFormData(prev => ({ ...prev, [step.id]: e.target.value }))}
                     placeholder={step.placeholder}
                     className="w-full bg-white/[0.02] border-b border-white/10 px-4 py-3 focus:border-[#C4A265]/40 outline-none transition-all duration-500 text-sm font-mono text-white/80 placeholder:text-white/10" 
                   />
@@ -539,6 +592,55 @@ export default function App() {
           </div>
         </div>
       </footer>
+
+      {/* Hidden Admin Audit Log */}
+      {showAdmin && (
+        <div className="fixed inset-0 bg-dark/95 z-[60] p-8 md:p-24 overflow-y-auto font-mono">
+          <div className="max-w-4xl mx-auto">
+            <div className="flex justify-between items-center mb-16 border-b border-white/10 pb-8">
+              <h2 className="text-2xl font-black uppercase tracking-[8px] text-[#C4A265]">Audit Logs_ Access_Authorized</h2>
+              <button onClick={() => setShowAdmin(false)} className="text-white/40 hover:text-white uppercase text-[10px] tracking-[4px]">Close_Terminal</button>
+            </div>
+            
+            <div className="space-y-8">
+              {adminLog.length === 0 ? (
+                <div className="text-white/20 uppercase tracking-[4px] italic text-center py-20 border border-dashed border-white/5">
+                  No records recovered_
+                </div>
+              ) : adminLog.map((log, i) => (
+                <div key={i} className="border border-white/10 p-8 bg-white/[0.01] hover:border-[#C4A265]/30 transition-colors">
+                  <div className="flex justify-between items-center mb-6 text-[10px] text-[#C4A265]">
+                    <span className="font-black tracking-[4px]">RECORD_{adminLog.length - i}</span>
+                    <span className="opacity-50 tracking-[2px]">{log.timestamp}</span>
+                  </div>
+                  <div className="grid grid-cols-2 gap-y-4 text-xs font-bold">
+                    <div className="text-white/20 uppercase tracking-[2px]">Entity:</div>
+                    <div className="text-white/80">{log.entity}</div>
+                    <div className="text-white/20 uppercase tracking-[2px]">Revenue FY:</div>
+                    <div className="text-white/80">{log.revenueFY}</div>
+                    <div className="text-white/20 uppercase tracking-[2px]">Revenue Monthly:</div>
+                    <div className="text-white/80">{log.revenueMonthly}</div>
+                    <div className="text-white/20 uppercase tracking-[2px]">ARR / MRR:</div>
+                    <div className="text-white/80">{log.arrMrr}</div>
+                    <div className="text-white/20 uppercase tracking-[2px]">Mandate:</div>
+                    <div className="text-white/80">{log.mandate}</div>
+                  </div>
+                  <button 
+                    onClick={() => {
+                      const newLog = adminLog.filter((_, idx) => idx !== i);
+                      localStorage.setItem('hylten_audits', JSON.stringify(newLog));
+                      setAdminLog(newLog);
+                    }}
+                    className="mt-8 text-[9px] text-red-500/40 hover:text-red-500 uppercase tracking-[3px] transition-colors"
+                  >
+                    Purge_Record
+                  </button>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
