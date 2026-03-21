@@ -255,13 +255,20 @@ export default function App() {
         <div className="flex items-center gap-12">
           <a href="https://hylten.github.io/Hylten-Invest/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 opacity-10 hover:opacity-100 transition-all duration-1000 group">
             <img src="hylten-gear.png" className="h-4 w-auto grayscale invert opacity-50 group-hover:opacity-100 transition-opacity" alt="Gear" />
-            <span className="text-[10px] font-black uppercase tracking-[5px] text-white/40 italic">Hyltén Invest</span>
           </a>
-          <div className="hidden md:flex gap-8 text-[10px] uppercase tracking-[4px] text-white/30">
+          <div className="hidden md:flex gap-8 text-[10px] uppercase tracking-[4px] text-white/30 items-center">
             <a href="#alpha" className="hover:text-white transition-colors duration-500">ALPHA</a>
             <a href="#studio" className="hover:text-white transition-colors duration-500">EXPANSION</a>
             <a href="#apply" className="hover:text-white transition-colors duration-500">AUDIT</a>
+            <a href="https://hylten.github.io/Hylten-Invest/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-500 font-bold ml-4">HYLTÉN INVEST</a>
           </div>
+        </div>
+        <div className="hidden md:flex gap-6 text-[10px] uppercase tracking-[4px] text-white/20 items-center">
+          <a href="https://wa.me/?text=https://hylten.github.io/Venture-Studio/" target="_blank" rel="noopener noreferrer" className="hover:text-white/60 transition-colors duration-500">Share contact</a>
+          <span className="text-white/5">|</span>
+          <a href="/Hylten-Venture-Studio/contact.vcf" download className="hover:text-white/60 transition-colors duration-500">Save contact</a>
+          <span className="text-white/5">|</span>
+          <a href="#qr" className="hover:text-white/60 transition-colors duration-500">QR Code</a>
         </div>
       </nav>
 
@@ -292,7 +299,7 @@ export default function App() {
         </Reveal>
         <Reveal delay={0.4}>
           <div>
-            <p className="text-white/30 text-lg md:text-2xl max-w-3xl leading-relaxed mb-4 font-medium italic">
+            <p className="text-white text-lg md:text-2xl max-w-3xl leading-relaxed mb-4 font-medium italic">
               Proprietär GTM-infrastruktur som härdar B2B-bolag till förvärvsbara tillgångar.
             </p>
             <div className="mb-12">
@@ -494,7 +501,7 @@ export default function App() {
             <Reveal delay={0.2}>
               <div className="bg-white/[0.02] border border-white/5 p-12 flex flex-col md:flex-row gap-10 items-center h-full group">
                 <div className="flex flex-col gap-1 items-start">
-                  <a href="https://hylten.github.io/Alpha/" target="_blank" rel="noopener noreferrer" className="text-[10px] font-bold text-white/40 uppercase tracking-[4px] mb-1 hover:text-white transition-colors">Jonas Hyltén, Principal</a>
+                  <a href="https://hylten.github.io/Alpha-Architect/" target="_blank" rel="noopener noreferrer" className="text-[10px] font-bold text-white/40 uppercase tracking-[4px] mb-1 hover:text-white transition-colors">Jonas Hyltén, Principal</a>
                   <a href="https://www.linkedin.com/in/hylten" target="_blank" rel="noopener noreferrer" className="text-[11px] font-mono text-white/20 uppercase tracking-[2px] border-b border-transparent hover:border-white/20 transition-all">CONNECT ON LINKEDIN</a>
                 </div>
               </div>
@@ -593,8 +600,8 @@ export default function App() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-12 max-w-7xl mx-auto">
           {/* Left: Ecosystem Links */}
           <div className="flex flex-wrap items-center gap-8 order-2 md:order-1">
-            <a href="https://roialscapital.com/" target="_blank" rel="noopener noreferrer" className="text-[10px] uppercase tracking-[3px] text-white/20 hover:text-white/60 transition-colors">Roials Capital</a>
             <a href="https://hylten.github.io/Hylten-Invest/" target="_blank" rel="noopener noreferrer" className="text-[10px] uppercase tracking-[3px] text-white/20 hover:text-white/60 transition-colors">Hyltén Invest</a>
+            <a href="https://roialscapital.com/" target="_blank" rel="noopener noreferrer" className="text-[10px] uppercase tracking-[3px] text-white/20 hover:text-white/60 transition-colors">Roials Capital</a>
             <button 
               onClick={() => alert("GDPR: Vi behandlar endast personuppgifter i enlighet med gällande dataskyddslagstiftning. Du kan begära tillgång, rättelse eller radering av dina uppgifter genom att kontakta jonas@roials.co.")}
               className="text-[10px] uppercase tracking-[3px] text-white/20 hover:text-white/30 transition-colors"
