@@ -307,7 +307,7 @@ export default function App() {
         <div className="grid md:grid-cols-3">
           {[
             { icon: <Terminal className="text-white/40 mb-8" size={32} />, title: "PROPRIETARY GTM ENGINEERING", desc: "Agent-baserad säljinfrastruktur. Proprietärt byggd. Systemet är ditt att behålla.", href: "https://hylten.github.io/Alpha/" },
-            { icon: <Zap className="text-white/40 mb-8" size={32} />, title: "Velocity", desc: "Installation av Roials Alpha OS på 30 dagar. Ingen teori. Bara exekvering.", href: "https://hylten.github.io/Alpha/" },
+            { icon: <Zap className="text-white/40 mb-8" size={32} />, title: "Velocity", desc: "Installation av Roials Alpha OS", href: "https://hylten.github.io/Alpha/" },
             { icon: <Shield className="text-white/40 mb-8" size={32} />, title: "Operational Stewardship", desc: "War Room: veckovis pipeline-genomgång. Likviditet och closing-disciplin.", href: "https://www.linkedin.com/in/hylten" }
           ].map((v, i) => (
               <Reveal delay={i * 0.1} key={i}>
