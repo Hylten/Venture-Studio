@@ -252,7 +252,7 @@ export default function App() {
           {[
             { icon: <Terminal className="text-white/40 mb-8" size={32} />, title: "PROPRIETARY GTM ENGINEERING", desc: "Agent-baserad säljinfrastruktur. Proprietärt byggd. Systemet är ditt att behålla." },
             { icon: <Zap className="text-white/40 mb-8" size={32} />, title: "Velocity", desc: "Installation av Roials Alpha OS på 30 dagar. Ingen teori. Bara exekvering." },
-            { icon: <Shield className="text-white/40 mb-8" size={32} />, title: "Operational Stewardship", desc: "Vi installerar systemen som skalar med bolaget." }
+            { icon: <Shield className="text-white/40 mb-8" size={32} />, title: "Operational Stewardship", desc: "War Room: veckovis pipeline-genomgång. Likviditet och closing-disciplin." }
           ].map((v, i) => (
               <Reveal delay={i * 0.1} key={i}>
               <div className={`group p-12 h-full flex flex-col justify-between transition-all duration-700 ${i < 2 ? 'md:border-r border-white/10' : ''}`}>
@@ -370,8 +370,8 @@ export default function App() {
                   <p className="font-bold text-sm leading-relaxed opacity-40 italic">
                     Fas 1 är provspelningen. Få kvalificerar sig.
                   </p>
-                  <div className="mt-8 flex items-center gap-3">
-                    <div className="w-1.5 h-1.5 rounded-full bg-[#00FF41] shadow-[0_0_8px_rgba(0,255,65,0.4)]" />
+                  <div className="mt-5 mb-7 flex items-center gap-3">
+                    <span className="text-[#00FF41] text-[10px]">●</span>
                     <span className="font-mono text-[11px] uppercase tracking-[0.12em] text-white/30 italic">COHORT_01 — STATUS: ACCEPTING AUDITS — POSITIONS: 5</span>
                   </div>
                 </div>
@@ -419,8 +419,9 @@ export default function App() {
             <Reveal delay={0.2}>
               <div className="bg-white/[0.02] border border-white/5 p-12 flex gap-10 items-center h-full">
                 <div className="flex flex-col gap-1 items-start">
-                  <span className="text-lg font-bold text-white/50 uppercase tracking-[4px] italic">HYLTÉN INVEST</span>
-                  <span className="text-[10px] font-mono text-white/20 uppercase tracking-[5px]">PRINCIPAL ARCHITECT</span>
+                  <span className="text-lg font-bold text-white/60 uppercase tracking-[4px] italic">HYLTÉN INVEST</span>
+                  <span className="text-[10px] font-bold text-white/40 uppercase tracking-[4px] mb-1">Jonas Hyltén, Principal</span>
+                  <span className="text-[11px] font-mono text-white/25 uppercase tracking-[2px]">M&A + GTM Engineering</span>
                 </div>
               </div>
             </Reveal>
@@ -444,7 +445,7 @@ export default function App() {
         <div className="max-w-3xl relative z-10">
           <Reveal>
             <div className="mb-20">
-              <div className="font-mono text-[12px] uppercase tracking-[0.1em] text-white/35 flex flex-col gap-1">
+              <div className="font-mono text-[12px] uppercase tracking-[0.1em] text-white/30 flex flex-col gap-1">
                 <span className="mb-4">QUALIFICATION PARAMETERS</span>
                 <div className="flex justify-between items-center border-b border-white/5 pb-1">
                   <span>MINIMUM REVENUE:</span>
