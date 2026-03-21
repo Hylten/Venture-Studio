@@ -196,8 +196,7 @@ export default function App() {
 
       {/* Hero */}
       <section className="relative h-screen flex flex-col justify-center px-8 md:px-24 overflow-hidden">
-        {/* Institutional Backdrop - Plain Obsidian for Focus */}
-        <div className="absolute inset-0 pointer-events-none bg-dark" />
+        {/* Institutional Backdrop - Plain Background */}
         
         <Reveal>
           <div className="flex flex-col gap-2 mb-8">
@@ -259,7 +258,7 @@ export default function App() {
         <div className="grid md:grid-cols-3">
           {[
             { icon: <Terminal className="text-white/40 mb-8" size={32} />, title: "PROPRIETARY GTM ENGINEERING", desc: "Agent-baserad säljinfrastruktur. Proprietärt byggd. Systemet är ditt att behålla.", href: "https://hylten.github.io/Alpha/" },
-            { icon: <Zap className="text-white/40 mb-8" size={32} />, title: "Velocity", desc: "Installation av Roials Alpha OS på 30 dagar. Ingen teori. Bara exekvering." },
+            { icon: <Zap className="text-white/40 mb-8" size={32} />, title: "Velocity", desc: "Installation av Roials Alpha OS på 30 dagar. Ingen teori. Bara exekvering.", href: "https://hylten.github.io/Alpha/" },
             { icon: <Shield className="text-white/40 mb-8" size={32} />, title: "Operational Stewardship", desc: "War Room: veckovis pipeline-genomgång. Likviditet och closing-disciplin.", href: "https://www.linkedin.com/in/hylten" }
           ].map((v, i) => (
               <Reveal delay={i * 0.1} key={i}>
@@ -287,7 +286,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto">
           <Reveal>
             <div className="text-center mb-32">
-              <h2 className="text-xl md:text-2xl font-black mb-4 tracking-tighter uppercase text-white/60">Urval av Jonas Hylténs klienter:</h2>
+              <h2 className="text-xl md:text-2xl font-black mb-4 tracking-tighter uppercase text-white/60">Jonas Hylténs kunder har inkluderat:</h2>
             </div>
             
             <div className="relative group cursor-default">
@@ -427,8 +426,7 @@ export default function App() {
             <Reveal delay={0.2}>
               <div className="bg-white/[0.02] border border-white/5 p-12 flex flex-col md:flex-row gap-10 items-center h-full group">
                 <div className="flex flex-col gap-1 items-start">
-                  <a href="https://hylten.github.io/Hylten-Invest/" target="_blank" rel="noopener noreferrer" className="text-lg font-bold text-white/60 uppercase tracking-[4px] italic hover:text-[#C4A265] transition-colors">HYLTÉN INVEST</a>
-                  <span className="text-[10px] font-bold text-white/40 uppercase tracking-[4px] mb-1">Jonas Hyltén, Principal</span>
+                  <a href="https://hylten.github.io/Alpha/" target="_blank" rel="noopener noreferrer" className="text-[10px] font-bold text-white/40 uppercase tracking-[4px] mb-1 hover:text-white transition-colors">Jonas Hyltén, Principal</a>
                   <a href="https://www.linkedin.com/in/hylten" target="_blank" rel="noopener noreferrer" className="text-[11px] font-mono text-white/20 uppercase tracking-[2px] border-b border-transparent hover:border-white/20 transition-all">CONNECT ON LINKEDIN</a>
                 </div>
               </div>
