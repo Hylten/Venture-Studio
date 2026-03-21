@@ -182,10 +182,10 @@ export default function App() {
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 border-b border-white/5 bg-dark/80 backdrop-blur-xl px-8 flex items-center justify-between h-20">
         <div className="flex items-center gap-12">
-          <div className="flex items-center gap-3 opacity-10 hover:opacity-100 transition-all duration-1000 group">
+          <a href="https://hylten.github.io/Hylten-Invest/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 opacity-10 hover:opacity-100 transition-all duration-1000 group">
             <img src="hylten-gear.png" className="h-4 w-auto grayscale invert opacity-50 group-hover:opacity-100 transition-opacity" alt="Gear" />
             <span className="text-[10px] font-black uppercase tracking-[5px] text-white/40 italic">Hyltén Invest</span>
-          </div>
+          </a>
           <div className="hidden md:flex gap-8 text-[10px] uppercase tracking-[4px] text-white/30">
             <a href="#alpha" className="hover:text-white transition-colors duration-500">ALPHA</a>
             <a href="#studio" className="hover:text-white transition-colors duration-500">EXPANSION</a>
@@ -237,8 +237,7 @@ export default function App() {
           className="absolute bottom-12 left-0 w-full text-center z-20 flex flex-col items-center gap-2 cursor-pointer"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 1.5, duration: 1 }}
-          onClick={() => document.getElementById('alpha')?.scrollIntoView({ behavior: 'smooth' })}
+          onClick={() => document.getElementById('values')?.scrollIntoView({ behavior: 'smooth' })}
         >
           <div className="flex flex-col items-center gap-2 opacity-30 hover:opacity-100 transition-opacity duration-1000 group">
             <span className="text-white text-[9px] tracking-[5px] uppercase font-bold">Scroll</span>
@@ -254,7 +253,7 @@ export default function App() {
       </section>
 
       {/* Values Pillars */}
-      <section className="px-8 md:px-24 py-32 border-t border-white/5 bg-dark">
+      <section id="values" className="px-8 md:px-24 py-32 border-t border-white/5 bg-dark">
         <div className="grid md:grid-cols-3">
           {[
             { icon: <Terminal className="text-white/40 mb-8" size={32} />, title: "PROPRIETARY GTM ENGINEERING", desc: "Agent-baserad säljinfrastruktur. Proprietärt byggd. Systemet är ditt att behålla.", href: "https://hylten.github.io/Alpha/" },
@@ -295,17 +294,17 @@ export default function App() {
               />
               
               <div className="flex flex-wrap justify-center items-center gap-[80px] relative z-10 max-w-5xl mx-auto">
-                <div className="flex justify-center opacity-10 group-hover:opacity-50 transition-all duration-1000 shrink-0">
+                <div className="flex justify-center opacity-40 group-hover:opacity-100 transition-all duration-1000 shrink-0">
                   <img src="logo-saab.png" className="h-10 md:h-12 w-auto object-contain invert grayscale" alt="Saab" />
                 </div>
-                <div className="flex justify-center opacity-10 group-hover:opacity-50 transition-all duration-1000 shrink-0">
+                <div className="flex justify-center opacity-40 group-hover:opacity-100 transition-all duration-1000 shrink-0">
                   <img src="logo-volvo.png" className="h-14 md:h-18 w-auto object-contain grayscale brightness-150" alt="Volvo" />
                 </div>
-                <div className="flex justify-center opacity-10 group-hover:opacity-50 transition-all duration-1000 shrink-0">
+                <div className="flex justify-center opacity-40 group-hover:opacity-100 transition-all duration-1000 shrink-0">
                   <img src="logo-fm.png" className="h-10 md:h-12 w-auto object-contain grayscale brightness-150" alt="Försvarsmakten" />
                 </div>
-                <div className="flex justify-center opacity-10 group-hover:opacity-50 transition-all duration-1000 shrink-0">
-                  <img src="logo-husqvarna.png" className="h-14 md:h-18 w-auto object-contain invert grayscale brightness-200" alt="Husqvarna" />
+                <div className="flex justify-center opacity-40 group-hover:opacity-100 transition-all duration-1000 shrink-0">
+                  <img src="logo-husqvarna.png" className="h-28 md:h-36 w-auto object-contain invert grayscale brightness-200" alt="Husqvarna" />
                 </div>
               </div>
             </div>
@@ -315,14 +314,14 @@ export default function App() {
 
       {/* Roials Alpha Engine */}
       <section id="alpha" className="px-8 md:px-24 py-32 bg-dark">
-        <div className="grid md:grid-cols-2 gap-16 items-center">
+        <a href="https://hylten.github.io/Alpha/" target="_blank" rel="noopener noreferrer" className="grid md:grid-cols-2 gap-16 items-center group/alpha">
           <div>
             <Reveal>
-              <h2 className="text-3xl md:text-5xl font-black mb-8 tracking-tighter max-w-md">
+              <h2 className="text-3xl md:text-5xl font-black mb-8 tracking-tighter max-w-md group-hover/alpha:text-white transition-colors">
                 Terminal-access till dolt deal flow.
               </h2>
               <p className="text-white/30 text-lg leading-relaxed mb-12 font-medium italic max-w-lg">
-                Agent-baserad GTM-infrastruktur byggd för lead-origination.
+                Agent-baserad GTM-infrastruktur.
               </p>
               <div className="grid grid-cols-3 gap-8 border-t border-[#C4A265]/30 pt-12">
                 <div>
@@ -341,23 +340,23 @@ export default function App() {
             </Reveal>
           </div>
           <Reveal delay={0.4}>
-            <div className="opacity-70 contrast-125 grayscale scale-110">
+            <div className="opacity-70 contrast-125 grayscale scale-110 group-hover/alpha:opacity-100 group-hover/alpha:grayscale-0 transition-all duration-1000">
               <NodeMap />
             </div>
           </Reveal>
-        </div>
+        </a>
       </section>
 
       {/* Founder Protocol (Fas 1) */}
       <section className="px-8 md:px-24 py-32">
         <div className="max-w-6xl mx-auto">
           <Reveal>
-            <h2 className="text-4xl md:text-5xl font-black mb-16 tracking-tighter text-center uppercase">Founder Protocol — Fas 1</h2>
+            <h2 className="text-4xl md:text-5xl font-black mb-16 tracking-tighter text-center uppercase">Founder Protocol - Fas 1</h2>
           </Reveal>
           <div className="grid md:grid-cols-3 mb-24">
             {[
               { icon: <Film size={22} />, label: "Operating Review", desc: "Veckovis Operating Review av dina säljsamtal. Data och kalibrering." },
-              { icon: <Activity size={22} />, label: "Operational Validation", desc: "Rigorös operativ prövning. Inga undantag." },
+              { icon: <Activity size={22} />, label: "Operational Validation", desc: "Operativ prövning" },
               { icon: <Shield size={22} />, label: "Strategic Closing", desc: "Vi installerar closing-disciplin som säkrar kassaflöde." }
             ].map((f, i) => (
               <Reveal delay={i * 0.1} key={i}>
@@ -381,8 +380,8 @@ export default function App() {
                     Fas 1 är provspelningen.
                   </p>
                   <div className="mt-5 mb-7 flex items-center gap-3">
-                    <span className="text-[#00FF41] text-[10px]">●</span>
-                    <span className="font-mono text-[11px] uppercase tracking-[0.12em] text-white/30 italic">COHORT_01 — STATUS: ACCEPTING AUDITS — POSITIONS: 5</span>
+                     <span className="text-[#00FF41] text-[10px]">●</span>
+                    <span className="font-mono text-[11px] uppercase tracking-[0.12em] text-white/30 italic">COHORT_01 - STATUS: ACCEPTING AUDITS - POSITIONS: 5</span>
                   </div>
                 </div>
               </div>
@@ -402,12 +401,12 @@ export default function App() {
              
              <div className="flex flex-col gap-4 mb-8">
                <div className="text-sm font-medium text-white/50 uppercase tracking-[2px]">
-                 <span className="text-[#C4A265] font-bold">FAS 2</span> — <span className="opacity-50 italic">Utökat mandat. Revenue share-struktur.</span>
-               </div>
-               <div className="text-sm font-medium text-white/50 uppercase tracking-[2px]">
-                 <span className="text-[#C4A265] font-bold">FAS 3</span> — <span className="opacity-50 italic">Co-ownership. Tillgång till Hyltén-nätverket.</span>
-               </div>
-             </div>
+                  <span className="text-[#C4A265] font-bold">FAS 2</span> - <span className="opacity-50 italic">Utökat mandat. Revenue share-struktur.</span>
+                </div>
+                 <div className="text-sm font-medium text-white/50 uppercase tracking-[2px]">
+                   <span className="text-[#C4A265] font-bold">FAS 3</span> - <span className="opacity-50 italic">Co-ownership. Tillgång till Hyltén-nätverket.</span>
+                </div>
+              </div>
 
              <p className="text-white/60 text-lg leading-relaxed font-medium italic mt-12">
                Inbjudan sker direkt. Ingen ansökan.
@@ -452,12 +451,7 @@ export default function App() {
           <Reveal>
             <div className="mb-20">
               <div className="font-mono text-[12px] uppercase tracking-[0.1em] text-white/30 flex flex-col gap-1">
-                <span className="mb-4">QUALIFICATION PARAMETERS</span>
                 <div className="flex justify-between items-center border-b border-white/5 pb-1">
-                  <span>MINIMUM REVENUE:</span>
-                  <span>5 MSEK (FY)</span>
-                </div>
-                <div className="flex justify-between items-center border-b border-white/5 pb-1 mt-2">
                   <span>ENTITY TYPE:</span>
                   <span>B2B</span>
                 </div>
@@ -465,17 +459,19 @@ export default function App() {
                   <span>SALES CYCLE:</span>
                   <span>HIGH-VALUE / CONSULTATIVE</span>
                 </div>
-                <div className="flex justify-between items-center border-b border-white/5 pb-1 mt-2">
+                <div className="flex justify-between items-center border-b border-white/5 pb-1 mt-2 mb-32">
                   <span>OPERATIONAL CAPACITY:</span>
                   <span>ABLE TO PROCESS INBOUND AT SCALE</span>
                 </div>
               </div>
             </div>
 
-            <h2 className="text-3xl md:text-5xl font-black mb-6 tracking-tighter uppercase text-white/70">Qualification Audit</h2>
-            <p className="text-white/20 text-sm md:text-base font-bold mb-16 italic uppercase tracking-wider">
-              Filtrering för operativ disciplin.
-            </p>
+            <div className="pt-32 pb-12">
+              <h2 className="text-3xl md:text-5xl font-black mb-6 tracking-tighter uppercase text-white/70">Qualification Audit</h2>
+              <p className="text-white/20 text-sm md:text-base font-bold mb-16 italic uppercase tracking-wider">
+                Filtrering för operativ disciplin.
+              </p>
+            </div>
             
             <form className="space-y-6">
               {[
