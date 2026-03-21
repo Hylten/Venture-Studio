@@ -27,7 +27,7 @@ const NodeMap = ({ isFull = false }: { isFull?: boolean }) => {
     { id: 1, x: 500, y: 50, label: "Providence" },
     { id: 2, x: 500, y: 150, label: "Stewardship" },
     { id: 3, x: 500, y: 250, label: "Sovereignty" },
-    { id: 4, x: 500, y: 350, label: "Foundational" },
+    {id: 4, x: 500, y: 350, label: "Recilience"},
     { id: 5, x: 500, y: 450, label: "Persistence" },
     // Horizontal arms
     { id: 6, x: 350, y: 150, label: "Integrity" },
