@@ -264,7 +264,7 @@ export default function App() {
               
               <div className="flex flex-wrap justify-center items-center gap-[80px] relative z-10 max-w-5xl mx-auto">
                 <div className="flex justify-center opacity-10 group-hover:opacity-50 transition-all duration-1000 shrink-0">
-                  <img src="logo-saab.png" className="h-20 md:h-24 w-auto object-contain invert grayscale" alt="Saab" />
+                  <img src="logo-saab.png" className="h-10 md:h-12 w-auto object-contain invert grayscale" alt="Saab" />
                 </div>
                 <div className="flex justify-center opacity-10 group-hover:opacity-50 transition-all duration-1000 shrink-0">
                   <img src="logo-volvo.png" className="h-14 md:h-18 w-auto object-contain grayscale brightness-150" alt="Volvo" />
@@ -273,7 +273,7 @@ export default function App() {
                   <img src="logo-fm.png" className="h-10 md:h-12 w-auto object-contain grayscale brightness-150" alt="Försvarsmakten" />
                 </div>
                 <div className="flex justify-center opacity-10 group-hover:opacity-50 transition-all duration-1000 shrink-0">
-                  <img src="logo-husqvarna.png" className="h-7 md:h-9 w-auto object-contain invert grayscale brightness-200" alt="Husqvarna" />
+                  <img src="logo-husqvarna.png" className="h-14 md:h-18 w-auto object-contain invert grayscale brightness-200" alt="Husqvarna" />
                 </div>
               </div>
             </div>
