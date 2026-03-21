@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { Shield, Zap, Activity, Globe, Film, ChevronRight, Terminal, Landmark } from "lucide-react";
 
@@ -12,6 +12,37 @@ const Reveal = ({ children, delay = 0, y = 30 }: { children: React.ReactNode; de
     {children}
   </motion.div>
 );
+
+const MatrixScrambler = ({ targetText }: { targetText: string }) => {
+  const [displayText, setDisplayText] = useState("");
+  const chars = "!@#$%^&*()_+}{|:?><ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+  const iterationRef = useRef(0);
+
+  useEffect(() => {
+    let interval: any;
+    const scramble = () => {
+      const newText = targetText
+        .split("")
+        .map((char, index) => {
+          if (index < iterationRef.current) return char;
+          return chars[Math.floor(Math.random() * chars.length)];
+        })
+        .join("");
+      
+      setDisplayText(newText);
+
+      if (iterationRef.current >= targetText.length) {
+        clearInterval(interval);
+      }
+      iterationRef.current += 1 / 3;
+    };
+
+    interval = setInterval(scramble, 30);
+    return () => clearInterval(interval);
+  }, [targetText]);
+
+  return <span className="font-mono text-[11px] text-white/25 ml-5 whitespace-pre">{displayText}</span>;
+};
 
 const NodeMap = ({ isFull = false }: { isFull?: boolean }) => {
   const standardNodes = [
@@ -116,24 +147,11 @@ const NodeMap = ({ isFull = false }: { isFull?: boolean }) => {
 };
 
 export default function App() {
-  const [timestamp, setTimestamp] = useState("");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // 5.5s Preloader for maximum institutional gravitas
     const timer = setTimeout(() => setLoading(false), 5500);
-
-    const updateTime = () => {
-      const now = new Date();
-      const format = `LAST_UPDATE: ${now.getUTCFullYear()}-${String(now.getUTCMonth() + 1).padStart(2, '0')}-${String(now.getUTCDate()).padStart(2, '0')}_${String(now.getUTCHours()).padStart(2, '0')}:${String(now.getUTCMinutes()).padStart(2, '0')}:${String(now.getUTCSeconds()).padStart(2, '0')}_UTC`;
-      setTimestamp(format);
-    };
-    updateTime();
-    const interval = setInterval(updateTime, 1000);
-    return () => {
-      clearInterval(interval);
-      clearTimeout(timer);
-    };
+    return () => clearTimeout(timer);
   }, []);
 
   if (loading) {
@@ -203,7 +221,7 @@ export default function App() {
               </div>
               <span className="text-[#C4A265] text-[10px] uppercase tracking-[8px] block font-black">SYSTEM STATUS: ACTIVE</span>
             </div>
-            <span className="font-mono text-[11px] text-white/25 ml-5">{timestamp}</span>
+            <MatrixScrambler targetText="SYSTEM_LOG: MANDATE_MMXXVI_VAL_ACTIVE" />
           </div>
         </Reveal>
         <Reveal delay={0.2}>
@@ -217,7 +235,7 @@ export default function App() {
               Proprietär GTM-infrastruktur som härdar B2B-bolag till förvärvsbara tillgångar.
             </p>
             <div className="mb-12">
-               <span className="font-mono text-[12px] text-white/30 uppercase tracking-[0.15em]">GTM_INFRASTRUCTURE: PROPRIETARY | AGENT-BASED | BUILD_2024</span>
+               <span className="font-mono text-[12px] text-white/30 uppercase tracking-[0.15em]">GTM_INFRASTRUCTURE: PROPRIETARY | AGENT-BASED | BUILD_2026</span>
             </div>
           </div>
         </Reveal>
@@ -236,7 +254,7 @@ export default function App() {
             { icon: <Zap className="text-white/40 mb-8" size={32} />, title: "Velocity", desc: "Installation av Roials Alpha OS på 30 dagar. Ingen teori. Bara exekvering." },
             { icon: <Shield className="text-white/40 mb-8" size={32} />, title: "Operational Stewardship", desc: "Vi installerar systemen som skalar med bolaget." }
           ].map((v, i) => (
-            <Reveal delay={i * 0.1} key={i}>
+              <Reveal delay={i * 0.1} key={i}>
               <div className={`group p-12 h-full flex flex-col justify-between transition-all duration-700 ${i < 2 ? 'md:border-r border-white/10' : ''}`}>
                 <div className="opacity-60 group-hover:opacity-100 transition-opacity duration-500">
                   {v.icon}
@@ -490,7 +508,7 @@ export default function App() {
              BUSINESS AS STEWARDSHIP.
           </div>
           <div className="text-[9px] font-mono text-white/5 tracking-widest">
-            © HYLTÉN INVEST MMXXV
+            © HYLTÉN INVEST MMXXVI
           </div>
         </div>
       </footer>
