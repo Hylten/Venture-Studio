@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Shield, Zap, Landmark, Activity, Globe, Film, ChevronRight } from "lucide-react";
+import { Shield, Zap, Activity, Globe, Film, ChevronRight, Terminal, Landmark } from "lucide-react";
 
 const Reveal = ({ children, delay = 0, y = 30 }: { children: React.ReactNode; delay?: number; y?: number }) => (
   <motion.div
@@ -48,12 +48,12 @@ const NodeMap = ({ isFull = false }: { isFull?: boolean }) => {
   const connections = isFull ? crossConnections : standardConnections;
 
   return (
-    <div className={`relative w-full ${isFull ? 'h-screen' : 'h-[450px] bg-white/[0.02] border border-white/10'} rounded-sm overflow-hidden flex items-center justify-center`}>
+    <div className={`relative w-full ${isFull ? 'h-screen' : 'h-[450px] bg-white/[0.02] border border-white/10 hidden md:flex'} rounded-sm overflow-hidden flex items-center justify-center`}>
       {/* Scanline Overlay */}
       <div 
         className="absolute inset-0 pointer-events-none z-20"
         style={{
-          background: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0, 255, 65, 0.015) 2px, rgba(0, 255, 65, 0.015) 4px)'
+          background: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0, 255, 65, 0.005) 2px, rgba(0, 255, 65, 0.005) 4px)'
         }}
       />
       <div className="absolute inset-0 pointer-events-none opacity-20 bg-[radial-gradient(circle_at_50%_50%,rgba(196,162,101,0.1),transparent)]" />
@@ -78,15 +78,15 @@ const NodeMap = ({ isFull = false }: { isFull?: boolean }) => {
               x1={start.x} y1={start.y} x2={end.x} y2={end.y}
               stroke="white"
               strokeWidth="1.5"
-              strokeDasharray="4 4"
+              strokeDasharray="5 3"
               initial={{ pathLength: 0, opacity: 0, strokeDashoffset: 0 }}
-              animate={{ pathLength: [0, 1, 1, 0], opacity: [0, 0.6, 0.6, 0], strokeDashoffset: -40 }}
+              animate={{ pathLength: [0, 1, 1, 0], opacity: [0, 0.4, 0.4, 0], strokeDashoffset: -32 }}
               transition={{ 
-                duration: 4,
+                duration: 8,
                 repeat: Infinity,
                 delay: i * 0.4,
-                ease: "easeInOut",
-                strokeDashoffset: { duration: 3, repeat: Infinity, ease: "linear" }
+                ease: "linear",
+                strokeDashoffset: { duration: 6, repeat: Infinity, ease: "linear" }
               }}
             />
           );
@@ -98,8 +98,8 @@ const NodeMap = ({ isFull = false }: { isFull?: boolean }) => {
               cx={node.x} cy={node.y} r="4" 
               fill="#C4A265" 
               filter="url(#glow)" 
-              animate={{ scale: [1, 1.4, 1], opacity: [0.6, 1, 0.6] }}
-              transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: node.id * 0.5 }}
+              animate={{ scale: [1, 1.15, 1], opacity: [0.6, 1, 0.6] }}
+              transition={{ duration: 4, repeat: Infinity, ease: "easeInOut", delay: node.id * 0.5 }}
             />
             <text x={node.x + 15} y={node.y + 5} fill="rgba(255,255,255,0.4)" fontSize="10" fontFamily="Inter" className="uppercase tracking-[2px]">
               {node.label}
@@ -157,6 +157,10 @@ export default function App() {
     );
   }
 
+  const navButtonClass = "border border-white/20 text-white/40 hover:text-white/80 hover:border-[#C4A265] hover:tracking-[4px] px-6 py-2 text-[10px] uppercase tracking-[3px] transition-all duration-500 font-bold";
+  const heroButtonClass = "border border-white/20 text-white/60 px-12 py-5 font-black uppercase tracking-[3px] text-xs hover:border-[#C4A265] hover:text-white hover:tracking-[4px] transition-all duration-500 shadow-2xl bg-dark";
+  const submitButtonClass = "group border border-white/30 text-white/40 w-full md:w-auto py-5 px-16 font-black uppercase tracking-[3px] text-xs hover:border-[#C4A265] hover:text-white hover:tracking-[4px] transition-all duration-500 flex items-center justify-center gap-2 bg-dark";
+
   return (
     <div className="bg-dark min-h-screen text-white selection:bg-[#C4A265]/30 font-sans">
       {/* Navigation */}
@@ -172,17 +176,17 @@ export default function App() {
             <a href="#apply" className="hover:text-white transition-colors duration-500">AUDIT</a>
           </div>
         </div>
-        <a href="#apply" className="border border-white/20 text-white/40 hover:text-white/80 hover:border-[#C4A265] px-6 py-2 text-[10px] uppercase tracking-[3px] transition-all duration-500 font-bold">BOOK AUDIT</a>
+        <a href="#apply" className={navButtonClass}>BOOK AUDIT</a>
       </nav>
 
       {/* Hero */}
       <section className="relative h-screen flex flex-col justify-center px-8 md:px-24 overflow-hidden">
         {/* Institutional Grid Backdrop */}
         <div 
-          className="absolute inset-0 pointer-events-none opacity-30"
+          className="absolute inset-0 pointer-events-none opacity-[0.4]"
           style={{
-            backgroundImage: `repeating-linear-gradient(rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 80px),
-                              repeating-linear-gradient(90deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 80px)`
+            backgroundImage: `repeating-linear-gradient(rgba(255,255,255,0.015) 0px, rgba(255,255,255,0.015) 1px, transparent 1px, transparent 80px),
+                              repeating-linear-gradient(90deg, rgba(255,255,255,0.015) 0px, rgba(255,255,255,0.015) 1px, transparent 1px, transparent 80px)`
           }}
         />
         
@@ -210,16 +214,16 @@ export default function App() {
         <Reveal delay={0.4}>
           <div>
             <p className="text-white/30 text-lg md:text-2xl max-w-3xl leading-relaxed mb-4 font-medium">
-              Proprietär infrastruktur som härdar B2B-bolag till förvärvsbara tillgångar.
+              Proprietär GTM-infrastruktur som härdar B2B-bolag till förvärvsbara tillgångar.
             </p>
             <div className="mb-12">
-               <span className="font-mono text-[12px] text-white/30 uppercase tracking-[0.15em]">PIPELINE_PROCESSED: 340+ MSEK</span>
+               <span className="font-mono text-[12px] text-white/30 uppercase tracking-[0.15em]">GTM_INFRASTRUCTURE: PROPRIETARY | AGENT-BASED | BUILD_2024</span>
             </div>
           </div>
         </Reveal>
         <Reveal delay={0.6}>
           <div className="flex gap-4">
-            <a href="#apply" className="border border-white/20 text-white/60 px-12 py-5 font-black uppercase tracking-[3px] text-xs hover:border-[#C4A265] hover:text-white transition-all duration-500 shadow-2xl bg-dark">BOOK AUDIT</a>
+            <a href="#apply" className={heroButtonClass}>BOOK AUDIT</a>
           </div>
         </Reveal>
       </section>
@@ -228,7 +232,7 @@ export default function App() {
       <section className="px-8 md:px-24 py-32 border-t border-white/5 bg-dark">
         <div className="grid md:grid-cols-3">
           {[
-            { icon: <Landmark className="text-white/40 mb-8" size={32} />, title: "Institutional Discipline", desc: "Vi kombinerar operativ rigor med M&A-nivå systematik." },
+            { icon: <Terminal className="text-white/40 mb-8" size={32} />, title: "PROPRIETARY GTM ENGINEERING", desc: "Agent-baserad säljinfrastruktur. Proprietärt byggd. Systemet är ditt att behålla." },
             { icon: <Zap className="text-white/40 mb-8" size={32} />, title: "Velocity", desc: "Installation av Roials Alpha OS på 30 dagar. Ingen teori. Bara exekvering." },
             { icon: <Shield className="text-white/40 mb-8" size={32} />, title: "Operational Stewardship", desc: "Vi installerar systemen som skalar med bolaget." }
           ].map((v, i) => (
@@ -290,16 +294,20 @@ export default function App() {
                 Terminal-access till dolt deal flow.
               </h2>
               <p className="text-white/30 text-lg leading-relaxed mb-12 font-medium italic max-w-lg">
-                PE-grade infrastruktur byggd för lead-origination.
+                Agent-baserad GTM-infrastruktur byggd för lead-origination.
               </p>
-              <div className="grid grid-cols-2 gap-8 border-t border-[#C4A265]/30 pt-12">
+              <div className="grid grid-cols-3 gap-8 border-t border-[#C4A265]/30 pt-12">
                 <div>
-                  <div className="text-xl font-bold text-white/60 tracking-tighter">OPERATIONAL</div>
-                  <p className="text-[10px] uppercase tracking-widest text-[#C4A265]/40 font-black">HARDENING</p>
+                  <div className="text-xs font-bold text-white/60 tracking-tighter uppercase mb-1">Operational</div>
+                  <p className="text-[9px] uppercase tracking-widest text-[#C4A265]/40 font-black">Hardening</p>
                 </div>
                 <div>
-                  <div className="text-xl font-bold text-white/60 tracking-tighter uppercase">Systemic</div>
-                  <p className="text-[10px] uppercase tracking-widest text-[#C4A265]/40 font-black">Resilience</p>
+                  <div className="text-xs font-bold text-white/60 tracking-tighter uppercase mb-1">Systemic</div>
+                  <p className="text-[9px] uppercase tracking-widest text-[#C4A265]/40 font-black">Resilience</p>
+                </div>
+                <div>
+                  <div className="text-xs font-bold text-white/60 tracking-tighter uppercase mb-1 whitespace-nowrap">Proprietary</div>
+                  <p className="text-[9px] uppercase tracking-widest text-[#C4A265]/40 font-black">Agent Network</p>
                 </div>
               </div>
             </Reveal>
@@ -320,7 +328,7 @@ export default function App() {
           </Reveal>
           <div className="grid md:grid-cols-3 mb-24">
             {[
-              { icon: <Film size={22} />, label: "Operating Review", desc: "Veckovis granskning av dina operativa samtal. Ingen teori. Bara sanning." },
+              { icon: <Film size={22} />, label: "Operating Review", desc: "Veckovis Operating Review av dina säljsamtal. Data och kalibrering." },
               { icon: <Activity size={22} />, label: "Operational Hardening", desc: "30 dagars operativ härdning. Inga undantag." },
               { icon: <Shield size={22} />, label: "Strategic Closing", desc: "Vi installerar closing-disciplin som säkrar kassaflöde." }
             ].map((f, i) => (
@@ -342,11 +350,11 @@ export default function App() {
                 <div className="max-w-2xl text-center md:text-left">
                   <h3 className="text-xl font-black uppercase tracking-[2px] mb-4 text-white/40 italic">Onboarding Mandate</h3>
                   <p className="font-bold text-sm leading-relaxed opacity-40 italic">
-                    Fas 1 är din operationella provspelning. Endast ett fåtal kvalificerar sig för Roials Alpha.
+                    Fas 1 är provspelningen. Få kvalificerar sig.
                   </p>
                 </div>
                 <div>
-                   <button className="border border-white/20 text-white/60 px-12 py-5 font-black uppercase tracking-[3px] text-xs hover:border-[#C4A265] hover:text-white transition-all duration-500 bg-dark">BOOK AUDIT</button>
+                   <a href="#apply" className={heroButtonClass}>BOOK AUDIT</a>
                 </div>
               </div>
             </div>
@@ -355,15 +363,25 @@ export default function App() {
       </section>
 
       {/* Expansion Protocol */}
-      <section id="studio" className="relative px-8 md:px-24 py-12 border-y border-white/[0.04]">
+      <section id="studio" className="relative px-8 md:px-24 py-32 border-y border-white/[0.04]">
         <div className="max-w-4xl mx-auto text-center">
           <Reveal>
              <div className="opacity-10 mx-auto mb-10 flex justify-center">
-               <img src="hylten-gear.png" className="h-10 w-auto grayscale invert" alt="Gear" />
+               <Landmark className="text-white h-12 w-12" />
              </div>
-             <h2 className="text-4xl md:text-5xl font-black mb-8 tracking-tighter uppercase text-white/60">Expansion Protocol</h2>
-             <p className="text-white/20 text-lg leading-relaxed font-medium italic">
-               Exceptionell disciplin i Fas 1 kvalificerar för Fas 2 & 3. Inget annat.
+             <h2 className="text-4xl md:text-5xl font-black mb-12 tracking-tighter uppercase text-white/60">Expansion Protocol</h2>
+             
+             <div className="flex flex-col gap-4 mb-8">
+               <div className="text-sm font-medium text-white/50 uppercase tracking-[2px]">
+                 <span className="text-[#C4A265]">FAS 2</span> — Utökat mandat. Revenue share-struktur.
+               </div>
+               <div className="text-sm font-medium text-white/50 uppercase tracking-[2px]">
+                 <span className="text-[#C4A265]">FAS 3</span> — Co-ownership. Tillgång till Hyltén-nätverket.
+               </div>
+             </div>
+
+             <p className="text-white/20 text-lg leading-relaxed font-medium italic mt-12">
+               Inbjudan sker direkt. Ingen ansökan.
              </p>
           </Reveal>
         </div>
@@ -379,8 +397,8 @@ export default function App() {
             <Reveal delay={0.2}>
               <div className="bg-white/[0.02] border border-white/5 p-12 flex gap-10 items-center">
                 <div className="flex flex-col gap-1 items-start">
-                  <span className="text-lg font-bold text-white/30 uppercase tracking-[4px] italic">HYLTÉN INVEST</span>
-                  <span className="text-[10px] font-mono text-white/10 uppercase tracking-[5px]">PRINCIPAL ARCHITECT</span>
+                  <span className="text-lg font-bold text-white/50 uppercase tracking-[4px] italic">HYLTÉN INVEST</span>
+                  <span className="text-[10px] font-mono text-white/20 uppercase tracking-[5px]">PRINCIPAL ARCHITECT</span>
                 </div>
               </div>
             </Reveal>
@@ -390,8 +408,8 @@ export default function App() {
                    <Globe size={32} className="text-white/40" strokeWidth={1} />
                 </div>
                 <div>
-                   <h4 className="text-lg font-bold text-white/20 uppercase tracking-tighter uppercase">Anonymous Network</h4>
-                   <p className="text-[10px] uppercase tracking-[4px] text-white/10 mb-2 font-bold italic">Deal Flow Specialists</p>
+                   <h4 className="text-lg font-bold text-white/30 uppercase tracking-tighter uppercase">Anonymous Network</h4>
+                   <p className="text-[10px] uppercase tracking-[4px] text-white/20 mb-2 font-bold italic">GTM ENGINEERING SPECIALISTS</p>
                 </div>
               </div>
             </Reveal>
@@ -426,7 +444,7 @@ export default function App() {
                 </div>
               ))}
               <div className="pt-12">
-                <button type="submit" className="group border border-white/30 text-white/40 w-full md:w-auto py-5 px-16 font-black uppercase tracking-[3px] text-xs hover:border-[#C4A265] hover:text-white hover:tracking-[4px] transition-all duration-500 flex items-center justify-center gap-2 bg-dark">
+                <button type="submit" className={submitButtonClass}>
                   SUBMIT AUDIT
                   <ChevronRight size={16} className="opacity-0 group-hover:opacity-100 transition-all duration-500 group-hover:translate-x-1" />
                 </button>
@@ -446,7 +464,7 @@ export default function App() {
              BUSINESS AS STEWARDSHIP.
           </div>
           <div className="text-[9px] font-mono text-white/5 tracking-widest">
-            © HYLTÉN INVEST MMXXV
+            © HYLTÉN INVEST MMXXVI
           </div>
         </div>
       </footer>
