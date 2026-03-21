@@ -15,11 +15,11 @@ const Reveal = ({ children, delay = 0, y = 30 }: { children: React.ReactNode; de
 
 const NodeMap = ({ isFull = false }: { isFull?: boolean }) => {
   const standardNodes = [
-    { id: 1, x: 200, y: 150, label: "Order" },
-    { id: 2, x: 500, y: 100, label: "Resilience" },
-    { id: 3, x: 450, y: 300, label: "Prudence" },
-    { id: 4, x: 150, y: 350, label: "Endurance" },
-    { id: 5, x: 800, y: 200, label: "Continuity" },
+    { id: 1, x: 200, y: 150, label: "DEAL_ORIGINATION" },
+    { id: 2, x: 500, y: 100, label: "QUALIFICATION_ENGINE" },
+    { id: 3, x: 450, y: 300, label: "SIGNAL_ENRICHMENT" },
+    { id: 4, x: 150, y: 350, label: "PIPELINE_HARDENING" },
+    { id: 5, x: 800, y: 200, label: "ALPHA_OUTPUT" },
   ];
 
   const crossNodes = [
@@ -177,12 +177,12 @@ export default function App() {
 
       {/* Hero */}
       <section className="relative h-screen flex flex-col justify-center px-8 md:px-24 overflow-hidden">
-        {/* Subtle Grid Backdrop */}
+        {/* Institutional Grid Backdrop */}
         <div 
-          className="absolute inset-0 pointer-events-none opacity-40"
+          className="absolute inset-0 pointer-events-none opacity-30"
           style={{
-            backgroundImage: `repeating-linear-gradient(rgba(255,255,255,0.03) 0px, rgba(255,255,255,0.03) 1px, transparent 1px, transparent 60px),
-                              repeating-linear-gradient(90deg, rgba(255,255,255,0.03) 0px, rgba(255,255,255,0.03) 1px, transparent 1px, transparent 60px)`
+            backgroundImage: `repeating-linear-gradient(rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 80px),
+                              repeating-linear-gradient(90deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 80px)`
           }}
         />
         
@@ -208,23 +208,28 @@ export default function App() {
           </h1>
         </Reveal>
         <Reveal delay={0.4}>
-          <p className="text-white/30 text-lg md:text-2xl max-w-3xl leading-relaxed mb-12 font-medium">
-            Proprietär säljinfrastruktur och GTM Engineering för att förvandla B2B-bolag till härdade tillgångar.
-          </p>
+          <div>
+            <p className="text-white/30 text-lg md:text-2xl max-w-3xl leading-relaxed mb-4 font-medium">
+              Proprietär infrastruktur som härdar B2B-bolag till förvärvsbara tillgångar.
+            </p>
+            <div className="mb-12">
+               <span className="font-mono text-[12px] text-white/30 uppercase tracking-[0.15em]">PIPELINE_PROCESSED: 340+ MSEK</span>
+            </div>
+          </div>
         </Reveal>
         <Reveal delay={0.6}>
           <div className="flex gap-4">
-            <a href="#apply" className="border border-white/20 text-white/60 px-12 py-5 font-black uppercase tracking-[3px] text-xs hover:border-[#C4A265] hover:text-white transition-all duration-500 shadow-2xl">BOOK AUDIT</a>
+            <a href="#apply" className="border border-white/20 text-white/60 px-12 py-5 font-black uppercase tracking-[3px] text-xs hover:border-[#C4A265] hover:text-white transition-all duration-500 shadow-2xl bg-dark">BOOK AUDIT</a>
           </div>
         </Reveal>
       </section>
 
       {/* Values Pillars */}
-      <section className="px-8 md:px-24 py-32 border-t border-white/5">
+      <section className="px-8 md:px-24 py-32 border-t border-white/5 bg-dark">
         <div className="grid md:grid-cols-3">
           {[
             { icon: <Landmark className="text-white/40 mb-8" size={32} />, title: "Institutional Discipline", desc: "Vi kombinerar operativ rigor med M&A-nivå systematik." },
-            { icon: <Zap className="text-white/40 mb-8" size={32} />, title: "Velocity", desc: "Installation av Roials Alpha OS på 30 dagar. Ingen teori. Bara operativ sanning och exekvering." },
+            { icon: <Zap className="text-white/40 mb-8" size={32} />, title: "Velocity", desc: "Installation av Roials Alpha OS på 30 dagar. Ingen teori. Bara exekvering." },
             { icon: <Shield className="text-white/40 mb-8" size={32} />, title: "Operational Stewardship", desc: "Vi installerar systemen som skalar med bolaget." }
           ].map((v, i) => (
             <Reveal delay={i * 0.1} key={i}>
@@ -249,7 +254,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto">
           <Reveal>
             <div className="text-center mb-32">
-              <h2 className="text-xl md:text-2xl font-black mb-4 tracking-tighter uppercase text-white/60">Tidigare Uppdrag</h2>
+              <h2 className="text-xl md:text-2xl font-black mb-4 tracking-tighter uppercase text-white/60">SELECT MANDATES</h2>
             </div>
             
             <div className="relative group cursor-default">
@@ -287,7 +292,7 @@ export default function App() {
               <p className="text-white/30 text-lg leading-relaxed mb-12 font-medium italic max-w-lg">
                 PE-grade infrastruktur byggd för lead-origination.
               </p>
-              <div className="grid grid-cols-2 gap-8 border-t border-white/5 pt-12">
+              <div className="grid grid-cols-2 gap-8 border-t border-[#C4A265]/30 pt-12">
                 <div>
                   <div className="text-xl font-bold text-white/60 tracking-tighter">OPERATIONAL</div>
                   <p className="text-[10px] uppercase tracking-widest text-[#C4A265]/40 font-black">HARDENING</p>
@@ -313,14 +318,14 @@ export default function App() {
           <Reveal>
             <h2 className="text-4xl md:text-5xl font-black mb-16 tracking-tighter text-center uppercase">Founder Protocol: Fas 1</h2>
           </Reveal>
-          <div className="grid md:grid-cols-3 gap-8 mb-24">
+          <div className="grid md:grid-cols-3 mb-24">
             {[
               { icon: <Film size={22} />, label: "Operating Review", desc: "Veckovis granskning av dina operativa samtal. Ingen teori. Bara sanning." },
               { icon: <Activity size={22} />, label: "Operational Hardening", desc: "30 dagars operativ härdning. Inga undantag." },
               { icon: <Shield size={22} />, label: "Strategic Closing", desc: "Vi installerar closing-disciplin som säkrar kassaflöde." }
             ].map((f, i) => (
               <Reveal delay={i * 0.1} key={i}>
-                <div className="p-12 border border-white/5 bg-white/[0.01] hover:border-[#C4A265]/20 transition-all duration-700 flex flex-col items-center text-center h-full">
+                <div className={`p-12 flex flex-col items-center text-center h-full ${i < 2 ? 'border-r border-white/10' : ''}`}>
                   <div className="w-12 h-12 border border-white/10 rounded-full flex items-center justify-center mb-6 text-white/20">
                     {f.icon}
                   </div>
@@ -332,16 +337,16 @@ export default function App() {
           </div>
           
           <Reveal delay={0.5}>
-            <div className="bg-white/5 border border-white/5 p-12 text-white/80 rounded-sm relative overflow-hidden group">
+            <div className="bg-white/[0.01] border border-white/5 p-12 text-white/80 rounded-sm relative overflow-hidden group">
               <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-12">
                 <div className="max-w-2xl text-center md:text-left">
                   <h3 className="text-xl font-black uppercase tracking-[2px] mb-4 text-white/40 italic">Onboarding Mandate</h3>
                   <p className="font-bold text-sm leading-relaxed opacity-40 italic">
-                    Fas 1 fungerar som din operationella provspelning för Hyltén Venture Studio. Endast ett fåtal kvalificerar sig för Roials Alpha.
+                    Fas 1 är din operationella provspelning. Endast ett fåtal kvalificerar sig för Roials Alpha.
                   </p>
                 </div>
                 <div>
-                   <button className="border border-white/20 text-white/60 px-12 py-5 font-black uppercase tracking-[3px] text-xs hover:border-[#C4A265] hover:text-white transition-all duration-500">BOOK AUDIT</button>
+                   <button className="border border-white/20 text-white/60 px-12 py-5 font-black uppercase tracking-[3px] text-xs hover:border-[#C4A265] hover:text-white transition-all duration-500 bg-dark">BOOK AUDIT</button>
                 </div>
               </div>
             </div>
@@ -350,8 +355,7 @@ export default function App() {
       </section>
 
       {/* Expansion Protocol */}
-      <section id="studio" className="relative px-8 md:px-24 py-20">
-        <div className="absolute top-0 left-0 w-full h-[1px] bg-white/10" />
+      <section id="studio" className="relative px-8 md:px-24 py-12 border-y border-white/[0.04]">
         <div className="max-w-4xl mx-auto text-center">
           <Reveal>
              <div className="opacity-10 mx-auto mb-10 flex justify-center">
@@ -363,7 +367,6 @@ export default function App() {
              </p>
           </Reveal>
         </div>
-        <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white/10" />
       </section>
 
       {/* Team */}
@@ -375,9 +378,9 @@ export default function App() {
           <div className="grid md:grid-cols-2 gap-12">
             <Reveal delay={0.2}>
               <div className="bg-white/[0.02] border border-white/5 p-12 flex gap-10 items-center">
-                <div className="h-16 flex-shrink-0 opacity-20 grayscale hover:opacity-100 transition-opacity duration-1000 flex items-center gap-4">
-                  <img src="hylten-gear.png" className="h-10 w-auto grayscale invert opacity-50" alt="Gear" />
-                  <span className="text-lg font-bold text-white/30 uppercase tracking-[4px] italic">Hyltén Invest</span>
+                <div className="flex flex-col gap-1 items-start">
+                  <span className="text-lg font-bold text-white/30 uppercase tracking-[4px] italic">HYLTÉN INVEST</span>
+                  <span className="text-[10px] font-mono text-white/10 uppercase tracking-[5px]">PRINCIPAL ARCHITECT</span>
                 </div>
               </div>
             </Reveal>
@@ -423,7 +426,7 @@ export default function App() {
                 </div>
               ))}
               <div className="pt-12">
-                <button type="submit" className="group border border-white/30 text-white/40 w-full md:w-auto py-5 px-16 font-black uppercase tracking-[3px] text-xs hover:border-[#C4A265] hover:text-white hover:tracking-[4px] transition-all duration-500 flex items-center justify-center gap-2">
+                <button type="submit" className="group border border-white/30 text-white/40 w-full md:w-auto py-5 px-16 font-black uppercase tracking-[3px] text-xs hover:border-[#C4A265] hover:text-white hover:tracking-[4px] transition-all duration-500 flex items-center justify-center gap-2 bg-dark">
                   SUBMIT AUDIT
                   <ChevronRight size={16} className="opacity-0 group-hover:opacity-100 transition-all duration-500 group-hover:translate-x-1" />
                 </button>
