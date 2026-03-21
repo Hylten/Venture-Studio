@@ -352,12 +352,12 @@ export default function App() {
       <section className="px-8 md:px-24 py-32">
         <div className="max-w-6xl mx-auto">
           <Reveal>
-            <h2 className="text-4xl md:text-5xl font-black mb-16 tracking-tighter text-center uppercase">Founder Protocol: Fas 1</h2>
+            <h2 className="text-4xl md:text-5xl font-black mb-16 tracking-tighter text-center uppercase">Founder Protocol — Fas 1</h2>
           </Reveal>
           <div className="grid md:grid-cols-3 mb-24">
             {[
               { icon: <Film size={22} />, label: "Operating Review", desc: "Veckovis Operating Review av dina säljsamtal. Data och kalibrering." },
-              { icon: <Activity size={22} />, label: "Operational Validation", desc: "30 dagars operativ validering. Inga undantag." },
+              { icon: <Activity size={22} />, label: "Operational Validation", desc: "Rigorös operativ prövning. Inga undantag." },
               { icon: <Shield size={22} />, label: "Strategic Closing", desc: "Vi installerar closing-disciplin som säkrar kassaflöde." }
             ].map((f, i) => (
               <Reveal delay={i * 0.1} key={i}>
@@ -378,7 +378,7 @@ export default function App() {
                 <div className="max-w-2xl text-center md:text-left">
                   <h3 className="text-xl font-black uppercase tracking-[2px] mb-4 text-white/40 italic">Onboarding Mandate</h3>
                   <p className="font-bold text-sm leading-relaxed opacity-40 italic">
-                    Fas 1 är provspelningen. Få kvalificerar sig.
+                    Fas 1 är provspelningen.
                   </p>
                   <div className="mt-5 mb-7 flex items-center gap-3">
                     <span className="text-[#00FF41] text-[10px]">●</span>
@@ -474,7 +474,7 @@ export default function App() {
 
             <h2 className="text-3xl md:text-5xl font-black mb-6 tracking-tighter uppercase text-white/70">Qualification Audit</h2>
             <p className="text-white/20 text-sm md:text-base font-bold mb-16 italic uppercase tracking-wider">
-              Filtrering för operativ disciplin. Inga undantag.
+              Filtrering för operativ disciplin.
             </p>
             
             <form className="space-y-6">
@@ -505,35 +505,44 @@ export default function App() {
         </div>
       </section>
 
-      <footer className="px-8 md:px-24 py-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8 bg-dark">
-        <div className="flex items-center gap-3 opacity-10 hover:opacity-100 transition-all duration-1000 group">
-          <span className="text-[10px] font-black uppercase tracking-[5px] text-white/20 italic">Jönköping, Sweden</span>
-        </div>
-        <div className="flex flex-col md:flex-row items-center gap-12">
-          <div className="flex gap-8">
+      <footer className="px-8 md:px-24 py-16 border-t border-white/5 bg-dark">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-12 max-w-7xl mx-auto">
+          {/* Left: Ecosystem Links */}
+          <div className="flex flex-wrap items-center gap-8 order-2 md:order-1">
+            <a href="https://roialscapital.com/" target="_blank" rel="noopener noreferrer" className="text-[10px] uppercase tracking-[3px] text-white/20 hover:text-white/60 transition-colors">Roials Capital</a>
             <a href="https://hylten.github.io/Hylten-Invest/" target="_blank" rel="noopener noreferrer" className="text-[10px] uppercase tracking-[3px] text-white/20 hover:text-white/60 transition-colors">Hyltén Invest</a>
-            <a href="https://www.linkedin.com/in/hylten" target="_blank" rel="noopener noreferrer" className="text-[10px] uppercase tracking-[3px] text-white/20 hover:text-white/60 transition-colors">LinkedIn</a>
+            <button 
+              onClick={() => alert("GDPR: Vi behandlar endast personuppgifter i enlighet med gällande dataskyddslagstiftning. Du kan begära tillgång, rättelse eller radering av dina uppgifter genom att kontakta jonas@roials.co.")}
+              className="text-[10px] uppercase tracking-[3px] text-white/20 hover:text-white/30 transition-colors"
+            >
+              Legal
+            </button>
+            <a href="https://hylten.github.io/Alpha/" target="_blank" rel="noopener noreferrer" className="text-[10px] uppercase tracking-[3px] text-white/20 hover:text-white/60 transition-colors">Roials Alpha</a>
           </div>
-          <div className="text-[10px] uppercase tracking-[4.5px] text-white/10 font-black italic">
-             BUSINESS AS STEWARDSHIP.
-          </div>
-          <div className="text-[9px] font-mono text-white/5 tracking-widest">
-            © HYLTÉN INVEST MMXXVI
+
+          {/* Right: Stewardship & Copyright + WhatsApp */}
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 order-1 md:order-2">
+            <div className="text-[10px] uppercase tracking-[4.5px] text-white/5 font-black italic">
+               BUSINESS AS STEWARDSHIP.
+            </div>
+            <div className="flex items-center gap-6">
+              <a
+                href="https://wa.me/46701619978?text=Regarding%20Hylten%20Venture%20Studio:"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="opacity-20 hover:opacity-100 transition-all duration-700"
+              >
+                <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                </svg>
+              </a>
+              <div className="text-[9px] font-mono text-white/10 tracking-widest uppercase">
+                © HYLTÉN INVEST MMXXVI
+              </div>
+            </div>
           </div>
         </div>
       </footer>
-
-      {/* WhatsApp Floating Button - Discreet Grayscale */}
-      <a
-        href="https://wa.me/46701619978?text=Regarding%20Hylten%20Venture%20Studio:"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-16 right-8 z-[60] bg-dark border border-white/10 p-3.5 rounded-full shadow-2xl opacity-40 hover:opacity-100 hover:border-[#C4A265]/40 transition-all duration-700 group flex items-center justify-center translate-y-0 hover:-translate-y-1"
-      >
-        <svg className="w-5 h-5 text-white/60 group-hover:text-white transition-colors" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-        </svg>
-      </a>
     </div>
   );
 }
