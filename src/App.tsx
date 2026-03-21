@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
-import { motion } from "framer-motion";
-import { Shield, Zap, Activity, Globe, Film, ChevronRight, Terminal, Landmark } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Shield, Zap, Activity, Globe, Film, ChevronRight, Terminal, Landmark, Lock } from "lucide-react";
 
 const Reveal = ({ children, delay = 0, y = 30 }: { children: React.ReactNode; delay?: number; y?: number }) => (
   <motion.div
@@ -149,6 +149,8 @@ const NodeMap = ({ isFull = false }: { isFull?: boolean }) => {
 export default function App() {
   const [loading, setLoading] = useState(true);
   const [showAdmin, setShowAdmin] = useState(false);
+  const [showPinPrompt, setShowPinPrompt] = useState(false);
+  const [pinValue, setPinValue] = useState("");
   const [formData, setFormData] = useState({
     entity: "",
     revenueFY: "",
@@ -157,6 +159,7 @@ export default function App() {
     mandate: ""
   });
   const [adminLog, setAdminLog] = useState<any[]>([]);
+  const [auditStatus, setAuditStatus] = useState<"IDLE" | "TRANSMITTING" | "COMPLETED">("IDLE");
 
   useEffect(() => {
     // Load existing logs
@@ -168,7 +171,7 @@ export default function App() {
     const handleKey = (e: KeyboardEvent) => {
       keys += e.key.toUpperCase();
       if (keys.endsWith("ALPHA")) {
-        setShowAdmin(prev => !prev);
+        setShowPinPrompt(true);
         keys = "";
       }
       if (keys.length > 10) keys = keys.slice(-10);
@@ -181,6 +184,46 @@ export default function App() {
     const timer = setTimeout(() => setLoading(false), 5500);
     return () => clearTimeout(timer);
   }, []);
+
+  const handlePinSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (pinValue === "MMXXVI") {
+      setShowAdmin(true);
+      setShowPinPrompt(false);
+      setPinValue("");
+    } else {
+      alert("UNAUTHORIZED_ACCESS: PIN_INVALID");
+      setPinValue("");
+    }
+  };
+
+  const handleAuditSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    setAuditStatus("TRANSMITTING");
+    
+    const message = `RE: HYLTÉN VENTURE STUDIO - QUALIFICATION AUDIT\n\n` +
+      `ENTITY: ${formData.entity}\n` +
+      `REVENUE_FY: ${formData.revenueFY}\n` +
+      `REVENUE_MONTHLY: ${formData.revenueMonthly}\n` +
+      `ARR_MRR: ${formData.arrMrr}\n` +
+      `MANDATE: ${formData.mandate}\n\n` +
+      `TIMESTAMP: ${new Date().toISOString()}`;
+
+    // Save locally
+    const newEntry = { ...formData, timestamp: new Date().toISOString() };
+    const updatedLog = [newEntry, ...adminLog];
+    localStorage.setItem('hylten_audits', JSON.stringify(updatedLog));
+    setAdminLog(updatedLog);
+
+    // Redirect to WhatsApp with direct deep link
+    const waUrl = `https://wa.me/46701619978?text=${encodeURIComponent(message)}`;
+    
+    setTimeout(() => {
+      setAuditStatus("COMPLETED");
+      // Use location.href for safer mobile deep linking
+      window.location.href = waUrl;
+    }, 1500);
+  };
 
   if (loading) {
     return (
@@ -203,29 +246,7 @@ export default function App() {
     );
   }
 
-  const handleAuditSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    
-    const message = `RE: HYLTÉN VENTURE STUDIO - QUALIFICATION AUDIT\n\n` +
-      `ENTITY: ${formData.entity}\n` +
-      `REVENUE_FY: ${formData.revenueFY}\n` +
-      `REVENUE_MONTHLY: ${formData.revenueMonthly}\n` +
-      `ARR_MRR: ${formData.arrMrr}\n` +
-      `MANDATE: ${formData.mandate}\n\n` +
-      `TIMESTAMP: ${new Date().toISOString()}`;
-
-    // Save locally
-    const newEntry = { ...formData, timestamp: new Date().toISOString() };
-    const updatedLog = [newEntry, ...adminLog];
-    localStorage.setItem('hylten_audits', JSON.stringify(updatedLog));
-    setAdminLog(updatedLog);
-
-    // Redirect to WhatsApp
-    const waUrl = `https://wa.me/46701619978?text=${encodeURIComponent(message)}`;
-    window.open(waUrl, '_blank');
-  };
-
-  const submitButtonClass = "group border border-white/30 text-white/40 w-full md:w-auto py-5 px-16 font-black uppercase tracking-[3px] text-xs hover:border-[#C4A265] hover:text-white hover:tracking-[4px] transition-all duration-500 flex items-center justify-center gap-2 bg-dark";
+  const submitButtonClass = "group border border-white/30 text-white/40 w-full md:w-auto py-5 px-16 font-black uppercase tracking-[3px] text-xs hover:border-[#C4A265] hover:text-white hover:tracking-[4px] transition-all duration-500 flex items-center justify-center gap-2 bg-dark relative overflow-hidden";
 
   return (
     <div className="bg-dark min-h-screen text-white selection:bg-[#C4A265]/30 font-sans">
@@ -246,8 +267,6 @@ export default function App() {
 
       {/* Hero */}
       <section className="relative h-screen flex flex-col justify-center px-8 md:px-24 overflow-hidden">
-        {/* Institutional Backdrop - Plain Background */}
-        
         <Reveal>
           <div className="flex flex-col gap-2 mb-8">
             <div className="flex items-center gap-3">
@@ -544,9 +563,25 @@ export default function App() {
                 </div>
               ))}
               <div className="pt-12">
-                <button type="submit" className={submitButtonClass}>
-                  SUBMIT AUDIT
-                  <ChevronRight size={16} className="opacity-0 group-hover:opacity-100 transition-all duration-500 group-hover:translate-x-1" />
+                <button 
+                  type="submit" 
+                  disabled={auditStatus !== "IDLE"}
+                  className={`${submitButtonClass} ${auditStatus === "COMPLETED" ? "border-emerald-500/50 text-emerald-500" : ""}`}
+                >
+                  <span className="relative z-10 flex items-center gap-2">
+                    {auditStatus === "IDLE" && "SUBMIT AUDIT"}
+                    {auditStatus === "TRANSMITTING" && "TRANSMITTING_SIGNAL..."}
+                    {auditStatus === "COMPLETED" && "SIGNAL_DELIVERED_REDIRECTING"}
+                    {auditStatus === "IDLE" && <ChevronRight size={16} className="opacity-0 group-hover:opacity-100 transition-all duration-500 group-hover:translate-x-1" />}
+                  </span>
+                  {auditStatus === "TRANSMITTING" && (
+                     <motion.div 
+                        className="absolute inset-0 bg-[#C4A265]/10"
+                        initial={{ x: "-100%" }}
+                        animate={{ x: "0%" }}
+                        transition={{ duration: 1.5, ease: "linear" }}
+                     />
+                  )}
                 </button>
               </div>
             </form>
@@ -592,6 +627,41 @@ export default function App() {
           </div>
         </div>
       </footer>
+
+      {/* PIN Prompt */}
+      <AnimatePresence>
+        {showPinPrompt && (
+          <motion.div 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 bg-dark/95 z-[70] flex items-center justify-center p-8 backdrop-blur-md"
+          >
+            <div className="max-w-md w-full border border-[#C4A265]/20 p-12 bg-white/[0.01]">
+              <div className="flex justify-center mb-8">
+                <Lock size={32} className="text-[#C4A265]/40" />
+              </div>
+              <h2 className="text-xl font-black uppercase tracking-[8px] text-center mb-12 text-[#C4A265]">ADMIN_AUTHORIZATION</h2>
+              <form onSubmit={handlePinSubmit} className="space-y-8">
+                <div>
+                  <label className="text-[9px] uppercase tracking-[4px] text-white/20 block mb-4 text-center">Enter Access PIN</label>
+                  <input 
+                    type="password"
+                    autoFocus
+                    value={pinValue}
+                    onChange={(e) => setPinValue(e.target.value)}
+                    className="w-full bg-transparent border-b border-white/10 py-4 text-center text-2xl tracking-[12px] font-mono focus:border-[#C4A265]/40 outline-none transition-all"
+                  />
+                </div>
+                <div className="flex justify-center gap-4">
+                  <button type="submit" className="text-[10px] uppercase tracking-[4px] text-white font-black hover:text-[#C4A265] transition-colors">AUTHORIZE</button>
+                  <button type="button" onClick={() => setShowPinPrompt(false)} className="text-[10px] uppercase tracking-[4px] text-white/20">CANCEL</button>
+                </div>
+              </form>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* Hidden Admin Audit Log */}
       {showAdmin && (
