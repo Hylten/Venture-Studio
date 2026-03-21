@@ -48,15 +48,15 @@ const NodeMap = ({ isFull = false }: { isFull?: boolean }) => {
   const connections = isFull ? crossConnections : standardConnections;
 
   return (
-    <div className={`relative w-full ${isFull ? 'h-screen' : 'h-[450px] bg-white/[0.02] border border-white/10 hidden md:flex'} rounded-sm overflow-hidden flex items-center justify-center`}>
+    <div className={`relative w-full ${isFull ? 'h-screen' : 'h-[450px] bg-white/[0.015] border border-white/5 hidden md:flex'} rounded-sm overflow-hidden flex items-center justify-center`}>
       {/* Scanline Overlay */}
       <div 
         className="absolute inset-0 pointer-events-none z-20"
         style={{
-          background: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0, 255, 65, 0.005) 2px, rgba(0, 255, 65, 0.005) 4px)'
+          background: 'repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(0, 255, 65, 0.008) 3px, rgba(0, 255, 65, 0.008) 4px)'
         }}
       />
-      <div className="absolute inset-0 pointer-events-none opacity-20 bg-[radial-gradient(circle_at_50%_50%,rgba(196,162,101,0.1),transparent)]" />
+      <div className="absolute inset-0 pointer-events-none opacity-20 bg-[radial-gradient(circle_at_50%_50%,rgba(196,162,101,0.05),transparent)]" />
       
       <svg className="w-full h-full max-w-[1000px] max-h-[450px]" viewBox="0 0 1000 500">
         <defs>
@@ -80,13 +80,13 @@ const NodeMap = ({ isFull = false }: { isFull?: boolean }) => {
               strokeWidth="1.5"
               strokeDasharray="5 3"
               initial={{ pathLength: 0, opacity: 0, strokeDashoffset: 0 }}
-              animate={{ pathLength: [0, 1, 1, 0], opacity: [0, 0.4, 0.4, 0], strokeDashoffset: -32 }}
+              animate={{ pathLength: [0, 1, 1, 0], opacity: [0, 0.4, 0.4, 0], strokeDashoffset: -16 }}
               transition={{ 
                 duration: 8,
                 repeat: Infinity,
                 delay: i * 0.4,
                 ease: "linear",
-                strokeDashoffset: { duration: 6, repeat: Infinity, ease: "linear" }
+                strokeDashoffset: { duration: 8, repeat: Infinity, ease: "linear" }
               }}
             />
           );
@@ -98,8 +98,8 @@ const NodeMap = ({ isFull = false }: { isFull?: boolean }) => {
               cx={node.x} cy={node.y} r="4" 
               fill="#C4A265" 
               filter="url(#glow)" 
-              animate={{ scale: [1, 1.15, 1], opacity: [0.6, 1, 0.6] }}
-              transition={{ duration: 4, repeat: Infinity, ease: "easeInOut", delay: node.id * 0.5 }}
+              animate={{ scale: [1, 1.04, 1], opacity: [0.6, 1, 0.6] }}
+              transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: node.id * 0.5 }}
             />
             <text x={node.x + 15} y={node.y + 5} fill="rgba(255,255,255,0.4)" fontSize="10" fontFamily="Inter" className="uppercase tracking-[2px]">
               {node.label}
@@ -157,7 +157,7 @@ export default function App() {
     );
   }
 
-  const navButtonClass = "border border-white/20 text-white/40 hover:text-white/80 hover:border-[#C4A265] hover:tracking-[4px] px-6 py-2 text-[10px] uppercase tracking-[3px] transition-all duration-500 font-bold";
+  const navButtonClass = "border border-white/20 text-white/40 hover:text-white/80 hover:border-[#C4A265] hover:tracking-[4px] px-6 py-2 text-[10px] uppercase tracking-[3px] transition-all duration-500 font-bold shadow-[0_0_20px_rgba(196,162,101,0.05)]";
   const heroButtonClass = "border border-white/20 text-white/60 px-12 py-5 font-black uppercase tracking-[3px] text-xs hover:border-[#C4A265] hover:text-white hover:tracking-[4px] transition-all duration-500 shadow-2xl bg-dark";
   const submitButtonClass = "group border border-white/30 text-white/40 w-full md:w-auto py-5 px-16 font-black uppercase tracking-[3px] text-xs hover:border-[#C4A265] hover:text-white hover:tracking-[4px] transition-all duration-500 flex items-center justify-center gap-2 bg-dark";
 
@@ -213,7 +213,7 @@ export default function App() {
         </Reveal>
         <Reveal delay={0.4}>
           <div>
-            <p className="text-white/30 text-lg md:text-2xl max-w-3xl leading-relaxed mb-4 font-medium">
+            <p className="text-white/30 text-lg md:text-2xl max-w-3xl leading-relaxed mb-4 font-medium italic">
               Proprietär GTM-infrastruktur som härdar B2B-bolag till förvärvsbara tillgångar.
             </p>
             <div className="mb-12">
@@ -352,6 +352,10 @@ export default function App() {
                   <p className="font-bold text-sm leading-relaxed opacity-40 italic">
                     Fas 1 är provspelningen. Få kvalificerar sig.
                   </p>
+                  <div className="mt-8 flex items-center gap-3">
+                    <div className="w-1.5 h-1.5 rounded-full bg-[#00FF41] shadow-[0_0_8px_rgba(0,255,65,0.4)]" />
+                    <span className="font-mono text-[11px] uppercase tracking-[0.12em] text-white/30 italic">COHORT_01 — STATUS: ACCEPTING AUDITS — POSITIONS: 5</span>
+                  </div>
                 </div>
                 <div>
                    <a href="#apply" className={heroButtonClass}>BOOK AUDIT</a>
@@ -363,7 +367,7 @@ export default function App() {
       </section>
 
       {/* Expansion Protocol */}
-      <section id="studio" className="relative px-8 md:px-24 py-32 border-y border-white/[0.04]">
+      <section id="studio" className="relative px-8 md:px-24 py-20 border-y border-white/[0.04]">
         <div className="max-w-4xl mx-auto text-center">
           <Reveal>
              <div className="opacity-10 mx-auto mb-10 flex justify-center">
@@ -373,14 +377,14 @@ export default function App() {
              
              <div className="flex flex-col gap-4 mb-8">
                <div className="text-sm font-medium text-white/50 uppercase tracking-[2px]">
-                 <span className="text-[#C4A265]">FAS 2</span> — Utökat mandat. Revenue share-struktur.
+                 <span className="text-[#C4A265] font-bold">FAS 2</span> — <span className="opacity-50 italic">Utökat mandat. Revenue share-struktur.</span>
                </div>
                <div className="text-sm font-medium text-white/50 uppercase tracking-[2px]">
-                 <span className="text-[#C4A265]">FAS 3</span> — Co-ownership. Tillgång till Hyltén-nätverket.
+                 <span className="text-[#C4A265] font-bold">FAS 3</span> — <span className="opacity-50 italic">Co-ownership. Tillgång till Hyltén-nätverket.</span>
                </div>
              </div>
 
-             <p className="text-white/20 text-lg leading-relaxed font-medium italic mt-12">
+             <p className="text-white/60 text-lg leading-relaxed font-medium italic mt-12">
                Inbjudan sker direkt. Ingen ansökan.
              </p>
           </Reveal>
@@ -395,7 +399,7 @@ export default function App() {
           </Reveal>
           <div className="grid md:grid-cols-2 gap-12">
             <Reveal delay={0.2}>
-              <div className="bg-white/[0.02] border border-white/5 p-12 flex gap-10 items-center">
+              <div className="bg-white/[0.02] border border-white/5 p-12 flex gap-10 items-center h-full">
                 <div className="flex flex-col gap-1 items-start">
                   <span className="text-lg font-bold text-white/50 uppercase tracking-[4px] italic">HYLTÉN INVEST</span>
                   <span className="text-[10px] font-mono text-white/20 uppercase tracking-[5px]">PRINCIPAL ARCHITECT</span>
@@ -421,6 +425,28 @@ export default function App() {
       <section id="apply" className="px-8 md:px-24 py-32 relative overflow-hidden bg-white/[0.01]">
         <div className="max-w-3xl relative z-10">
           <Reveal>
+            <div className="mb-20">
+              <div className="font-mono text-[12px] uppercase tracking-[0.1em] text-white/35 flex flex-col gap-1">
+                <span className="mb-4">QUALIFICATION PARAMETERS</span>
+                <div className="flex justify-between items-center border-b border-white/5 pb-1">
+                  <span>MINIMUM REVENUE:</span>
+                  <span>5 MSEK (FY)</span>
+                </div>
+                <div className="flex justify-between items-center border-b border-white/5 pb-1 mt-2">
+                  <span>ENTITY TYPE:</span>
+                  <span>B2B</span>
+                </div>
+                <div className="flex justify-between items-center border-b border-white/5 pb-1 mt-2">
+                  <span>SALES CYCLE:</span>
+                  <span>HIGH-VALUE / CONSULTATIVE</span>
+                </div>
+                <div className="flex justify-between items-center border-b border-white/5 pb-1 mt-2">
+                  <span>OPERATIONAL CAPACITY:</span>
+                  <span>ABLE TO PROCESS INBOUND AT SCALE</span>
+                </div>
+              </div>
+            </div>
+
             <h2 className="text-3xl md:text-5xl font-black mb-6 tracking-tighter uppercase text-white/70">Qualification Audit</h2>
             <p className="text-white/20 text-sm md:text-base font-bold mb-16 italic uppercase tracking-wider">
               Filtrering för operativ disciplin. Inga undantag.
@@ -429,7 +455,7 @@ export default function App() {
             <form className="space-y-6">
               {[
                 { label: "Entity", placeholder: "FORM_ID" },
-                { label: "Current Revenue (FY)", placeholder: "MUSD/MSEK" },
+                { label: "Current Revenue (FY)", placeholder: "MSEK" },
                 { label: "Current Monthly Revenue", placeholder: "RUN_RATE" },
                 { label: "ARR / MRR", placeholder: "ANNUAL_RECURRING" },
                 { label: "Qualification Mandate", placeholder: "State your qualification mandate." }
@@ -464,7 +490,7 @@ export default function App() {
              BUSINESS AS STEWARDSHIP.
           </div>
           <div className="text-[9px] font-mono text-white/5 tracking-widest">
-            © HYLTÉN INVEST MMXXVI
+            © HYLTÉN INVEST MMXXV
           </div>
         </div>
       </footer>
