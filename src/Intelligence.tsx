@@ -110,7 +110,7 @@ export const IntelligenceArchive: React.FC<{
                   <span className="text-[9px] font-mono text-white/20 uppercase tracking-[2px]">{article.author}</span>
                 </div>
                 <h3 className="text-lg font-black uppercase tracking-tight mb-4 group-hover:text-[#C4A265] transition-colors line-clamp-2">{article.title}</h3>
-                <p className="text-white/60 text-sm leading-relaxed mb-8 italic line-clamp-3">{article.description}</p>
+                <p className="text-white/60 text-sm leading-relaxed mb-8 line-clamp-3">{article.description}</p>
               </div>
               <div className="flex items-center gap-2 text-[10px] uppercase tracking-[3px] text-white/30 group-hover:text-[#C4A265] transition-colors">
                 Läs analys <ChevronRight size={14} />
@@ -260,10 +260,27 @@ export const IntelligenceArticle: React.FC<{
           <div>NIVÅ: ALPHA_CLEARANCE</div>
         </div>
 
-        <div className="intelligence-content text-white/80 text-lg leading-relaxed space-y-8 font-medium italic">
-          {article.content.split("\n\n").map((para, i) => (
-            <p key={i}>{para}</p>
-          ))}
+        <div className="intelligence-content text-white/80 text-lg leading-relaxed space-y-8 font-medium">
+          {article.content.split("\n\n").map((para, i) => {
+            if (para.startsWith("### ")) {
+              return <h4 key={i} className="text-xl font-black uppercase tracking-tight mt-12 mb-4 text-[#C4A265]">{para.slice(4)}</h4>;
+            }
+            if (para.startsWith("## ")) {
+              return <h3 key={i} className="text-2xl font-black uppercase tracking-tight mt-16 mb-6">{para.slice(3)}</h3>;
+            }
+            if (para.startsWith("# ")) {
+              return <h2 key={i} className="text-3xl font-black uppercase tracking-tight mt-16 mb-8">{para.slice(2)}</h2>;
+            }
+            if (para.startsWith("- ")) {
+              const items = para.split("\n").filter(l => l.startsWith("- "));
+              return (
+                <ul key={i} className="list-disc pl-6 space-y-2 my-6">
+                  {items.map((item, j) => <li key={j} className="text-white/70">{item.slice(2)}</li>)}
+                </ul>
+              );
+            }
+            return <p key={i} className="text-white/80">{para}</p>;
+          })}
         </div>
 
         <div className="mt-16 border-t border-white/10 pt-16">
