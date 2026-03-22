@@ -58,10 +58,10 @@ export const intelligenceMetadata: ArticleMetadata[] = [
   },
   {
     "slug": "anatomin-bakom-en-venture-studio",
-    "title": "Hur vi bygger bolag som system",
+    "title": "Anatomin bakom en Venture Studio: Hur vi bygger bolag som system",
     "date": "2026-03-14",
     "author": "Hyltén Venture Studio",
-    "description": "Venture studio-modellens tre pelare: kapital, talang och infrastruktur."
+    "description": "Hur venture studio-modellen skapar en industrialiserad process för innovation."
   },
   {
     "slug": "att-bygga-en-kategori-definierande-verksamhet",
@@ -93,10 +93,10 @@ export const intelligenceMetadata: ArticleMetadata[] = [
   },
   {
     "slug": "venture-studio-vs-accelerator",
-    "title": "Att välja ratt vag for skalning",
+    "title": "Venture Studio vs. Accelerator: Att välja rätt väg för skalning",
     "date": "2026-03-09",
     "author": "Jonas Hyltén",
-    "description": "En jämförelse av venture studios och accelerators for Series C-företag."
+    "description": "En jämförelse av två av de mest populära modellerna för att bygga bolag."
   },
   {
     "slug": "pmf-ar-missledande",
@@ -499,10 +499,10 @@ export const intelligenceMetadata: ArticleMetadata[] = [
   },
   {
     "slug": "gtm-ai-ops-71",
-    "title": "När automatiseringen blir strategisk",
+    "title": "AI i GTM Ops: När automatiseringen blir strategisk",
     "date": "2026-01-10",
     "author": "Hyltén Venture Studio",
-    "description": "Hur AI forandrar go-to-market fran effektivisering till systemnivaeffekt."
+    "description": "När AI tar GTM från operation till strategi."
   },
   {
     "slug": "ai-b2b-feedback-loopar-72",
