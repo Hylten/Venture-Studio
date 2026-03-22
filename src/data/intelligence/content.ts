@@ -257,9 +257,9 @@ Prenumerationsmodellen bygger på två antaganden. För det första att marginal
 
 ### Marginalkostnaderna ökar med nyttjandet
 
-När en traditionell SaaS-produkt får fler användare ökar inte kostnaden för att driva databasen, API:erna och gränssnittet i någon större omfattning. När en AI-funktion används genereras däremot en GPU-kostnad vid varje inferens. För ett mellansegment i en generativ modell ligger inferenskostnaden idag ofta mellan 0,04 och 0,50 SEK per fråga beroende på tokenmängd och precision. Under hög belastning eller när kunder kräver modeller med djupare kontextfönster stiger kostnaden ytterligare.
+När en traditionell SaaS-produkt får fler användare ökar inte kostnaden för att driva databasen, API:erna och gränssnittet i någon större omfattning. När en AI-funktion används genereras däremot en GPU-kostnad vid varje anrop. För ett mellansegment i en generativ modell ligger anropkostnaden idag ofta mellan 0,04 och 0,50 SEK per fråga beroende på tokenmängd och precision. Under hög belastning eller när kunder kräver modeller med djupare kontextfönster stiger kostnaden ytterligare.
 
-Prenumerationsmodellen fångar inte dessa variationer eftersom alla kunder betalar en fast avgift oavsett faktisk belastning. När vissa kunder genererar tusentals inferenser per dag blir affären negativ för leverantören.
+Prenumerationsmodellen fångar inte dessa variationer eftersom alla kunder betalar en fast avgift oavsett faktisk belastning. När vissa kunder genererar tusentals anroper per dag blir affären negativ för leverantören.
 
 ### Värdet skiftar kraftigt mellan kunder
 
@@ -271,9 +271,9 @@ Kunderna har vant sig vid att förstå vad de betalar för. AI uppfattas av mån
 
 ## GPU-kostnader i SEK 2026
 
-AI-native SaaS-bolag behöver hantera två typer av GPU-kostnader: inferens och finjustering. Kostnaderna varierar mellan molnleverantörer men följande intervall speglar typiska nivåer 2026.
+AI-native SaaS-bolag behöver hantera två typer av GPU-kostnader: anrop och finjustering. Kostnaderna varierar mellan molnleverantörer men följande intervall speglar typiska nivåer 2026.
 
-### Kostnader för inferens
+### Kostnader för anrop
 
 Inferens sker för varje fråga modellen besvarar. För att kunna sätta korrekta priser måste SaaS-bolag räkna per genererad token och per använd kundsession. Typiska kostnader:
 
@@ -285,7 +285,7 @@ Vid hög nyttjandegrad kan en större kund utan förbrukningsbaserad prissättni
 
 ### Kostnader för finjustering
 
-Finjustering kräver betydligt mer GPU-tid än inferens. Under 2026 ligger priserna för finjustering ofta i följande spann:
+Finjustering kräver betydligt mer GPU-tid än anrop. Under 2026 ligger priserna för finjustering ofta i följande spann:
 
 - 350 till 900 SEK per timme GPU-tid på träningskluster av mellanklass  
 - 1200 till 2200 SEK per timme för högkapacitetskluster  
@@ -344,7 +344,7 @@ Skillnaden beror på att förbrukningsbaserade intäkter fångar värdetillväxt
 
 ## Unit economics för AI-native prissättning
 
-Unit economics förändras i grunden när AI introduceras i SaaS-produkter. Istället för att optimera marginalkostnad per användare måste bolaget optimera marginalkostnad per inferens, per token och per projekt.
+Unit economics förändras i grunden när AI introduceras i SaaS-produkter. Istället för att optimera marginalkostnad per användare måste bolaget optimera marginalkostnad per anrop, per token och per projekt.
 
 ### Centrala nyckeltal
 
@@ -383,7 +383,7 @@ SaaS-bolag ser en ökande andel expansion som kommer från förbrukningsbaserade
 
 ### Lokala GPU-kluster blir prismässigt konkurrenskraftiga
 
-Kostnaden för att driva egna GPU-kluster har fallit och många europeiska SaaS-bolag jämför idag molnbaserad inferens med lokal drift. En intern A100-nod kan köras till en effektiv kostnad på 400 till 700 SEK per timme vilket är lägre än toppnivåerna hos de stora molnleverantörerna. Detta gör att prismodeller kan optimeras genom att större kunder placeras i lokala kluster.
+Kostnaden för att driva egna GPU-kluster har fallit och många europeiska SaaS-bolag jämför idag molnbaserad anrop med lokal drift. En intern A100-nod kan köras till en effektiv kostnad på 400 till 700 SEK per timme vilket är lägre än toppnivåerna hos de stora molnleverantörerna. Detta gör att prismodeller kan optimeras genom att större kunder placeras i lokala kluster.
 
 ### Hybrida intäktsmodeller sprider sig även till traditionell SaaS
 
@@ -552,13 +552,13 @@ Den här artikeln tar en tydlig position: företag som inte bygger AI-native fr�
 
 ## Vad AI-native arkitektur innebär  
 
-AI-native system är konstruerade för att anropa och finetuna modeller som primär logik. Affärsflöden integreras direkt med GPU-baserad inferens och träningsinfrastruktur. Traditionella SaaS-plattformar bygger logik i applikationslagret och datalagret är mest en passiv källa för CRUD-operationer.
+AI-native system är konstruerade för att anropa och finetuna modeller som primär logik. Affärsflöden integreras direkt med GPU-baserad anrop och träningsinfrastruktur. Traditionella SaaS-plattformar bygger logik i applikationslagret och datalagret är mest en passiv källa för CRUD-operationer.
 
 ### Kärnegenskaper för AI-native arkitektur  
 
 - Modellcentrerad datastruktur  
 - Real-time feedbackloopar för kontinuerlig förbättring  
-- Edge- eller mikroinferenstjänster för latencykritiska flöden  
+- Edge- eller mikroanroptjänster för latencykritiska flöden  
 - I/O-optimerade pipelines för embeddings, vector stores och feature stores  
 - Låg tolerans för teknisk skuld eftersom modellprestanda försämras vid dataläckor och distribuerade inkonsekvenser  
 
@@ -571,15 +571,15 @@ AI-native system är konstruerade för att anropa och finetuna modeller som prim
 
 ## Kostnadsstrukturer och infrastrukturförbrukning  
 
-Den största skillnaden mellan arkitekturerna är hur kostnader ackumuleras. AI-native system har högre marginalkostnad per användarhändelse eftersom varje händelse kan trigga GPU-inferens. Traditionell SaaS påverkas främst av CPU-laster och databastransaktioner.
+Den största skillnaden mellan arkitekturerna är hur kostnader ackumuleras. AI-native system har högre marginalkostnad per användarhändelse eftersom varje händelse kan trigga GPU-anrop. Traditionell SaaS påverkas främst av CPU-laster och databastransaktioner.
 
 ### GPU-kostnader i praktiken  
 
-Marknadspriser för GPU-inferens ligger ofta på följande nivåer:
+Marknadspriser för GPU-anrop ligger ofta på följande nivåer:
 
 - Nvidia A100 i moln kostar cirka 110 SEK per timme  
 - Nvidia H100 kostar cirka 160 SEK per timme  
-- Tokenbaserad inferens via kommersiella API:er hamnar mellan 0.02 SEK och 1.50 SEK per anrop beroende på modellstorlek  
+- Tokenbaserad anrop via kommersiella API:er hamnar mellan 0.02 SEK och 1.50 SEK per anrop beroende på modellstorlek  
 
 Ett produktteam som bygger AI-assistans i realtid för 1000 aktiva kunder med 20 anrop per kund och dag hamnar snabbt på 60000 till 120000 SEK i månadsförbrukning om H100 utnyttjas. Det är en strukturell kostnad som måste prissättas direkt mot kund. Om prisstrategin misslyckas blir marginalerna negativa redan vid introduktionsfasen.
 
@@ -589,9 +589,9 @@ Traditionell SaaS ligger ofta på 5 till 30 SEK per aktiv användare och månad 
 
 AI-native organisationer använder tydliga verktyg:
 
-- Distillering av egna modeller för att minska inferensstorlek  
+- Distillering av egna modeller för att minska anropstorlek  
 - Tokenbudgetar och kontextoptimering via embeddings  
-- Dynamiska routing pipelines där endast vissa användare får tung inferens  
+- Dynamiska routing pipelines där endast vissa användare får tung anrop  
 - Aggressiv caching av svar  
 - Abonnemangsbaserad prissättning som följer GPU-förbrukning  
 
@@ -625,11 +625,11 @@ Marginalerna är högre men värdetillväxten är långsammare. Detta skapar lä
 
 ## Technical debt i AI-native miljöer  
 
-AI-native system är intoleranta mot slarv. Dataflöden som inte är deterministiska skapar modellförsämring och ökad inferenskostnad. Technical debt blir därför ett direkt kostnadsproblem och inte bara ett utvecklingsproblem.
+AI-native system är intoleranta mot slarv. Dataflöden som inte är deterministiska skapar modellförsämring och ökad anropkostnad. Technical debt blir därför ett direkt kostnadsproblem och inte bara ett utvecklingsproblem.
 
 ### Kostnadsstruktur och tekniskt arv  
 
-AI-native produkter börjar ofta med en kostnadsprofil som ser fronttung ut. Driftkostnader för inferens, finjustering, experiment och modellvalidering kan lätt hamna på flera hundra tusen SEK per månad redan innan intäkterna hunnit ikapp. Samtidigt undviker AI-native team stora delar av det tekniska arv som bromsar traditionell SaaS. Kodbasen är tunnare, integrationslagret är enklare och uppdateringar sker snabbt eftersom arkitekturen bygger på ett litet antal centrala modellgränssnitt. 
+AI-native produkter börjar ofta med en kostnadsprofil som ser fronttung ut. Driftkostnader för anrop, finjustering, experiment och modellvalidering kan lätt hamna på flera hundra tusen SEK per månad redan innan intäkterna hunnit ikapp. Samtidigt undviker AI-native team stora delar av det tekniska arv som bromsar traditionell SaaS. Kodbasen är tunnare, integrationslagret är enklare och uppdateringar sker snabbt eftersom arkitekturen bygger på ett litet antal centrala modellgränssnitt. 
 
 Traditionell SaaS har motsatt struktur. Teknikskulden växer i takt med fler funktioner, fler API-beroenden och fler interna workflows. Kostnaderna är jämnare men långsiktigt tyngre. Ett äldre SaaS-team kan lägga upp till 40 procent av utvecklingstiden på att hantera regressioner eller underhåll av marginalfunktioner. AI-native team kan i stället lägga samma resursmängd på datakvalitet, modellval och produktionsoptimering vilket driver direkt värde.
 
@@ -655,7 +655,7 @@ En annan skillnad är att marknadsföringen måste fokusera mindre på specifika
 
 För investerare uppstår en tydlig skillnad mellan traditionell SaaS och AI-native bolag. Det handlar inte bara om teknik, utan om ekonomi, risk, skalbarhet och hur värdekedjan förändras. Traditionell SaaS har länge setts som ett stabilt och relativt förutsägbart segment. Kostnaderna är kända, bruttomarginalerna höga och tillväxten kan extrapoleras baserat på användarbeteende. Det gör att både VC och PE har kunnat räkna på bolagen med relativ enkelhet.
 
-AI-native bolag kräver en annan analys. Kostnadsstrukturen är mer komplex eftersom inferenskostnader, datalagring och modellträning påverkar bruttomarginalerna på ett tydligare sätt. Investare vill därför förstå hur beroende företaget är av externa modeller och vilken kontroll man har över kostnaderna. Bolag med egen modellutveckling bedöms annorlunda än bolag som bygger ovanpå öppna modeller eftersom beroendet kan påverka både pris och konkurrensfördel.
+AI-native bolag kräver en annan analys. Kostnadsstrukturen är mer komplex eftersom anropkostnader, datalagring och modellträning påverkar bruttomarginalerna på ett tydligare sätt. Investare vill därför förstå hur beroende företaget är av externa modeller och vilken kontroll man har över kostnaderna. Bolag med egen modellutveckling bedöms annorlunda än bolag som bygger ovanpå öppna modeller eftersom beroendet kan påverka både pris och konkurrensfördel.
 
 Samtidigt finns en strukturell uppsida som är mer attraktiv än i traditionell SaaS. AI-native företag kan få betydligt högre kundvärde och snabbare expansion inom varje konto. Om produkten automatiserar en stor del av kundens processer kan bolaget ta betalt för direkt affärskritiska effekter, inte bara för åtkomst till mjukvara. Det skapar potential för högre ARPA och starkare retention. Investare letar därför efter bolag där värdet skalar snabbare än kostnaden och där marginalerna förbättras när datamängden växer.
 
@@ -667,7 +667,7 @@ Slutligen tittar investare på teamets förmåga att navigera en snabbt föränd
 
 AI-native och traditionell SaaS följer två helt olika GTM-logiker. AI-native företag investerar tungt i datakvalitet, modellprestanda och dyr specialisttalang. De slipper mycket teknikskuld och vinner snabb förbättringstakt samt stark kundinlåsning baserat på data. Traditionell SaaS är billigare att rekrytera till och lättare att förutsäga men tyngre att underhålla. Teknikskulden växer snabbare och konkurrensen sker främst på funktioner och pris.
 
-Tydlig slutsats. AI-native företag har större initial risk men betydligt högre strategiskt tak eftersom datadriven inlåsning och snabb förbättringscykel skapar en konkurrensfördel som traditionell SaaS inte kan matcha.`,  
+AI-native företag har större initial risk men betydligt högre strategiskt tak eftersom datadriven inlåsning och snabb förbättringscykel skapar en konkurrensfördel som traditionell SaaS inte kan matcha.`,  
 
   "anatomin-bakom-en-venture-studio": `Venture-studio-modellen har under det senaste decenniet utvecklats till en distinkt organisationsform för att industrialisera innovationsprocesser och skapa skalbara företag med hög kapital- och talangeffektivitet. I kontrast till traditionellt riskkapital där investeringslogiken huvudsakligen baseras på urval av externa entreprenörer och tidiga marknadssignaler bygger venture studion företag genom att integrera idéformulering, validering, bolagsbyggande och kapitalallokering i ett sammanhängande system.
 
