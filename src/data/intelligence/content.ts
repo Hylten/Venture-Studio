@@ -1,5 +1,5 @@
 export const intelligenceContent: Record<string, string> = {
-  "venture-studio-vs-accelerator": `Att välja ratt vag for skalning ar en strategisk fragan som alla Series C-företag någon gång kommer att ställas infor. SaaS-bolag som passerat tillväxtfasens första etapper möter en ny verklighet där tillväxten inte längre drivs av produkt-marknadspassning ensam, utan av kapaciteten att bygga nya affarslinjer, internalisera innovation och simultant optimera kapitalallokering.
+  "venture-studio-vs-accelerator": `Att välja rätt väg för skalning är en strategisk fråga som alla Series C-företag någon gång kommer att ställas inför. SaaS-bolag som passerat tillväxtfasens första etapper möter en ny verklighet där tillväxten inte längre drivs av produkt-marknadspassning ensam, utan av kapaciteten att bygga nya affärslinjer, internalisera innovation och simultant optimera kapitalallokering.
 
 Två modeller dominerar diskussionen om extern innovationsstruktur: venture studios och accelerators. Trots att båda förekommer inom innovationsområdet fyller de helt olika funktioner och bygger på diametralt skilda antaganden om värdeskapande, risktagande och organisatorisk transformation.
 
@@ -35,7 +35,7 @@ Venture studios opererar på betydligt längre tidshorisont, ofta tre till sju �
 
 Strategisk alignment är en annan kritisk faktor. Venture studios investerar typiskt i projekt som är komplementära till deras existentiella intressen, vilket skapar naturlig incitamentsjustering med partnerorganisationen. Acceleratorer däremot optimerar för bolags framgång oavsett partnerorganisationens strategiska mål, vilket kan leda till suboptimala outcomes när projekt borde integreras men i stället förblir fristående.
 
-## Beslutsramverk for mogna SaaS-bolag
+## Beslutsramverk för mogna SaaS-bolag
 
 För beslutsfattare i Series C- till Series F-bolag rekommenderas följande analysramverk. Börja med att definiera det primära målet: om målet är snabb experimentering med minimal kapitalexponering är en accelerator rätt val. Om målet däremot är att bygga en ny affärslinje med full kontroll och skalningskapacitet, är en venture studio det korrekta valet.
 
@@ -43,11 +43,11 @@ Utvärdera sedan operationell kapacitet. Venture studios kräver betydande inter
 
 Slutligen, beakta exit-scenarier. Om målet är att spinout-a projekt till externa ägare passar en accelerator bättre eftersom dess struktur inte stödjer långsiktigt ägande. Om målet däremot är att behålla projekt inom koncernen eller behålla betydande equity fram till etablerad lönsamhet, krävs en venture studio-struktur med rätt ägarmodell.`,
 
-  "gtm-ai-ops-71": `AI inom go-to-market-operationer ar inte längre en fragan om effektivitet, utan om strategisk asymmetri. I takt med att konkurrensen hårdnar inom B2B-SaaS och kapital blir mer selektivt framträder ett mönster som många sena-fasers grundare och investerare först nu börjar internalisera: det är inte ytterligare ett verktyg för att göra mer med mindre, utan ett skifte i hur kommersiella system byggs, kalibreras och utvecklas över tid.
+  "gtm-ai-ops-71": `AI inom go-to-market-operationer är inte längre en fråga om effektivitet, utan om strategisk asymmetri. I takt med att konkurrensen hårdnar inom B2B-SaaS och kapital blir mer selektivt framträder ett mönster som många sena-fasers grundare och investerare först nu börjar internalisera: det är inte ytterligare ett verktyg för att göra mer med mindre, utan ett skifte i hur kommersiella system byggs, kalibreras och utvecklas över tid.
 
-När automatisering integreras i beslutslogik, datainhämtning och tvärfunktionella GTM-flöden uppstår en ny typ av driftmodell där hastighet, precision och kostnadsstruktur förändras fundamentalt. Perspektivet ar avsiktligt institutionellt: det handlar inte om produktivitetsverktyg eller enskilda implementationer, utan om systemnivåeffekter och konkurrensdynamik som kommer att påverka värderingar, multiplar och exit-möjligheter för Series C-F-bolag de kommande åren.
+När automatisering integreras i beslutslogik, datainhämtning och tvärfunktionella GTM-flöden uppstår en ny typ av driftmodell där hastighet, precision och kostnadsstruktur förändras fundamentalt. Perspektivet är avsiktligt institutionellt: det handlar inte om produktivitetsverktyg eller enskilda implementationer, utan om systemnivåeffekter och konkurrensdynamik som kommer att påverka värderingar, multiplar och exit-möjligheter för Series C-F-bolag de kommande åren.
 
-## Systemnivaeffekter av AI-driven GTM
+## Systemnivåeffekter av AI-driven GTM
 
 I många företag betraktas GTM-operationer fortfarande som en funktionell nödvändighet: processer ska mätas, data ska struktureras och rapporter ska levereras regelbundet. Automatisering uppfattas i detta sammanhang som optimering. Men AI-driven GTM-automation stannar inte vid optimering; den ändrar förutsättningarna för hur GTM-strategin utformas, eftersom beslutsfattandet i allt högre grad blir maskinellt genererat, maskinellt testat och kontinuerligt förbättrat utan mänsklig friktion.
 
@@ -55,7 +55,7 @@ Det som tidigare var manuella beslut baserade på ofullständig data kan nu utf�
 
 För seniora beslutsfattare innebär detta en fundamental omvärdering av vad som utgör konkurrensfördel inom GTM. Traditionella källor till differentiering som exceptional säljkultur, erfarna account executives eller unika marknadsföringsbudskap kompletteras nu av förmågan att bygga och underhålla AI-drivna system som genererar, kvalificerar och konverterar pipeline med högre precision än mänskliga motsvarigheter.
 
-## Den nya driftlogiken: Fran kvartal till kontinuitet
+## Den nya driftlogiken: Från kvartal till kontinuitet
 
 Den mest fundamentala förändringen är temporär. Traditionell GTM opererar på kvartals- eller årsbasis med strategiska cykler, budgetprocesser och personalplanering. AI-driven GTM opererar däremot på kontinuerlig basis där modellen uppdateras i realtid baserat på inkommande data, marknadsförändringar och kampanjresultat.
 
@@ -65,7 +65,7 @@ De bolag som hanterar denna övergång framgångsrikt är de som behandlar AI-in
 
 ## Konkurrensdynamik och marknadspositionering
 
-Nar AI-driven GTM blir standard snarare än undantag uppstår en paradoxal situation. De tidiga adoptörerna som byggde systemen får betydande asymmetrisk fördel under övergångsperioden, men när flertalet aktörer har implementerat liknande system tenderar differentieringen att minska. Det som initialt var konkurrensfördel blir table stakes.
+När AI-driven GTM blir standard snarare än undantag uppstår en paradoxal situation. De tidiga adoptörerna som byggde systemen får betydande asymmetrisk fördel under övergångsperioden, men när flertalet aktörer har implementerat liknande system tenderar differentieringen att minska. Det som initialt var konkurrensfördel blir table stakes.
 
 För att bibehålla långsiktig differentiering krävs något utöver grundläggande AI-GTM-automation. Tre dimensioner framstår som kritiska: datakvalitet och datamängd, modellcustomisering baserad på unik marknadskännedom, och integration med produkt- och tekniska system som skapar proprietära insikter.
 
@@ -143,7 +143,7 @@ Typiska portföljstrategier inkluderar sektoriell koncentration där studios byg
 
 Risken hanteras genom flera mekanismer. Projekt receive staged financing där ytterligare kapital endast deployas vid uppnående av definierade milestones, vilket minskar downside om projekt inte presterar. Studios behåller också möjligheten att skära loss underpresterande projekt innan de konsumerar oproportionerligt med resurser. Slutligen skapar diversifiering över flera projekt naturlig riskspridning.
 
-## Systemisk fordell och konkurrensdynamik
+## Systemisk fördel och konkurrensdynamik
 
 Jämfört med traditionella riskkapitalaktörer uppvisar venture studios flera strukturella fördelar som är svåra att replikera. Den viktigaste är kunskapsackumulation: varje projekt bidrar till studiots institutionella minne, vilket gör varje efterföljande projekt mer informerat och sannolikt att lyckas.
 

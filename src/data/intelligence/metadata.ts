@@ -93,7 +93,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
   },
   {
     "slug": "venture-studio-vs-accelerator",
-    "title": "Att välja ratt vag for skalning",
+    "title": "Att välja rätt väg för skalning",
     "date": "2026-03-09",
     "author": "Jonas Hyltén",
     "description": "En jämförelse av venture studios och accelerators for Series C-företag."
