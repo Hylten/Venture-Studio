@@ -7,7 +7,7 @@ Venture studios är produktionsmaskiner. De startar från noll, genererar idéer
 
 Acceleratorer är optimerade för redan uppstartade bolag med fungerande grundteam. Programmen är tidsboxade, ofta tre månader, och designade för att skapa snabb progress i finansiering och GTM. Kapitalinsatsen är liten, ägarandelen är ofta i intervallet 5-10 procent och programmet förutsätter att bolaget redan har basstruktur, kärnverksamhet och en första version av produkt eller tjänst.
 
-Huvudskillnaden: venture studios producerar nya bolag; acceleratorer optimerar befintliga bolag.
+Huvudskillnaden: venture studios producerar nya bolag; acceleratorer optimerar befintliga bolag
 
 ## Kapitallogik  
 
@@ -54,7 +54,7 @@ Anta en studio med intern kostnadsstruktur bestående av utveckling, design, dat
 Månadskostnad: 261 000 SEK  
 Årskostnad: 3 132 000 SEK per projekt  
 
-Detta ligger väl i linje med verkliga studios som ofta budgeterar 2-5 MSEK innan första externa kapitalhöjningen.
+Verkliga studios budgeterar ofta 2-5 MSEK innan första externa kapitalhöjningen, och siffrorna ligger i linje med denna kalkyl.
 
 Accelerator-projekt:  
 Anta en accelerator som investerar 300 000 SEK mot 7 procent ägande och driver ett tre månaders program som kostar cirka 90 000 SEK per bolag att leverera (personal, programvaror, event, mentorskap). Totalkostnad per bolag blir:
@@ -105,7 +105,7 @@ Digitaliseringen av go-to-market-funktionen har länge dominerats av verktygslag
 
 Paradigmskiftet sker när automatisering inte längre appliceras som ett verktyg på toppen av ett system, utan när kärnsystemet själv blir automatiserbart. AI i GTM börjar där beslut tas: segmentering, kapacitetstilldelning, prissignaler, lead-routing, pipelineprioritering. Verktygslager ersätts med ett beslutslager. AI blir inte ett tillägg utan ett ramverk, en arkitektur för hur GTM processas.
 
-Det är en distinkt skillnad mellan att ha en säljrobot som skriver e-post och att ha ett operativsystem som kontinuerligt modellerar sannolikheten för marknadspassning per segment, synkroniserar alla datapunkter och gör GTM självlärande. Den senare kategorin omformar organisationens logik, inte dess UI.
+Ett operativsystem som kontinuerligt modellerar sannolikheten för marknadspassning per segment, synkroniserar alla datapunkter och gör GTM självlärande skiljer sig fundamentalt från en säljrobot som skriver e-post. Den förra kategorin omformar organisationens logik, inte dess UI.
 
 ## AI som GTM-arkitektur
 
@@ -389,7 +389,7 @@ Kostnaden för att driva egna GPU-kluster har fallit och många europeiska SaaS-
 
 När organisationer vänjer sig vid förbrukningsbaserad prissättning för AI börjar de acceptera samma logik för andra verktyg. Flera produktivitetsplattformar experimenterar med att ta betalt per bearbetad fil eller per automatiserad process.
 
-## Slutsats
+## Sammanfattning
 
 AI har brutit det gamla prismönstret i SaaS och gjort rörliga marginalkostnader till en strategisk realitet. Prenumerationsmodellen fångar inte längre kundnyttan eftersom användning och värde varierar stort mellan olika kundsegment. Hybridmodellen är därför det naturliga svaret och ger både stabilitet och skalbar intäktsökning.
 
@@ -645,7 +645,7 @@ När ett företag bygger ett AI-native erbjudande förändras hela säljprocesse
 
 AI-native produkter har en mer dynamisk karaktär. De förändras snabbare, resultaten varierar beroende på datakvalitet och användarnas beteende och kunden är ofta osäker på vad de faktiskt får. Det gör att säljprocessen måste anpassas. Säljaren måste hjälpa kunden att förstå hur produkten lär sig över tid, hur modellerna förbättras och hur effekten ofta kommer i steg snarare än som en statisk leverans.
 
-Det innebär också att demo och pilot får större betydelse. I traditionell SaaS räcker det ofta att visa funktioner. I AI-native måste kunden få se produktens beteende i sin egen miljö. Det gör proof of value viktigare än proof of concept. Många företag går från långa förstudier till snabba, avgränsade tester där man visar verkliga resultat på dagar och veckor i stället för månader. Säljcykeln kan både bli kortare och mer oförutsägbar.
+Demo och pilot får därmed större betydelse. I traditionell SaaS räcker det ofta att visa funktioner. I AI-native måste kunden få se produktens beteende i sin egen miljö. Det gör proof of value viktigare än proof of concept. Många företag går från långa förstudier till snabba, avgränsade tester där man visar verkliga resultat på dagar och veckor i stället för månader. Säljcykeln kan både bli kortare och mer oförutsägbar.
 
 Prismodellen måste också justeras. Det blir svårare att ta betalt per användare när värdet styrs av hur mycket uppgifter som automatiseras eller hur mycket tid som sparas. Därför rör sig många AI-native bolag mot värdebaserade modeller, exempelvis pris per producerat innehåll, pris per automatisk handläggning eller baserat på mätbara effektmål. Detta påverkar hela säljorganisationen. Säljaren måste förstå hur kundens processer fungerar, vilken data som finns tillgänglig och vad värdet av automation faktiskt är i SEK. Många team behöver också stärka sin tekniska förmåga för att kunna tala trovärdigt om data, integrationer och modellbeteende.
 
@@ -653,7 +653,7 @@ En annan skillnad är att marknadsföringen måste fokusera mindre på specifika
 
 ## Investerarperspektiv  
 
-För investerare uppstår en tydlig skillnad mellan traditionell SaaS och AI-native bolag. Det handlar inte bara om teknik, utan om ekonomi, risk, skalbarhet och hur värdekedjan förändras. Traditionell SaaS har länge setts som ett stabilt och relativt förutsägbart segment. Kostnaderna är kända, bruttomarginalerna höga och tillväxten kan extrapoleras baserat på användarbeteende. Det gör att både VC och PE har kunnat räkna på bolagen med relativ enkelhet.
+För investerare uppstår en tydlig skillnad mellan traditionell SaaS och AI-native bolag. Skillnaden ligger i ekonomi, risk, skalbarhet och hur värdekedjan förändras. Traditionell SaaS har länge setts som ett stabilt och relativt förutsägbart segment. Kostnaderna är kända, bruttomarginalerna höga och tillväxten kan extrapoleras baserat på användarbeteende. Det gör att både VC och PE har kunnat räkna på bolagen med relativ enkelhet.
 
 AI-native bolag kräver en annan analys. Kostnadsstrukturen är mer komplex eftersom anropkostnader, datalagring och modellträning påverkar bruttomarginalerna på ett tydligare sätt. Investare vill därför förstå hur beroende företaget är av externa modeller och vilken kontroll man har över kostnaderna. Bolag med egen modellutveckling bedöms annorlunda än bolag som bygger ovanpå öppna modeller eftersom beroendet kan påverka både pris och konkurrensfördel.
 
