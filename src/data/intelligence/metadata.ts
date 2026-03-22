@@ -8,6 +8,27 @@ export interface ArticleMetadata {
 
 export const intelligenceMetadata: ArticleMetadata[] = [
   {
+    "slug": "saas-monasering-ai-2026",
+    "title": "SaaS‑monetisering 2026: Hybridmodeller och framtidens prissättning",
+    "date": "2026-03-22",
+    "author": "Jonas Hyltén",
+    "description": "Varför prenumerationsmodellen inte längre fångar AI:ns verkliga värde och hur hybridmodeller driver högre NRR."
+  },
+  {
+    "slug": "saas-genererade-1000-startupideer",
+    "title": "Så genererade vi 1000+ kvalificerade startupidéer med AI",
+    "date": "2026-03-21",
+    "author": "Hyltén Venture Studio",
+    "description": "En genomgång av vår diverge-and-converge-metodik för AI-driven idégenerering och kvalificering."
+  },
+  {
+    "slug": "lonar-det-sig-att-vara-ai-nativ",
+    "title": "Lönar det sig att vara AI‑nativ? En datadriven analys",
+    "date": "2026-03-20",
+    "author": "Jonas Hyltén",
+    "description": "Vad forskningen faktiskt säger om tillväxt, kostnader och värdering för AI-native jämfört med traditionella SaaS-bolag."
+  },
+  {
     "slug": "saas-bolag-tjanar-pengar-pa-ai-2026",
     "title": "Hur SaaS‑bolag tjänar pengar på AI: 5 spaningar för 2026",
     "date": "2026-03-21",
