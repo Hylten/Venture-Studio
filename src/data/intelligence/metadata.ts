@@ -58,7 +58,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
   },
   {
     "slug": "anatomin-bakom-en-venture-studio",
-    "title": "Hur vi bygger bolag som system",
+    "title": "Så bygger vi bolag som system",
     "date": "2026-03-14",
     "author": "Hyltén Venture Studio",
     "description": "Venture studio-modellens tre pelare: kapital, talang och infrastruktur."
