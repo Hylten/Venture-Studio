@@ -66,6 +66,8 @@ async function generateSEO() {
         console.warn('⚠️ Could not parse content.ts');
     }
 
+    const publishedArticles = metadata.filter(article => content[article.slug] && content[article.slug].length > 100);
+    
     const listHtml = `
     <div style="background:#050505;min-height:100vh;padding:180px 24px;color:#E5E7EB;font-family:sans-serif;">
         <div style="max-width:1200px;margin:0 auto;">
@@ -75,11 +77,11 @@ async function generateSEO() {
                     <span style="color:#C4A265;font-size:11px;letter-spacing:4px;text-transform:uppercase;">INTELLIGENCE_DIVISION</span>
                 </div>
                 <h1 style="font-size:clamp(2.5rem,8vw,5rem);font-weight:900;margin-bottom:16px;letter-spacing:-1px;">Intelligence_<span style="color:#C4A265;">Arkiv</span></h1>
-                <p style="color:rgba(255,255,255,0.5);font-size:12px;text-transform:uppercase;letter-spacing:4px;margin-bottom:48px;">Operativ intelligens för sent-stadie SaaS</p>
+                <p style="color:rgba(255,255,255,0.5);font-size:12px;text-transform:uppercase;letter-spacing:4px;margin-bottom:48px;">Operativ intelligens för sent-stadie SaaS. ${publishedArticles.length} publicerade analyser.</p>
             </div>
             
             <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(350px,1fr));gap:32px;">
-                ${metadata.slice(0, 50).map(article => `
+                ${publishedArticles.map(article => `
                     <div style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.05);padding:32px;transition:all 0.5s;cursor:pointer;" onmouseover="this.style.borderColor='rgba(196,162,101,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.05)'">
                         <div style="display:flex;justify-content:space-between;margin-bottom:24px;">
                             <span style="color:#C4A265;font-size:10px;letter-spacing:2px;text-transform:uppercase;">${article.date}</span>
@@ -121,7 +123,7 @@ async function generateSEO() {
     fs.writeFileSync(path.join(INTELLIGENCE_DIST_DIR, 'index.html'), indexHtml);
     console.log('✅ Generated /dist/intelligence/index.html');
 
-    for (const article of metadata.slice(0, 50)) {
+    for (const article of publishedArticles) {
         const articleDir = path.join(INTELLIGENCE_DIST_DIR, article.slug);
         ensureDir(articleDir);
 
@@ -201,7 +203,7 @@ async function generateSEO() {
     <priority>0.9</priority>
   </url>`;
 
-    for (const article of metadata.slice(0, 50)) {
+    for (const article of publishedArticles) {
         sitemapUrls += `
   <url>
     <loc>${SITE_URL}/#/intelligence/${article.slug}</loc>
