@@ -283,7 +283,7 @@ export default function App() {
             <img src="hylten-gear.png" className="h-4 w-auto grayscale invert opacity-50 group-hover:opacity-100 transition-opacity" alt="Gear" />
           </a>
           <div className="hidden md:flex gap-8 text-[10px] uppercase tracking-[4px] text-white/70 items-center">
-            <a href="#alpha" onClick={() => window.location.hash = "#/"} className="hover:text-white transition-colors duration-500">ALPHA</a>
+            <a href="#alpha" onClick={() => window.location.hash = "#/"} className="hover:text-white transition-colors duration-500">HYLTÉN VENTURE STUDIO</a>
             <a href="#studio" onClick={() => window.location.hash = "#/"} className="hover:text-white transition-colors duration-500">EXPANSION</a>
             <a href="#apply" onClick={() => window.location.hash = "#/"} className="hover:text-white transition-colors duration-500">AUDIT</a>
             <a href="#/intelligence" className={`hover:text-white transition-colors duration-500 ${currentHash.startsWith('#/intelligence') ? 'text-[#C4A265] font-black' : ''}`}>INTELLIGENCE</a>
