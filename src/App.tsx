@@ -451,7 +451,7 @@ export default function App() {
                   
                   <div className="flex flex-wrap justify-center items-center gap-[80px] relative z-10 max-w-5xl mx-auto">
                     <div className="flex justify-center opacity-40 group-hover:opacity-100 transition-all duration-1000 shrink-0">
-                      <img src="hylten-gear.png" className="h-10 md:h-12 w-auto object-contain invert grayscale" alt="Saab" style={{ filter: 'invert(1) grayscale(1)' }} />
+                      <img src="logo-saab.png" className="h-10 md:h-12 w-auto object-contain invert grayscale" alt="Saab" />
                     </div>
                     <div className="flex justify-center opacity-40 group-hover:opacity-100 transition-all duration-1000 shrink-0">
                       <img src="logo-volvo.png" className="h-14 md:h-18 w-auto object-contain grayscale brightness-150" alt="Volvo" />
