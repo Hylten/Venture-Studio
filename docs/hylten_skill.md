@@ -19,6 +19,7 @@ Innan nya artiklar (antingen de 150 bakåtdaterade eller dagliga cron-jobb) gene
   - **ALDRIG** "SEK-exempel" - rubriken ska vara "Exempel" (valutan framgår av innehållet).
   - **ALDRIG** bindestreck i rubriker (t.ex. "Säljcykel-effekter" → "Säljcykel effekter").
   - Undvik långa titlar med många ord - håll dem korta och bombastiska.
+  - **ALLTID korrekta svenska tecken**: Å, Ä, Ö - ALDRIG "forandrar", "fran", "systemniva" etc.
 - **Strukturkrav (1500+ ord):**
   - Måste innehålla LTV/CAC-kalkyler och teknisk ekonomi i SEK.
   - Måste innehålla Edge Case-analys (när strategin går sönder).

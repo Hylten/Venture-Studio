@@ -523,7 +523,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "När automatiseringen blir strategisk",
     "date": "2026-01-10",
     "author": "Hyltén Venture Studio",
-    "description": "Hur AI forandrar go-to-market fran effektivisering till systemnivaeffekt."
+    "description": "Hur AI förändrar go-to-market från effektivisering till systemnivåeffekt."
   },
   {
     "slug": "ai-b2b-feedback-loopar-72",
