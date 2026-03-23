@@ -23,13 +23,13 @@ const Reveal = ({ children, delay = 0, y = 30 }: { children: React.ReactNode; de
 );
 
 const categories = [
-  { id: "alla", label: "Alla", count: 0 },
-  { id: "saas-monetization", label: "SaaS-monetisering", count: 0 },
-  { id: "ai-enterprise", label: "AI i Enterprise", count: 0 },
-  { id: "capital-markets", label: "Kapitalmarknad", count: 0 },
-  { id: "fundraising-ipo", label: "Fundraising & IPO", count: 0 },
-  { id: "gtm", label: "GTM-strategi", count: 0 },
-  { id: "venture-studio", label: "Venture Studio", count: 0 },
+  { id: "alla", label: "Alla", count: 153 },
+  { id: "saas-monetization", label: "SaaS-monetisering", count: 36 },
+  { id: "ai-enterprise", label: "AI i Enterprise", count: 26 },
+  { id: "capital-markets", label: "Kapitalmarknad", count: 10 },
+  { id: "fundraising-ipo", label: "Fundraising & IPO", count: 28 },
+  { id: "gtm", label: "GTM-strategi", count: 27 },
+  { id: "venture-studio", label: "Venture Studio", count: 48 },
 ];
 
 export const IntelligenceArchive: React.FC<{ 
