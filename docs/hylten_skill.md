@@ -6,23 +6,16 @@ Innan nya artiklar (antingen de 150 bakåtdaterade eller dagliga cron-jobb) gene
 2. Atomic: https://www.atomic.vc/blog
 3. Pioneer Square Labs: https://www.psl.com/feed
 
-## COPYWRITING-FORMAT FÖRBJUDNA (KRITISKT!)
-=============================================
-**ABSOLUT FÖRBJUDET att använda:**
-- AIDA (Attention, Interest, Desire, Action)
-- PAS (Problem, Agitation, Solution)
-- BAB (Before, After, Bridge)
-- 4C's (Clear, Concise, Compelling, Credible)
-- Problem/Agitation/Solution
-- Clear/Concise/Compelling/Credible
-- Feature/Advantage/Benefit
-- Attention/Interest/Desire/Action
-- Problem/Promise/Proof/Proposal
-- Clarity/Consistency/Control/Confidence
-- "So What"-metoden
-- Awareness/Interest/Desire/Action
+## COPYWRITING-TEKNIKER TILLÅTNA MEN DOLDA
+==============================================
+**TILLÅTET:** AIDA, PAS, problem/lösning, 4C's etc. som INTERN STRUKTUR
+**FÖRBJUDET:** Etiketterna syns i texten ("Problem:", "A:", "Solution:" etc.)
 
-**SKRIV SOM INVESTERINGSANALYTIKER, INTE SOM MARKNADSFÖRARE.**
+Exempel:
+- FEL: "Problem: SaaS-bolag har utmaningar..."  
+- RÄTT: "SaaS-bolags utmaningar ligger i..." (dold struktur)
+
+Copywriting-teknikerna ger struktur men texten ska läsa som ren analys.
 
 ## TONE OF VOICE & SYNTAKTISKA LAGAR (HYLTÉN-FILTRET)
 - **Persona:** Jonas Hyltén. INTP-strateg, extremt teknisk, noll tolerans för fluff. Skriver för serieentreprenörer och investerare.
