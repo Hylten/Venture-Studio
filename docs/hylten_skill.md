@@ -13,7 +13,12 @@ Innan nya artiklar (antingen de 150 bakåtdaterade eller dagliga cron-jobb) gene
   - *KRAV:* "Marginalstrukturen avgör...", "Investerare prioriterar...".
 - **Veto-ord (AI-bryggor):** Radera alla instanser av "Dessutom", "Vidare", "Dock", "Ofta", "Kanske", "Tydlig slutsats".
 - **Terminologi:** Ordet "inferens" är förbjudet. Använd "anrop", "modellkörning" eller "GPU-last".
-- **Valuta:** Alltid SEK (ex: "1.2 miljoner SEK", "160 SEK per timme").
+- **Valuta:** Allt i SEK.
+- **Rubrikregler (LÄS NOGA):**
+  - Em-dash (— eller –) är FORBJUDEN i rubriker eller text. Använd colon (:) istället.
+  - **ALDRIG** "SEK-exempel" - rubriken ska vara "Exempel" (valutan framgår av innehållet).
+  - **ALDRIG** bindestreck i rubriker (t.ex. "Säljcykel-effekter" → "Säljcykel effekter").
+  - Undvik långa titlar med många ord - håll dem korta och bombastiska.
 - **Strukturkrav (1500+ ord):**
   - Måste innehålla LTV/CAC-kalkyler och teknisk ekonomi i SEK.
   - Måste innehålla Edge Case-analys (när strategin går sönder).

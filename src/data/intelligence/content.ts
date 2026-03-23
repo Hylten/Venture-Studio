@@ -41,7 +41,7 @@ Acceleratorer fokuserar på exekvering, inte konstruktion. De antar att produkte
 
 Venture studios bygger GTM-system. Acceleratorer skruvar på existerande GTM-system.
 
-## SEK-exempel  
+## Exempel
 
 Venture studio-projekt:  
 Anta en studio med intern kostnadsstruktur bestående av utveckling, design, dataanalys och affärsresurser. Varje projekt får ett allokerat kreditkonto internt motsvarande 150 timmar utveckling, 60 timmar design, 40 timmar analys och 40 timmar GTM-arbete per månad. Om snittkostnaden intern är 900 SEK per timme ger detta:
@@ -99,7 +99,7 @@ Venture studios är strukturer för skapande: hög risk, hög intern kostnad, l�
 
 Skillnaderna är tekniska, ekonomiska och organisatoriska. Rätt val avgörs av hur mycket byggkapacitet som saknas, hur färdig produkt och marknadspassning är, vilken typ av GTM-stöd som behövs och vilken riskprofil både grundare och investerare accepterar. Studios är maskiner för idé-till-verklighet; acceleratorer är maskiner för tid-till-traction.`, 
 
-  "gtm-ai-ops-71": `När automatiseringen blir strategisk – AI i go-to-market
+  "gtm-ai-ops-71": `När automatiseringen blir strategisk: AI i go-to-market
 
 Digitaliseringen av go-to-market-funktionen har länge dominerats av verktygslager: CRM här, marketing automation där, dashboards som läggs ovanpå ett fragmenterat datalandskap. Organisationer har investerat i dessa verktyg med antagandet att kapacitet adderas linjärt, fler funktioner, mer data, bättre beslut. Resultatet blir motsatsen: mer friktion, mer kontextbyten, större driftskostnader och svagare signalstyrka. Automatiseringen har varit additiv, inte strukturell.
 
@@ -147,7 +147,7 @@ Varje modell tappar precision vid kontaminerad input. Felindikatorer, outlierdet
 
 Datafredning gör AI till en förutsägbar del av kärnverksamheten, inte en osäkrad black box.
 
-## Säljcykel-effekter
+## Säljcykel effekter
 
 AI förändrar säljcykeln på två nivåer: tidskompression och sannolikhetsoptimering.
 
