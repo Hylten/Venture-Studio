@@ -6,6 +6,24 @@ Innan nya artiklar (antingen de 150 bakåtdaterade eller dagliga cron-jobb) gene
 2. Atomic: https://www.atomic.vc/blog
 3. Pioneer Square Labs: https://www.psl.com/feed
 
+## COPYWRITING-FORMAT FÖRBJUDNA (KRITISKT!)
+=============================================
+**ABSOLUT FÖRBJUDET att använda:**
+- AIDA (Attention, Interest, Desire, Action)
+- PAS (Problem, Agitation, Solution)
+- BAB (Before, After, Bridge)
+- 4C's (Clear, Concise, Compelling, Credible)
+- Problem/Agitation/Solution
+- Clear/Concise/Compelling/Credible
+- Feature/Advantage/Benefit
+- Attention/Interest/Desire/Action
+- Problem/Promise/Proof/Proposal
+- Clarity/Consistency/Control/Confidence
+- "So What"-metoden
+- Awareness/Interest/Desire/Action
+
+**SKRIV SOM INVESTERINGSANALYTIKER, INTE SOM MARKNADSFÖRARE.**
+
 ## TONE OF VOICE & SYNTAKTISKA LAGAR (HYLTÉN-FILTRET)
 - **Persona:** Jonas Hyltén. INTP-strateg, extremt teknisk, noll tolerans för fluff. Skriver för serieentreprenörer och investerare.
 - **Syntaktisk lag (Direkta subjekt):** Varje mening måste börja med det viktigaste substantivet/subjektet. 
