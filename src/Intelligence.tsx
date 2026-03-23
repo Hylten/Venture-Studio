@@ -24,12 +24,12 @@ const Reveal = ({ children, delay = 0, y = 30 }: { children: React.ReactNode; de
 
 const categories = [
   { id: "alla", label: "Alla", count: 153 },
-  { id: "saas-monetization", label: "SaaS-monetisering", count: 36 },
-  { id: "ai-enterprise", label: "AI i Enterprise", count: 26 },
-  { id: "capital-markets", label: "Kapitalmarknad", count: 10 },
-  { id: "fundraising-ipo", label: "Fundraising & IPO", count: 28 },
-  { id: "gtm", label: "GTM-strategi", count: 27 },
-  { id: "venture-studio", label: "Venture Studio", count: 48 },
+  { id: "saas-monetization", label: "SaaS-monetisering", count: 10 },
+  { id: "ai-enterprise", label: "AI i Enterprise", count: 69 },
+  { id: "capital-markets", label: "Kapitalmarknad", count: 23 },
+  { id: "fundraising-ipo", label: "Fundraising & IPO", count: 20 },
+  { id: "gtm", label: "GTM-strategi", count: 37 },
+  { id: "venture-studio", label: "Venture Studio", count: 30 },
 ];
 
 export const IntelligenceArchive: React.FC<{ 
