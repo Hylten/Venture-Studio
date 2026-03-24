@@ -287,7 +287,6 @@ export default function App() {
             <a href="#studio" onClick={() => window.location.hash = "#/"} className="hover:text-white transition-colors duration-500">EXPANSION</a>
             <a href="#apply" onClick={() => window.location.hash = "#/"} className="hover:text-white transition-colors duration-500">AUDIT</a>
             <a href="#/intelligence" className={`hover:text-white transition-colors duration-500 ${currentHash.startsWith('#/intelligence') ? 'text-[#C4A265] font-black' : ''}`}>INTELLIGENCE</a>
-            <a href="https://hylten.github.io/Hylten-Invest/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-500 font-bold ml-4">HYLTÉN INVEST</a>
           </div>
         </div>
         <div className="hidden md:flex gap-6 text-[10px] uppercase tracking-[4px] text-white/70 items-center">
@@ -384,6 +383,24 @@ export default function App() {
                 </p>
                 <div className="mb-12">
                    <span className="font-mono text-[12px] text-white/70 uppercase tracking-[0.15em]">GTM_INFRASTRUCTURE: PROPRIETARY | AGENT-BASED | BUILD_2026</span>
+                </div>
+                
+                {/* Hero CTAs */}
+                <div className="flex flex-wrap gap-6 mt-8">
+                  <a 
+                    href="#studio" 
+                    onClick={() => window.location.hash = "#/"}
+                    className="group px-8 py-4 border border-white/20 hover:border-[#C4A265] transition-all duration-500 text-[10px] uppercase tracking-[4px] font-bold flex items-center gap-3 backdrop-blur-sm"
+                  >
+                    Expansion Protocol <ChevronRight size={14} className="group-hover:translate-x-1 transition-transform" />
+                  </a>
+                  <a 
+                    href="#apply" 
+                    onClick={() => window.location.hash = "#/"}
+                    className="group px-8 py-4 border border-white/20 hover:border-[#C4A265] transition-all duration-500 text-[10px] uppercase tracking-[4px] font-bold flex items-center gap-3 backdrop-blur-sm"
+                  >
+                    Qualification Audit <ChevronRight size={14} className="group-hover:translate-x-1 transition-transform" />
+                  </a>
                 </div>
               </div>
             </Reveal>
