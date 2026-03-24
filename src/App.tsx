@@ -710,7 +710,7 @@ export default function App() {
                         {article.description}
                       </p>
                       <div className="flex items-center gap-2 text-[9px] uppercase tracking-[3px] text-white/40 group-hover:text-white transition-colors">
-                        Read Analysis <ChevronRight size={12} className="group-hover:translate-x-1 transition-transform" />
+                        Läs analys <ChevronRight size={12} className="group-hover:translate-x-1 transition-transform" />
                       </div>
                     </div>
                   </Reveal>
