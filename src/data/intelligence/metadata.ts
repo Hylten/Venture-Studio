@@ -8,27 +8,6 @@ export interface ArticleMetadata {
 
 export const intelligenceMetadata: ArticleMetadata[] = [
   {
-    "slug": "saas-monasering-ai-2026",
-    "title": "SaaS‑monetisering 2026: Hybridmodeller och framtidens prissättning",
-    "date": "2026-03-22",
-    "author": "Jonas Hyltén",
-    "description": "Varför prenumerationsmodellen inte längre fångar AI:ns verkliga värde och hur hybridmodeller driver högre NRR."
-  },
-  {
-    "slug": "saas-genererade-1000-startupideer",
-    "title": "Så genererade vi 1000+ kvalificerade startupidéer med AI",
-    "date": "2026-03-21",
-    "author": "Hyltén Venture Studio",
-    "description": "En genomgång av vår diverge-and-converge-metodik för AI-driven idégenerering och kvalificering."
-  },
-  {
-    "slug": "lonar-det-sig-att-vara-ai-nativ",
-    "title": "Lönar det sig att vara AI‑nativ? En datadriven analys",
-    "date": "2026-03-20",
-    "author": "Jonas Hyltén",
-    "description": "Vad forskningen faktiskt säger om tillväxt, kostnader och värdering för AI-native jämfört med traditionella SaaS-bolag."
-  },
-  {
     "slug": "saas-bolag-tjanar-pengar-pa-ai-2026",
     "title": "Hur SaaS‑bolag tjänar pengar på AI: 5 spaningar för 2026",
     "date": "2026-03-21",
@@ -79,10 +58,10 @@ export const intelligenceMetadata: ArticleMetadata[] = [
   },
   {
     "slug": "anatomin-bakom-en-venture-studio",
-    "title": "Så bygger vi bolag som system",
+    "title": "Anatomin bakom en Venture Studio: Hur vi bygger bolag som system",
     "date": "2026-03-14",
     "author": "Hyltén Venture Studio",
-    "description": "Venture studio-modellens tre pelare: kapital, talang och infrastruktur."
+    "description": "Hur venture studio-modellen skapar en industrialiserad process för innovation."
   },
   {
     "slug": "att-bygga-en-kategori-definierande-verksamhet",
@@ -114,10 +93,10 @@ export const intelligenceMetadata: ArticleMetadata[] = [
   },
   {
     "slug": "venture-studio-vs-accelerator",
-    "title": "Att välja rätt väg för skalning",
+    "title": "Venture Studio vs. Accelerator: Att välja rätt väg för skalning",
     "date": "2026-03-09",
     "author": "Jonas Hyltén",
-    "description": "En jämförelse av venture studios och accelerators for Series C-företag."
+    "description": "En jämförelse av två av de mest populära modellerna för att bygga bolag."
   },
   {
     "slug": "pmf-ar-missledande",
@@ -520,10 +499,10 @@ export const intelligenceMetadata: ArticleMetadata[] = [
   },
   {
     "slug": "gtm-ai-ops-71",
-    "title": "När automatiseringen blir strategisk",
+    "title": "AI i GTM Ops: När automatiseringen blir strategisk",
     "date": "2026-01-10",
     "author": "Hyltén Venture Studio",
-    "description": "Hur AI förändrar go-to-market från effektivisering till systemnivåeffekt."
+    "description": "När AI tar GTM från operation till strategi."
   },
   {
     "slug": "ai-b2b-feedback-loopar-72",
@@ -1077,5 +1056,201 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "date": "2025-10-23",
     "author": "Hyltén Venture Studio",
     "description": "Riskkapitalets krav på AI-kärna."
-  }
+  },
+  {
+    "slug": "februari-25-value-creation-playbooks-for-late-stage-saas",
+    "title": "Februari 25 Value Creation Playbooks For Late Stage Saas",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of februari-25-value-creation-playbooks-for-late-stage-saas."
+  },
+  {
+    "slug": "februari-24-riskhantering-i-saas-infor-ipo",
+    "title": "Februari 24 Riskhantering I Saas Infor Ipo",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of februari-24-riskhantering-i-saas-infor-ipo."
+  },
+  {
+    "slug": "februari-23-den-dolda-kostnaden-av-teknisk-skuld-i-senfasbolag",
+    "title": "Februari 23 Den Dolda Kostnaden Av Teknisk Skuld I Senfasbolag",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of februari-23-den-dolda-kostnaden-av-teknisk-skuld-i-senfasbolag."
+  },
+  {
+    "slug": "februari-22-saas-prissattning-infor-ipo",
+    "title": "Februari 22 Saas Prissattning Infor Ipo",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of februari-22-saas-prissattning-infor-ipo."
+  },
+  {
+    "slug": "februari-21-ma-kulturintegration-pa-storföretagsnivå",
+    "title": "Februari 21 Ma Kulturintegration Pa Storföretagsnivå",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of februari-21-ma-kulturintegration-pa-storföretagsnivå."
+  },
+  {
+    "slug": "februari-28-saas-financial-controls-for-ipo-readiness",
+    "title": "Februari 28 Saas Financial Controls For Ipo Readiness",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of februari-28-saas-financial-controls-for-ipo-readiness."
+  },
+  {
+    "slug": "februari-27-ma-forecasting-modeller-som-fungerar-i-sen-fas",
+    "title": "Februari 27 Ma Forecasting Modeller Som Fungerar I Sen Fas",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of februari-27-ma-forecasting-modeller-som-fungerar-i-sen-fas."
+  },
+  {
+    "slug": "februari-26-saas-talent-arbitrage-i-series-f",
+    "title": "Februari 26 Saas Talent Arbitrage I Series F",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of februari-26-saas-talent-arbitrage-i-series-f."
+  },
+  {
+    "slug": "autonoma-pipelines-for-saas-utveckling",
+    "title": "Autonoma Pipelines For Saas Utveckling",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of autonoma-pipelines-for-saas-utveckling."
+  },
+  {
+    "slug": "datastrukturer-for-produktexpansion",
+    "title": "Datastrukturer For Produktexpansion",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of datastrukturer-for-produktexpansion."
+  },
+  {
+    "slug": "strategiska-saas-fundraising-loopar",
+    "title": "Strategiska Saas Fundraising Loopar",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of strategiska-saas-fundraising-loopar."
+  },
+  {
+    "slug": "ml-i-saas-anvandarbeteenden",
+    "title": "Ml I Saas Anvandarbeteenden",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of ml-i-saas-anvandarbeteenden."
+  },
+  {
+    "slug": "teknisk-arkitektur-for-interna-verktyg",
+    "title": "Teknisk Arkitektur For Interna Verktyg",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of teknisk-arkitektur-for-interna-verktyg."
+  },
+  {
+    "slug": "rationell-gtm-optimering",
+    "title": "Rationell Gtm Optimering",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of rationell-gtm-optimering."
+  },
+  {
+    "slug": "ai-i-ingenjorsprocesser",
+    "title": "Ai I Ingenjorsprocesser",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of ai-i-ingenjorsprocesser."
+  },
+  {
+    "slug": "produktarkitektur-for-accelererad-experimentering",
+    "title": "Produktarkitektur For Accelererad Experimentering",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of produktarkitektur-for-accelererad-experimentering."
+  },
+  {
+    "slug": "studio-ekonomi-och-produktionsoptimering",
+    "title": "Studio Ekonomi Och Produktionsoptimering",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of studio-ekonomi-och-produktionsoptimering."
+  },
+  {
+    "slug": "agentic-ai-vs-workflows-broar-till-autonomi",
+    "title": "Agentic Ai Vs Workflows Broar Till Autonomi",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of agentic-ai-vs-workflows-broar-till-autonomi."
+  },
+  {
+    "slug": "vertical-saas-embedded-ai-tillvaxtmultiplikatorer",
+    "title": "Vertical Saas Embedded Ai Tillvaxtmultiplikatorer",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of vertical-saas-embedded-ai-tillvaxtmultiplikatorer."
+  },
+  {
+    "slug": "experience-led-growth-xlg-vs-plg-i-ai-eran",
+    "title": "Experience Led Growth Xlg Vs Plg I Ai Eran",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of experience-led-growth-xlg-vs-plg-i-ai-eran."
+  },
+  {
+    "slug": "generative-engine-optimization-geo-nasta-seo-b2b",
+    "title": "Generative Engine Optimization Geo Nasta Seo B2b",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of generative-engine-optimization-geo-nasta-seo-b2b."
+  },
+  {
+    "slug": "job-compression-ai-definierar-headcount-saas",
+    "title": "Job Compression Ai Definierar Headcount Saas",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of job-compression-ai-definierar-headcount-saas."
+  },
+  {
+    "slug": "ai-or-nothing-vc-trender-navigera-2026-finansiering",
+    "title": "Ai Or Nothing Vc Trender Navigera 2026 Finansiering",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of ai-or-nothing-vc-trender-navigera-2026-finansiering."
+  },
+  {
+    "slug": "enterprise-llm-value-86",
+    "title": "Enterprise Llm Value 86",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of enterprise-llm-value-86."
+  },
+  {
+    "slug": "marketplace-liquidity-playbook-87",
+    "title": "Marketplace Liquidity Playbook 87",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of marketplace-liquidity-playbook-87."
+  },
+  {
+    "slug": "voc-feedback-compass-88",
+    "title": "Voc Feedback Compass 88",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of voc-feedback-compass-88."
+  },
+  {
+    "slug": "foundational-five-hires-89",
+    "title": "Foundational Five Hires 89",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of foundational-five-hires-89."
+  },
+  {
+    "slug": "series-a-landscape-90",
+    "title": "Series A Landscape 90",
+    "date": "2026-03-15",
+    "author": "Jonas Hylten",
+    "description": "Analysis of series-a-landscape-90."
+  },
 ];

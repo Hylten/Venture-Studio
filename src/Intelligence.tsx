@@ -57,7 +57,7 @@ export const IntelligenceArchive: React.FC<{
     <div className="pt-32 pb-20 px-8 md:px-24">
       <Reveal>
         <button 
-          onClick={() => onNavigate("#/")}
+          onClick={() => onNavigate("/")}
           className="flex items-center gap-2 text-[10px] uppercase tracking-[4px] text-white/50 hover:text-white transition-colors mb-12"
         >
           <ArrowLeft size={14} /> Tillbaka till Terminal
@@ -102,7 +102,7 @@ export const IntelligenceArchive: React.FC<{
           <Reveal key={article.slug} delay={i * 0.03}>
             <div 
               className="bg-white/[0.02] border border-white/5 p-8 h-full flex flex-col justify-between group cursor-pointer hover:bg-white/[0.04] hover:border-[#C4A265]/20 transition-all duration-500"
-              onClick={() => onNavigate(`#/intelligence/${article.slug}`)}
+              onClick={() => onNavigate(`/intelligence/${article.slug}`)}
             >
               <div>
                 <div className="flex justify-between items-center mb-6">
@@ -240,7 +240,7 @@ export const IntelligenceArticle: React.FC<{
     <div className="pt-32 pb-20 px-8 md:px-24 max-w-4xl mx-auto">
       <Reveal>
         <button 
-          onClick={() => onNavigate("#/intelligence")}
+          onClick={() => onNavigate("/intelligence")}
           className="flex items-center gap-2 text-[10px] uppercase tracking-[4px] text-white/50 hover:text-white transition-colors mb-12"
         >
           <ArrowLeft size={14} /> Tillbaka till Arkiv
