@@ -25,13 +25,13 @@ const Reveal = ({ children, delay = 0, y = 30 }: { children: React.ReactNode; de
 );
 
 const categories = [
-  { id: "alla", label: "Alla", count: 153 },
-  { id: "saas-monetization", label: "SaaS-monetisering", count: 10 },
-  { id: "ai-enterprise", label: "AI i Enterprise", count: 69 },
-  { id: "capital-markets", label: "Kapitalmarknad", count: 23 },
-  { id: "fundraising-ipo", label: "Fundraising & IPO", count: 20 },
-  { id: "gtm", label: "GTM-strategi", count: 37 },
-  { id: "venture-studio", label: "Venture Studio", count: 30 },
+  { id: "alla", label: "Alla" },
+  { id: "saas-monetization", label: "SaaS-monetisering" },
+  { id: "ai-enterprise", label: "AI i Enterprise" },
+  { id: "capital-markets", label: "Kapitalmarknad" },
+  { id: "fundraising-ipo", label: "Fundraising & IPO" },
+  { id: "gtm", label: "GTM-strategi" },
+  { id: "venture-studio", label: "Venture Studio" },
 ];
 
 export const IntelligenceArchive: React.FC<{ 
@@ -81,19 +81,22 @@ export const IntelligenceArchive: React.FC<{
         
         <div className="flex flex-col md:flex-row gap-8 items-start md:items-center justify-between mb-16 border-b border-white/10 pb-12">
           <div className="flex flex-wrap gap-3">
-            {categories.map((cat) => (
-              <button
-                key={cat.id}
-                onClick={() => setSelectedCategory(cat.id)}
-                className={`text-[9px] uppercase tracking-[3px] px-4 py-2 border transition-all duration-500 ${
-                  selectedCategory === cat.id 
-                    ? 'border-[#C4A265] text-[#C4A265] bg-[#C4A265]/5' 
-                    : 'border-white/10 text-white/50 hover:border-white/30 hover:text-white/70'
-                }`}
-              >
-                {cat.label} ({cat.count})
-              </button>
-            ))}
+            {categories.map((cat) => {
+              const count = cat.id === "alla" ? articles.length : articles.filter(a => String((a as any).category) === cat.id).length;
+              return (
+                <button
+                  key={cat.id}
+                  onClick={() => setSelectedCategory(cat.id)}
+                  className={`text-[9px] uppercase tracking-[3px] px-4 py-2 border transition-all duration-500 ${
+                    selectedCategory === cat.id 
+                      ? 'border-[#C4A265] text-[#C4A265] bg-[#C4A265]/5' 
+                      : 'border-white/10 text-white/50 hover:border-white/30 hover:text-white/70'
+                  }`}
+                >
+                  {cat.label} ({count})
+                </button>
+              );
+            })}
           </div>
           
           <button
