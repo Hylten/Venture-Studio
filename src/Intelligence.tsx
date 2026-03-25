@@ -301,14 +301,14 @@ export const IntelligenceArticle: React.FC<{
 
         <div className="intelligence-content text-white/80 text-lg leading-relaxed space-y-8 font-medium">
           {article.content.split("\n\n").map((para, i) => {
-            if (para.startsWith("### ")) {
-              return <h4 key={i} className="text-xl font-black uppercase tracking-tight mt-12 mb-4 text-[#C4A265]">{para.slice(4)}</h4>;
+            if (para.trim().startsWith("### ")) {
+              return <h4 key={i} className="text-xl font-black uppercase tracking-tight mt-12 mb-4 text-[#C4A265]">{para.trim().replace(/^###\s+/, "")}</h4>;
             }
-            if (para.startsWith("## ")) {
-              return <h3 key={i} className="text-2xl font-black uppercase tracking-tight mt-16 mb-6">{para.slice(3)}</h3>;
+            if (para.trim().startsWith("## ")) {
+              return <h3 key={i} className="text-2xl font-black uppercase tracking-tight mt-16 mb-6">{para.trim().replace(/^##\s+/, "")}</h3>;
             }
-            if (para.startsWith("# ")) {
-              return <h2 key={i} className="text-3xl font-black uppercase tracking-tight mt-16 mb-8">{para.slice(2)}</h2>;
+            if (para.trim().startsWith("# ")) {
+              return <h2 key={i} className="text-3xl font-black uppercase tracking-tight mt-16 mb-8">{para.trim().replace(/^#\s+/, "")}</h2>;
             }
             if (para.startsWith("- ")) {
               const items = para.split("\n").filter(l => l.startsWith("- "));
