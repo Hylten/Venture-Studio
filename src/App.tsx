@@ -389,14 +389,26 @@ export default function App() {
                 <div className="flex flex-wrap gap-6 mt-8">
                   <a 
                     href="#studio" 
-                    onClick={() => window.location.hash = "#/"}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      window.location.hash = "#/";
+                      setTimeout(() => {
+                        document.getElementById('studio')?.scrollIntoView({ behavior: 'smooth' });
+                      }, 10);
+                    }}
                     className="group px-8 py-4 border border-white/20 hover:border-[#C4A265] transition-all duration-500 text-[10px] uppercase tracking-[4px] font-bold flex items-center gap-3 backdrop-blur-sm"
                   >
                     Expansion Protocol <ChevronRight size={14} className="group-hover:translate-x-1 transition-transform" />
                   </a>
                   <a 
                     href="#apply" 
-                    onClick={() => window.location.hash = "#/"}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      window.location.hash = "#/";
+                      setTimeout(() => {
+                        document.getElementById('apply')?.scrollIntoView({ behavior: 'smooth' });
+                      }, 10);
+                    }}
                     className="group px-8 py-4 border border-white/20 hover:border-[#C4A265] transition-all duration-500 text-[10px] uppercase tracking-[4px] font-bold flex items-center gap-3 backdrop-blur-sm"
                   >
                     Qualification Audit <ChevronRight size={14} className="group-hover:translate-x-1 transition-transform" />

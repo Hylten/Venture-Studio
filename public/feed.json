@@ -1,0 +1,509 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Hyltén Venture Studio Intelligence",
+  "home_page_url": "https://hylten.github.io/Venture-Studio/",
+  "feed_url": "https://hylten.github.io/Venture-Studio/feed.json",
+  "description": "Operativ intelligens och djupanalyser för sent-stadie SaaS.",
+  "items": [
+    {
+      "id": "saas-bolag-tjanar-pengar-pa-ai-2026",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/saas-bolag-tjanar-pengar-pa-ai-2026",
+      "title": "Hur SaaS‑bolag tjänar pengar på AI: 5 spaningar för 2026",
+      "summary": "En djupdykning i hur AI-native SaaS-bolag monetiserar sina lösningar.",
+      "date_published": "2026-03-21T00:00:00.000Z",
+      "author": {
+        "name": "Jonas Hyltén"
+      }
+    },
+    {
+      "id": "saas-kapitalisering-2026-data-analys",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/saas-kapitalisering-2026-data-analys",
+      "title": "SaaS‑kapitalisering 2026: Vad datan säger om processen",
+      "summary": "Analys av kapitalflöden och värderingar i 2026 års SaaS-ekosystem.",
+      "date_published": "2026-03-20T00:00:00.000Z",
+      "author": {
+        "name": "Hyltén Venture Studio"
+      }
+    },
+    {
+      "id": "varfor-vi-satsar-pa-data-infrastruktur",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/varfor-vi-satsar-pa-data-infrastruktur",
+      "title": "Varför vi satsar på data-infrastruktur: Att förvandla rådata till AI-bränsle",
+      "summary": "Varför den underliggande datainfrastrukturen är den viktigaste komponenten i AI-erans SaaS.",
+      "date_published": "2026-03-19T00:00:00.000Z",
+      "author": {
+        "name": "Roials Alpha"
+      }
+    },
+    {
+      "id": "saas-balansgang-tillvaxt-effektivitet",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/saas-balansgang-tillvaxt-effektivitet",
+      "title": "SaaS‑balansgången: Tillväxt vs effektivitet i en värld av höga AI‑kostnader",
+      "summary": "Hur man balanserar aggressiv tillväxt med operationell effektivitet i AI-eran.",
+      "date_published": "2026-03-18T00:00:00.000Z",
+      "author": {
+        "name": "Jonas Hyltén"
+      }
+    },
+    {
+      "id": "net-revenue-retention-den-enda-siffran-2025",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/net-revenue-retention-den-enda-siffran-2025",
+      "title": "Net Revenue Retention: Den enda siffran som faktiskt räknas 2025",
+      "summary": "Varför NRR är det mest kritiska nyckeltalet för långsiktig SaaS-framgång.",
+      "date_published": "2026-03-17T00:00:00.000Z",
+      "author": {
+        "name": "Hyltén Venture Studio"
+      }
+    },
+    {
+      "id": "4-insikter-fran-2026-saas-benchmark-rapport",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/4-insikter-fran-2026-saas-benchmark-rapport",
+      "title": "4 insikter från 2026 års SaaS Benchmark-rapport",
+      "summary": "De viktigaste trenderna och mätetalen från årets största SaaS-rapport.",
+      "date_published": "2026-03-16T00:00:00.000Z",
+      "author": {
+        "name": "Roials Alpha"
+      }
+    },
+    {
+      "id": "hylten-metodiken-10-lardomar",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/hylten-metodiken-10-lardomar",
+      "title": "Hyltén-metodiken: 10 lärdomar från våra första studio-bolag",
+      "summary": "Lärdomar från insidan av Hyltén Venture Studios mest framgångsrika bolag.",
+      "date_published": "2026-03-15T00:00:00.000Z",
+      "author": {
+        "name": "Jonas Hyltén"
+      }
+    },
+    {
+      "id": "anatomin-bakom-en-venture-studio",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/anatomin-bakom-en-venture-studio",
+      "title": "Anatomin bakom en Venture Studio: Hur vi bygger bolag som system",
+      "summary": "Hur venture studio-modellen skapar en industrialiserad process för innovation.",
+      "date_published": "2026-03-14T00:00:00.000Z",
+      "author": {
+        "name": "Hyltén Venture Studio"
+      }
+    },
+    {
+      "id": "att-bygga-en-kategori-definierande-verksamhet",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/att-bygga-en-kategori-definierande-verksamhet",
+      "title": "Att bygga en kategori-definierande verksamhet",
+      "summary": "Strategier för att inte bara vinna en marknad, utan att definiera den.",
+      "date_published": "2026-03-13T00:00:00.000Z",
+      "author": {
+        "name": "Roials Alpha"
+      }
+    },
+    {
+      "id": "kraften-i-proprietar-tillvaxt-arkitektur",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/kraften-i-proprietar-tillvaxt-arkitektur",
+      "title": "Kraften i proprietär tillväxt-arkitektur",
+      "summary": "Hur egenutvecklade tillväxtsystem skapar hållbara konkurrensfördelar.",
+      "date_published": "2026-03-12T00:00:00.000Z",
+      "author": {
+        "name": "Jonas Hyltén"
+      }
+    },
+    {
+      "id": "modern-gtm-stack-2026",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/modern-gtm-stack-2026",
+      "title": "Så bygger du en modern GTM‑stack för 2026",
+      "summary": "En genomgång av verktygen och processerna som krävs för modern GTM.",
+      "date_published": "2026-03-11T00:00:00.000Z",
+      "author": {
+        "name": "Hyltén Venture Studio"
+      }
+    },
+    {
+      "id": "ai-agenter-enterprise-framtid",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/ai-agenter-enterprise-framtid",
+      "title": "Framtiden för AI‑agenter i enterprise‑miljöer",
+      "summary": "Hur autonoma agenter kommer att omforma företagsövergripande arbetsflöden.",
+      "date_published": "2026-03-10T00:00:00.000Z",
+      "author": {
+        "name": "Roials Alpha"
+      }
+    },
+    {
+      "id": "venture-studio-vs-accelerator",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/venture-studio-vs-accelerator",
+      "title": "Venture Studio vs. Accelerator: Att välja rätt väg för skalning",
+      "summary": "En jämförelse av två av de mest populära modellerna för att bygga bolag.",
+      "date_published": "2026-03-09T00:00:00.000Z",
+      "author": {
+        "name": "Jonas Hyltén"
+      }
+    },
+    {
+      "id": "pmf-ar-missledande",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/pmf-ar-missledande",
+      "title": "Varför 'Product‑Market Fit' är ett missledande mätetal",
+      "summary": "Varför PMF ofta är ett vilseledande mål i de tidiga skedena av bolagsbygge.",
+      "date_published": "2026-03-08T00:00:00.000Z",
+      "author": {
+        "name": "Hyltén Venture Studio"
+      }
+    },
+    {
+      "id": "operational-stewardship-tidiga-bolag",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/operational-stewardship-tidiga-bolag",
+      "title": "Rollen för Operational Stewardship i tidiga bolagsbyggen",
+      "summary": "Vikten av operationellt ledarskap och förvaltning i uppstartsfasen.",
+      "date_published": "2026-03-07T00:00:00.000Z",
+      "author": {
+        "name": "Roials Alpha"
+      }
+    },
+    {
+      "id": "late-stage-saas-operational-excellence-i-series-e-miljoer",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/late-stage-saas-operational-excellence-i-series-e-miljoer",
+      "title": "Late Stage SaaS: Operational Excellence i Series E‑miljöer",
+      "summary": "Hur SaaS‑bolag i Series E‑fasen bygger robusta operativa system.",
+      "date_published": "2026-03-06T00:00:00.000Z",
+      "author": {
+        "name": "Jonas Hyltén"
+      }
+    },
+    {
+      "id": "metrics-som-faktiskt-spelar-roll-infor-saas-ipo",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/metrics-som-faktiskt-spelar-roll-infor-saas-ipo",
+      "title": "Metrics som faktiskt spelar roll inför en SaaS‑IPO",
+      "summary": "Vilka nyckeltal institutionella investerare värderar högst.",
+      "date_published": "2026-03-05T00:00:00.000Z",
+      "author": {
+        "name": "Hyltén Venture Studio"
+      }
+    },
+    {
+      "id": "saas-ma-integration-pa-skala-hur-undviker-man-vardeforringelse",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/saas-ma-integration-pa-skala-hur-undviker-man-vardeforringelse",
+      "title": "SaaS‑M&A på skala: Hur undviker man värdeförringelse?",
+      "summary": "Att integrera stora SaaS‑bolag utan att sabba produktvelocity.",
+      "date_published": "2026-03-04T00:00:00.000Z",
+      "author": {
+        "name": "Jonas Hyltén"
+      }
+    },
+    {
+      "id": "series-d-fundraising-varfor-narrativet-blir-viktigare-an-siffrorna",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/series-d-fundraising-varfor-narrativet-blir-viktigare-an-siffrorna",
+      "title": "Series D‑fundraising: Varför narrativet blir viktigare än siffrorna",
+      "summary": "I sen fas styrs kapitalrundor av strategisk positionering.",
+      "date_published": "2026-03-03T00:00:00.000Z",
+      "author": {
+        "name": "Hyltén Venture Studio"
+      }
+    },
+    {
+      "id": "hur-senfas-saas-bygger-predictable-revenue-machines",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/hur-senfas-saas-bygger-predictable-revenue-machines",
+      "title": "Hur senfas‑SaaS bygger predictable revenue machines",
+      "summary": "Systemdesignen bakom förutsägbar ARR och NRR.",
+      "date_published": "2026-03-02T00:00:00.000Z",
+      "author": {
+        "name": "Jonas Hyltén"
+      }
+    },
+    {
+      "id": "produktportfoliologi-infor-ipo-hur-mycket-komplexitet-talar-marknaden",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/produktportfoliologi-infor-ipo-hur-mycket-komplexitet-talar-marknaden",
+      "title": "Produktportföljlogik inför IPO: Hur mycket komplexitet tål marknaden?",
+      "summary": "Hur man simplifierar en spretig produktportfölj.",
+      "date_published": "2026-03-01T00:00:00.000Z",
+      "author": {
+        "name": "Hyltén Venture Studio"
+      }
+    },
+    {
+      "id": "saas-financial-controls-for-ipo-readiness",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/saas-financial-controls-for-ipo-readiness",
+      "title": "SaaS‑Financial Controls för IPO‑readiness",
+      "summary": "Interna processer som måste vara på plats innan notering.",
+      "date_published": "2026-02-28T00:00:00.000Z",
+      "author": {
+        "name": "Jonas Hyltén"
+      }
+    },
+    {
+      "id": "ma-forecasting-modeller-som-fungerar-i-sen-fas",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/ma-forecasting-modeller-som-fungerar-i-sen-fas",
+      "title": "M&A‑forecasting: Modeller som fungerar i sen fas",
+      "summary": "Varför klassiska bottom‑up‑modeller fallerar på skala.",
+      "date_published": "2026-02-27T00:00:00.000Z",
+      "author": {
+        "name": "Hyltén Venture Studio"
+      }
+    },
+    {
+      "id": "saas-talent-arbitrage-i-series-f",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/saas-talent-arbitrage-i-series-f",
+      "title": "SaaS‑Talent Arbitrage i Series F",
+      "summary": "Växla upp organisationens kompetens utan politisk friktion.",
+      "date_published": "2026-02-26T00:00:00.000Z",
+      "author": {
+        "name": "Jonas Hyltén"
+      }
+    },
+    {
+      "id": "value-creation-playbooks-for-late-stage-saas",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/value-creation-playbooks-for-late-stage-saas",
+      "title": "Value Creation‑playbooks för Late Stage SaaS",
+      "summary": "Pelare för värdeskapande när ARR överstiger 700 MSEK.",
+      "date_published": "2026-02-25T00:00:00.000Z",
+      "author": {
+        "name": "Hyltén Venture Studio"
+      }
+    },
+    {
+      "id": "riskhantering-i-saas-infor-ipo",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/riskhantering-i-saas-infor-ipo",
+      "title": "Riskhantering i SaaS inför IPO",
+      "summary": "Kvantifiera och eliminera operativa risker inför börsnotering.",
+      "date_published": "2026-02-24T00:00:00.000Z",
+      "author": {
+        "name": "Jonas Hyltén"
+      }
+    },
+    {
+      "id": "den-dolda-kostnaden-av-teknisk-skuld-i-senfasbolag",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/den-dolda-kostnaden-av-teknisk-skuld-i-senfasbolag",
+      "title": "Den dolda kostnaden av teknisk skuld i senfasbolag",
+      "summary": "Varför teknisk skuld accelererar exponentiellt.",
+      "date_published": "2026-02-23T00:00:00.000Z",
+      "author": {
+        "name": "Hyltén Venture Studio"
+      }
+    },
+    {
+      "id": "saas-prissattning-infor-ipo",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/saas-prissattning-infor-ipo",
+      "title": "SaaS‑prissättning inför IPO",
+      "summary": "Optimera prissättning för marknadens syn på expansion revenue.",
+      "date_published": "2026-02-22T00:00:00.000Z",
+      "author": {
+        "name": "Jonas Hyltén"
+      }
+    },
+    {
+      "id": "ma-kulturintegration-pa-storföretagsnivå",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/ma-kulturintegration-pa-storföretagsnivå",
+      "title": "M&A‑kulturintegration på storföretagsnivå",
+      "summary": "Undvik de psykologiska misstag som saboterar integrationer.",
+      "date_published": "2026-02-21T00:00:00.000Z",
+      "author": {
+        "name": "Hyltén Venture Studio"
+      }
+    },
+    {
+      "id": "late-stage-saas-kapitalallokering-under-osaker-marknad",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/late-stage-saas-kapitalallokering-under-osaker-marknad",
+      "title": "Late Stage SaaS: Kapitalallokering under osäker marknad",
+      "summary": "Optimera kapitalflöden mellan produkt, GTM och M&A.",
+      "date_published": "2026-02-20T00:00:00.000Z",
+      "author": {
+        "name": "Jonas Hyltén"
+      }
+    },
+    {
+      "id": "saas-late-stage-operational-leverage-intelligens",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/saas-late-stage-operational-leverage-intelligens",
+      "title": "SaaS Late Stage: Operational Leverage och teknisk intelligens i praktiken",
+      "summary": "Maximerar marginaler via teknisk struktur.",
+      "date_published": "2026-02-19T00:00:00.000Z",
+      "author": {
+        "name": "Jonas Hyltén"
+      }
+    },
+    {
+      "id": "series-c-till-series-d-gomda-risker-i-expansionsfasen",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/series-c-till-series-d-gomda-risker-i-expansionsfasen",
+      "title": "Series C → Series D: Dolda risker i SaaS-expansionen",
+      "summary": "Kapitalintensiv skalning av mogna bolag.",
+      "date_published": "2026-02-18T00:00:00.000Z",
+      "author": {
+        "name": "Hyltén Venture Studio"
+      }
+    },
+    {
+      "id": "ai-b2b-modellering-for-global-scaling",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/ai-b2b-modellering-for-global-scaling",
+      "title": "AI B2B: Modellering för global scaling",
+      "summary": "AI-modeller som generaliserar över marknader.",
+      "date_published": "2026-02-17T00:00:00.000Z",
+      "author": {
+        "name": "Roials Alpha"
+      }
+    },
+    {
+      "id": "venture-studio-engineering-systemtankar",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/venture-studio-engineering-systemtankar",
+      "title": "Venture Studio Engineering: Systemtänkande som accelerationsmotor",
+      "summary": "Studioarkitektur som möjliggör parallell utveckling.",
+      "date_published": "2026-02-16T00:00:00.000Z",
+      "author": {
+        "name": "Jonas Hyltén"
+      }
+    },
+    {
+      "id": "saas-prissattning-serie-d-evidensbaserad-expandering",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/saas-prissattning-serie-d-evidensbaserad-expandering",
+      "title": "SaaS-prissättning i Series D: Evidensbaserade expanderingsmodeller",
+      "summary": "Datadriven prissättning i tillväxtfasen.",
+      "date_published": "2026-02-15T00:00:00.000Z",
+      "author": {
+        "name": "Hyltén Venture Studio"
+      }
+    },
+    {
+      "id": "gtm-arkitektur-for-skalbara-enterprise-loopar",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/gtm-arkitektur-for-skalbara-enterprise-loopar",
+      "title": "GTM-arkitektur för skalbara enterprise-loopar",
+      "summary": "Sälj skalning utan ökad friktion.",
+      "date_published": "2026-02-14T00:00:00.000Z",
+      "author": {
+        "name": "Roials Alpha"
+      }
+    },
+    {
+      "id": "ai-driven-m-a-screening",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/ai-driven-m-a-screening",
+      "title": "AI‑driven M&A Screening: Prediktiv analys före due diligence",
+      "summary": "AI-upptäckt av synergier och risker.",
+      "date_published": "2026-02-13T00:00:00.000Z",
+      "author": {
+        "name": "Jonas Hyltén"
+      }
+    },
+    {
+      "id": "ipo-beredskap-saas-intellektuell-stabilitet",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/ipo-beredskap-saas-intellektuell-stabilitet",
+      "title": "IPO-beredskap i SaaS: Intellektuell stabilitet och systemrenhet",
+      "summary": "Teknik och psykologi inför börsen.",
+      "date_published": "2026-02-12T00:00:00.000Z",
+      "author": {
+        "name": "Hyltén Venture Studio"
+      }
+    },
+    {
+      "id": "series-e-tekniska-mognadsnivor",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/series-e-tekniska-mognadsnivor",
+      "title": "Series E: Tekniska mognadsnivåer och antifragila strukturer",
+      "summary": "Teknikstacken när volymen blir exponentiell.",
+      "date_published": "2026-02-11T00:00:00.000Z",
+      "author": {
+        "name": "Roials Alpha"
+      }
+    },
+    {
+      "id": "saas-early-pre-product-fit-loopanalys",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/saas-early-pre-product-fit-loopanalys",
+      "title": "SaaS Early Stage: Pre‑product fit och loop‑analys",
+      "summary": "Identifiering av minsta fungerande beteendeloop.",
+      "date_published": "2026-02-10T00:00:00.000Z",
+      "author": {
+        "name": "Jonas Hyltén"
+      }
+    },
+    {
+      "id": "ai-b2b-funktionell-intelligens-vs-generativ",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/ai-b2b-funktionell-intelligens-vs-generativ",
+      "title": "AI B2B: Funktionell intelligens kontra generativ intelligens",
+      "summary": "Skillnaden mellan system som gör jobbet och skriver om det.",
+      "date_published": "2026-02-09T00:00:00.000Z",
+      "author": {
+        "name": "Hyltén Venture Studio"
+      }
+    },
+    {
+      "id": "saas-series-f-kapitalallokering",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/saas-series-f-kapitalallokering",
+      "title": "Series F: Kapitalallokering i hypermodifierade marknader",
+      "summary": "Heuristiker för sena expansionsrundor.",
+      "date_published": "2026-02-08T00:00:00.000Z",
+      "author": {
+        "name": "Roials Alpha"
+      }
+    },
+    {
+      "id": "global-scaling-teknisk-portabilitet",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/global-scaling-teknisk-portabilitet",
+      "title": "Global Scaling: Teknisk portabilitet och friktionsmatematik",
+      "summary": "Vad som gör en produkt globaliserbar.",
+      "date_published": "2026-02-07T00:00:00.000Z",
+      "author": {
+        "name": "Jonas Hyltén"
+      }
+    },
+    {
+      "id": "venture-studio-engineering-parallella-sprintsystem",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/venture-studio-engineering-parallella-sprintsystem",
+      "title": "Venture Studio Engineering: Parallella sprintsystem",
+      "summary": "Multiple produktstrategier med minimal kognitiv last.",
+      "date_published": "2026-02-06T00:00:00.000Z",
+      "author": {
+        "name": "Hyltén Venture Studio"
+      }
+    },
+    {
+      "id": "gtm-data-driven-orchestrering",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/gtm-data-driven-orchestrering",
+      "title": "GTM: Datadriven orkestrering av kanaler och rytmer",
+      "summary": "Flerstegs-GTM i B2B-SaaS.",
+      "date_published": "2026-02-05T00:00:00.000Z",
+      "author": {
+        "name": "Roials Alpha"
+      }
+    },
+    {
+      "id": "saas-multipla-vardeströmmar",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/saas-multipla-vardeströmmar",
+      "title": "SaaS: Multipla värdeströmmar och modulariserad expansion",
+      "summary": "Segmenterad expansion utan fragmentering.",
+      "date_published": "2026-02-04T00:00:00.000Z",
+      "author": {
+        "name": "Jonas Hyltén"
+      }
+    },
+    {
+      "id": "ai-b2b-automation-som-intellektuell-leverans",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/ai-b2b-automation-som-intellektuell-leverans",
+      "title": "AI B2B: Automation som intellektuell leverans",
+      "summary": "Ersätta kognitivt arbete med AI.",
+      "date_published": "2026-02-03T00:00:00.000Z",
+      "author": {
+        "name": "Hyltén Venture Studio"
+      }
+    },
+    {
+      "id": "series-c-signalbrus-i-skalningsmodeller",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/series-c-signalbrus-i-skalningsmodeller",
+      "title": "Series C: Signalbrus i skalningsmodeller",
+      "summary": "Datakvalitet i stora volymer.",
+      "date_published": "2026-02-02T00:00:00.000Z",
+      "author": {
+        "name": "Roials Alpha"
+      }
+    },
+    {
+      "id": "ipo-intellektuella-risker-och-belonsystem",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/ipo-intellektuella-risker-och-belonsystem",
+      "title": "IPO: Intellektuella risker och incitamentsarkitektur",
+      "summary": "Psykologiska modeller och börsnotering.",
+      "date_published": "2026-02-01T00:00:00.000Z",
+      "author": {
+        "name": "Jonas Hyltén"
+      }
+    },
+    {
+      "id": "m-a-integrationsmodellering",
+      "url": "https://hylten.github.io/Venture-Studio/#/intelligence/m-a-integrationsmodellering",
+      "title": "M&A: Integrationsmodellering före förvärv",
+      "summary": "Simulera integration innan ägarbyte.",
+      "date_published": "2026-01-31T00:00:00.000Z",
+      "author": {
+        "name": "Hyltén Venture Studio"
+      }
+    }
+  ]
+}

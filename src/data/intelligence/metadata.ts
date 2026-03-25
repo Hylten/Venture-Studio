@@ -8,6 +8,1126 @@ export interface ArticleMetadata {
 
 export const intelligenceMetadata: ArticleMetadata[] = [
   {
+    "slug": "vrdering-i-en-olinjr-marknad-varfr-ebitd",
+    "title": "Värdering i en olinjär marknad: Varför EBITDA är irrelevant för AI-infrastruktur",
+    "date": "2026-03-24",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Värdering i en olinjär marknad: Varför EBITDA är irrelevant för AI-infrastruktur. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "healthcare-ai-vertical",
+    "title": "Vertikal AI i hälsovården: Att navigera mellan nytta och etik",
+    "date": "2026-03-25",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Vertikal AI i hälsovården: Att navigera mellan nytta och etik. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "vertical-saas-engineering-varfr-domnprec",
+    "title": "Vertical SaaS Engineering: Varför domänprecision trumfar generell prestanda",
+    "date": "2026-03-16",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Vertical SaaS Engineering: Varför domänprecision trumfar generell prestanda. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "vertical-problems-worth-solving-131-prob",
+    "title": "Below is the article exactly as requested.",
+    "date": "2026-03-17",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Below is the article exactly as requested.. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "retail-ai-supply-chain",
+    "title": "Vertical AI i Retail: Att optimera försörjningskedjor",
+    "date": "2026-03-18",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Vertical AI i Retail: Att optimera försörjningskedjor. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "vertical-ai-early-stage-104-vertical-ai-",
+    "title": "Vertical AI i tidiga skeden: Hur man bygger för suveränitet från dag ett",
+    "date": "2026-03-19",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Vertical AI i tidiga skeden: Hur man bygger för suveränitet från dag ett. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "studio-entrepreneurship-path",
+    "title": "Venture Studio som Karriärväg: Varför entreprenörer byter spår",
+    "date": "2026-03-20",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Venture Studio som Karriärväg: Varför entreprenörer byter spår. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "studio-as-a-platform",
+    "title": "Venture Studio som en Plattform: Att bygga för andra byggare",
+    "date": "2026-03-21",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Venture Studio som en Plattform: Att bygga för andra byggare. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "venture-studio-som-alpha-varfr-studior-u",
+    "title": "Venture Studio som Alpha: Varför studior utklassar traditionella accelerators 2026",
+    "date": "2026-03-22",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Venture Studio som Alpha: Varför studior utklassar traditionella accelerators 2026. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "studio-governance-scale",
+    "title": "Venture Studio Governance: Att styra 20 bolag samtidigt",
+    "date": "2026-03-23",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Venture Studio Governance: Att styra 20 bolag samtidigt. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "venture-studio-exit-strategier-att-slja-",
+    "title": "Venture Studio Exit-strategier: Att sälja system istället för produkter",
+    "date": "2026-03-24",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Venture Studio Exit-strategier: Att sälja system istället för produkter. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "venture-engineering-verticalization-96-v",
+    "title": "Vertikalisering som vallgrav: Varför generella modeller förlorar mot domänspecifik arkitektur",
+    "date": "2026-03-25",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Vertikalisering som vallgrav: Varför generella modeller förlorar mot domänspecifik arkitektur. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "recruitment-venture-engineering",
+    "title": "Venture Engineering Teamet: Hur man rekryterar de bästa",
+    "date": "2026-03-16",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Venture Engineering Teamet: Hur man rekryterar de bästa. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "venture-engineering-scaling",
+    "title": "Venture Engineering Scale-up: Från 1 till 10 portföljbolag",
+    "date": "2026-03-17",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Venture Engineering Scale-up: Från 1 till 10 portföljbolag. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "venture-engineering-ops-84-venture-engin",
+    "title": "Venture Engineering Ops: System för att hantera 10 vinnare utan personalexplosion",
+    "date": "2026-03-18",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Venture Engineering Ops: System för att hantera 10 vinnare utan personalexplosion. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "venture-engineering-multi-product-88-mul",
+    "title": "Multi-product Engineering i Venture Studios: Systemiska synergier mellan portföljbolag i en distribuerad produktionsmiljö",
+    "date": "2026-03-19",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Multi-product Engineering i Venture Studios: Systemiska synergier mellan portföljbolag i en distribuerad produktionsmiljö. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "venture-engineering-low-code-vs-hardcode",
+    "title": "Venture-Engineering Low-Code vs Hardcode: Hur man väljer arkitektur för omedelbar skalbarhet",
+    "date": "2026-03-20",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Venture-Engineering Low-Code vs Hardcode: Hur man väljer arkitektur för omedelbar skalbarhet. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "venture-engineering-data-strategi-92-dat",
+    "title": "Data-strategi som Produkt: Varför studion måste kontrollera semantiken",
+    "date": "2026-03-21",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Data-strategi som Produkt: Varför studion måste kontrollera semantiken. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "venture-engineering-maass-architecture",
+    "title": "Venture Engineering 2026: Arkitektur för MaaSS",
+    "date": "2026-03-22",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Venture Engineering 2026: Arkitektur för MaaSS. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "vc-agi-era",
+    "title": "Venture Capital i AGI-eran: Varför traditionella modeller dör",
+    "date": "2026-03-23",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Venture Capital i AGI-eran: Varför traditionella modeller dör. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "vector-architecture-bi-saas",
+    "title": "Vektor-arkitektur för Business Intelligence: När SQL inte räcker längre",
+    "date": "2026-03-24",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Vektor-arkitektur för Business Intelligence: När SQL inte räcker längre. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "token-ekonomi-i-b2b-varfr-du-mste-prisst",
+    "title": "Token-ekonomi i B2B: Varför du måste prissätta efter energi, inte efter användare",
+    "date": "2026-03-25",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Token-ekonomi i B2B: Varför du måste prissätta efter energi, inte efter användare. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "technical-dd-ai-layer",
+    "title": "Teknisk Due Diligence 2.0: Att genomlysa AI-lagret inför förvärv",
+    "date": "2026-03-16",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Teknisk Due Diligence 2.0: Att genomlysa AI-lagret inför förvärv. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "systemisk-risk-i-llm-beroende-hur-man-di",
+    "title": "Systemisk risk i LLM-beroende: Hur man diversifierar sina modellanrop",
+    "date": "2026-03-17",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Systemisk risk i LLM-beroende: Hur man diversifierar sina modellanrop. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "systemic-operating-leverage-saas",
+    "title": "Systemisk Operativ Hävstång: Vägen till 10M ARR med 5 anställda",
+    "date": "2026-03-18",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Systemisk Operativ Hävstång: Vägen till 10M ARR med 5 anställda. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "board-report-metrics-2026",
+    "title": "Styrelserapport 2026: De metrics som faktiskt betyder något för ledningen",
+    "date": "2026-03-20",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Styrelserapport 2026: De metrics som faktiskt betyder något för ledningen. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "strategic-exit-big-tech",
+    "title": "Strategic Exit Planning: Att bygga för att bli uppköpt av Big Tech",
+    "date": "2026-03-21",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Strategic Exit Planning: Att bygga för att bli uppköpt av Big Tech. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "sovereign-infra-cloud-independence",
+    "title": "Sovereign Infrastructure: Varför molnoberoende är framtiden",
+    "date": "2026-03-22",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Sovereign Infrastructure: Varför molnoberoende är framtiden. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "enterprise-sales-cycle-collapse",
+    "title": "Säljcykelns Kollaps: Hur AI‑agenter förkortar beslutsvägar i Enterprise",
+    "date": "2026-03-23",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Säljcykelns Kollaps: Hur AI‑agenter förkortar beslutsvägar i Enterprise. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "signal-to-deal-automation",
+    "title": "Signal-to-Deal Automation: Att eliminera säljarens manuella arbete",
+    "date": "2026-03-24",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Signal-to-Deal Automation: Att eliminera säljarens manuella arbete. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "series-d-till-e-tekniskt-skaleffektivite",
+    "title": "Series D till E: Tekniskt skaleffektivitet och mognadsnivåer för global dominans",
+    "date": "2026-03-25",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Series D till E: Tekniskt skaleffektivitet och mognadsnivåer för global dominans. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "series-c-signalbrus-i-skalningsmodeller-",
+    "title": "Series C: Signal och Brus i Skalningsmodeller",
+    "date": "2026-03-16",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Series C: Signal och Brus i Skalningsmodeller. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "series-b-till-c-varfr-de-flesta-bolag-dr",
+    "title": "Series B till C: Varför de flesta bolag dör i bryggan mellan MVP och Skala",
+    "date": "2026-03-17",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Series B till C: Varför de flesta bolag dör i bryggan mellan MVP och Skala. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "series-a-landscape-90-series-a-landskape",
+    "title": "Series A-landskapet 2026 - Varför kapitalmigrering mot suverän arkitektur börjar tidigt",
+    "date": "2026-03-18",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Series A-landskapet 2026 - Varför kapitalmigrering mot suverän arkitektur börjar tidigt. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "saas-secondaries-liquidity",
+    "title": "Second-aries i SaaS: Att skapa likviditet inför IPO",
+    "date": "2026-03-19",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Second-aries i SaaS: Att skapa likviditet inför IPO. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "scale-dynamics-141-skalningsdynamikens-m",
+    "title": "scale-dynamics-141: Skalningsdynamikens Matematik - Varför linjära prognoser är farliga i hyperscale",
+    "date": "2026-03-20",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "scale-dynamics-141: Skalningsdynamikens Matematik - Varför linjära prognoser är farliga i hyperscale. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "saas-skalbarhetsmatrisen-101-skalbarhets",
+    "title": "SaaS-skalbarhetsmatrisen 101: Skalbarhetsmatrisen - En kvantitativ ram för att mäta operativ friktion",
+    "date": "2026-03-21",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "SaaS-skalbarhetsmatrisen 101: Skalbarhetsmatrisen - En kvantitativ ram för att mäta operativ friktion. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "saas-skalbarhet-vs-lojalitet-80-skalbarh",
+    "title": "Skalbarhet vs lojalitet: Varför churn i Series B är en ledande indikator på arkitekturfel",
+    "date": "2026-03-22",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Skalbarhet vs lojalitet: Varför churn i Series B är en ledande indikator på arkitekturfel. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "saas-series-f-kapitalallokering-series-f",
+    "title": "I can produce the article, but *1500-2000 words for Part 1 alone* will exceed the model’s length limits when continuing in later parts. To avoid truncation, I need to confirm:",
+    "date": "2026-03-23",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "I can produce the article, but *1500-2000 words for Part 1 alone* will exceed the model’s length limits when continuing in later parts. To avoid truncation, I need to confirm:. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "saas-retention-i-agi-eran-varfr-traditio",
+    "title": "SaaS‑retention i AGI‑eran: Varför traditionell churn‑analys är trasig",
+    "date": "2026-03-24",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "SaaS‑retention i AGI‑eran: Varför traditionell churn‑analys är trasig. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "saas-prototyping-116-rapid-prototyping-i",
+    "title": "SaaS‑prototyping 116: Rapid Prototyping i Venture Studio - Från arkitektur till 1M ARR på 12 veckor",
+    "date": "2026-03-25",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "SaaS‑prototyping 116: Rapid Prototyping i Venture Studio - Från arkitektur till 1M ARR på 12 veckor. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "developer-productivity-ai",
+    "title": "SaaS‑produktivitet: Hur man mäter output i AI‑eran",
+    "date": "2026-03-16",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "SaaS‑produktivitet: Hur man mäter output i AI‑eran. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "saas-multiplar-110-multiplarnas-psykolog",
+    "title": "saas-multiplar-110: Multiplarnas psykologi 2026 - Varför marknaden väljer AGI-infrastruktur över applikationslager",
+    "date": "2026-03-17",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "saas-multiplar-110: Multiplarnas psykologi 2026 - Varför marknaden väljer AGI-infrastruktur över applikationslager. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "saas-multipla-vardestrommar-diversifieri",
+    "title": "SaaS-multipla-värdeströmmar: Arkitektur för att paketera data som intäkt i nästa generation av mjukvaruplattformar",
+    "date": "2026-03-18",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "SaaS-multipla-värdeströmmar: Arkitektur för att paketera data som intäkt i nästa generation av mjukvaruplattformar. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "saas-margin-math",
+    "title": "SaaS-marginalernas matematik: En djupanalys av PnL",
+    "date": "2026-03-19",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "SaaS-marginalernas matematik: En djupanalys av PnL. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "saas-late-stage-forecasting-nonlinearite",
+    "title": "Olinjäritet i prognoser för mogna bolag - Varför traditionella modeller misslyckas i Q4",
+    "date": "2026-03-20",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Olinjäritet i prognoser för mogna bolag - Varför traditionella modeller misslyckas i Q4. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "saas-late-prissattning-74-prissttningsdy",
+    "title": "saas-late-prissattning-74: Prissättningsdynamik i sena SaaS-stadier - Varför linjär expansion dödar Series E",
+    "date": "2026-03-21",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "saas-late-prissattning-74: Prissättningsdynamik i sena SaaS-stadier - Varför linjär expansion dödar Series E. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "saas-us-expansion",
+    "title": "SaaS i USA: Hur man slår de lokala giganterna",
+    "date": "2026-03-22",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "SaaS i USA: Hur man slår de lokala giganterna. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "saas-acquisition-strategy",
+    "title": "SaaS-förvärv som strategi: Att bygga marknadsandelar",
+    "date": "2026-03-23",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "SaaS-förvärv som strategi: Att bygga marknadsandelar. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "european-saas-advantage",
+    "title": "SaaS-ekosystemet i Europa: Varför vi vinner på reglering",
+    "date": "2026-03-24",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "SaaS-ekosystemet i Europa: Varför vi vinner på reglering. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "saas-economics-for-engineers",
+    "title": "SaaS-ekonomi för Ingenjörer: Varför bruttomarginal är ditt problem",
+    "date": "2026-03-25",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "SaaS-ekonomi för Ingenjörer: Varför bruttomarginal är ditt problem. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "roi-p-proprietary-deal-sourcing-varfr-eg",
+    "title": "Below is *Part 1* of the requested article.",
+    "date": "2026-03-16",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Below is *Part 1* of the requested article.. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "rag-at-scale",
+    "title": "RAG på skala: Arkitektur för enterprise-sökning",
+    "date": "2026-03-17",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "RAG på skala: Arkitektur för enterprise-sökning. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "proprietary-outbound-signals",
+    "title": "Proprietary Signals: Att bygga egna datakällor för outbound dominans",
+    "date": "2026-03-18",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Proprietary Signals: Att bygga egna datakällor för outbound dominans. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "product-led-sales-fr-enterprise-bryggan-",
+    "title": "Product-Led Sales för Enterprise: Bryggan mellan användarnytta och inköpsbeslut",
+    "date": "2026-03-19",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Product-Led Sales för Enterprise: Bryggan mellan användarnytta och inköpsbeslut. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "learning-based-pricing",
+    "title": "Prissättning för Inlärning: Att ta betalt för modellförbättring",
+    "date": "2026-03-20",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Prissättning för Inlärning: Att ta betalt för modellförbättring. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "api-load-based-pricing",
+    "title": "Prissättning efter API-last: Morgondagens bruttomarginaler",
+    "date": "2026-03-21",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Prissättning efter API-last: Morgondagens bruttomarginaler. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "portfolio-synergy-acquisitions",
+    "title": "Portfölj-synergier: Att köpa bolag som komplementerar varandra",
+    "date": "2026-03-22",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Portfölj-synergier: Att köpa bolag som komplementerar varandra. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "operativ-effektivitet-i-series-d-vgen-mo",
+    "title": "Operativ Effektivitet i Series D: Vägen mot 40% EBITDA",
+    "date": "2026-03-23",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Operativ Effektivitet i Series D: Vägen mot 40% EBITDA. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "operational-stewardship-hur-man-leder-et",
+    "title": "Operational Stewardship: Hur man leder ett bolag genom tekniskt kaos",
+    "date": "2026-03-24",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Operational Stewardship: Hur man leder ett bolag genom tekniskt kaos. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "operational-leverage-ai",
+    "title": "Operational Leverage genom AI: Vägen mot noll marginalkostnad",
+    "date": "2026-03-25",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Operational Leverage genom AI: Vägen mot noll marginalkostnad. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "modular-core-saas-engineering",
+    "title": "Modularisering av Core SaaS: Att bygga för utbytbarhet",
+    "date": "2026-03-16",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Modularisering av Core SaaS: Att bygga för utbytbarhet. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "modular-gtm-transformation",
+    "title": "Modular GTM: Hur man bygger om säljapparaten på 4 veckor",
+    "date": "2026-03-17",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Modular GTM: Hur man bygger om säljapparaten på 4 veckor. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "mena-ai-market",
+    "title": "MENA-marknaden för AI: Den nya guldfebern",
+    "date": "2026-03-18",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "MENA-marknaden för AI: Den nya guldfebern. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "ma-strategi-fr-ai-bolag-att-kpa-talang-v",
+    "title": "M&A Strategi för AI-bolag: Att köpa talang vs att köpa datakraft",
+    "date": "2026-03-19",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "M&A Strategi för AI-bolag: Att köpa talang vs att köpa datakraft. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "ai-pmi-momentum",
+    "title": "M&A Post-Merger Integration i AI-organ: Hur man behåller momentum",
+    "date": "2026-03-20",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "M&A Post-Merger Integration i AI-organ: Hur man behåller momentum. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "ma-consolidation-rules",
+    "title": "M&A i ett fragmenterat landskap: Konsolideringens nya regler",
+    "date": "2026-03-21",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "M&A i ett fragmenterat landskap: Konsolideringens nya regler. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "sustainable-saas-growth",
+    "title": "Långsiktig Hållbarhet i SaaS: Att undvika AI-bubblan",
+    "date": "2026-03-22",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Långsiktig Hållbarhet i SaaS: Att undvika AI-bubblan. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "lead-to-revenue-velocity",
+    "title": "Lead-to-Revenue: Att mäta hastigheten i säljtratten",
+    "date": "2026-03-23",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Lead-to-Revenue: Att mäta hastigheten i säljtratten. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "shared-studio-infrastructure",
+    "title": "Kärnan i en Studio: Att dela infrastruktur mellan 10 bolag",
+    "date": "2026-03-24",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Kärnan i en Studio: Att dela infrastruktur mellan 10 bolag. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "series-b-fundraising-narrative",
+    "title": "Kapitalresning i Series B: Varför narrativet dör utan suverän arkitektur",
+    "date": "2026-03-25",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Kapitalresning i Series B: Varför narrativet dör utan suverän arkitektur. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "kapitalmarknadens-svar-p-ai-varfr-fonder",
+    "title": "Kapitalmarknadens svar på AI: Varför fonder omstrukturerar sina portföljer 2026",
+    "date": "2026-03-16",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Kapitalmarknadens svar på AI: Varför fonder omstrukturerar sina portföljer 2026. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "ipo-roadmap-2026",
+    "title": "IPO Roadmap 2026: En guide för SaaS-VD:ar",
+    "date": "2026-03-17",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "IPO Roadmap 2026: En guide för SaaS-VD:ar. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "investing-vertical-ai",
+    "title": "Investera i Vertikala Lösningar: Varför horisontellt är dött",
+    "date": "2026-03-18",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Investera i Vertikala Lösningar: Varför horisontellt är dött. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "investing-in-talent-2026",
+    "title": "Investera i humankapital: Varför talang fortfarande är sällsynt 2026",
+    "date": "2026-03-19",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Investera i humankapital: Varför talang fortfarande är sällsynt 2026. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "internal-memo-venture-studio-engineering",
+    "title": "Venture Studio Engineering som Finansiell Hävstång: Arkitektur för att bygga tio bolag med samma core",
+    "date": "2026-03-21",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Venture Studio Engineering som Finansiell Hävstång: Arkitektur för att bygga tio bolag med samma core. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "internal-memo-the-death-of-the-wrapped-w",
+    "title": "Intern PM: Döden för den inlindade inlindaren (Varför AGI:er är den enda finansieringsbara SaaS-infrastrukturen 2026)",
+    "date": "2026-03-22",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Intern PM: Döden för den inlindade inlindaren (Varför AGI:er är den enda finansieringsbara SaaS-infrastrukturen 2026). Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "internal-memo-saas-marginaler-i-agi-eran",
+    "title": "SaaS-marginaler i AGI-eran - Varför 80% bruttomarginal är en lögn 2026",
+    "date": "2026-03-23",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "SaaS-marginaler i AGI-eran - Varför 80% bruttomarginal är en lögn 2026. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "internal-memo-prissttning-som-vapen--var",
+    "title": "Prissättning som Vapen - Varför per-seat-modellen är död och vad som ersätter den i Series D",
+    "date": "2026-03-24",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Prissättning som Vapen - Varför per-seat-modellen är död och vad som ersätter den i Series D. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "internal-memo-ma-kraschen-i-saas-2026--v",
+    "title": "M&A-kraschen i SaaS 2026 - Varför ingen vill köpa bolag utan suverän data-infrastruktur",
+    "date": "2026-03-25",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "M&A-kraschen i SaaS 2026 - Varför ingen vill köpa bolag utan suverän data-infrastruktur. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "internal-memo-dden-fr-plg-product-led-gr",
+    "title": "Döden för PLG i Enterprise - Varför agenter dödar den klassiska säljtratten",
+    "date": "2026-03-16",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Döden för PLG i Enterprise - Varför agenter dödar den klassiska säljtratten. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "hyperscale-gtm-processing",
+    "title": "Hyperscale GTM: Att processa 1 miljon leads per kvartal",
+    "date": "2026-03-17",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Hyperscale GTM: Att processa 1 miljon leads per kvartal. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "hyperscale-engineering-arkitektur-fr-bol",
+    "title": "Hyperscale Engineering: Arkitektur för bolag som växer 300% på ett kvartal",
+    "date": "2026-03-18",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Hyperscale Engineering: Arkitektur för bolag som växer 300% på ett kvartal. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "hur-saas-bolag-tjnar-pengar-p-ai-5-frdju",
+    "title": "Hur SaaS-bolag tjänar pengar på AI: 5 fördjupade spaningar för 2026",
+    "date": "2026-03-19",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Hur SaaS-bolag tjänar pengar på AI: 5 fördjupade spaningar för 2026. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "saas-negotiation-psychology",
+    "title": "Förhandlingens Psykologi i High-Ticket SaaS: Att stänga affärer över 10M SEK",
+    "date": "2026-03-20",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Förhandlingens Psykologi i High-Ticket SaaS: Att stänga affärer över 10M SEK. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "future-saas-stack-2026",
+    "title": "Framtidens SaaS-stack: De 10 tekniker du måste behärska",
+    "date": "2026-03-21",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Framtidens SaaS-stack: De 10 tekniker du måste behärska. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "norden-saas-dealflow-arbitrage",
+    "title": "Exklusivt Dealflow i Norden: Hur vi hittar off-market SaaS till 4x EBITDA",
+    "date": "2026-03-22",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Exklusivt Dealflow i Norden: Hur vi hittar off-market SaaS till 4x EBITDA. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "exit-multiples-2026",
+    "title": "Exit-multiplar i en fragmenterad marknad: Vad är du värd?",
+    "date": "2026-03-23",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Exit-multiplar i en fragmenterad marknad: Vad är du värd?. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "technical-exit-readiness",
+    "title": "Exit-förberedelser 18 månader innan: En teknisk checklista",
+    "date": "2026-03-24",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Exit-förberedelser 18 månader innan: En teknisk checklista. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "esg-decision-makers-2026-outbound-strate",
+    "title": "ESG Decision-Makers 2026: Outbound-strategier för energisektorns infrastruktur",
+    "date": "2026-03-25",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "ESG Decision-Makers 2026: Outbound-strategier för energisektorns infrastruktur. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "equity-leverage-recruiting",
+    "title": "Equity som Hävstång: Att rekrytera A-players till portföljen",
+    "date": "2026-03-16",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Equity som Hävstång: Att rekrytera A-players till portföljen. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "enterprise-ai-readiness-en-matris-fr-att",
+    "title": "Enterprise AI Readiness: En matris för att utvärdera kundens datamognad inför installation",
+    "date": "2026-03-17",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Enterprise AI Readiness: En matris för att utvärdera kundens datamognad inför installation. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "eu-digital-sovereignty-guide",
+    "title": "Digital suveränitet i EU: En guide för SaaS-bolag",
+    "date": "2026-03-18",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Digital suveränitet i EU: En guide för SaaS-bolag. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "enterprise-ai-privacy",
+    "title": "Dataprivacy i Enterprise AI: En lyx eller ett krav?",
+    "date": "2026-03-19",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Dataprivacy i Enterprise AI: En lyx eller ett krav?. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "data-suvernitet-som-usp-varfr-lokala-mod",
+    "title": "Data-suveränitet som USP: Varför lokala modeller vinner mot molngiganter",
+    "date": "2026-03-20",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Data-suveränitet som USP: Varför lokala modeller vinner mot molngiganter. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "data-pipeline-best-practices",
+    "title": "Data-pipelines för proffs: Från ingestion till insikt",
+    "date": "2026-03-21",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Data-pipelines för proffs: Från ingestion till insikt. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "data-pipelines-agent-context",
+    "title": "Data-Pipelines för AI-agenter: Att förse systemet med rätt kontext",
+    "date": "2026-03-22",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Data-Pipelines för AI-agenter: Att förse systemet med rätt kontext. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "data-infra-valuation-multiplier",
+    "title": "Data-Infrastruktur som Värdeökare: En teknisk analys av multiplar",
+    "date": "2026-03-23",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Data-Infrastruktur som Värdeökare: En teknisk analys av multiplar. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "data-driven-retention",
+    "title": "Data-driven Retention: Att använda ML för att stoppa churn innan den händer",
+    "date": "2026-03-24",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Data-driven Retention: Att använda ML för att stoppa churn innan den händer. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "churn-frutsgelser-med-ml-hur-man-ser-ris",
+    "title": "Churn-förutsägelser med ML: Hur man ser risker tre månader i förväg",
+    "date": "2026-03-25",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Churn-förutsägelser med ML: Hur man ser risker tre månader i förväg. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "buy-side-ma-fees-den-dolda-ekonomin-bako",
+    "title": "Jag kan absolut skriva artikeln, men för att undvika att du får en ofullständig leverans vill jag kontrollera en sak innan jag producerar 1500-2000 ord:",
+    "date": "2026-03-16",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Jag kan absolut skriva artikeln, men för att undvika att du får en ofullständig leverans vill jag kontrollera en sak innan jag producerar 1500-2000 ord:. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "autonomous-product-roadmap-engineering",
+    "title": "Automatiska Produktförbättringar: Att låta agenter skriva nästa roadmap",
+    "date": "2026-03-17",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Automatiska Produktförbättringar: Att låta agenter skriva nästa roadmap. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "automated-gtm-feedback",
+    "title": "Automatisering av GTM-feedback: Att låta marknaden styra roadmappen",
+    "date": "2026-03-18",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Automatisering av GTM-feedback: Att låta marknaden styra roadmappen. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "automation-debt-saas-audit",
+    "title": "Automations-skuld: De dolda kostnaderna i en trasig stack",
+    "date": "2026-03-19",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Automations-skuld: De dolda kostnaderna i en trasig stack. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "selling-to-ai-agents",
+    "title": "Att sälja till AI‑agenter: Nästa generations köpbeslut",
+    "date": "2026-03-20",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Att sälja till AI‑agenter: Nästa generations köpbeslut. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "saas-asia-expansion",
+    "title": "Asien-expansion för SaaS: Utmaningar och möjligheter",
+    "date": "2026-03-21",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Asien-expansion för SaaS: Utmaningar och möjligheter. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "ai-native-gtm-hur-man-automatiserar-90-a",
+    "title": "AI-native GTM: Hur man automatiserar 90% av säljtratten utan att förlora signalstyrka",
+    "date": "2026-03-22",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "AI-native GTM: Hur man automatiserar 90% av säljtratten utan att förlora signalstyrka. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "ai-customer-support-evolution",
+    "title": "AI i kundtjänst: Från chattbottar till autonoma problemlösare",
+    "date": "2026-03-23",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "AI i kundtjänst: Från chattbottar till autonoma problemlösare. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "ai-governance-i-styrelserummet-hur-man-v",
+    "title": "AI Governance i Styrelserummet: Hur man övervakar modeller utan att vara tekniker",
+    "date": "2026-03-24",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "AI Governance i Styrelserummet: Hur man övervakar modeller utan att vara tekniker. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "ai-investment-decisions",
+    "title": "AI-drivna Investeringsbeslut: Maskin vs Människa",
+    "date": "2026-03-25",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "AI-drivna Investeringsbeslut: Maskin vs Människa. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "ai-driven-product-dev",
+    "title": "AI‑driven produktutveckling: Att låta kunden styra koden",
+    "date": "2026-03-16",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "AI‑driven produktutveckling: Att låta kunden styra koden. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "agi-infrastruktur-som-nationell-tillgng-",
+    "title": "AGI-infrastruktur som nationell tillgång: Varför stater börjar investera i Venture Studios",
+    "date": "2026-03-17",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "AGI-infrastruktur som nationell tillgång: Varför stater börjar investera i Venture Studios. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "agent-persistence-architecture",
+    "title": "Agentisk Persistens: Arkitektur för långlivade arbetsflöden",
+    "date": "2026-03-18",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Agentisk Persistens: Arkitektur för långlivade arbetsflöden. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "account-based-everything-scaling",
+    "title": "Account-Based Everything: Att skala personlig relevans",
+    "date": "2026-03-19",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Account-Based Everything: Att skala personlig relevans. Institutionell analys för VC och serie-grundare."
+  },
+  {
+    "slug": "valuation-nonlinear-market",
+    "title": "Värdering i en olinjär marknad: Varför EBITDA är irrelevant för AI-infrastruktur",
+    "date": "2026-03-15",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Värdering i en olinjär marknad: Varför EBITDA är irrelevant för AI-infrastruktur. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "vertical-vs-generalist-ai",
+    "title": "Vertical SaaS vs. Generalist AI: Kampen om enterprise-budgeten",
+    "date": "2026-03-11",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Vertical SaaS vs. Generalist AI: Kampen om enterprise-budgeten. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "vertical-saas-precision",
+    "title": "Vertical SaaS Engineering: Varför domänprecision trumfar generell prestanda",
+    "date": "2026-03-13",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Vertical SaaS Engineering: Varför domänprecision trumfar generell prestanda. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "vertical-ai-finance",
+    "title": "Vertical AI i finanssektorn: Varför noggrannhet är allt",
+    "date": "2026-03-12",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Vertical AI i finanssektorn: Varför noggrannhet är allt. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "venture-studio-alpha",
+    "title": "Venture Studio som Alpha: Varför studior utklassar traditionella accelerators 2026",
+    "date": "2026-03-11",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Venture Studio som Alpha: Varför studior utklassar traditionella accelerators 2026. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "studio-exit-strategies",
+    "title": "Venture Studio Exit-strategier: Att sälja system istället för produkter",
+    "date": "2026-03-20",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Venture Studio Exit-strategier: Att sälja system istället för produkter. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "venture-engineering-career",
+    "title": "Venture Engineering som Karriär: Framtidens CTO-roll i en Studio",
+    "date": "2026-03-16",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Venture Engineering som Karriär: Framtidens CTO-roll i en Studio. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "token-economics-b2b",
+    "title": "Token-ekonomi i B2B: Varför du måste prissätta efter energi, inte efter användare",
+    "date": "2026-03-17",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Token-ekonomi i B2B: Varför du måste prissätta efter energi, inte efter användare. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "llm-systemic-risk",
+    "title": "Systemisk risk i LLM-beroende: Hur man diversifierar sina modellanrop",
+    "date": "2026-03-11",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Systemisk risk i LLM-beroende: Hur man diversifierar sina modellanrop. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "series-b-c-bridge",
+    "title": "Series B till C: Varför de flesta bolag dör i bryggan mellan MVP och Skala",
+    "date": "2026-03-19",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Series B till C: Varför de flesta bolag dör i bryggan mellan MVP och Skala. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "interconnected-intelligence",
+    "title": "Sammankopplad Intelligens: Varför era agenter måste prata samma språk",
+    "date": "2026-03-15",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Sammankopplad Intelligens: Varför era agenter måste prata samma språk. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "saas-skalbarhet-vs-lojalitet-80",
+    "title": "Skalbarhet vs lojalitet: Varför churn i Series B är en ledande indikator på arkitekturfel",
+    "date": "2026-03-13",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Skalbarhet vs lojalitet: Varför churn i Series B är en ledande indikator på arkitekturfel. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "saas-retention-agi",
+    "title": "SaaS‑retention i AGI‑eran: Varför traditionell churn‑analys är trasig",
+    "date": "2026-03-20",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "SaaS‑retention i AGI‑eran: Varför traditionell churn‑analys är trasig. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "saas-pricing-inflation",
+    "title": "SaaS-prissättning i inflationstider: Hur AI hjälper dig att höja priset",
+    "date": "2026-03-14",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "SaaS-prissättning i inflationstider: Hur AI hjälper dig att höja priset. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "saas-margin-final-stand",
+    "title": "SaaS-marginalernas sista strid: Vägen tillbaka till 90%",
+    "date": "2026-03-18",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "SaaS-marginalernas sista strid: Vägen tillbaka till 90%. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "saas-exit-clock",
+    "title": "SaaS-exit klockan: När är det dags att sälja 2026?",
+    "date": "2026-03-12",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "SaaS-exit klockan: När är det dags att sälja 2026?. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "pls-enterprise-bridge",
+    "title": "Product-Led Sales för Enterprise: Bryggan mellan användarnytta och inköpsbeslut",
+    "date": "2026-03-20",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Product-Led Sales för Enterprise: Bryggan mellan användarnytta och inköpsbeslut. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "operational-efficiency-series-d",
+    "title": "Operativ Effektivitet i Series D: Vägen mot 40% EBITDA",
+    "date": "2026-03-11",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Operativ Effektivitet i Series D: Vägen mot 40% EBITDA. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "operational-discipline-series-a",
+    "title": "Operativ disciplin i tillväxtbolag: Varför du behöver en COO i Series A",
+    "date": "2026-03-18",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Operativ disciplin i tillväxtbolag: Varför du behöver en COO i Series A. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "operational-stewardship-chaos",
+    "title": "Operational Stewardship: Hur man leder ett bolag genom tekniskt kaos",
+    "date": "2026-03-18",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Operational Stewardship: Hur man leder ett bolag genom tekniskt kaos. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "human-in-the-loop-scaling",
+    "title": "Människan i loopen: Hur man skalar AI med bibehållen empati",
+    "date": "2026-03-18",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Människan i loopen: Hur man skalar AI med bibehållen empati. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "ai-ma-strategy",
+    "title": "M&A Strategi för AI-bolag: Att köpa talang vs att köpa datakraft",
+    "date": "2026-03-15",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "M&A Strategi för AI-bolag: Att köpa talang vs att köpa datakraft. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "ai-due-diligence",
+    "title": "M&A Due Diligence i AI-eran: Hur man granskar en black-box",
+    "date": "2026-03-19",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "M&A Due Diligence i AI-eran: Hur man granskar en black-box. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "capital-markets-ai-response",
+    "title": "Kapitalmarknadens svar på AI: Varför fonder omstrukturerar sina portföljer 2026",
+    "date": "2026-03-15",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Kapitalmarknadens svar på AI: Varför fonder omstrukturerar sina portföljer 2026. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "investing-in-sovereignty",
+    "title": "Investera i suveränitet: Varför lokala moln vinner kapital",
+    "date": "2026-03-16",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Investera i suveränitet: Varför lokala moln vinner kapital. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "venture-engineering-havstang",
+    "title": "Venture Studio Engineering som Finansiell Hävstång: Arkitektur för att bygga tio bolag med samma core",
+    "date": "2026-03-12",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Venture Studio Engineering som Finansiell Hävstång: Arkitektur för att bygga tio bolag med samma core. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "saas-marginaler-agi-2026",
+    "title": "SaaS-marginaler i AGI-eran - Varför 80% bruttomarginal är en lögn 2026",
+    "date": "2026-03-14",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "SaaS-marginaler i AGI-eran - Varför 80% bruttomarginal är en lögn 2026. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "prissattning-som-vapen-2026",
+    "title": "Prissättning som Vapen - Varför per-seat-modellen är död och vad som ersätter den i Series D",
+    "date": "2026-03-16",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Prissättning som Vapen - Varför per-seat-modellen är död och vad som ersätter den i Series D. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "ma-krasch-saas-2026",
+    "title": "M&A-kraschen i SaaS 2026 - Varför ingen vill köpa bolag utan suverän data-infrastruktur",
+    "date": "2026-03-11",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "M&A-kraschen i SaaS 2026 - Varför ingen vill köpa bolag utan suverän data-infrastruktur. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "doden-for-plg-2026",
+    "title": "Döden för PLG i Enterprise - Varför agenter dödar den klassiska säljtratten",
+    "date": "2026-03-13",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Döden för PLG i Enterprise - Varför agenter dödar den klassiska säljtratten. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "infrastructure-moat",
+    "title": "Infrastruktur som en vallgrav: Varför din stack är din bästa IP",
+    "date": "2026-03-12",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Infrastruktur som en vallgrav: Varför din stack är din bästa IP. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "hyperscale-engineering-saas",
+    "title": "Hyperscale Engineering: Arkitektur för bolag som växer 300% på ett kvartal",
+    "date": "2026-03-11",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Hyperscale Engineering: Arkitektur för bolag som växer 300% på ett kvartal. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "hardcoded-vs-probabilistic",
+    "title": "Hårdkodade regler vs. Probabilistiska system: Balansgången 2026",
+    "date": "2026-03-17",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Hårdkodade regler vs. Probabilistiska system: Balansgången 2026. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "technical-milestones-a-to-exit",
+    "title": "Från Series A till Exit: En tidslinje över tekniska milstolpar",
+    "date": "2026-03-13",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Från Series A till Exit: En tidslinje över tekniska milstolpar. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "enterprise-ai-readiness",
+    "title": "Enterprise AI Readiness: En matris för att utvärdera kundens datamognad inför installation",
+    "date": "2026-03-17",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Enterprise AI Readiness: En matris för att utvärdera kundens datamognad inför installation. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "data-sovereignty-usp",
+    "title": "Data-suveränitet som USP: Varför lokala modeller vinner mot molngiganter",
+    "date": "2026-03-15",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Data-suveränitet som USP: Varför lokala modeller vinner mot molngiganter. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "data-driven-fundraising",
+    "title": "Data-driven Fundraising: Att sälja in en vision med rådata",
+    "date": "2026-03-11",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Data-driven Fundraising: Att sälja in en vision med rådata. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "churn-prediction-ml",
+    "title": "Churn-förutsägelser med ML: Hur man ser risker tre månader i förväg",
+    "date": "2026-03-17",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Churn-förutsägelser med ML: Hur man ser risker tre månader i förväg. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "ai-native-gtm",
+    "title": "AI-native GTM: Hur man automatiserar 90% av säljtratten utan att förlora signalstyrka",
+    "date": "2026-03-12",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "AI-native GTM: Hur man automatiserar 90% av säljtratten utan att förlora signalstyrka. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "ai-in-the-boardroom",
+    "title": "AI i styrelsen: Från mänskliga beslut till systemisk övervakning",
+    "date": "2026-03-20",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "AI i styrelsen: Från mänskliga beslut till systemisk övervakning. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "ai-governance-boardroom",
+    "title": "AI Governance i Styrelserummet: Hur man övervakar modeller utan att vara tekniker",
+    "date": "2026-03-18",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "AI Governance i Styrelserummet: Hur man övervakar modeller utan att vara tekniker. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "ai-ethics-investors",
+    "title": "AI-etik för investerare: Att undvika ryktesrisk i portföljen",
+    "date": "2026-03-20",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "AI-etik för investerare: Att undvika ryktesrisk i portföljen. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "ai-market-analysis",
+    "title": "AI‑driven marknadsanalys: Att förutse konkurrenters drag",
+    "date": "2026-03-12",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "AI‑driven marknadsanalys: Att förutse konkurrenters drag. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "agi-infrastructure-sovereign",
+    "title": "AGI-infrastruktur som nationell tillgång: Varför stater börjar investera i Venture Studios",
+    "date": "2026-03-20",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "AGI-infrastruktur som nationell tillgång: Varför stater börjar investera i Venture Studios. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "agents-as-membership",
+    "title": "Agenter som medlemsförmån: Framtidens SaaS-förpackning",
+    "date": "2026-03-16",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "Agenter som medlemsförmån: Framtidens SaaS-förpackning. Analys av finansiella och tekniska implikationer i AGI-eran."
+  },
+  {
+    "slug": "leaked-memo-death-of-wrapped-wrapper-2026",
+    "title": "INTERNAL MEMO: The Death of the Wrapped Wrapper (Why AGIs are the only fundable SaaS infrastructure in 2026)",
+    "date": "2026-03-22",
+    "author": "Skeptical Investor (Leaked)",
+    "description": "En intern analys av varför token-arbitrage är en terminal affärsmodell och varför endast suverän AGI-infrastruktur överlever 2026 års kapitalmigrering."
+  },
+  {
     "slug": "saas-bolag-tjanar-pengar-pa-ai-2026",
     "title": "Hur SaaS‑bolag tjänar pengar på AI: 5 spaningar för 2026",
     "date": "2026-03-21",
@@ -15,1242 +1135,129 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "description": "En djupdykning i hur AI-native SaaS-bolag monetiserar sina lösningar."
   },
   {
-    "slug": "saas-kapitalisering-2026-data-analys",
-    "title": "SaaS‑kapitalisering 2026: Vad datan säger om processen",
-    "date": "2026-03-20",
-    "author": "Hyltén Venture Studio",
-    "description": "Analys av kapitalflöden och värderingar i 2026 års SaaS-ekosystem."
-  },
-  {
-    "slug": "varfor-vi-satsar-pa-data-infrastruktur",
-    "title": "Varför vi satsar på data-infrastruktur: Att förvandla rådata till AI-bränsle",
-    "date": "2026-03-19",
-    "author": "Roials Alpha",
-    "description": "Varför den underliggande datainfrastrukturen är den viktigaste komponenten i AI-erans SaaS."
-  },
-  {
-    "slug": "saas-balansgang-tillvaxt-effektivitet",
-    "title": "SaaS‑balansgången: Tillväxt vs effektivitet i en värld av höga AI‑kostnader",
-    "date": "2026-03-18",
-    "author": "Jonas Hyltén",
-    "description": "Hur man balanserar aggressiv tillväxt med operationell effektivitet i AI-eran."
-  },
-  {
-    "slug": "net-revenue-retention-den-enda-siffran-2025",
-    "title": "Net Revenue Retention: Den enda siffran som faktiskt räknas 2025",
-    "date": "2026-03-17",
-    "author": "Hyltén Venture Studio",
-    "description": "Varför NRR är det mest kritiska nyckeltalet för långsiktig SaaS-framgång."
-  },
-  {
-    "slug": "4-insikter-fran-2026-saas-benchmark-rapport",
-    "title": "4 insikter från 2026 års SaaS Benchmark-rapport",
-    "date": "2026-03-16",
-    "author": "Roials Alpha",
-    "description": "De viktigaste trenderna och mätetalen från årets största SaaS-rapport."
-  },
-  {
-    "slug": "hylten-metodiken-10-lardomar",
-    "title": "Hyltén-metodiken: 10 lärdomar från våra första studio-bolag",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Lärdomar från insidan av Hyltén Venture Studios mest framgångsrika bolag."
-  },
-  {
-    "slug": "anatomin-bakom-en-venture-studio",
-    "title": "Anatomin bakom en Venture Studio: Hur vi bygger bolag som system",
-    "date": "2026-03-14",
-    "author": "Hyltén Venture Studio",
-    "description": "Hur venture studio-modellen skapar en industrialiserad process för innovation."
-  },
-  {
-    "slug": "att-bygga-en-kategori-definierande-verksamhet",
-    "title": "Att bygga en kategori-definierande verksamhet",
-    "date": "2026-03-13",
-    "author": "Roials Alpha",
-    "description": "Strategier för att inte bara vinna en marknad, utan att definiera den."
-  },
-  {
-    "slug": "kraften-i-proprietar-tillvaxt-arkitektur",
-    "title": "Kraften i proprietär tillväxt-arkitektur",
-    "date": "2026-03-12",
-    "author": "Jonas Hyltén",
-    "description": "Hur egenutvecklade tillväxtsystem skapar hållbara konkurrensfördelar."
-  },
-  {
-    "slug": "modern-gtm-stack-2026",
-    "title": "Så bygger du en modern GTM‑stack för 2026",
-    "date": "2026-03-11",
-    "author": "Hyltén Venture Studio",
-    "description": "En genomgång av verktygen och processerna som krävs för modern GTM."
-  },
-  {
-    "slug": "ai-agenter-enterprise-framtid",
-    "title": "Framtiden för AI‑agenter i enterprise‑miljöer",
-    "date": "2026-03-10",
-    "author": "Roials Alpha",
-    "description": "Hur autonoma agenter kommer att omforma företagsövergripande arbetsflöden."
-  },
-  {
-    "slug": "venture-studio-vs-accelerator",
-    "title": "Venture Studio vs. Accelerator: Att välja rätt väg för skalning",
-    "date": "2026-03-09",
-    "author": "Jonas Hyltén",
-    "description": "En jämförelse av två av de mest populära modellerna för att bygga bolag."
-  },
-  {
-    "slug": "pmf-ar-missledande",
-    "title": "Varför 'Product‑Market Fit' är ett missledande mätetal",
-    "date": "2026-03-08",
-    "author": "Hyltén Venture Studio",
-    "description": "Varför PMF ofta är ett vilseledande mål i de tidiga skedena av bolagsbygge."
-  },
-  {
-    "slug": "operational-stewardship-tidiga-bolag",
-    "title": "Rollen för Operational Stewardship i tidiga bolagsbyggen",
-    "date": "2026-03-07",
-    "author": "Roials Alpha",
-    "description": "Vikten av operationellt ledarskap och förvaltning i uppstartsfasen."
-  },
-  {
-    "slug": "late-stage-saas-operational-excellence-i-series-e-miljoer",
-    "title": "Late Stage SaaS: Operational Excellence i Series E‑miljöer",
-    "date": "2026-03-06",
-    "author": "Jonas Hyltén",
-    "description": "Hur SaaS‑bolag i Series E‑fasen bygger robusta operativa system."
-  },
-  {
-    "slug": "metrics-som-faktiskt-spelar-roll-infor-saas-ipo",
-    "title": "Metrics som faktiskt spelar roll inför en SaaS‑IPO",
-    "date": "2026-03-05",
-    "author": "Hyltén Venture Studio",
-    "description": "Vilka nyckeltal institutionella investerare värderar högst."
-  },
-  {
-    "slug": "saas-ma-integration-pa-skala-hur-undviker-man-vardeforringelse",
-    "title": "SaaS‑M&A på skala: Hur undviker man värdeförringelse?",
-    "date": "2026-03-04",
-    "author": "Jonas Hyltén",
-    "description": "Att integrera stora SaaS‑bolag utan att sabba produktvelocity."
-  },
-  {
-    "slug": "series-d-fundraising-varfor-narrativet-blir-viktigare-an-siffrorna",
-    "title": "Series D‑fundraising: Varför narrativet blir viktigare än siffrorna",
-    "date": "2026-03-03",
-    "author": "Hyltén Venture Studio",
-    "description": "I sen fas styrs kapitalrundor av strategisk positionering."
-  },
-  {
-    "slug": "hur-senfas-saas-bygger-predictable-revenue-machines",
-    "title": "Hur senfas‑SaaS bygger predictable revenue machines",
-    "date": "2026-03-02",
-    "author": "Jonas Hyltén",
-    "description": "Systemdesignen bakom förutsägbar ARR och NRR."
-  },
-  {
-    "slug": "produktportfoliologi-infor-ipo-hur-mycket-komplexitet-talar-marknaden",
-    "title": "Produktportföljlogik inför IPO: Hur mycket komplexitet tål marknaden?",
-    "date": "2026-03-01",
-    "author": "Hyltén Venture Studio",
-    "description": "Hur man simplifierar en spretig produktportfölj."
-  },
-  {
-    "slug": "saas-financial-controls-for-ipo-readiness",
-    "title": "SaaS‑Financial Controls för IPO‑readiness",
-    "date": "2026-02-28",
-    "author": "Jonas Hyltén",
-    "description": "Interna processer som måste vara på plats innan notering."
-  },
-  {
-    "slug": "ma-forecasting-modeller-som-fungerar-i-sen-fas",
-    "title": "M&A‑forecasting: Modeller som fungerar i sen fas",
-    "date": "2026-02-27",
-    "author": "Hyltén Venture Studio",
-    "description": "Varför klassiska bottom‑up‑modeller fallerar på skala."
-  },
-  {
-    "slug": "saas-talent-arbitrage-i-series-f",
-    "title": "SaaS‑Talent Arbitrage i Series F",
-    "date": "2026-02-26",
-    "author": "Jonas Hyltén",
-    "description": "Växla upp organisationens kompetens utan politisk friktion."
-  },
-  {
-    "slug": "value-creation-playbooks-for-late-stage-saas",
-    "title": "Value Creation‑playbooks för Late Stage SaaS",
-    "date": "2026-02-25",
-    "author": "Hyltén Venture Studio",
-    "description": "Pelare för värdeskapande när ARR överstiger 700 MSEK."
-  },
-  {
-    "slug": "riskhantering-i-saas-infor-ipo",
-    "title": "Riskhantering i SaaS inför IPO",
-    "date": "2026-02-24",
-    "author": "Jonas Hyltén",
-    "description": "Kvantifiera och eliminera operativa risker inför börsnotering."
-  },
-  {
-    "slug": "den-dolda-kostnaden-av-teknisk-skuld-i-senfasbolag",
-    "title": "Den dolda kostnaden av teknisk skuld i senfasbolag",
-    "date": "2026-02-23",
-    "author": "Hyltén Venture Studio",
-    "description": "Varför teknisk skuld accelererar exponentiellt."
-  },
-  {
-    "slug": "saas-prissattning-infor-ipo",
-    "title": "SaaS‑prissättning inför IPO",
-    "date": "2026-02-22",
-    "author": "Jonas Hyltén",
-    "description": "Optimera prissättning för marknadens syn på expansion revenue."
-  },
-  {
-    "slug": "ma-kulturintegration-pa-storföretagsnivå",
-    "title": "M&A‑kulturintegration på storföretagsnivå",
-    "date": "2026-02-21",
-    "author": "Hyltén Venture Studio",
-    "description": "Undvik de psykologiska misstag som saboterar integrationer."
-  },
-  {
-    "slug": "late-stage-saas-kapitalallokering-under-osaker-marknad",
-    "title": "Late Stage SaaS: Kapitalallokering under osäker marknad",
-    "date": "2026-02-20",
-    "author": "Jonas Hyltén",
-    "description": "Optimera kapitalflöden mellan produkt, GTM och M&A."
-  },
-  {
-    "slug": "saas-late-stage-operational-leverage-intelligens",
-    "title": "SaaS Late Stage: Operational Leverage och teknisk intelligens i praktiken",
-    "date": "2026-02-19",
-    "author": "Jonas Hyltén",
-    "description": "Maximerar marginaler via teknisk struktur."
-  },
-  {
-    "slug": "series-c-till-series-d-gomda-risker-i-expansionsfasen",
-    "title": "Series C → Series D: Dolda risker i SaaS-expansionen",
-    "date": "2026-02-18",
-    "author": "Hyltén Venture Studio",
-    "description": "Kapitalintensiv skalning av mogna bolag."
-  },
-  {
-    "slug": "ai-b2b-modellering-for-global-scaling",
-    "title": "AI B2B: Modellering för global scaling",
-    "date": "2026-02-17",
-    "author": "Roials Alpha",
-    "description": "AI-modeller som generaliserar över marknader."
-  },
-  {
-    "slug": "venture-studio-engineering-systemtankar",
-    "title": "Venture Studio Engineering: Systemtänkande som accelerationsmotor",
-    "date": "2026-02-16",
-    "author": "Jonas Hyltén",
-    "description": "Studioarkitektur som möjliggör parallell utveckling."
-  },
-  {
-    "slug": "saas-prissattning-serie-d-evidensbaserad-expandering",
-    "title": "SaaS-prissättning i Series D: Evidensbaserade expanderingsmodeller",
-    "date": "2026-02-15",
-    "author": "Hyltén Venture Studio",
-    "description": "Datadriven prissättning i tillväxtfasen."
-  },
-  {
-    "slug": "gtm-arkitektur-for-skalbara-enterprise-loopar",
-    "title": "GTM-arkitektur för skalbara enterprise-loopar",
-    "date": "2026-02-14",
-    "author": "Roials Alpha",
-    "description": "Sälj skalning utan ökad friktion."
-  },
-  {
-    "slug": "ai-driven-m-a-screening",
-    "title": "AI‑driven M&A Screening: Prediktiv analys före due diligence",
-    "date": "2026-02-13",
-    "author": "Jonas Hyltén",
-    "description": "AI-upptäckt av synergier och risker."
-  },
-  {
-    "slug": "ipo-beredskap-saas-intellektuell-stabilitet",
-    "title": "IPO-beredskap i SaaS: Intellektuell stabilitet och systemrenhet",
-    "date": "2026-02-12",
-    "author": "Hyltén Venture Studio",
-    "description": "Teknik och psykologi inför börsen."
-  },
-  {
-    "slug": "series-e-tekniska-mognadsnivor",
-    "title": "Series E: Tekniska mognadsnivåer och antifragila strukturer",
-    "date": "2026-02-11",
-    "author": "Roials Alpha",
-    "description": "Teknikstacken när volymen blir exponentiell."
-  },
-  {
-    "slug": "saas-early-pre-product-fit-loopanalys",
-    "title": "SaaS Early Stage: Pre‑product fit och loop‑analys",
-    "date": "2026-02-10",
-    "author": "Jonas Hyltén",
-    "description": "Identifiering av minsta fungerande beteendeloop."
-  },
-  {
-    "slug": "ai-b2b-funktionell-intelligens-vs-generativ",
-    "title": "AI B2B: Funktionell intelligens kontra generativ intelligens",
-    "date": "2026-02-09",
-    "author": "Hyltén Venture Studio",
-    "description": "Skillnaden mellan system som gör jobbet och skriver om det."
-  },
-  {
     "slug": "saas-series-f-kapitalallokering",
-    "title": "Series F: Kapitalallokering i hypermodifierade marknader",
+    "title": "I can produce the article, but *1500-2000 words for Part 1 alone* will exceed the model’s length limits when continuing in later parts. To avoid truncation, I need to confirm:",
     "date": "2026-02-08",
-    "author": "Roials Alpha",
+    "author": "Skeptical Investor (Leaked)",
     "description": "Heuristiker för sena expansionsrundor."
   },
   {
-    "slug": "global-scaling-teknisk-portabilitet",
-    "title": "Global Scaling: Teknisk portabilitet och friktionsmatematik",
-    "date": "2026-02-07",
-    "author": "Jonas Hyltén",
-    "description": "Vad som gör en produkt globaliserbar."
-  },
-  {
-    "slug": "venture-studio-engineering-parallella-sprintsystem",
-    "title": "Venture Studio Engineering: Parallella sprintsystem",
-    "date": "2026-02-06",
-    "author": "Hyltén Venture Studio",
-    "description": "Multiple produktstrategier med minimal kognitiv last."
-  },
-  {
-    "slug": "gtm-data-driven-orchestrering",
-    "title": "GTM: Datadriven orkestrering av kanaler och rytmer",
-    "date": "2026-02-05",
-    "author": "Roials Alpha",
-    "description": "Flerstegs-GTM i B2B-SaaS."
-  },
-  {
     "slug": "saas-multipla-vardeströmmar",
-    "title": "SaaS: Multipla värdeströmmar och modulariserad expansion",
+    "title": "SaaS-multipla-värdeströmmar: Arkitektur för att paketera data som intäkt i nästa generation av mjukvaruplattformar",
     "date": "2026-02-04",
-    "author": "Jonas Hyltén",
+    "author": "Skeptical Investor (Leaked)",
     "description": "Segmenterad expansion utan fragmentering."
   },
   {
-    "slug": "ai-b2b-automation-som-intellektuell-leverans",
-    "title": "AI B2B: Automation som intellektuell leverans",
-    "date": "2026-02-03",
-    "author": "Hyltén Venture Studio",
-    "description": "Ersätta kognitivt arbete med AI."
-  },
-  {
     "slug": "series-c-signalbrus-i-skalningsmodeller",
-    "title": "Series C: Signalbrus i skalningsmodeller",
+    "title": "Series C: Signal och Brus i Skalningsmodeller",
     "date": "2026-02-02",
-    "author": "Roials Alpha",
+    "author": "Skeptical Investor (Leaked)",
     "description": "Datakvalitet i stora volymer."
   },
   {
-    "slug": "ipo-intellektuella-risker-och-belonsystem",
-    "title": "IPO: Intellektuella risker och incitamentsarkitektur",
-    "date": "2026-02-01",
-    "author": "Jonas Hyltén",
-    "description": "Psykologiska modeller och börsnotering."
-  },
-  {
-    "slug": "m-a-integrationsmodellering",
-    "title": "M&A: Integrationsmodellering före förvärv",
-    "date": "2026-01-31",
-    "author": "Hyltén Venture Studio",
-    "description": "Simulera integration innan ägarbyte."
-  },
-  {
     "slug": "saas-late-stage-forecasting-nonlinearitet",
-    "title": "Late Stage SaaS: Forecasting i icke‑linjära miljöer",
+    "title": "Olinjäritet i prognoser för mogna bolag - Varför traditionella modeller misslyckas i Q4",
     "date": "2026-01-30",
-    "author": "Roials Alpha",
+    "author": "Skeptical Investor (Leaked)",
     "description": "Analys av komplexa tillväxtprognoser."
   },
   {
-    "slug": "ai-b2b-heuristisk-beslutsmotorik",
-    "title": "AI B2B: Heuristisk beslutsmotorik",
-    "date": "2026-01-29",
-    "author": "Jonas Hyltén",
-    "description": "AI som fattar beslut snarare än levererar info."
-  },
-  {
-    "slug": "gtm-enterprise-ctv-ltv-loopar",
-    "title": "GTM: Enterprise CTV/LTV‑loopar",
-    "date": "2026-01-28",
-    "author": "Hyltén Venture Studio",
-    "description": "Value cycles i B2B-kundresor."
-  },
-  {
-    "slug": "venture-studio-systemarchitektur-for-redundant-hastighet",
-    "title": "Venture Studio: Systemarkitektur för redundans och hastighet",
-    "date": "2026-01-27",
-    "author": "Roials Alpha",
-    "description": "Redundans som tillväxtaccelerator."
-  },
-  {
-    "slug": "global-scaling-kulturella-systembarriarer",
-    "title": "Global Scaling: Kulturella systembarriärer i B2B‑SaaS",
-    "date": "2026-01-26",
-    "author": "Jonas Hyltén",
-    "description": "Kultur vs Teknik i adoption."
-  },
-  {
-    "slug": "saas-early-stage-matematikens-roll-i-pmf",
-    "title": "SaaS Early Stage: Matematikens roll i produkt‑marknadspassning",
-    "date": "2026-01-25",
-    "author": "Hyltén Venture Studio",
-    "description": "Beteendemodeller för tidig PMF."
-  },
-  {
     "slug": "series-d-till-e-tekniskt-skaleffektivitet",
-    "title": "Series D → E: Tekniskt skaleffektivitet och modularisering",
+    "title": "Series D till E: Tekniskt skaleffektivitet och mognadsnivåer för global dominans",
     "date": "2026-01-24",
-    "author": "Roials Alpha",
+    "author": "Skeptical Investor (Leaked)",
     "description": "Modularisering av etablerade SaaS-bolag."
   },
   {
-    "slug": "ai-b2b-distribution-over-engineering",
-    "title": "AI B2B: Distribution viktigare än modell‑engineering",
-    "date": "2026-01-23",
-    "author": "Jonas Hyltén",
-    "description": "Varför de flesta AI-produkter faller i distribution."
-  },
-  {
-    "slug": "ipo-kognitiv-last-minimering",
-    "title": "IPO: Kognitiv last och hur ledningsteamen hålls funktionella",
-    "date": "2026-01-22",
-    "author": "Hyltén Venture Studio",
-    "description": "Beslutsförmåga i högtrycksmiljöer."
-  },
-  {
-    "slug": "m-a-synergiberakning-med-ai",
-    "title": "M&A: Synergiberäkning med AI‑drivna modeller",
-    "date": "2026-01-21",
-    "author": "Roials Alpha",
-    "description": "Precision i identifikation av synergier."
-  },
-  {
-    "slug": "saas-late-scale-analys-61",
-    "title": "SaaS Late Stage: Skalbarhetsparadoxen i Series E",
-    "date": "2026-01-20",
-    "author": "Jonas Hyltén",
-    "description": "Analys av skalbarhetsparadoxen i stora bolag."
-  },
-  {
-    "slug": "global-gotomarket-precision-62",
-    "title": "Global Go-To-Market: Precision före hastighet",
-    "date": "2026-01-19",
-    "author": "Hyltén Venture Studio",
-    "description": "GTM-strategier i hyperskalning."
-  },
-  {
-    "slug": "ai-b2b-automation-loopar-63",
-    "title": "AI B2B: Automationens loopar och felkällor",
-    "date": "2026-01-18",
-    "author": "Hyltén Venture Studio",
-    "description": "Varför AI-loopar riskerar att självförvränga data."
-  },
-  {
-    "slug": "venture-engineering-systems-64",
-    "title": "Venture Studio Engineering: Systemdesign över features",
-    "date": "2026-01-17",
-    "author": "Hyltén Venture Studio",
-    "description": "Konstruktion av teknisk ryggrad."
-  },
-  {
-    "slug": "saas-early-signaler-65",
-    "title": "SaaS Early Stage: De dolda signalerna i första kohorten",
-    "date": "2026-01-16",
-    "author": "Jonas Hyltén",
-    "description": "Vad tidig data egentligen avslöjar."
-  },
-  {
-    "slug": "gtm-modularisering-66",
-    "title": "Modulär GTM: Ett ramverk för snabbare iterationer",
-    "date": "2026-01-15",
-    "author": "Hyltén Venture Studio",
-    "description": "Kontrollerade marknadsexperiment via modularitet."
-  },
-  {
-    "slug": "ai-b2b-kontrollpunkter-67",
-    "title": "Kontrollpunkter i AI-baserade B2B-flöden",
-    "date": "2026-01-14",
-    "author": "Hyltén Venture Studio",
-    "description": "Undvika AI-felpropagering i automation."
-  },
-  {
-    "slug": "scaling-late-metrics-68",
-    "title": "Late Stage Scaling: Nya metrikregimer efter Series D",
-    "date": "2026-01-13",
-    "author": "Hyltén Venture Studio",
-    "description": "Otillräckliga metriker efter global expansion."
-  },
-  {
-    "slug": "venture-engineering-core-vs-edge-69",
-    "title": "Core vs Edge: En ingenjörsbalans i venture studios",
-    "date": "2026-01-12",
-    "author": "Jonas Hyltén",
-    "description": "Balans mellan kärna och snabba experiment."
-  },
-  {
-    "slug": "saas-churn-signalextraktion-70",
-    "title": "Churn-signalextraktion i tekniskt komplexa SaaS-miljöer",
-    "date": "2026-01-11",
-    "author": "Hyltén Venture Studio",
-    "description": "Churn som informationskälla snarare än problem."
-  },
-  {
-    "slug": "gtm-ai-ops-71",
-    "title": "AI i GTM Ops: När automatiseringen blir strategisk",
-    "date": "2026-01-10",
-    "author": "Hyltén Venture Studio",
-    "description": "När AI tar GTM från operation till strategi."
-  },
-  {
-    "slug": "ai-b2b-feedback-loopar-72",
-    "title": "Feedback-loopar i AI B2B: Från bruskontroll till signalförstärkning",
-    "date": "2026-01-09",
-    "author": "Hyltén Venture Studio",
-    "description": "Minska brus i AI-drivna modeller."
-  },
-  {
-    "slug": "venture-engineering-platform-tänk-73",
-    "title": "Plattformstänk i early-stage venture engineering",
-    "date": "2026-01-08",
-    "author": "Jonas Hyltén",
-    "description": "Plattformstanke för framtida spinouts."
-  },
-  {
     "slug": "saas-late-prissättning-74",
-    "title": "Prissättningsskiften i Late Stage SaaS",
+    "title": "saas-late-prissattning-74: Prissättningsdynamik i sena SaaS-stadier - Varför linjär expansion dödar Series E",
     "date": "2026-01-07",
-    "author": "Hyltén Venture Studio",
+    "author": "Skeptical Investor (Leaked)",
     "description": "Prissättning som tillväxtbroms efter Series F."
   },
   {
-    "slug": "gtm-deep-segmentation-75",
-    "title": "Deep Segmentation: Nya GTM-modeller för AI-first-produkter",
-    "date": "2026-01-06",
-    "author": "Hyltén Venture Studio",
-    "description": "Segmentering i adaptiva produkter."
-  },
-  {
-    "slug": "ai-b2b-riskstrukturer-76",
-    "title": "Riskstrukturer i AI B2B-produkter",
-    "date": "2026-01-05",
-    "author": "Hyltén Venture Studio",
-    "description": "Tekniska och affärsmässiga risker i AI-arkitektur."
-  },
-  {
     "slug": "venture-engineering-low-code-vs-hardcode-77",
-    "title": "Low-code vs Hardcode i Venture Studios",
+    "title": "Venture-Engineering Low-Code vs Hardcode: Hur man väljer arkitektur för omedelbar skalbarhet",
     "date": "2026-01-04",
-    "author": "Jonas Hyltén",
+    "author": "Skeptical Investor (Leaked)",
     "description": "Nykter analys av low-code vs kod."
   },
   {
-    "slug": "saas-early-kohortmatematik-78",
-    "title": "Kohortmatematik för Early Stage SaaS",
-    "date": "2026-01-03",
-    "author": "Hyltén Venture Studio",
-    "description": "Varför kohortanalys är mer strukturell än numerisk."
-  },
-  {
-    "slug": "gtm-motion-hybrider-79",
-    "title": "Hybrid-GTM: Kombinationen som slår single-motion",
-    "date": "2026-01-02",
-    "author": "Hyltén Venture Studio",
-    "description": "Kombinera PLG, SLG och channel."
-  },
-  {
-    "slug": "ai-b2b-personaliseringens-gränser-80",
-    "title": "AI-personalisering: Var går gränsen i B2B?",
-    "date": "2026-01-01",
-    "author": "Hyltén Venture Studio",
-    "description": "Hyperpersonaliseringens friktionspunkter."
-  },
-  {
-    "slug": "saas-late-northstar-81",
-    "title": "North Star-shifts i SaaS efter IPO",
-    "date": "2025-12-31",
-    "author": "Jonas Hyltén",
-    "description": "Huvudmåttets förändring vid börsnotering."
-  },
-  {
-    "slug": "gtm-internationell-expansion-82",
-    "title": "Internationell GTM-expansion: Från möjligheter till begränsningar",
-    "date": "2025-12-30",
-    "author": "Hyltén Venture Studio",
-    "description": "Fallgropar vid geografisk expansion."
-  },
-  {
-    "slug": "ai-b2b-datakvalitet-83",
-    "title": "Datakvalitet som konkurrensfördel i AI B2B",
-    "date": "2025-12-29",
-    "author": "Hyltén Venture Studio",
-    "description": "Varför datakvalitet slår modellval."
-  },
-  {
     "slug": "venture-engineering-ops-84",
-    "title": "Engineering Ops i en venture studio-miljö",
+    "title": "Venture Engineering Ops: System för att hantera 10 vinnare utan personalexplosion",
     "date": "2025-12-28",
-    "author": "Hyltén Venture Studio",
+    "author": "Skeptical Investor (Leaked)",
     "description": "Balansera tempo med teknisk kvalitet."
   },
   {
-    "slug": "saas-early-prioriteringsramverk-85",
-    "title": "Prioriteringsramverk för Early SaaS",
-    "date": "2025-12-27",
-    "author": "Jonas Hyltén",
-    "description": "Välja rätt features i osäker marknad."
-  },
-  {
-    "slug": "gtm-machine-learning-ledd-prospektering-86",
-    "title": "ML-ledd prospektering i B2B",
-    "date": "2025-12-26",
-    "author": "Hyltén Venture Studio",
-    "description": "Maskininlärningstrender i försäljning."
-  },
-  {
-    "slug": "ai-b2b-kostnadsoptimering-87",
-    "title": "AI-optimering: Kostnadsbalans för B2B-infrastruktur",
-    "date": "2025-12-25",
-    "author": "Hyltén Venture Studio",
-    "description": "Minska kostnader utan att tappa precision."
-  },
-  {
     "slug": "venture-engineering-multi-product-88",
-    "title": "Multi-product engineering för venture studios",
+    "title": "Multi-product Engineering i Venture Studios: Systemiska synergier mellan portföljbolag i en distribuerad produktionsmiljö",
     "date": "2025-12-24",
-    "author": "Hyltén Venture Studio",
+    "author": "Skeptical Investor (Leaked)",
     "description": "Ramverk för parallell produktutveckling."
   },
   {
-    "slug": "saas-late-finansiell-telemetri-89",
-    "title": "Finansiell telemetri för Late Stage SaaS",
-    "date": "2025-12-23",
-    "author": "Jonas Hyltén",
-    "description": "Finansdata i produktens beslutsmotor."
-  },
-  {
-    "slug": "gtm-adaptive-playbooks-90",
-    "title": "Adaptiva GTM-playbooks i AI-eran",
-    "date": "2025-12-22",
-    "author": "Hyltén Venture Studio",
-    "description": "GTM-playbooks styrda av realtidsdata."
-  },
-  {
-    "slug": "ai-b2b-modellrisker-91",
-    "title": "Modellrisker i komplexa B2B-flöden",
-    "date": "2025-12-21",
-    "author": "Hyltén Venture Studio",
-    "description": "Neutralisera risker i intelligenta flöden."
-  },
-  {
     "slug": "venture-engineering-data-strategi-92",
-    "title": "Datastrategi som grund i venture studios",
+    "title": "Data-strategi som Produkt: Varför studion måste kontrollera semantiken",
     "date": "2025-12-20",
-    "author": "Hyltén Venture Studio",
+    "author": "Skeptical Investor (Leaked)",
     "description": "Rätt datamodell som accelerationsmotor."
   },
   {
-    "slug": "saas-early-value-proposition-evolution-93",
-    "title": "Value Proposition-evolution i early SaaS",
-    "date": "2025-12-19",
-    "author": "Jonas Hyltén",
-    "description": "Värdeerbjudandets kontinuerlig förändring."
-  },
-  {
-    "slug": "gtm-channel-arbetsdelning-94",
-    "title": "Channel-GTM i komplexa marknader",
-    "date": "2025-12-18",
-    "author": "Hyltén Venture Studio",
-    "description": "Partnerstrategier vs direktförsäljning."
-  },
-  {
-    "slug": "ai-b2b-evaluering-95",
-    "title": "Evaluering av AI B2B-modeller i drift",
-    "date": "2025-12-17",
-    "author": "Hyltén Venture Studio",
-    "description": "Mäta påverkan av modeller i produktion."
-  },
-  {
     "slug": "venture-engineering-verticalization-96",
-    "title": "Verticalization: Venture studio-taktik för snabbare traction",
+    "title": "Vertikalisering som vallgrav: Varför generella modeller förlorar mot domänspecifik arkitektur",
     "date": "2025-12-16",
-    "author": "Hyltén Venture Studio",
+    "author": "Skeptical Investor (Leaked)",
     "description": "Vertikalt fokus i multiproduktmiljöer."
   },
   {
-    "slug": "saas-late-operativ-komplexitet-97",
-    "title": "Operativ komplexitet i SaaS efter global skalning",
-    "date": "2025-12-15",
-    "author": "Jonas Hyltén",
-    "description": "Modulära operationer för global tillväxt."
-  },
-  {
-    "slug": "gtm-predictive-prioritering-98",
-    "title": "Prediktiv GTM-prioritering",
-    "date": "2025-12-14",
-    "author": "Hyltén Venture Studio",
-    "description": "Prediktioner som styr pipeline."
-  },
-  {
-    "slug": "ai-b2b-säkerhetslager-99",
-    "title": "Säkerhetslager för AI i B2B-applikationer",
-    "date": "2025-12-13",
-    "author": "Hyltén Venture Studio",
-    "description": "Bygga säkerhetslager för AI-fel."
-  },
-  {
-    "slug": "venture-engineering-roadmap-taktik-100",
-    "title": "Roadmap-taktik för venture studios",
-    "date": "2025-12-12",
-    "author": "Hyltén Venture Studio",
-    "description": "Strategier för produktplanering i studios."
-  },
-  {
     "slug": "saas-skalbarhetsmatrisen-101",
-    "title": "SaaS-skalarens nya matris",
+    "title": "SaaS-skalbarhetsmatrisen 101: Skalbarhetsmatrisen - En kvantitativ ram för att mäta operativ friktion",
     "date": "2025-12-11",
-    "author": "Roials Alpha",
+    "author": "Skeptical Investor (Leaked)",
     "description": "Uppdaterad modell för skalning i AI-ekonomin."
   },
   {
-    "slug": "ai-first-gotomarket-102",
-    "title": "AI-First GTM: Nästa standard för B2B-expansion",
-    "date": "2025-12-10",
-    "author": "Hyltén Venture Studio",
-    "description": "Hur AI-system förändrar hela GTM-kedjan."
-  },
-  {
-    "slug": "pipeline-intelligence-103",
-    "title": "Pipeline Intelligence: När säljaren blir analytiker",
-    "date": "2025-12-09",
-    "author": "Jonas Hyltén",
-    "description": "AI-verktyg som omformar säljprocessen."
-  },
-  {
     "slug": "vertical-ai-early-stage-104",
-    "title": "Early-Stage Vertical AI: Där de nya unicorns föds",
+    "title": "Vertical AI i tidiga skeden: Hur man bygger för suveränitet från dag ett",
     "date": "2025-12-08",
-    "author": "Hyltén Venture Studio",
+    "author": "Skeptical Investor (Leaked)",
     "description": "Varför vertikala AI-lösningar vinner."
   },
   {
-    "slug": "effektivisering-av-saas-105",
-    "title": "SaaS-effektivisering 2026: Från cost-cutting till smart automation",
-    "date": "2025-12-07",
-    "author": "Jonas Hyltén",
-    "description": "Gå från nedskärningar till AI-automation."
-  },
-  {
-    "slug": "agent-sales-pipelines-106",
-    "title": "Agentbaserade säljflöden: Nästa steg för B2B-sälj",
-    "date": "2025-12-06",
-    "author": "Roials Alpha",
-    "description": "Autonoma agentteam i säljarbetet."
-  },
-  {
-    "slug": "ai-driven-churn-modeling-107",
-    "title": "AI-driven churnmodellering som produktionssystem",
-    "date": "2025-12-05",
-    "author": "Jonas Hyltén",
-    "description": "Bygga prediktiva churnmodeller som fungerar."
-  },
-  {
-    "slug": "gtm-systems-thinking-108",
-    "title": "GTM Systems Thinking i en AI-värld",
-    "date": "2025-12-04",
-    "author": "Hyltén Venture Studio",
-    "description": "Systemdesign ersätter marknadsprocesser."
-  },
-  {
-    "slug": "b2b-ai-messaging-109",
-    "title": "B2B-AI och framtiden för marknadsbudskap",
-    "date": "2025-12-03",
-    "author": "Jonas Hyltén",
-    "description": "Budskap optimerade av generativa modeller."
-  },
-  {
     "slug": "saas-multiplar-110",
-    "title": "SaaS-multiplar i AI-eran",
+    "title": "saas-multiplar-110: Multiplarnas psykologi 2026 - Varför marknaden väljer AGI-infrastruktur över applikationslager",
     "date": "2025-12-02",
-    "author": "Hyltén Venture Studio",
+    "author": "Skeptical Investor (Leaked)",
     "description": "Hur investerare värderar AI-förstärkta plattformar."
   },
   {
-    "slug": "discovery-automation-111",
-    "title": "Discovery Automation: Automatiserad marknadskartläggning",
-    "date": "2025-12-01",
-    "author": "Roials Alpha",
-    "description": "Agentiska system som hittar nya segment."
-  },
-  {
-    "slug": "evangelism-in-ai-112",
-    "title": "Evangelism i AI-åldern",
-    "date": "2025-11-30",
-    "author": "Hyltén Venture Studio",
-    "description": "Hur thought-leadership förändras av AI."
-  },
-  {
-    "slug": "pricing-med-ai-113",
-    "title": "AI-driven SaaS-prissättning",
-    "date": "2025-11-29",
-    "author": "Jonas Hyltén",
-    "description": "Dynamisk prissättning baserad på kundvärde."
-  },
-  {
-    "slug": "founder-led-sales-2-0-114",
-    "title": "Founder-Led Sales 2.0",
-    "date": "2025-11-28",
-    "author": "Hyltén Venture Studio",
-    "description": "Grundare som använder AI-stackar för att sälja."
-  },
-  {
-    "slug": "ai-customer-success-115",
-    "title": "Customer Success som AI-maskineri",
-    "date": "2025-11-27",
-    "author": "Jonas Hyltén",
-    "description": "Nytt operativsystem för CS byggt på agentik."
-  },
-  {
     "slug": "saas-prototyping-116",
-    "title": "Prototyping som pipelines: Venture Studio-metoder",
+    "title": "SaaS‑prototyping 116: Rapid Prototyping i Venture Studio - Från arkitektur till 1M ARR på 12 veckor",
     "date": "2025-11-26",
-    "author": "Roials Alpha",
+    "author": "Skeptical Investor (Leaked)",
     "description": "SaaS-funktioner som autonoma moduler."
   },
   {
-    "slug": "ai-sourcing-117",
-    "title": "AI-sourcing i B2B-team",
-    "date": "2025-11-25",
-    "author": "Jonas Hyltén",
-    "description": "När AI ersätter research och kvalificering."
-  },
-  {
-    "slug": "mlops-for-saas-118",
-    "title": "MLOps för moderna SaaS-produkter",
-    "date": "2025-11-24",
-    "author": "Hyltén Venture Studio",
-    "description": "Drift av modeller som produktfunktioner."
-  },
-  {
-    "slug": "modular-gotomarket-119",
-    "title": "Modulär GTM för AI-produkter",
-    "date": "2025-11-23",
-    "author": "Jonas Hyltén",
-    "description": "GTM byggt som lego med autonoma komponenter."
-  },
-  {
-    "slug": "ai-account-intelligence-120",
-    "title": "Account Intelligence: AI på kontonivå",
-    "date": "2025-11-22",
-    "author": "Hyltén Venture Studio",
-    "description": "Hyperpersonifierad sälj med realtidsmodeller."
-  },
-  {
-    "slug": "vertical-intent-signals-121",
-    "title": "Vertikala intentsignaler för B2B",
-    "date": "2025-11-21",
-    "author": "Roials Alpha",
-    "description": "AI-tolkning av köpsignaler i branschmönster."
-  },
-  {
-    "slug": "engineering-excellence-122",
-    "title": "Engineering Excellence i Venture Studios",
-    "date": "2025-11-20",
-    "author": "Hyltén Venture Studio",
-    "description": "Bygga teknikteam för snabb produktutveckling."
-  },
-  {
-    "slug": "hybrid-sdr-teams-123",
-    "title": "Hybrid-SDR: Människa + Agent",
-    "date": "2025-11-19",
-    "author": "Jonas Hyltén",
-    "description": "Säljteam där AI gör 80% av jobbet."
-  },
-  {
-    "slug": "product-factories-124",
-    "title": "Product Factories: Automatiserade produktionslinor för SaaS",
-    "date": "2025-11-18",
-    "author": "Hyltén Venture Studio",
-    "description": "Industrialisering av produktutveckling."
-  },
-  {
-    "slug": "ai-fog-of-war-125",
-    "title": "Fog-of-War i AI-strategi",
-    "date": "2025-11-17",
-    "author": "Jonas Hyltén",
-    "description": "Planering under informationsasymmetri."
-  },
-  {
-    "slug": "full-funnel-automation-126",
-    "title": "Full-Funnel Automation",
-    "date": "2025-11-16",
-    "author": "Roials Alpha",
-    "description": "Komplett autonom säljmaskin."
-  },
-  {
-    "slug": "ai-due-diligence-127",
-    "title": "AI-driven Due Diligence",
-    "date": "2025-11-15",
-    "author": "Jonas Hyltén",
-    "description": "Generativa agenter i investerargranskning."
-  },
-  {
-    "slug": "designing-ai-saas-128",
-    "title": "Designing AI-Native SaaS",
-    "date": "2025-11-14",
-    "author": "Hyltén Venture Studio",
-    "description": "Grundprinciper för AI-native-produkter."
-  },
-  {
-    "slug": "value-engineering-129",
-    "title": "Value Engineering för 2026",
-    "date": "2025-11-13",
-    "author": "Jonas Hyltén",
-    "description": "Värdefångst som automatiseras i B2B."
-  },
-  {
-    "slug": "agent-led-ops-130",
-    "title": "Agent-Led Ops",
-    "date": "2025-11-12",
-    "author": "Hyltén Venture Studio",
-    "description": "Operationer drivna av autonoma flöden."
-  },
-  {
     "slug": "vertical-problems-worth-solving-131",
-    "title": "Vertikala problem värda att lösa 2026",
+    "title": "Below is the article exactly as requested.",
     "date": "2025-11-11",
-    "author": "Roials Alpha",
+    "author": "Skeptical Investor (Leaked)",
     "description": "Kartläggning av branschspecifika möjligheter."
   },
   {
-    "slug": "product-mastery-132",
-    "title": "Product Mastery i AI-organisationer",
-    "date": "2025-11-10",
-    "author": "Hyltén Venture Studio",
-    "description": "Styrning av AI-produkter utan komplexitetsdöd."
-  },
-  {
-    "slug": "generative-research-133",
-    "title": "Generative Research som motor för innovation",
-    "date": "2025-11-09",
-    "author": "Jonas Hyltén",
-    "description": "Forskning som automatiseras av AI."
-  },
-  {
-    "slug": "engineering-moats-134",
-    "title": "Engineering Moats i en tid av modellkommodifiering",
-    "date": "2025-11-08",
-    "author": "Hyltén Venture Studio",
-    "description": "Hållbara försprång när modeller blir billiga."
-  },
-  {
-    "slug": "b2b-ai-mechanics-135",
-    "title": "Mekanismerna bakom B2B-AI-adoption",
-    "date": "2025-11-07",
-    "author": "Jonas Hyltén",
-    "description": "Drivkrafter för AI-adoption i företag."
-  },
-  {
-    "slug": "microproducts-136",
-    "title": "Microproducts: Små produkter, stora effekter",
-    "date": "2025-11-06",
-    "author": "Roials Alpha",
-    "description": "Micro-SaaS och mikroagenter i produktcykeln."
-  },
-  {
-    "slug": "gtm-math-137",
-    "title": "GTM-matematik för AI-produkter",
-    "date": "2025-11-05",
-    "author": "Jonas Hyltén",
-    "description": "Tillväxtmodeller för en automatiserad värld."
-  },
-  {
-    "slug": "venture-studio-economics-138",
-    "title": "Ekonomin bakom Venture Studios",
-    "date": "2025-11-04",
-    "author": "Hyltén Venture Studio",
-    "description": "Multipelvärde genom portföljdesign."
-  },
-  {
-    "slug": "ai-team-orchestration-139",
-    "title": "Teamorchestration i AI-drivna organisationer",
-    "date": "2025-11-03",
-    "author": "Jonas Hyltén",
-    "description": "Samarbete med autonoma system."
-  },
-  {
-    "slug": "product-velocity-140",
-    "title": "Produktvelocity i AI-accelererad utveckling",
-    "date": "2025-11-02",
-    "author": "Hyltén Venture Studio",
-    "description": "Multiplicera hastighet och kvalitet."
-  },
-  {
     "slug": "scale-dynamics-141",
-    "title": "Scale Dynamics i post-modellvärlden",
+    "title": "scale-dynamics-141: Skalningsdynamikens Matematik - Varför linjära prognoser är farliga i hyperscale",
     "date": "2025-11-01",
-    "author": "Roials Alpha",
+    "author": "Skeptical Investor (Leaked)",
     "description": "Tillväxtdynamik vid låg AI-kostnad."
   },
   {
-    "slug": "founder-operators-142",
-    "title": "Founder-Operators och AI-leverans",
-    "date": "2025-10-31",
-    "author": "Hyltén Venture Studio",
-    "description": "Grundare med AI-kapacitet."
-  },
-  {
-    "slug": "embedded-gotomarket-143",
-    "title": "Embedded GTM: När GTM blir en produktfunktion",
-    "date": "2025-10-30",
-    "author": "Jonas Hyltén",
-    "description": "Marknad och sälj inuti produkten."
-  },
-  {
-    "slug": "agentic-productivity-144",
-    "title": "Agentisk produktivitet i stora organisationer",
-    "date": "2025-10-29",
-    "author": "Hyltén Venture Studio",
-    "description": "Autonoma arbetsflöden som koordinerar sig själva."
-  },
-  {
-    "slug": "agentic-ai-vs-workflows-145",
-    "title": "Agentic AI vs Workflows: Broar till autonomi",
-    "date": "2025-10-28",
-    "author": "Jonas Hyltén",
-    "description": "Jämförelse mellan flöden och agenter."
-  },
-  {
-    "slug": "vertical-saas-embedded-ai-146",
-    "title": "Vertical SaaS & Embedded AI: Tillväxtmultiplikatorer",
-    "date": "2025-10-27",
-    "author": "Roials Alpha",
-    "description": "Inbäddad AI i vertikala plattformar."
-  },
-  {
-    "slug": "experience-led-growth-147",
-    "title": "Experience-Led Growth (XLG) vs PLG i AI-eran",
-    "date": "2025-10-26",
-    "author": "Jonas Hyltén",
-    "description": "Varför XLG ersätter klassisk PLG."
-  },
-  {
-    "slug": "generative-engine-optimization-148",
-    "title": "Generative Engine Optimization (GEO) – Nästa SEO för B2B",
-    "date": "2025-10-25",
-    "author": "Hyltén Venture Studio",
-    "description": "Optimering för generativa sökmotorer."
-  },
-  {
-    "slug": "job-compression-ai-149",
-    "title": "Job Compression: Hur AI definierar 'Headcount' i SaaS",
-    "date": "2025-10-24",
-    "author": "Jonas Hyltén",
-    "description": "Teamstorlek baserad på kapacitet."
-  },
-  {
-    "slug": "ai-or-nothing-trends-150",
-    "title": "AI-or-Nothing VC-trender: Navigera 2026 års finansiering",
-    "date": "2025-10-23",
-    "author": "Hyltén Venture Studio",
-    "description": "Riskkapitalets krav på AI-kärna."
-  },
-  {
-    "slug": "februari-25-value-creation-playbooks-for-late-stage-saas",
-    "title": "Value Creation-playbooks för Late Stage SaaS",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Pelare för värdeskapande när ARR överstiger 700 MSEK."
-  },
-  {
-    "slug": "februari-24-riskhantering-i-saas-infor-ipo",
-    "title": "Riskhantering i SaaS inför IPO",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Kvantifiera och eliminera operativa risker inför börsnotering."
-  },
-  {
-    "slug": "februari-23-den-dolda-kostnaden-av-teknisk-skuld-i-senfasbolag",
-    "title": "Den dolda kostnaden av teknisk skuld i senfasbolag",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Teknisk skuld accelererar exponentiellt i mogna SaaS-bolag."
-  },
-  {
-    "slug": "februari-22-saas-prissattning-infor-ipo",
-    "title": "SaaS-prissättning inför IPO",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Optimera prissättning för marknadens syn på expansion revenue."
-  },
-  {
-    "slug": "februari-21-ma-kulturintegration-pa-storföretagsnivå",
-    "title": "M&A-kulturintegration på storföretagsnivå",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Undvik de psykologiska misstag som saboterar integrationer."
-  },
-  {
-    "slug": "februari-28-saas-financial-controls-for-ipo-readiness",
-    "title": "SaaS Financial Controls för IPO-readiness",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Interna processer som måste vara på plats innan notering."
-  },
-  {
-    "slug": "februari-27-ma-forecasting-modeller-som-fungerar-i-sen-fas",
-    "title": "M&A-forecasting: Modeller som fungerar i sen fas",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Klassiska bottom-up-modeller fallerar på skala."
-  },
-  {
-    "slug": "februari-26-saas-talent-arbitrage-i-series-f",
-    "title": "SaaS-Talent Arbitrage i Series F",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Växla upp organisationens kompetens utan politisk friktion."
-  },
-  {
-    "slug": "autonoma-pipelines-for-saas-utveckling",
-    "title": "Autonoma pipelines för SaaS-utveckling",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Automatiserade utvecklingsflöden som accelererar produktcykeln."
-  },
-  {
-    "slug": "datastrukturer-for-produktexpansion",
-    "title": "Datastrukturer för produktexpansion",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Arkitektur för datadrivna expansionsmodeller i SaaS."
-  },
-  {
-    "slug": "strategiska-saas-fundraising-loopar",
-    "title": "Strategiska SaaS-fundraising-loopar",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Kapitalanskaffningens cykliska dynamik i senfas-SaaS."
-  },
-  {
-    "slug": "ml-i-saas-anvandarbeteenden",
-    "title": "ML i SaaS-användarbeteenden",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Maskininlärning för att förstå och förutsäga användarmönster."
-  },
-  {
-    "slug": "teknisk-arkitektur-for-interna-verktyg",
-    "title": "Teknisk arkitektur för interna verktyg",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Konstruktion av interna system som skapar operativ hävstång."
-  },
-  {
-    "slug": "rationell-gtm-optimering",
-    "title": "Rationell GTM-optimering",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Datadriven optimering av go-to-market utan överspend."
-  },
-  {
-    "slug": "ai-i-ingenjorsprocesser",
-    "title": "AI i ingenjörsprocesser",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "AI-integration i tekniska arbetsflöden och utvecklingscykler."
-  },
-  {
-    "slug": "produktarkitektur-for-accelererad-experimentering",
-    "title": "Produktarkitektur för accelererad experimentering",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Arkitektur som möjliggör snabba produktexperiment utan teknisk skuld."
-  },
-  {
-    "slug": "studio-ekonomi-och-produktionsoptimering",
-    "title": "Studiomodellens ekonomi och produktionsoptimering",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Finansiella modeller för venture studio-drift och resursallokering."
-  },
-  {
-    "slug": "agentic-ai-vs-workflows-broar-till-autonomi",
-    "title": "Agentic AI vs Workflows: Broar till autonomi",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Jämförelse mellan regelstyrda flöden och autonoma agenter."
-  },
-  {
-    "slug": "vertical-saas-embedded-ai-tillvaxtmultiplikatorer",
-    "title": "Vertical SaaS & Embedded AI: Tillväxtmultiplikatorer",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Inbäddad AI i vertikala plattformar som tillväxthävstång."
-  },
-  {
-    "slug": "experience-led-growth-xlg-vs-plg-i-ai-eran",
-    "title": "Experience-Led Growth (XLG) vs PLG i AI-eran",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "XLG ersätter klassisk PLG i produkter med AI-kärna."
-  },
-  {
-    "slug": "generative-engine-optimization-geo-nasta-seo-b2b",
-    "title": "Generative Engine Optimization (GEO): Nästa SEO för B2B",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Optimering för generativa sökmotorer i B2B-kontext."
-  },
-  {
-    "slug": "job-compression-ai-definierar-headcount-saas",
-    "title": "Job Compression: Hur AI definierar headcount i SaaS",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Teamstorlek baserad på AI-kapacitet snarare än rollbeskrivningar."
-  },
-  {
-    "slug": "ai-or-nothing-vc-trender-navigera-2026-finansiering",
-    "title": "AI-or-Nothing VC-trender: Navigera 2026 års finansiering",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Riskkapitalets krav på AI-kärna i varje portföljbolag."
-  },
-  {
-    "slug": "enterprise-llm-value-86",
-    "title": "Enterprise LLM-värde: Mätning av ROI i produktion",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Kvantifiering av LLM-värde i enterprise-applikationer."
-  },
-  {
-    "slug": "marketplace-liquidity-playbook-87",
-    "title": "Marketplace-likviditet: En praktisk playbook",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Strategier för att bygga likviditet i tvåsidiga marknadsplatser."
-  },
-  {
-    "slug": "voc-feedback-compass-88",
-    "title": "VoC-feedbackkompass: Kundröstens navigering",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Strukturerad metod för att omvandla kundfeedback till produktstrategi."
-  },
-  {
-    "slug": "foundational-five-hires-89",
-    "title": "Fem grundläggande anställningar för tidiga bolag",
-    "date": "2026-03-15",
-    "author": "Jonas Hyltén",
-    "description": "Rollerna som definierar ett bolags första tillväxtfas."
-  },
-  {
     "slug": "series-a-landscape-90",
-    "title": "Series A-landskapet 2026",
+    "title": "Series A-landskapet 2026 - Varför kapitalmigrering mot suverän arkitektur börjar tidigt",
     "date": "2026-03-15",
-    "author": "Jonas Hyltén",
+    "author": "Skeptical Investor (Leaked)",
     "description": "Kartläggning av rådande villkor och förväntningar i Series A."
   }
 ];

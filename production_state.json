@@ -1,0 +1,17 @@
+{
+  "last_article_date": "2026-03-22",
+  "articles": [
+    {
+      "slug": "leaked-memo-death-of-wrapped-wrapper-2026",
+      "date": "2026-03-22",
+      "loop": 1
+    }
+  ],
+  "current_loop": 1,
+  "directives": [
+    "The Infinite Loop Shield: Each article must contradict or expand on a previous nuance. No repeat metaphors.",
+    "The Zero-Fluff Protocol: No 'In conclusion', 'In the world of', or 'Crucial'. Replace with cold data or 'Cold Takes'.",
+    "The Metadata Anchor: Verify against production_state.json for chain continuity.",
+    "The Leaked Memo Protocol: Skeptical investor voice. If it looks like SEO, it is a failure."
+  ]
+}

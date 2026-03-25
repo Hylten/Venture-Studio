@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { ChevronRight, ArrowLeft, Mail, Download, Calendar, Send } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 export interface Article {
   slug: string;
@@ -55,6 +56,12 @@ export const IntelligenceArchive: React.FC<{
 
   return (
     <div className="pt-32 pb-20 px-8 md:px-24">
+      <Helmet>
+        <title>Intelligence Arkiv | Hyltén Venture Studio</title>
+        <meta name="description" content="Operativ intelligens och djupanalyser för sent-stadie SaaS, AI Enterprise och kapitalmarknader." />
+        <link rel="canonical" href="https://hylten.github.io/Venture-Studio/#/intelligence" />
+      </Helmet>
+
       <Reveal>
         <button 
           onClick={() => onNavigate("/")}
@@ -236,8 +243,40 @@ export const IntelligenceArticle: React.FC<{
     }
   };
 
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": article.title,
+    "description": article.description,
+    "author": {
+      "@type": "Person",
+      "name": article.author
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Hyltén Venture Studio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://hylten.github.io/Venture-Studio/logo.png"
+      }
+    },
+    "datePublished": article.date,
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://hylten.github.io/Venture-Studio/#/intelligence/${article.slug}`
+    }
+  };
+
   return (
     <div className="pt-32 pb-20 px-8 md:px-24 max-w-4xl mx-auto">
+      <Helmet>
+        <title>{article.title} | Venture Studio Intelligence</title>
+        <meta name="description" content={article.description} />
+        <link rel="canonical" href={`https://hylten.github.io/Venture-Studio/#/intelligence/${article.slug}`} />
+        <script type="application/ld+json">
+          {JSON.stringify(schemaData)}
+        </script>
+      </Helmet>
       <Reveal>
         <button 
           onClick={() => onNavigate("/intelligence")}

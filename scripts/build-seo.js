@@ -110,7 +110,7 @@ async function generateSEO() {
         <div style="position:fixed;bottom:32px;right:32px;z-index:10000;">
             <a href="https://wa.me/46701619978?text=Hej%20Jonas!%20Jag%20läste%20på%20Venture%20Studio%20Intelligence." target="_blank" rel="noopener noreferrer" style="background:#1a1a1a;padding:16px;border-radius:50%;box-shadow:0 10px 30px rgba(0,0,0,0.5);opacity:0.6;transition:opacity 0.3s;display:flex;align-items:center;justify-content:center;width:56px;height:56px;box-sizing:border-box;text-decoration:none;">
                 <svg style="width:24px;height:24px;color:white;" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
                 </svg>
             </a>
         </div>`;
@@ -118,16 +118,44 @@ async function generateSEO() {
     const indexHtml = baseHtml
         .replace(/<title>.*?<\/title>/, '<title>Intelligence Arkiv | Hyltén Venture Studio</title>')
         .replace(/<meta name="description" content=".*?">/, '<meta name="description" content="Operativ intelligens för sent-stadie SaaS. Analyser om SaaS-monetisering, AI i enterprise, kapitalmarknad, fundraising och venture studio-metodik.">')
+        .replace('</head>', `  <link rel="canonical" href="${SITE_URL}/#/intelligence" />\n</head>`)
         .replace('<div id="root"></div>', `<div id="root">${listHtml}${sharedButtons}</div>`);
 
     fs.writeFileSync(path.join(INTELLIGENCE_DIST_DIR, 'index.html'), indexHtml);
     console.log('✅ Generated /dist/intelligence/index.html');
+
+    const feedItems = [];
 
     for (const article of publishedArticles) {
         const articleDir = path.join(INTELLIGENCE_DIST_DIR, article.slug);
         ensureDir(articleDir);
 
         const articleContent = content[article.slug] || 'Analys under bearbetning.';
+        const articleFullUrl = `${SITE_URL}/#/intelligence/${article.slug}`;
+
+        feedItems.push({
+            id: article.slug,
+            url: articleFullUrl,
+            title: article.title,
+            summary: article.description,
+            date_published: new Date(article.date).toISOString(),
+            author: { name: article.author }
+        });
+
+        const schemaData = {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": article.title,
+            "description": article.description,
+            "author": { "@type": "Person", "name": article.author },
+            "publisher": { 
+                "@type": "Organization", 
+                "name": "Hyltén Venture Studio",
+                "logo": { "@type": "ImageObject", "url": `${SITE_URL}/logo.png` }
+            },
+            "datePublished": article.date,
+            "mainEntityOfPage": { "@type": "WebPage", "@id": articleFullUrl }
+        };
         
         const articleHtmlContent = `
         <div style="background:#050505;min-height:100vh;padding:180px 24px;color:#E5E7EB;font-family:sans-serif;">
@@ -149,7 +177,7 @@ async function generateSEO() {
                     <span>Status: Publicerad</span>
                 </div>
                 
-                <div style="line-height:2;font-size:17px;color:rgba(255,255,255,0.8);font-weight:400;margin-bottom:64px;">
+                <div style="line-height:2.1;font-size:17px;color:rgba(255,255,255,0.8);font-weight:400;margin-bottom:64px;">
                     ${articleContent.split('\n\n').map(p => {
                         p = p.trim();
                         if (!p) return '';
@@ -184,6 +212,7 @@ async function generateSEO() {
         const articleHtml = baseHtml
             .replace(/<title>.*?<\/title>/, `<title>${article.title} | Hyltén Venture Studio Intelligence</title>`)
             .replace(/<meta name="description" content=".*?">/, `<meta name="description" content="${article.description}">`)
+            .replace('</head>', `  <link rel="canonical" href="${articleFullUrl}" />\n  <script type="application/ld+json">${JSON.stringify(schemaData)}</script>\n</head>`)
             .replace('<div id="root"></div>', `<div id="root">${articleHtmlContent}${sharedButtons}</div>`);
 
         fs.writeFileSync(path.join(articleDir, 'index.html'), articleHtml);
@@ -203,11 +232,11 @@ async function generateSEO() {
     <priority>0.9</priority>
   </url>`;
 
-    for (const article of publishedArticles) {
+    for (const item of feedItems) {
         sitemapUrls += `
   <url>
-    <loc>${SITE_URL}/#/intelligence/${article.slug}</loc>
-    <lastmod>${article.date || today}</lastmod>
+    <loc>${item.url}</loc>
+    <lastmod>${item.date_published.split('T')[0]}</lastmod>
     <priority>0.8</priority>
   </url>`;
     }
@@ -219,6 +248,17 @@ ${sitemapUrls}
 
     fs.writeFileSync(path.join(DIST_DIR, 'sitemap.xml'), sitemap);
     console.log('✅ Generated /dist/sitemap.xml');
+
+    // Generate JSON Feed
+    const feed = {
+        version: "https://jsonfeed.org/version/1.1",
+        title: "Hyltén Venture Studio Intelligence",
+        home_page_url: SITE_URL,
+        feed_url: `${SITE_URL}/feed.json`,
+        items: feedItems
+    };
+    fs.writeFileSync(path.join(DIST_DIR, 'feed.json'), JSON.stringify(feed, null, 2));
+    console.log('✅ Generated /dist/feed.json');
 
     const robots = `User-agent: *
 Allow: /
