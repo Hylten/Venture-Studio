@@ -3,6 +3,7 @@ export interface ArticleMetadata {
   title: string;
   date: string;
   author: string;
+  category: string;
   description: string;
 }
 
@@ -12,6 +13,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Värdering i en olinjär marknad: Varför EBITDA är irrelevant för AI-infrastruktur",
     "date": "2026-03-24",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Värdering i en olinjär marknad: Varför EBITDA är irrelevant för AI-infrastruktur. En operativ genomlysning av arkitektonisk suveränitet och skalningsmatematik."
   },
   {
@@ -19,6 +21,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Vertikal AI i hälsovården: Att navigera mellan nytta och etik",
     "date": "2026-03-25",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Vertikal AI i hälsovården: Att navigera mellan nytta och etik. Institutionell analys rörande teknisk resilience och kapitalallokering i AGI-eran."
   },
   {
@@ -26,6 +29,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Vertical SaaS Engineering: Varför domänprecision trumfar generell prestanda",
     "date": "2026-03-16",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "Vertical SaaS Engineering: Varför domänprecision trumfar generell prestanda. Strategiskt memo för serie-grundare om att härda B2B-tillgångar för global exit."
   },
 
@@ -34,6 +38,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Vertical AI i Retail: Att optimera försörjningskedjor",
     "date": "2026-03-18",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Vertical AI i Retail: Att optimera försörjningskedjor. Djuplodande granskning av GTM-infrastruktur och dess påverkan på burn-rate och multiples."
   },
   {
@@ -41,6 +46,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Vertical AI i tidiga skeden: Hur man bygger för suveränitet från dag ett",
     "date": "2026-03-19",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Vertical AI i tidiga skeden: Hur man bygger för suveränitet från dag ett. Ett tekniskt ramverk för att navigera olinjära marknadsrörelser och vertikal dominans."
   },
   {
@@ -48,6 +54,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Venture Studio som Karriärväg: Varför entreprenörer byter spår",
     "date": "2026-03-20",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "Venture Studio som Karriärväg: Varför entreprenörer byter spår. Kritisk utvärdering av operativ hävstång och systemisk risk i moderna SaaS-stackar."
   },
   {
@@ -55,6 +62,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Venture Studio som en Plattform: Att bygga för andra byggare",
     "date": "2026-03-21",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Venture Studio som en Plattform: Att bygga för andra byggare. Milstolpsanalys för sent-stadie bolag som söker suveränitet i ett fragmenterat landskap."
   },
   {
@@ -62,6 +70,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Venture Studio som Alpha: Varför studior utklassar traditionella accelerators 2026",
     "date": "2026-03-22",
     "author": "Jonas Hyltén",
+    "category": "venture-studio",
     "description": "Venture Studio som Alpha: Varför studior utklassar traditionella accelerators 2026. En manual för Stewardship och Asset Hardening i nästa generations mjukvaruekonomi."
   },
   {
@@ -69,6 +78,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Venture Studio Governance: Att styra 20 bolag samtidigt",
     "date": "2026-03-23",
     "author": "Jonas Hyltén",
+    "category": "venture-studio",
     "description": "Venture Studio Governance: Att styra 20 bolag samtidigt. En operativ genomlysning av arkitektonisk suveränitet och skalningsmatematik."
   },
   {
@@ -76,6 +86,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Venture Studio Exit-strategier: Att sälja system istället för produkter",
     "date": "2026-03-24",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Venture Studio Exit-strategier: Att sälja system istället för produkter. Institutionell analys rörande teknisk resilience och kapitalallokering i AGI-eran."
   },
   {
@@ -83,6 +94,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Vertikalisering som vallgrav: Varför generella modeller förlorar mot domänspecifik arkitektur",
     "date": "2026-03-25",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Vertikalisering som vallgrav: Varför generella modeller förlorar mot domänspecifik arkitektur. Strategiskt memo för serie-grundare om att härda B2B-tillgångar för global exit."
   },
   {
@@ -90,6 +102,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Venture Engineering Teamet: Hur man rekryterar de bästa",
     "date": "2026-03-16",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "Venture Engineering Teamet: Hur man rekryterar de bästa. Djuplodande granskning av GTM-infrastruktur och dess påverkan på burn-rate och multiples."
   },
   {
@@ -97,6 +110,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Venture Engineering Scale-up: Från 1 till 10 portföljbolag",
     "date": "2026-03-17",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "Venture Engineering Scale-up: Från 1 till 10 portföljbolag. Ett tekniskt ramverk för att navigera olinjära marknadsrörelser och vertikal dominans."
   },
   {
@@ -104,6 +118,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Venture Engineering Ops: System för att hantera 10 vinnare utan personalexplosion",
     "date": "2026-03-18",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "Venture Engineering Ops: System för att hantera 10 vinnare utan personalexplosion. Kritisk utvärdering av operativ hävstång och systemisk risk i moderna SaaS-stackar."
   },
   {
@@ -111,6 +126,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Multi-product Engineering i Venture Studios: Systemiska synergier mellan portföljbolag i en distribuerad produktionsmiljö",
     "date": "2026-03-19",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Multi-product Engineering i Venture Studios: Systemiska synergier mellan portföljbolag i en distribuerad produktionsmiljö. Milstolpsanalys för sent-stadie bolag som söker suveränitet i ett fragmenterat landskap."
   },
   {
@@ -118,6 +134,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Venture-Engineering Low-Code vs Hardcode: Hur man väljer arkitektur för omedelbar skalbarhet",
     "date": "2026-03-20",
     "author": "Jonas Hyltén",
+    "category": "venture-studio",
     "description": "Venture-Engineering Low-Code vs Hardcode: Hur man väljer arkitektur för omedelbar skalbarhet. En manual för Stewardship och Asset Hardening i nästa generations mjukvaruekonomi."
   },
   {
@@ -125,6 +142,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Data-strategi som Produkt: Varför studion måste kontrollera semantiken",
     "date": "2026-03-21",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Data-strategi som Produkt: Varför studion måste kontrollera semantiken. En operativ genomlysning av arkitektonisk suveränitet och skalningsmatematik."
   },
   {
@@ -132,6 +150,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Venture Engineering 2026: Arkitektur för MaaSS",
     "date": "2026-03-22",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Venture Engineering 2026: Arkitektur för MaaSS. Institutionell analys rörande teknisk resilience och kapitalallokering i AGI-eran."
   },
   {
@@ -139,6 +158,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Venture Capital i AGI-eran: Varför traditionella modeller dör",
     "date": "2026-03-23",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Venture Capital i AGI-eran: Varför traditionella modeller dör. Strategiskt memo för serie-grundare om att härda B2B-tillgångar för global exit."
   },
   {
@@ -146,6 +166,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Vektor-arkitektur för Business Intelligence: När SQL inte räcker längre",
     "date": "2026-03-24",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Vektor-arkitektur för Business Intelligence: När SQL inte räcker längre. Djuplodande granskning av GTM-infrastruktur och dess påverkan på burn-rate och multiples."
   },
   {
@@ -153,6 +174,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Token-ekonomi i B2B: Varför du måste prissätta efter energi, inte efter användare",
     "date": "2026-03-25",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "Token-ekonomi i B2B: Varför du måste prissätta efter energi, inte efter användare. Ett tekniskt ramverk för att navigera olinjära marknadsrörelser och vertikal dominans."
   },
   {
@@ -160,6 +182,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Teknisk Due Diligence 2.0: Att genomlysa AI-lagret inför förvärv",
     "date": "2026-03-16",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Teknisk Due Diligence 2.0: Att genomlysa AI-lagret inför förvärv. Kritisk utvärdering av operativ hävstång och systemisk risk i moderna SaaS-stackar."
   },
   {
@@ -167,6 +190,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Systemisk risk i LLM-beroende: Hur man diversifierar sina modellanrop",
     "date": "2026-03-17",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Systemisk risk i LLM-beroende: Hur man diversifierar sina modellanrop. Milstolpsanalys för sent-stadie bolag som söker suveränitet i ett fragmenterat landskap."
   },
   {
@@ -174,6 +198,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Systemisk Operativ Hävstång: Vägen till 10M ARR med 5 anställda",
     "date": "2026-03-18",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Systemisk Operativ Hävstång: Vägen till 10M ARR med 5 anställda. En manual för Stewardship och Asset Hardening i nästa generations mjukvaruekonomi."
   },
   {
@@ -181,6 +206,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Styrelserapport 2026: De metrics som faktiskt betyder något för ledningen",
     "date": "2026-03-20",
     "author": "Jonas Hyltén",
+    "category": "gtm",
     "description": "Styrelserapport 2026: De metrics som faktiskt betyder något för ledningen. En operativ genomlysning av arkitektonisk suveränitet och skalningsmatematik."
   },
   {
@@ -188,6 +214,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Strategic Exit Planning: Att bygga för att bli uppköpt av Big Tech",
     "date": "2026-03-21",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Strategic Exit Planning: Att bygga för att bli uppköpt av Big Tech. Institutionell analys rörande teknisk resilience och kapitalallokering i AGI-eran."
   },
   {
@@ -195,6 +222,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Sovereign Infrastructure: Varför molnoberoende är framtiden",
     "date": "2026-03-22",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "Sovereign Infrastructure: Varför molnoberoende är framtiden. Strategiskt memo för serie-grundare om att härda B2B-tillgångar för global exit."
   },
   {
@@ -202,6 +230,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Säljcykelns Kollaps: Hur AI‑agenter förkortar beslutsvägar i Enterprise",
     "date": "2026-03-23",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Säljcykelns Kollaps: Hur AI‑agenter förkortar beslutsvägar i Enterprise. Djuplodande granskning av GTM-infrastruktur och dess påverkan på burn-rate och multiples."
   },
   {
@@ -209,6 +238,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Signal-to-Deal Automation: Att eliminera säljarens manuella arbete",
     "date": "2026-03-24",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Signal-to-Deal Automation: Att eliminera säljarens manuella arbete. Ett tekniskt ramverk för att navigera olinjära marknadsrörelser och vertikal dominans."
   },
   {
@@ -216,6 +246,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Series D till E: Tekniskt skaleffektivitet och mognadsnivåer för global dominans",
     "date": "2026-03-25",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "Series D till E: Tekniskt skaleffektivitet och mognadsnivåer för global dominans. Kritisk utvärdering av operativ hävstång och systemisk risk i moderna SaaS-stackar."
   },
   {
@@ -223,6 +254,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Series C: Signal och Brus i Skalningsmodeller",
     "date": "2026-03-16",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Series C: Signal och Brus i Skalningsmodeller. Milstolpsanalys för sent-stadie bolag som söker suveränitet i ett fragmenterat landskap."
   },
   {
@@ -230,6 +262,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Series B till C: Varför de flesta bolag dör i bryggan mellan MVP och Skala",
     "date": "2026-03-17",
     "author": "Jonas Hyltén",
+    "category": "fundraising-ipo",
     "description": "Series B till C: Varför de flesta bolag dör i bryggan mellan MVP och Skala. En manual för Stewardship och Asset Hardening i nästa generations mjukvaruekonomi."
   },
   {
@@ -237,6 +270,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Series A-landskapet 2026 - Varför kapitalmigrering mot suverän arkitektur börjar tidigt",
     "date": "2026-03-18",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "Series A-landskapet 2026 - Varför kapitalmigrering mot suverän arkitektur börjar tidigt. En operativ genomlysning av arkitektonisk suveränitet och skalningsmatematik."
   },
   {
@@ -244,6 +278,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Second-aries i SaaS: Att skapa likviditet inför IPO",
     "date": "2026-03-19",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Second-aries i SaaS: Att skapa likviditet inför IPO. Institutionell analys rörande teknisk resilience och kapitalallokering i AGI-eran."
   },
   {
@@ -251,6 +286,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "scale-dynamics-141: Skalningsdynamikens Matematik - Varför linjära prognoser är farliga i hyperscale",
     "date": "2026-03-20",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "scale-dynamics-141: Skalningsdynamikens Matematik - Varför linjära prognoser är farliga i hyperscale. Strategiskt memo för serie-grundare om att härda B2B-tillgångar för global exit."
   },
   {
@@ -258,6 +294,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "SaaS-skalbarhetsmatrisen 101: Skalbarhetsmatrisen - En kvantitativ ram för att mäta operativ friktion",
     "date": "2026-03-21",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "SaaS-skalbarhetsmatrisen 101: Skalbarhetsmatrisen - En kvantitativ ram för att mäta operativ friktion. Djuplodande granskning av GTM-infrastruktur och dess påverkan på burn-rate och multiples."
   },
   {
@@ -265,6 +302,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Skalbarhet vs lojalitet: Varför churn i Series B är en ledande indikator på arkitekturfel",
     "date": "2026-03-22",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "Skalbarhet vs lojalitet: Varför churn i Series B är en ledande indikator på arkitekturfel. Ett tekniskt ramverk för att navigera olinjära marknadsrörelser och vertikal dominans."
   },
 
@@ -273,6 +311,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "SaaS‑retention i AGI‑eran: Varför traditionell churn‑analys är trasig",
     "date": "2026-03-24",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "SaaS‑retention i AGI‑eran: Varför traditionell churn‑analys är trasig. Kritisk utvärdering av operativ hävstång och systemisk risk i moderna SaaS-stackar."
   },
   {
@@ -280,6 +319,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "SaaS‑prototyping 116: Rapid Prototyping i Venture Studio - Från arkitektur till 1M ARR på 12 veckor",
     "date": "2026-03-25",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "SaaS‑prototyping 116: Rapid Prototyping i Venture Studio - Från arkitektur till 1M ARR på 12 veckor. Milstolpsanalys för sent-stadie bolag som söker suveränitet i ett fragmenterat landskap."
   },
   {
@@ -287,6 +327,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "SaaS‑produktivitet: Hur man mäter output i AI‑eran",
     "date": "2026-03-16",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "SaaS‑produktivitet: Hur man mäter output i AI‑eran. En manual för Stewardship och Asset Hardening i nästa generations mjukvaruekonomi."
   },
   {
@@ -294,6 +335,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "saas-multiplar-110: Multiplarnas psykologi 2026 - Varför marknaden väljer AGI-infrastruktur över applikationslager",
     "date": "2026-03-17",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "saas-multiplar-110: Multiplarnas psykologi 2026 - Varför marknaden väljer AGI-infrastruktur över applikationslager. En operativ genomlysning av arkitektonisk suveränitet och skalningsmatematik."
   },
   {
@@ -301,6 +343,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "SaaS-multipla-värdeströmmar: Arkitektur för att paketera data som intäkt i nästa generation av mjukvaruplattformar",
     "date": "2026-03-18",
     "author": "Jonas Hyltén",
+    "category": "saas-monetization",
     "description": "SaaS-multipla-värdeströmmar: Arkitektur för att paketera data som intäkt i nästa generation av mjukvaruplattformar. Institutionell analys rörande teknisk resilience och kapitalallokering i AGI-eran."
   },
   {
@@ -308,6 +351,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "SaaS-marginalernas matematik: En djupanalys av PnL",
     "date": "2026-03-19",
     "author": "Jonas Hyltén",
+    "category": "saas-monetization",
     "description": "SaaS-marginalernas matematik: En djupanalys av PnL. Strategiskt memo för serie-grundare om att härda B2B-tillgångar för global exit."
   },
   {
@@ -315,6 +359,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Olinjäritet i prognoser för mogna bolag - Varför traditionella modeller misslyckas i Q4",
     "date": "2026-03-20",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Olinjäritet i prognoser för mogna bolag - Varför traditionella modeller misslyckas i Q4. Djuplodande granskning av GTM-infrastruktur och dess påverkan på burn-rate och multiples."
   },
   {
@@ -322,6 +367,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "saas-late-prissattning-74: Prissättningsdynamik i sena SaaS-stadier - Varför linjär expansion dödar Series E",
     "date": "2026-03-21",
     "author": "Jonas Hyltén",
+    "category": "saas-monetization",
     "description": "saas-late-prissattning-74: Prissättningsdynamik i sena SaaS-stadier - Varför linjär expansion dödar Series E. Ett tekniskt ramverk för att navigera olinjära marknadsrörelser och vertikal dominans."
   },
   {
@@ -329,6 +375,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "SaaS i USA: Hur man slår de lokala giganterna",
     "date": "2026-03-22",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "SaaS i USA: Hur man slår de lokala giganterna. Kritisk utvärdering av operativ hävstång och systemisk risk i moderna SaaS-stackar."
   },
   {
@@ -336,6 +383,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "SaaS-förvärv som strategi: Att bygga marknadsandelar",
     "date": "2026-03-23",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "SaaS-förvärv som strategi: Att bygga marknadsandelar. Milstolpsanalys för sent-stadie bolag som söker suveränitet i ett fragmenterat landskap."
   },
   {
@@ -343,6 +391,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "SaaS-ekosystemet i Europa: Varför vi vinner på reglering",
     "date": "2026-03-24",
     "author": "Jonas Hyltén",
+    "category": "venture-studio",
     "description": "SaaS-ekosystemet i Europa: Varför vi vinner på reglering. En manual för Stewardship och Asset Hardening i nästa generations mjukvaruekonomi."
   },
   {
@@ -350,6 +399,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "SaaS-ekonomi för Ingenjörer: Varför bruttomarginal är ditt problem",
     "date": "2026-03-25",
     "author": "Jonas Hyltén",
+    "category": "saas-monetization",
     "description": "SaaS-ekonomi för Ingenjörer: Varför bruttomarginal är ditt problem. En operativ genomlysning av arkitektonisk suveränitet och skalningsmatematik."
   },
 
@@ -358,6 +408,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "RAG på skala: Arkitektur för enterprise-sökning",
     "date": "2026-03-17",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "RAG på skala: Arkitektur för enterprise-sökning. Institutionell analys rörande teknisk resilience och kapitalallokering i AGI-eran."
   },
   {
@@ -365,6 +416,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Proprietary Signals: Att bygga egna datakällor för outbound dominans",
     "date": "2026-03-18",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Proprietary Signals: Att bygga egna datakällor för outbound dominans. Strategiskt memo för serie-grundare om att härda B2B-tillgångar för global exit."
   },
   {
@@ -372,6 +424,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Product-Led Sales för Enterprise: Bryggan mellan användarnytta och inköpsbeslut",
     "date": "2026-03-19",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Product-Led Sales för Enterprise: Bryggan mellan användarnytta och inköpsbeslut. Djuplodande granskning av GTM-infrastruktur och dess påverkan på burn-rate och multiples."
   },
   {
@@ -379,6 +432,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Prissättning för Inlärning: Att ta betalt för modellförbättring",
     "date": "2026-03-20",
     "author": "Jonas Hyltén",
+    "category": "saas-monetization",
     "description": "Prissättning för Inlärning: Att ta betalt för modellförbättring. Ett tekniskt ramverk för att navigera olinjära marknadsrörelser och vertikal dominans."
   },
   {
@@ -386,6 +440,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Prissättning efter API-last: Morgondagens bruttomarginaler",
     "date": "2026-03-21",
     "author": "Jonas Hyltén",
+    "category": "saas-monetization",
     "description": "Prissättning efter API-last: Morgondagens bruttomarginaler. Kritisk utvärdering av operativ hävstång och systemisk risk i moderna SaaS-stackar."
   },
   {
@@ -393,6 +448,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Portfölj-synergier: Att köpa bolag som komplementerar varandra",
     "date": "2026-03-22",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Portfölj-synergier: Att köpa bolag som komplementerar varandra. Milstolpsanalys för sent-stadie bolag som söker suveränitet i ett fragmenterat landskap."
   },
   {
@@ -400,6 +456,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Operativ Effektivitet i Series D: Vägen mot 40% EBITDA",
     "date": "2026-03-23",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "Operativ Effektivitet i Series D: Vägen mot 40% EBITDA. En manual för Stewardship och Asset Hardening i nästa generations mjukvaruekonomi."
   },
   {
@@ -407,6 +464,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Operational Stewardship: Hur man leder ett bolag genom tekniskt kaos",
     "date": "2026-03-24",
     "author": "Jonas Hyltén",
+    "category": "venture-studio",
     "description": "Operational Stewardship: Hur man leder ett bolag genom tekniskt kaos. En operativ genomlysning av arkitektonisk suveränitet och skalningsmatematik."
   },
   {
@@ -414,6 +472,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Operational Leverage genom AI: Vägen mot noll marginalkostnad",
     "date": "2026-03-25",
     "author": "Jonas Hyltén",
+    "category": "saas-monetization",
     "description": "Operational Leverage genom AI: Vägen mot noll marginalkostnad. Institutionell analys rörande teknisk resilience och kapitalallokering i AGI-eran."
   },
   {
@@ -421,6 +480,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Modularisering av Core SaaS: Att bygga för utbytbarhet",
     "date": "2026-03-16",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "Modularisering av Core SaaS: Att bygga för utbytbarhet. Strategiskt memo för serie-grundare om att härda B2B-tillgångar för global exit."
   },
   {
@@ -428,6 +488,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Modular GTM: Hur man bygger om säljapparaten på 4 veckor",
     "date": "2026-03-17",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "Modular GTM: Hur man bygger om säljapparaten på 4 veckor. Djuplodande granskning av GTM-infrastruktur och dess påverkan på burn-rate och multiples."
   },
   {
@@ -435,6 +496,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "MENA-marknaden för AI: Den nya guldfebern",
     "date": "2026-03-18",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "MENA-marknaden för AI: Den nya guldfebern. Ett tekniskt ramverk för att navigera olinjära marknadsrörelser och vertikal dominans."
   },
   {
@@ -442,6 +504,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "M&A Strategi för AI-bolag: Att köpa talang vs att köpa datakraft",
     "date": "2026-03-19",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "M&A Strategi för AI-bolag: Att köpa talang vs att köpa datakraft. Kritisk utvärdering av operativ hävstång och systemisk risk i moderna SaaS-stackar."
   },
   {
@@ -449,6 +512,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "M&A Post-Merger Integration i AI-organ: Hur man behåller momentum",
     "date": "2026-03-20",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "M&A Post-Merger Integration i AI-organ: Hur man behåller momentum. Milstolpsanalys för sent-stadie bolag som söker suveränitet i ett fragmenterat landskap."
   },
   {
@@ -456,6 +520,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "M&A i ett fragmenterat landskap: Konsolideringens nya regler",
     "date": "2026-03-21",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "M&A i ett fragmenterat landskap: Konsolideringens nya regler. En manual för Stewardship och Asset Hardening i nästa generations mjukvaruekonomi."
   },
   {
@@ -463,6 +528,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Långsiktig Hållbarhet i SaaS: Att undvika AI-bubblan",
     "date": "2026-03-22",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Långsiktig Hållbarhet i SaaS: Att undvika AI-bubblan. En operativ genomlysning av arkitektonisk suveränitet och skalningsmatematik."
   },
   {
@@ -470,6 +536,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Lead-to-Revenue: Att mäta hastigheten i säljtratten",
     "date": "2026-03-23",
     "author": "Jonas Hyltén",
+    "category": "saas-monetization",
     "description": "Lead-to-Revenue: Att mäta hastigheten i säljtratten. Institutionell analys rörande teknisk resilience och kapitalallokering i AGI-eran."
   },
   {
@@ -477,6 +544,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Kärnan i en Studio: Att dela infrastruktur mellan 10 bolag",
     "date": "2026-03-24",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "Kärnan i en Studio: Att dela infrastruktur mellan 10 bolag. Strategiskt memo för serie-grundare om att härda B2B-tillgångar för global exit."
   },
   {
@@ -484,6 +552,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Kapitalresning i Series B: Varför narrativet dör utan suverän arkitektur",
     "date": "2026-03-25",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Kapitalresning i Series B: Varför narrativet dör utan suverän arkitektur. Djuplodande granskning av GTM-infrastruktur och dess påverkan på burn-rate och multiples."
   },
   {
@@ -491,6 +560,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Kapitalmarknadens svar på AI: Varför fonder omstrukturerar sina portföljer 2026",
     "date": "2026-03-16",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Kapitalmarknadens svar på AI: Varför fonder omstrukturerar sina portföljer 2026. Ett tekniskt ramverk för att navigera olinjära marknadsrörelser och vertikal dominans."
   },
   {
@@ -498,6 +568,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "IPO Roadmap 2026: En guide för SaaS-VD:ar",
     "date": "2026-03-17",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "IPO Roadmap 2026: En guide för SaaS-VD:ar. Kritisk utvärdering av operativ hävstång och systemisk risk i moderna SaaS-stackar."
   },
   {
@@ -505,6 +576,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Investera i Vertikala Lösningar: Varför horisontellt är dött",
     "date": "2026-03-18",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Investera i Vertikala Lösningar: Varför horisontellt är dött. Milstolpsanalys för sent-stadie bolag som söker suveränitet i ett fragmenterat landskap."
   },
   {
@@ -512,6 +584,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Investera i humankapital: Varför talang fortfarande är sällsynt 2026",
     "date": "2026-03-19",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "Investera i humankapital: Varför talang fortfarande är sällsynt 2026. En manual för Stewardship och Asset Hardening i nästa generations mjukvaruekonomi."
   },
   {
@@ -519,6 +592,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Venture Studio Engineering som Finansiell Hävstång: Arkitektur för att bygga tio bolag med samma core",
     "date": "2026-03-21",
     "author": "Jonas Hyltén",
+    "category": "venture-studio",
     "description": "Venture Studio Engineering som Finansiell Hävstång: Arkitektur för att bygga tio bolag med samma core. En operativ genomlysning av arkitektonisk suveränitet och skalningsmatematik."
   },
   {
@@ -526,6 +600,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Intern PM: Döden för den inlindade inlindaren (Varför AGI:er är den enda finansieringsbara SaaS-infrastrukturen 2026)",
     "date": "2026-03-22",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Intern PM: Döden för den inlindade inlindaren (Varför AGI:er är den enda finansieringsbara SaaS-infrastrukturen 2026). Institutionell analys rörande teknisk resilience och kapitalallokering i AGI-eran."
   },
   {
@@ -533,6 +608,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "SaaS-marginaler i AGI-eran - Varför 80% bruttomarginal är en lögn 2026",
     "date": "2026-03-23",
     "author": "Jonas Hyltén",
+    "category": "saas-monetization",
     "description": "SaaS-marginaler i AGI-eran - Varför 80% bruttomarginal är en lögn 2026. Strategiskt memo för serie-grundare om att härda B2B-tillgångar för global exit."
   },
   {
@@ -540,6 +616,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Prissättning som Vapen - Varför per-seat-modellen är död och vad som ersätter den i Series D",
     "date": "2026-03-24",
     "author": "Jonas Hyltén",
+    "category": "saas-monetization",
     "description": "Prissättning som Vapen - Varför per-seat-modellen är död och vad som ersätter den i Series D. Djuplodande granskning av GTM-infrastruktur och dess påverkan på burn-rate och multiples."
   },
   {
@@ -547,6 +624,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "M&A-kraschen i SaaS 2026 - Varför ingen vill köpa bolag utan suverän data-infrastruktur",
     "date": "2026-03-25",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "M&A-kraschen i SaaS 2026 - Varför ingen vill köpa bolag utan suverän data-infrastruktur. Ett tekniskt ramverk för att navigera olinjära marknadsrörelser och vertikal dominans."
   },
   {
@@ -554,6 +632,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Döden för PLG i Enterprise - Varför agenter dödar den klassiska säljtratten",
     "date": "2026-03-16",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Döden för PLG i Enterprise - Varför agenter dödar den klassiska säljtratten. Kritisk utvärdering av operativ hävstång och systemisk risk i moderna SaaS-stackar."
   },
   {
@@ -561,6 +640,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Hyperscale GTM: Att processa 1 miljon leads per kvartal",
     "date": "2026-03-17",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Hyperscale GTM: Att processa 1 miljon leads per kvartal. Milstolpsanalys för sent-stadie bolag som söker suveränitet i ett fragmenterat landskap."
   },
   {
@@ -568,6 +648,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Hyperscale Engineering: Arkitektur för bolag som växer 300% på ett kvartal",
     "date": "2026-03-18",
     "author": "Jonas Hyltén",
+    "category": "venture-studio",
     "description": "Hyperscale Engineering: Arkitektur för bolag som växer 300% på ett kvartal. En manual för Stewardship och Asset Hardening i nästa generations mjukvaruekonomi."
   },
   {
@@ -575,6 +656,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Hur SaaS-bolag tjänar pengar på AI: 5 fördjupade spaningar för 2026",
     "date": "2026-03-19",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Hur SaaS-bolag tjänar pengar på AI: 5 fördjupade spaningar för 2026. En operativ genomlysning av arkitektonisk suveränitet och skalningsmatematik."
   },
   {
@@ -582,6 +664,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Förhandlingens Psykologi i High-Ticket SaaS: Att stänga affärer över 10M SEK",
     "date": "2026-03-20",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Förhandlingens Psykologi i High-Ticket SaaS: Att stänga affärer över 10M SEK. Institutionell analys rörande teknisk resilience och kapitalallokering i AGI-eran."
   },
   {
@@ -589,6 +672,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Framtidens SaaS-stack: De 10 tekniker du måste behärska",
     "date": "2026-03-21",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "Framtidens SaaS-stack: De 10 tekniker du måste behärska. Strategiskt memo för serie-grundare om att härda B2B-tillgångar för global exit."
   },
   {
@@ -596,6 +680,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Exklusivt Dealflow i Norden: Hur vi hittar off-market SaaS till 4x EBITDA",
     "date": "2026-03-22",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Exklusivt Dealflow i Norden: Hur vi hittar off-market SaaS till 4x EBITDA. Djuplodande granskning av GTM-infrastruktur och dess påverkan på burn-rate och multiples."
   },
   {
@@ -603,6 +688,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Exit-multiplar i en fragmenterad marknad: Vad är du värd?",
     "date": "2026-03-23",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Exit-multiplar i en fragmenterad marknad: Vad är du värd?. Ett tekniskt ramverk för att navigera olinjära marknadsrörelser och vertikal dominans."
   },
   {
@@ -610,6 +696,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Exit-förberedelser 18 månader innan: En teknisk checklista",
     "date": "2026-03-24",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "Exit-förberedelser 18 månader innan: En teknisk checklista. Kritisk utvärdering av operativ hävstång och systemisk risk i moderna SaaS-stackar."
   },
   {
@@ -617,6 +704,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "ESG Decision-Makers 2026: Outbound-strategier för energisektorns infrastruktur",
     "date": "2026-03-25",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "ESG Decision-Makers 2026: Outbound-strategier för energisektorns infrastruktur. Milstolpsanalys för sent-stadie bolag som söker suveränitet i ett fragmenterat landskap."
   },
   {
@@ -624,6 +712,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Equity som Hävstång: Att rekrytera A-players till portföljen",
     "date": "2026-03-16",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Equity som Hävstång: Att rekrytera A-players till portföljen. En manual för Stewardship och Asset Hardening i nästa generations mjukvaruekonomi."
   },
   {
@@ -631,6 +720,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Enterprise AI Readiness: En matris för att utvärdera kundens datamognad inför installation",
     "date": "2026-03-17",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Enterprise AI Readiness: En matris för att utvärdera kundens datamognad inför installation. En operativ genomlysning av arkitektonisk suveränitet och skalningsmatematik."
   },
   {
@@ -638,6 +728,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Digital suveränitet i EU: En guide för SaaS-bolag",
     "date": "2026-03-18",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Digital suveränitet i EU: En guide för SaaS-bolag. Institutionell analys rörande teknisk resilience och kapitalallokering i AGI-eran."
   },
   {
@@ -645,6 +736,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Dataprivacy i Enterprise AI: En lyx eller ett krav?",
     "date": "2026-03-19",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Dataprivacy i Enterprise AI: En lyx eller ett krav?. Strategiskt memo för serie-grundare om att härda B2B-tillgångar för global exit."
   },
   {
@@ -652,6 +744,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Data-suveränitet som USP: Varför lokala modeller vinner mot molngiganter",
     "date": "2026-03-20",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Data-suveränitet som USP: Varför lokala modeller vinner mot molngiganter. Djuplodande granskning av GTM-infrastruktur och dess påverkan på burn-rate och multiples."
   },
   {
@@ -659,6 +752,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Data-pipelines för proffs: Från ingestion till insikt",
     "date": "2026-03-21",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Data-pipelines för proffs: Från ingestion till insikt. Ett tekniskt ramverk för att navigera olinjära marknadsrörelser och vertikal dominans."
   },
   {
@@ -666,6 +760,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Data-Pipelines för AI-agenter: Att förse systemet med rätt kontext",
     "date": "2026-03-22",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Data-Pipelines för AI-agenter: Att förse systemet med rätt kontext. Kritisk utvärdering av operativ hävstång och systemisk risk i moderna SaaS-stackar."
   },
   {
@@ -673,6 +768,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Data-Infrastruktur som Värdeökare: En teknisk analys av multiplar",
     "date": "2026-03-23",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Data-Infrastruktur som Värdeökare: En teknisk analys av multiplar. Milstolpsanalys för sent-stadie bolag som söker suveränitet i ett fragmenterat landskap."
   },
   {
@@ -680,6 +776,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Data-driven Retention: Att använda ML för att stoppa churn innan den händer",
     "date": "2026-03-24",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Data-driven Retention: Att använda ML för att stoppa churn innan den händer. En manual för Stewardship och Asset Hardening i nästa generations mjukvaruekonomi."
   },
   {
@@ -687,6 +784,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Churn-förutsägelser med ML: Hur man ser risker tre månader i förväg",
     "date": "2026-03-25",
     "author": "Jonas Hyltén",
+    "category": "gtm",
     "description": "Churn-förutsägelser med ML: Hur man ser risker tre månader i förväg. En operativ genomlysning av arkitektonisk suveränitet och skalningsmatematik."
   },
 
@@ -695,6 +793,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Automatiska Produktförbättringar: Att låta agenter skriva nästa roadmap",
     "date": "2026-03-17",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Automatiska Produktförbättringar: Att låta agenter skriva nästa roadmap. Institutionell analys rörande teknisk resilience och kapitalallokering i AGI-eran."
   },
   {
@@ -702,6 +801,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Automatisering av GTM-feedback: Att låta marknaden styra roadmappen",
     "date": "2026-03-18",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "Automatisering av GTM-feedback: Att låta marknaden styra roadmappen. Strategiskt memo för serie-grundare om att härda B2B-tillgångar för global exit."
   },
   {
@@ -709,6 +809,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Automations-skuld: De dolda kostnaderna i en trasig stack",
     "date": "2026-03-19",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Automations-skuld: De dolda kostnaderna i en trasig stack. Djuplodande granskning av GTM-infrastruktur och dess påverkan på burn-rate och multiples."
   },
   {
@@ -716,6 +817,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Att sälja till AI‑agenter: Nästa generations köpbeslut",
     "date": "2026-03-20",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Att sälja till AI‑agenter: Nästa generations köpbeslut. Ett tekniskt ramverk för att navigera olinjära marknadsrörelser och vertikal dominans."
   },
   {
@@ -723,6 +825,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Asien-expansion för SaaS: Utmaningar och möjligheter",
     "date": "2026-03-21",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "Asien-expansion för SaaS: Utmaningar och möjligheter. Kritisk utvärdering av operativ hävstång och systemisk risk i moderna SaaS-stackar."
   },
   {
@@ -730,6 +833,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "AI-native GTM: Hur man automatiserar 90% av säljtratten utan att förlora signalstyrka",
     "date": "2026-03-22",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "AI-native GTM: Hur man automatiserar 90% av säljtratten utan att förlora signalstyrka. Milstolpsanalys för sent-stadie bolag som söker suveränitet i ett fragmenterat landskap."
   },
   {
@@ -737,6 +841,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "AI i kundtjänst: Från chattbottar till autonoma problemlösare",
     "date": "2026-03-23",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "AI i kundtjänst: Från chattbottar till autonoma problemlösare. En manual för Stewardship och Asset Hardening i nästa generations mjukvaruekonomi."
   },
   {
@@ -744,6 +849,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "AI Governance i Styrelserummet: Hur man övervakar modeller utan att vara tekniker",
     "date": "2026-03-24",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "AI Governance i Styrelserummet: Hur man övervakar modeller utan att vara tekniker. En operativ genomlysning av arkitektonisk suveränitet och skalningsmatematik."
   },
   {
@@ -751,6 +857,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "AI-drivna Investeringsbeslut: Maskin vs Människa",
     "date": "2026-03-25",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "AI-drivna Investeringsbeslut: Maskin vs Människa. Institutionell analys rörande teknisk resilience och kapitalallokering i AGI-eran."
   },
   {
@@ -758,6 +865,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "AI‑driven produktutveckling: Att låta kunden styra koden",
     "date": "2026-03-16",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "AI‑driven produktutveckling: Att låta kunden styra koden. Strategiskt memo för serie-grundare om att härda B2B-tillgångar för global exit."
   },
   {
@@ -765,6 +873,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "AGI-infrastruktur som nationell tillgång: Varför stater börjar investera i Venture Studios",
     "date": "2026-03-17",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "AGI-infrastruktur som nationell tillgång: Varför stater börjar investera i Venture Studios. Djuplodande granskning av GTM-infrastruktur och dess påverkan på burn-rate och multiples."
   },
   {
@@ -772,6 +881,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Agentisk Persistens: Arkitektur för långlivade arbetsflöden",
     "date": "2026-03-18",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Agentisk Persistens: Arkitektur för långlivade arbetsflöden. Ett tekniskt ramverk för att navigera olinjära marknadsrörelser och vertikal dominans."
   },
   {
@@ -779,6 +889,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Account-Based Everything: Att skala personlig relevans",
     "date": "2026-03-19",
     "author": "Jonas Hyltén",
+    "category": "capital-markets",
     "description": "Account-Based Everything: Att skala personlig relevans. Kritisk utvärdering av operativ hävstång och systemisk risk i moderna SaaS-stackar."
   },
   {
@@ -786,6 +897,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Värdering i en olinjär marknad: Varför EBITDA är irrelevant för AI-infrastruktur",
     "date": "2026-03-15",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Värdering i en olinjär marknad: Varför EBITDA är irrelevant för AI-infrastruktur. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -793,6 +905,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Vertical SaaS vs. Generalist AI: Kampen om enterprise-budgeten",
     "date": "2026-03-11",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Vertical SaaS vs. Generalist AI: Kampen om enterprise-budgeten. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -800,6 +913,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Vertical SaaS Engineering: Varför domänprecision trumfar generell prestanda",
     "date": "2026-03-13",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Vertical SaaS Engineering: Varför domänprecision trumfar generell prestanda. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -807,6 +921,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Vertical AI i finanssektorn: Varför noggrannhet är allt",
     "date": "2026-03-12",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Vertical AI i finanssektorn: Varför noggrannhet är allt. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -814,6 +929,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Venture Studio som Alpha: Varför studior utklassar traditionella accelerators 2026",
     "date": "2026-03-11",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Venture Studio som Alpha: Varför studior utklassar traditionella accelerators 2026. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -821,6 +937,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Venture Studio Exit-strategier: Att sälja system istället för produkter",
     "date": "2026-03-20",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Venture Studio Exit-strategier: Att sälja system istället för produkter. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -828,6 +945,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Venture Engineering som Karriär: Framtidens CTO-roll i en Studio",
     "date": "2026-03-16",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Venture Engineering som Karriär: Framtidens CTO-roll i en Studio. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -835,6 +953,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Token-ekonomi i B2B: Varför du måste prissätta efter energi, inte efter användare",
     "date": "2026-03-17",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Token-ekonomi i B2B: Varför du måste prissätta efter energi, inte efter användare. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -842,6 +961,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Systemisk risk i LLM-beroende: Hur man diversifierar sina modellanrop",
     "date": "2026-03-11",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Systemisk risk i LLM-beroende: Hur man diversifierar sina modellanrop. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -849,6 +969,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Series B till C: Varför de flesta bolag dör i bryggan mellan MVP och Skala",
     "date": "2026-03-19",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Series B till C: Varför de flesta bolag dör i bryggan mellan MVP och Skala. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -856,6 +977,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Sammankopplad Intelligens: Varför era agenter måste prata samma språk",
     "date": "2026-03-15",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Sammankopplad Intelligens: Varför era agenter måste prata samma språk. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -863,6 +985,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Skalbarhet vs lojalitet: Varför churn i Series B är en ledande indikator på arkitekturfel",
     "date": "2026-03-13",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Skalbarhet vs lojalitet: Varför churn i Series B är en ledande indikator på arkitekturfel. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -870,6 +993,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "SaaS‑retention i AGI‑eran: Varför traditionell churn‑analys är trasig",
     "date": "2026-03-20",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "SaaS‑retention i AGI‑eran: Varför traditionell churn‑analys är trasig. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -877,6 +1001,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "SaaS-prissättning i inflationstider: Hur AI hjälper dig att höja priset",
     "date": "2026-03-14",
     "author": "Jonas Hyltén",
+    "category": "saas-monetization",
     "description": "SaaS-prissättning i inflationstider: Hur AI hjälper dig att höja priset. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -884,6 +1009,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "SaaS-marginalernas sista strid: Vägen tillbaka till 90%",
     "date": "2026-03-18",
     "author": "Jonas Hyltén",
+    "category": "saas-monetization",
     "description": "SaaS-marginalernas sista strid: Vägen tillbaka till 90%. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -891,6 +1017,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "SaaS-exit klockan: När är det dags att sälja 2026?",
     "date": "2026-03-12",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "SaaS-exit klockan: När är det dags att sälja 2026?. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -898,6 +1025,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Product-Led Sales för Enterprise: Bryggan mellan användarnytta och inköpsbeslut",
     "date": "2026-03-20",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Product-Led Sales för Enterprise: Bryggan mellan användarnytta och inköpsbeslut. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -905,6 +1033,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Operativ Effektivitet i Series D: Vägen mot 40% EBITDA",
     "date": "2026-03-11",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Operativ Effektivitet i Series D: Vägen mot 40% EBITDA. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -912,6 +1041,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Operativ disciplin i tillväxtbolag: Varför du behöver en COO i Series A",
     "date": "2026-03-18",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Operativ disciplin i tillväxtbolag: Varför du behöver en COO i Series A. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -919,6 +1049,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Operational Stewardship: Hur man leder ett bolag genom tekniskt kaos",
     "date": "2026-03-18",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Operational Stewardship: Hur man leder ett bolag genom tekniskt kaos. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -926,6 +1057,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Människan i loopen: Hur man skalar AI med bibehållen empati",
     "date": "2026-03-18",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Människan i loopen: Hur man skalar AI med bibehållen empati. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -933,6 +1065,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "M&A Strategi för AI-bolag: Att köpa talang vs att köpa datakraft",
     "date": "2026-03-15",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "M&A Strategi för AI-bolag: Att köpa talang vs att köpa datakraft. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -940,6 +1073,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "M&A Due Diligence i AI-eran: Hur man granskar en black-box",
     "date": "2026-03-19",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "M&A Due Diligence i AI-eran: Hur man granskar en black-box. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -947,6 +1081,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Kapitalmarknadens svar på AI: Varför fonder omstrukturerar sina portföljer 2026",
     "date": "2026-03-15",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Kapitalmarknadens svar på AI: Varför fonder omstrukturerar sina portföljer 2026. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -954,6 +1089,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Investera i suveränitet: Varför lokala moln vinner kapital",
     "date": "2026-03-16",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Investera i suveränitet: Varför lokala moln vinner kapital. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -961,6 +1097,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Venture Studio Engineering som Finansiell Hävstång: Arkitektur för att bygga tio bolag med samma core",
     "date": "2026-03-12",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Venture Studio Engineering som Finansiell Hävstång: Arkitektur för att bygga tio bolag med samma core. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -968,6 +1105,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "SaaS-marginaler i AGI-eran - Varför 80% bruttomarginal är en lögn 2026",
     "date": "2026-03-14",
     "author": "Jonas Hyltén",
+    "category": "saas-monetization",
     "description": "SaaS-marginaler i AGI-eran - Varför 80% bruttomarginal är en lögn 2026. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -975,6 +1113,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Prissättning som Vapen - Varför per-seat-modellen är död och vad som ersätter den i Series D",
     "date": "2026-03-16",
     "author": "Jonas Hyltén",
+    "category": "saas-monetization",
     "description": "Prissättning som Vapen - Varför per-seat-modellen är död och vad som ersätter den i Series D. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -982,6 +1121,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "M&A-kraschen i SaaS 2026 - Varför ingen vill köpa bolag utan suverän data-infrastruktur",
     "date": "2026-03-11",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "M&A-kraschen i SaaS 2026 - Varför ingen vill köpa bolag utan suverän data-infrastruktur. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -989,6 +1129,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Döden för PLG i Enterprise - Varför agenter dödar den klassiska säljtratten",
     "date": "2026-03-13",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Döden för PLG i Enterprise - Varför agenter dödar den klassiska säljtratten. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -996,6 +1137,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Infrastruktur som en vallgrav: Varför din stack är din bästa IP",
     "date": "2026-03-12",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Infrastruktur som en vallgrav: Varför din stack är din bästa IP. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -1003,6 +1145,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Hyperscale Engineering: Arkitektur för bolag som växer 300% på ett kvartal",
     "date": "2026-03-11",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Hyperscale Engineering: Arkitektur för bolag som växer 300% på ett kvartal. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -1010,6 +1153,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Hårdkodade regler vs. Probabilistiska system: Balansgången 2026",
     "date": "2026-03-17",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Hårdkodade regler vs. Probabilistiska system: Balansgången 2026. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -1017,6 +1161,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Från Series A till Exit: En tidslinje över tekniska milstolpar",
     "date": "2026-03-13",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Från Series A till Exit: En tidslinje över tekniska milstolpar. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -1024,6 +1169,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Enterprise AI Readiness: En matris för att utvärdera kundens datamognad inför installation",
     "date": "2026-03-17",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Enterprise AI Readiness: En matris för att utvärdera kundens datamognad inför installation. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -1031,6 +1177,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Data-suveränitet som USP: Varför lokala modeller vinner mot molngiganter",
     "date": "2026-03-15",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Data-suveränitet som USP: Varför lokala modeller vinner mot molngiganter. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -1038,6 +1185,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Data-driven Fundraising: Att sälja in en vision med rådata",
     "date": "2026-03-11",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Data-driven Fundraising: Att sälja in en vision med rådata. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -1045,6 +1193,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Churn-förutsägelser med ML: Hur man ser risker tre månader i förväg",
     "date": "2026-03-17",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "Churn-förutsägelser med ML: Hur man ser risker tre månader i förväg. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -1052,6 +1201,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "AI-native GTM: Hur man automatiserar 90% av säljtratten utan att förlora signalstyrka",
     "date": "2026-03-12",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "AI-native GTM: Hur man automatiserar 90% av säljtratten utan att förlora signalstyrka. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -1059,6 +1209,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "AI i styrelsen: Från mänskliga beslut till systemisk övervakning",
     "date": "2026-03-20",
     "author": "Skeptical Investor (Leaked)",
+    "category": "ai-enterprise",
     "description": "AI i styrelsen: Från mänskliga beslut till systemisk övervakning. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -1066,6 +1217,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "AI Governance i Styrelserummet: Hur man övervakar modeller utan att vara tekniker",
     "date": "2026-03-18",
     "author": "Skeptical Investor (Leaked)",
+    "category": "ai-enterprise",
     "description": "AI Governance i Styrelserummet: Hur man övervakar modeller utan att vara tekniker. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -1073,6 +1225,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "AI-etik för investerare: Att undvika ryktesrisk i portföljen",
     "date": "2026-03-20",
     "author": "Skeptical Investor (Leaked)",
+    "category": "ai-enterprise",
     "description": "AI-etik för investerare: Att undvika ryktesrisk i portföljen. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -1080,6 +1233,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "AI‑driven marknadsanalys: Att förutse konkurrenters drag",
     "date": "2026-03-12",
     "author": "Skeptical Investor (Leaked)",
+    "category": "ai-enterprise",
     "description": "AI‑driven marknadsanalys: Att förutse konkurrenters drag. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -1087,6 +1241,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "AGI-infrastruktur som nationell tillgång: Varför stater börjar investera i Venture Studios",
     "date": "2026-03-20",
     "author": "Skeptical Investor (Leaked)",
+    "category": "ai-enterprise",
     "description": "AGI-infrastruktur som nationell tillgång: Varför stater börjar investera i Venture Studios. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -1094,6 +1249,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Agenter som medlemsförmån: Framtidens SaaS-förpackning",
     "date": "2026-03-16",
     "author": "Skeptical Investor (Leaked)",
+    "category": "ai-enterprise",
     "description": "Agenter som medlemsförmån: Framtidens SaaS-förpackning. Analys av finansiella och tekniska implikationer i AGI-eran."
   },
   {
@@ -1101,6 +1257,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "INTERNAL MEMO: The Death of the Wrapped Wrapper (Why AGIs are the only fundable SaaS infrastructure in 2026)",
     "date": "2026-03-22",
     "author": "Skeptical Investor (Leaked)",
+    "category": "ai-enterprise",
     "description": "En intern analys av varför token-arbitrage är en terminal affärsmodell och varför endast suverän AGI-infrastruktur överlever 2026 års kapitalmigrering."
   },
   {
@@ -1108,6 +1265,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Hur SaaS‑bolag tjänar pengar på AI: 5 spaningar för 2026",
     "date": "2026-03-21",
     "author": "Jonas Hyltén",
+    "category": "ai-enterprise",
     "description": "En djupdykning i hur AI-native SaaS-bolag monetiserar sina lösningar."
   },
   {
@@ -1115,6 +1273,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "I can produce the article, but *1500-2000 words for Part 1 alone* will exceed the model’s length limits when continuing in later parts. To avoid truncation, I need to confirm:",
     "date": "2026-02-08",
     "author": "Skeptical Investor (Leaked)",
+    "category": "capital-markets",
     "description": "Heuristiker för sena expansionsrundor."
   },
   {
@@ -1122,6 +1281,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "SaaS-multipla-värdeströmmar: Arkitektur för att paketera data som intäkt i nästa generation av mjukvaruplattformar",
     "date": "2026-02-04",
     "author": "Skeptical Investor (Leaked)",
+    "category": "saas-monetization",
     "description": "Segmenterad expansion utan fragmentering."
   },
   {
@@ -1129,6 +1289,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Series C: Signal och Brus i Skalningsmodeller",
     "date": "2026-02-02",
     "author": "Skeptical Investor (Leaked)",
+    "category": "ai-enterprise",
     "description": "Datakvalitet i stora volymer."
   },
   {
@@ -1136,6 +1297,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Olinjäritet i prognoser för mogna bolag - Varför traditionella modeller misslyckas i Q4",
     "date": "2026-01-30",
     "author": "Skeptical Investor (Leaked)",
+    "category": "ai-enterprise",
     "description": "Analys av komplexa tillväxtprognoser."
   },
   {
@@ -1143,6 +1305,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Series D till E: Tekniskt skaleffektivitet och mognadsnivåer för global dominans",
     "date": "2026-01-24",
     "author": "Skeptical Investor (Leaked)",
+    "category": "fundraising-ipo",
     "description": "Modularisering av etablerade SaaS-bolag."
   },
   {
@@ -1150,6 +1313,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "saas-late-prissattning-74: Prissättningsdynamik i sena SaaS-stadier - Varför linjär expansion dödar Series E",
     "date": "2026-01-07",
     "author": "Skeptical Investor (Leaked)",
+    "category": "saas-monetization",
     "description": "Prissättning som tillväxtbroms efter Series F."
   },
   {
@@ -1157,6 +1321,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Venture-Engineering Low-Code vs Hardcode: Hur man väljer arkitektur för omedelbar skalbarhet",
     "date": "2026-01-04",
     "author": "Skeptical Investor (Leaked)",
+    "category": "fundraising-ipo",
     "description": "Nykter analys av low-code vs kod."
   },
   {
@@ -1164,6 +1329,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Venture Engineering Ops: System för att hantera 10 vinnare utan personalexplosion",
     "date": "2025-12-28",
     "author": "Skeptical Investor (Leaked)",
+    "category": "fundraising-ipo",
     "description": "Balansera tempo med teknisk kvalitet."
   },
   {
@@ -1171,6 +1337,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Multi-product Engineering i Venture Studios: Systemiska synergier mellan portföljbolag i en distribuerad produktionsmiljö",
     "date": "2025-12-24",
     "author": "Skeptical Investor (Leaked)",
+    "category": "fundraising-ipo",
     "description": "Ramverk för parallell produktutveckling."
   },
   {
@@ -1178,6 +1345,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Data-strategi som Produkt: Varför studion måste kontrollera semantiken",
     "date": "2025-12-20",
     "author": "Skeptical Investor (Leaked)",
+    "category": "ai-enterprise",
     "description": "Rätt datamodell som accelerationsmotor."
   },
   {
@@ -1185,6 +1353,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Vertikalisering som vallgrav: Varför generella modeller förlorar mot domänspecifik arkitektur",
     "date": "2025-12-16",
     "author": "Skeptical Investor (Leaked)",
+    "category": "ai-enterprise",
     "description": "Vertikalt fokus i multiproduktmiljöer."
   },
   {
@@ -1192,6 +1361,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "SaaS-skalbarhetsmatrisen 101: Skalbarhetsmatrisen - En kvantitativ ram för att mäta operativ friktion",
     "date": "2025-12-11",
     "author": "Skeptical Investor (Leaked)",
+    "category": "ai-enterprise",
     "description": "Uppdaterad modell för skalning i AI-ekonomin."
   },
   {
@@ -1199,6 +1369,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Vertical AI i tidiga skeden: Hur man bygger för suveränitet från dag ett",
     "date": "2025-12-08",
     "author": "Skeptical Investor (Leaked)",
+    "category": "ai-enterprise",
     "description": "Varför vertikala AI-lösningar vinner."
   },
   {
@@ -1206,6 +1377,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "saas-multiplar-110: Multiplarnas psykologi 2026 - Varför marknaden väljer AGI-infrastruktur över applikationslager",
     "date": "2025-12-02",
     "author": "Skeptical Investor (Leaked)",
+    "category": "ai-enterprise",
     "description": "Hur investerare värderar AI-förstärkta plattformar."
   },
   {
@@ -1213,6 +1385,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "SaaS‑prototyping 116: Rapid Prototyping i Venture Studio - Från arkitektur till 1M ARR på 12 veckor",
     "date": "2025-11-26",
     "author": "Skeptical Investor (Leaked)",
+    "category": "fundraising-ipo",
     "description": "SaaS-funktioner som autonoma moduler."
   },
   {
@@ -1220,6 +1393,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Below is the article exactly as requested.",
     "date": "2025-11-11",
     "author": "Skeptical Investor (Leaked)",
+    "category": "fundraising-ipo",
     "description": "Kartläggning av branschspecifika möjligheter."
   },
   {
@@ -1227,6 +1401,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "scale-dynamics-141: Skalningsdynamikens Matematik - Varför linjära prognoser är farliga i hyperscale",
     "date": "2025-11-01",
     "author": "Skeptical Investor (Leaked)",
+    "category": "ai-enterprise",
     "description": "Tillväxtdynamik vid låg AI-kostnad."
   },
   {
@@ -1234,6 +1409,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "title": "Series A-landskapet 2026 - Varför kapitalmigrering mot suverän arkitektur börjar tidigt",
     "date": "2026-03-15",
     "author": "Skeptical Investor (Leaked)",
+    "category": "capital-markets",
     "description": "Kartläggning av rådande villkor och förväntningar i Series A."
   }
 ];

@@ -10,6 +10,7 @@ export interface Article {
   author: string;
   description: string;
   content: string;
+  category: string;
 }
 
 const Reveal = ({ children, delay = 0, y = 30 }: { children: React.ReactNode; delay?: number; y?: number }) => (
@@ -43,8 +44,8 @@ export const IntelligenceArchive: React.FC<{
   const [subscribed, setSubscribed] = useState(false);
 
   const filteredArticles = selectedCategory === "alla" 
-    ? articles.slice(0, 300)
-    : articles.slice(0, 300);
+    ? articles 
+    : articles.filter(a => a.category === selectedCategory);
 
   const handleSubscribe = (e: React.FormEvent) => {
     e.preventDefault();
