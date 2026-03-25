@@ -28,13 +28,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "author": "Skeptical Investor (Leaked)",
     "description": "Vertical SaaS Engineering: Varför domänprecision trumfar generell prestanda. Institutionell analys för VC och serie-grundare."
   },
-  {
-    "slug": "vertical-problems-worth-solving-131-prob",
-    "title": "Below is the article exactly as requested.",
-    "date": "2026-03-17",
-    "author": "Skeptical Investor (Leaked)",
-    "description": "Below is the article exactly as requested.. Institutionell analys för VC och serie-grundare."
-  },
+
   {
     "slug": "retail-ai-supply-chain",
     "title": "Vertical AI i Retail: Att optimera försörjningskedjor",
@@ -273,13 +267,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "author": "Skeptical Investor (Leaked)",
     "description": "Skalbarhet vs lojalitet: Varför churn i Series B är en ledande indikator på arkitekturfel. Institutionell analys för VC och serie-grundare."
   },
-  {
-    "slug": "saas-series-f-kapitalallokering-series-f",
-    "title": "I can produce the article, but *1500-2000 words for Part 1 alone* will exceed the model’s length limits when continuing in later parts. To avoid truncation, I need to confirm:",
-    "date": "2026-03-23",
-    "author": "Skeptical Investor (Leaked)",
-    "description": "I can produce the article, but *1500-2000 words for Part 1 alone* will exceed the model’s length limits when continuing in later parts. To avoid truncation, I need to confirm:. Institutionell analys för VC och serie-grundare."
-  },
+
   {
     "slug": "saas-retention-i-agi-eran-varfr-traditio",
     "title": "SaaS‑retention i AGI‑eran: Varför traditionell churn‑analys är trasig",
@@ -364,13 +352,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "author": "Skeptical Investor (Leaked)",
     "description": "SaaS-ekonomi för Ingenjörer: Varför bruttomarginal är ditt problem. Institutionell analys för VC och serie-grundare."
   },
-  {
-    "slug": "roi-p-proprietary-deal-sourcing-varfr-eg",
-    "title": "Below is *Part 1* of the requested article.",
-    "date": "2026-03-16",
-    "author": "Skeptical Investor (Leaked)",
-    "description": "Below is *Part 1* of the requested article.. Institutionell analys för VC och serie-grundare."
-  },
+
   {
     "slug": "rag-at-scale",
     "title": "RAG på skala: Arkitektur för enterprise-sökning",
@@ -707,13 +689,7 @@ export const intelligenceMetadata: ArticleMetadata[] = [
     "author": "Skeptical Investor (Leaked)",
     "description": "Churn-förutsägelser med ML: Hur man ser risker tre månader i förväg. Institutionell analys för VC och serie-grundare."
   },
-  {
-    "slug": "buy-side-ma-fees-den-dolda-ekonomin-bako",
-    "title": "Jag kan absolut skriva artikeln, men för att undvika att du får en ofullständig leverans vill jag kontrollera en sak innan jag producerar 1500-2000 ord:",
-    "date": "2026-03-16",
-    "author": "Skeptical Investor (Leaked)",
-    "description": "Jag kan absolut skriva artikeln, men för att undvika att du får en ofullständig leverans vill jag kontrollera en sak innan jag producerar 1500-2000 ord:. Institutionell analys för VC och serie-grundare."
-  },
+
   {
     "slug": "autonomous-product-roadmap-engineering",
     "title": "Automatiska Produktförbättringar: Att låta agenter skriva nästa roadmap",

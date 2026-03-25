@@ -43,8 +43,8 @@ export const IntelligenceArchive: React.FC<{
   const [subscribed, setSubscribed] = useState(false);
 
   const filteredArticles = selectedCategory === "alla" 
-    ? articles.slice(0, 50)
-    : articles.slice(0, 50);
+    ? articles.slice(0, 300)
+    : articles.slice(0, 300);
 
   const handleSubscribe = (e: React.FormEvent) => {
     e.preventDefault();
