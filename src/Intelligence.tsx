@@ -275,7 +275,7 @@ export const IntelligenceArticle: React.FC<{
     <div className="pt-32 pb-20 px-8 md:px-24 max-w-4xl mx-auto">
       {/* LinkedIn Personal - Discreet */}
       <a
-        href="https://www.linkedin.com/in/hylten/"
+        href="https://www.linkedin.com/in/hylten"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-[60] bg-[#1a1a1a] p-3 rounded-full shadow-xl opacity-60 hover:opacity-100 transition-all duration-300"
