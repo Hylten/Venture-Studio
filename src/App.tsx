@@ -344,6 +344,7 @@ export default function App() {
         currentHash.includes("/intelligence/") ? (
           <IntelligenceArticle 
             article={intelligenceArticles.find(a => a.slug === currentHash.split("/").pop()) || intelligenceArticles[0]} 
+            allArticles={intelligenceArticles}
             onNavigate={(h) => window.location.hash = h} 
           />
         ) : (

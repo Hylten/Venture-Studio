@@ -234,11 +234,17 @@ export const IntelligenceArchive: React.FC<{
 };
 
 export const IntelligenceArticle: React.FC<{ 
-  article: Article, 
+  article: Article,
+  allArticles?: Article[],
   onNavigate: (route: string) => void 
-}> = ({ article, onNavigate }) => {
+}> = ({ article, allArticles = [], onNavigate }) => {
   const [email, setEmail] = useState("");
   const [downloaded, setDownloaded] = useState(false);
+  const [shareOpen, setShareOpen] = useState(false);
+
+  const currentIndex = allArticles.findIndex(a => a.slug === article.slug);
+  const prevArticle = currentIndex < allArticles.length - 1 ? allArticles[currentIndex + 1] : null;
+  const nextArticle = currentIndex > 0 ? allArticles[currentIndex - 1] : null;
 
   const handleDownload = (e: React.FormEvent) => {
     e.preventDefault();
@@ -389,6 +395,61 @@ export const IntelligenceArticle: React.FC<{
               <span className="text-[10px] uppercase tracking-[4px] text-white/50 font-black block mb-4">VENTURE STUDIO</span>
               <span className="text-white text-lg font-black uppercase tracking-tight group-hover:text-white/80 transition-colors">Utforska vår studio-modell</span>
             </a>
+          </div>
+        </div>
+
+        {/* Prev/Next Navigation */}
+        {(prevArticle || nextArticle) && (
+          <div className="mt-24 pt-12 border-t border-white/10">
+            <div className="grid grid-cols-2 gap-8">
+              <div>
+                {prevArticle && (
+                  <button
+                    onClick={() => onNavigate(`/intelligence/${prevArticle.slug}`)}
+                    className="block group text-left"
+                  >
+                    <span className="text-[9px] tracking-[0.2em] text-white/40 uppercase block mb-2">← Föregående</span>
+                    <span className="text-sm text-white/60 group-hover:text-[#C4A265] transition-colors line-clamp-2">{prevArticle.title}</span>
+                  </button>
+                )}
+              </div>
+              <div className="text-right">
+                {nextArticle && (
+                  <button
+                    onClick={() => onNavigate(`/intelligence/${nextArticle.slug}`)}
+                    className="block group"
+                  >
+                    <span className="text-[9px] tracking-[0.2em] text-white/40 uppercase block mb-2">Nästa →</span>
+                    <span className="text-sm text-white/60 group-hover:text-[#C4A265] transition-colors line-clamp-2">{nextArticle.title}</span>
+                  </button>
+                )}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Share Button - Static at bottom */}
+        <div className="mt-16 flex justify-center">
+          <div className="relative">
+            <button
+              onClick={() => setShareOpen(!shareOpen)}
+              className="flex items-center gap-2 px-5 py-2 bg-white/[0.03] border border-white/10 rounded-full opacity-40 hover:opacity-80 transition-all"
+            >
+              <span className="text-[10px] tracking-[2px] uppercase text-white/60 font-medium">Share</span>
+              <svg className="w-3 h-3 text-white/60" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M5 15l7-7 7 7" />
+              </svg>
+            </button>
+            {shareOpen && (
+              <div className="absolute bottom-12 left-1/2 -translate-x-1/2 flex gap-3 bg-[#1a1a1a] border border-white/10 px-4 py-3 rounded-2xl shadow-xl">
+                <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(window.location.href)}`} target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-white/10 transition-colors">
+                  <svg className="w-4 h-4 text-[#0077B5]" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                </a>
+                <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(window.location.href)}&text=${encodeURIComponent(article.title || '')}`} target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-white/10 transition-colors">
+                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                </a>
+              </div>
+            )}
           </div>
         </div>
 
