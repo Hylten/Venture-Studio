@@ -162,7 +162,7 @@ export function getTranslation(key: TranslationKeys, lang: Language): string {
 export function useLanguage() {
   const [lang, setLang] = useState<Language>(() => {
     const saved = localStorage.getItem('hylten_lang');
-    return (saved === 'en' || saved === 'sv') ? saved : 'sv';
+    return (saved === 'en' || saved === 'sv') ? saved : 'en';
   });
 
   useEffect(() => {
@@ -175,6 +175,38 @@ export function useLanguage() {
 
     window.addEventListener('languageChange', handleLanguageChange);
     return () => window.removeEventListener('languageChange', handleLanguageChange);
+  }, []);
+
+  useEffect(() => {
+    const saved = localStorage.getItem('hylten_lang');
+    if (!saved) {
+      fetch('https://ipapi.co/country/')
+        .then(res => {
+          if (!res.ok) throw new Error('Failed to fetch IP country');
+          return res.text();
+        })
+        .then(country => {
+          const cleanCountry = country.trim().toUpperCase();
+          if (cleanCountry === 'SE') {
+            changeLanguage('sv');
+          } else {
+            changeLanguage('en');
+          }
+        })
+        .catch(() => {
+          // Fallback to Timezone and Locale detection
+          const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+          const userLocales = navigator.languages || [navigator.language];
+          const isSwedishTZ = tz && (tz.includes('Stockholm') || tz.includes('Europe/Stockholm'));
+          const isSwedishLocale = userLocales.some(l => l.toLowerCase().startsWith('sv'));
+          
+          if (isSwedishTZ || isSwedishLocale) {
+            changeLanguage('sv');
+          } else {
+            changeLanguage('en');
+          }
+        });
+    }
   }, []);
 
   const changeLanguage = (newLang: Language) => {
