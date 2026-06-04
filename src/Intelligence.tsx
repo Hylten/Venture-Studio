@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { ChevronRight, ArrowLeft, Mail, Download, Calendar, Send } from "lucide-react";
 import { Helmet } from "react-helmet-async";
+import { useLanguage } from "./i18n";
 
 export interface Article {
   slug: string;
@@ -38,6 +39,7 @@ export const IntelligenceArchive: React.FC<{
   articles: Article[], 
   onNavigate: (route: string) => void 
 }> = ({ articles, onNavigate }) => {
+  const { t } = useLanguage();
   const [selectedCategory, setSelectedCategory] = useState("alla");
   const [showNewsletter, setShowNewsletter] = useState(false);
   const [email, setEmail] = useState("");
@@ -68,7 +70,7 @@ export const IntelligenceArchive: React.FC<{
           onClick={() => onNavigate("/")}
           className="flex items-center gap-2 text-[10px] uppercase tracking-[4px] text-white/50 hover:text-white transition-colors mb-12"
         >
-          <ArrowLeft size={14} /> Tillbaka till Terminal
+          <ArrowLeft size={14} /> {t('back_to_terminal')}
         </button>
         
         <div className="flex items-center gap-3 mb-6">
@@ -76,8 +78,8 @@ export const IntelligenceArchive: React.FC<{
           <span className="text-[#C4A265] text-[10px] uppercase tracking-[4px] font-black">INTELLIGENCE_DIVISION</span>
         </div>
         
-        <h2 className="text-4xl md:text-6xl font-black mb-4 tracking-tighter uppercase">Intelligence_<span className="text-[#C4A265]">Arkiv</span></h2>
-        <p className="text-white/50 text-xs uppercase tracking-[4px] mb-8 italic">Operativ intelligens för sent-stadie SaaS. 150+ analyser.</p>
+        <h2 className="text-4xl md:text-6xl font-black mb-4 tracking-tighter uppercase">{t('intelligence_archive').split('_')[0]}_<span className="text-[#C4A265]">{t('intelligence_archive').split('_')[1]}</span></h2>
+        <p className="text-white/50 text-xs uppercase tracking-[4px] mb-8 italic">{t('intelligence_subtitle')}</p>
         
         <div className="flex flex-col md:flex-row gap-8 items-start md:items-center justify-between mb-16 border-b border-white/10 pb-12">
           <div className="flex flex-wrap gap-3">
@@ -103,7 +105,7 @@ export const IntelligenceArchive: React.FC<{
             onClick={() => setShowNewsletter(true)}
             className="text-[10px] uppercase tracking-[3px] text-[#C4A265] hover:text-white transition-colors flex items-center gap-2"
           >
-            <Mail size={14} /> Prenumerera
+            <Mail size={14} /> {t('subscribe')}
           </button>
         </div>
       </Reveal>
@@ -124,7 +126,7 @@ export const IntelligenceArchive: React.FC<{
                 <p className="text-white/60 text-sm leading-relaxed mb-8 line-clamp-3">{article.description}</p>
               </div>
               <div className="flex items-center gap-2 text-[10px] uppercase tracking-[3px] text-white/30 group-hover:text-[#C4A265] transition-colors">
-                Läs analys <ChevronRight size={14} />
+                {t('read_analysis')} <ChevronRight size={14} />
               </div>
             </div>
           </Reveal>
@@ -134,15 +136,15 @@ export const IntelligenceArchive: React.FC<{
       <Reveal delay={0.5}>
         <div className="mt-24 border-t border-white/10 pt-16">
           <div className="max-w-3xl mx-auto text-center">
-            <h3 className="text-2xl font-black uppercase tracking-tight mb-6">Vill du ha våra analyser direkt?</h3>
-            <p className="text-white/60 mb-8 text-sm italic">Intelligence-briefing kvartalsvis. Hög signal, inget brus.</p>
+            <h3 className="text-2xl font-black uppercase tracking-tight mb-6">{t('want_insights')}</h3>
+            <p className="text-white/60 mb-8 text-sm italic">{t('insights_desc')}</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
                 onClick={() => setShowNewsletter(true)}
                 className="px-8 py-4 bg-[#C4A265] text-black text-[10px] uppercase tracking-[4px] font-black hover:bg-white transition-colors"
               >
                 <span className="flex items-center justify-center gap-2">
-                  <Mail size={14} /> Prenumerera på Intelligence
+                  <Mail size={14} /> {t('subscribe_btn')}
                 </span>
               </button>
               <a 
@@ -152,7 +154,7 @@ export const IntelligenceArchive: React.FC<{
                 className="px-8 py-4 border border-white/20 text-white/70 text-[10px] uppercase tracking-[4px] font-black hover:border-white/40 hover:text-white transition-colors"
               >
                 <span className="flex items-center justify-center gap-2">
-                  <Calendar size={14} /> Boka konfidentiell genomgång
+                  <Calendar size={14} /> {t('book_meeting')}
                 </span>
               </a>
             </div>
@@ -168,7 +170,7 @@ export const IntelligenceArchive: React.FC<{
             rel="noopener noreferrer"
             className="text-[10px] uppercase tracking-[4px] text-white/30 hover:text-[#C4A265] transition-colors"
           >
-            Tillbaka till Hyltén Venture Studio
+            {t('back_to_studio')}
           </a>
         </div>
       </Reveal>
@@ -238,6 +240,7 @@ export const IntelligenceArticle: React.FC<{
   allArticles?: Article[],
   onNavigate: (route: string) => void 
 }> = ({ article, allArticles = [], onNavigate }) => {
+  const { t } = useLanguage();
   const [email, setEmail] = useState("");
   const [downloaded, setDownloaded] = useState(false);
   const [shareOpen, setShareOpen] = useState(false);
@@ -304,21 +307,21 @@ export const IntelligenceArticle: React.FC<{
           onClick={() => onNavigate("/intelligence")}
           className="flex items-center gap-2 text-[10px] uppercase tracking-[4px] text-white/50 hover:text-white transition-colors mb-12"
         >
-          <ArrowLeft size={14} /> Tillbaka till Arkiv
+          <ArrowLeft size={14} /> {t('back_to_archive')}
         </button>
         
         <div className="flex items-center gap-4 mb-8">
            <div className="w-1.5 h-1.5 rounded-full bg-[#00FF41]" />
-           <span className="text-[#C4A265] text-[10px] uppercase tracking-[4px] font-black">KLASSIFICERAD ANALYS: {article.author}</span>
+           <span className="text-[#C4A265] text-[10px] uppercase tracking-[4px] font-black">{t('classified_analysis')} {article.author}</span>
         </div>
 
         <h1 className="text-4xl md:text-6xl font-black mb-8 tracking-tighter uppercase leading-[1.1]">{article.title}</h1>
         
         <div className="flex flex-wrap gap-8 border-y border-white/10 py-6 mb-16 text-[10px] font-mono uppercase tracking-[2px] text-white/40">
-          <div>DATUM: {article.date}</div>
-          <div>FÖRFATTARE: {article.author}</div>
-          <div>STATUS: PUBLICERAD</div>
-          <div>NIVÅ: ALPHA_CLEARANCE</div>
+          <div>{t('date')}: {article.date}</div>
+          <div>{t('author')}: {article.author}</div>
+          <div>{t('status')}: {t('status_published')}</div>
+          <div>{t('level')}: ALPHA_CLEARANCE</div>
         </div>
 
         <div className="intelligence-content text-white/80 text-lg leading-relaxed space-y-8 font-medium">
@@ -348,9 +351,9 @@ export const IntelligenceArticle: React.FC<{
           <div className="bg-white/[0.02] border border-white/5 p-8 mb-12">
             <div className="flex items-center gap-3 mb-6">
               <Download size={16} className="text-[#C4A265]" />
-              <span className="text-[10px] uppercase tracking-[4px] text-[#C4A265] font-black">LADDA NER FULL RAPPORT</span>
+              <span className="text-[10px] uppercase tracking-[4px] text-[#C4A265] font-black">{t('download_report')}</span>
             </div>
-            <p className="text-white/60 text-sm mb-6 italic">Få hela metodiken i PDF. Exklusivt för ledningsgrupper.</p>
+            <p className="text-white/60 text-sm mb-6 italic">{t('download_desc')}</p>
             {!downloaded ? (
               <form onSubmit={handleDownload} className="flex gap-4">
                 <input 
@@ -365,13 +368,13 @@ export const IntelligenceArticle: React.FC<{
                   type="submit"
                   className="px-6 py-3 bg-[#C4A265] text-black text-[10px] uppercase tracking-[3px] font-black hover:bg-white transition-colors whitespace-nowrap"
                 >
-                  Ladda ned
+                  {t('download_btn')}
                 </button>
               </form>
             ) : (
               <div className="flex items-center gap-3 text-[#00FF41]">
                 <span className="text-lg">✓</span>
-                <span className="text-sm">Rapport skickas till din e-post</span>
+                <span className="text-sm">{t('download_success')}</span>
               </div>
             )}
           </div>
@@ -383,8 +386,8 @@ export const IntelligenceArticle: React.FC<{
               rel="noopener noreferrer"
               className="block p-8 border border-white/10 hover:border-[#C4A265]/30 bg-white/[0.02] transition-all group"
             >
-              <span className="text-[10px] uppercase tracking-[4px] text-[#C4A265] font-black block mb-4">KONTAKT</span>
-              <span className="text-white text-lg font-black uppercase tracking-tight group-hover:text-[#C4A265] transition-colors">Boka en konfidentiell genomgång</span>
+              <span className="text-[10px] uppercase tracking-[4px] text-[#C4A265] font-black block mb-4">{t('contact_title')}</span>
+              <span className="text-white text-lg font-black uppercase tracking-tight group-hover:text-[#C4A265] transition-colors">{t('contact_desc')}</span>
             </a>
             <a 
               href="https://hylten.github.io/Venture-Studio/"
@@ -392,8 +395,8 @@ export const IntelligenceArticle: React.FC<{
               rel="noopener noreferrer"
               className="block p-8 border border-white/10 hover:border-white/30 bg-white/[0.02] transition-all group"
             >
-              <span className="text-[10px] uppercase tracking-[4px] text-white/50 font-black block mb-4">VENTURE STUDIO</span>
-              <span className="text-white text-lg font-black uppercase tracking-tight group-hover:text-white/80 transition-colors">Utforska vår studio-modell</span>
+              <span className="text-[10px] uppercase tracking-[4px] text-white/50 font-black block mb-4">{t('studio_title')}</span>
+              <span className="text-white text-lg font-black uppercase tracking-tight group-hover:text-white/80 transition-colors">{t('studio_desc')}</span>
             </a>
           </div>
         </div>
@@ -408,7 +411,7 @@ export const IntelligenceArticle: React.FC<{
                     onClick={() => onNavigate(`/intelligence/${prevArticle.slug}`)}
                     className="block group text-left"
                   >
-                    <span className="text-[9px] tracking-[0.2em] text-white/40 uppercase block mb-2">← Föregående</span>
+                    <span className="text-[9px] tracking-[0.2em] text-white/40 uppercase block mb-2">← {t('prev')}</span>
                     <span className="text-sm text-white/60 group-hover:text-[#C4A265] transition-colors line-clamp-2">{prevArticle.title}</span>
                   </button>
                 )}
@@ -419,7 +422,7 @@ export const IntelligenceArticle: React.FC<{
                     onClick={() => onNavigate(`/intelligence/${nextArticle.slug}`)}
                     className="block group"
                   >
-                    <span className="text-[9px] tracking-[0.2em] text-white/40 uppercase block mb-2">Nästa →</span>
+                    <span className="text-[9px] tracking-[0.2em] text-white/40 uppercase block mb-2">{t('next')} →</span>
                     <span className="text-sm text-white/60 group-hover:text-[#C4A265] transition-colors line-clamp-2">{nextArticle.title}</span>
                   </button>
                 )}
@@ -460,7 +463,7 @@ export const IntelligenceArticle: React.FC<{
             rel="noopener noreferrer"
             className="text-[10px] uppercase tracking-[4px] text-white/30 hover:text-[#C4A265] transition-colors"
           >
-            ← Tillbaka till Hyltén Venture Studio
+            ← {t('back_to_studio')}
           </a>
         </div>
       </Reveal>

@@ -2,7 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Shield, Zap, Activity, Globe, Film, ChevronRight, Terminal, Landmark, Lock } from "lucide-react";
 import { IntelligenceArchive, IntelligenceArticle } from "./Intelligence";
-import { intelligenceArticles } from "./data/intelligence";
+import { intelligenceArticles, intelligenceArticlesEn } from "./data/intelligence";
+import { useLanguage } from "./i18n";
 
 const Reveal = ({ children, delay = 0, y = 30 }: { children: React.ReactNode; delay?: number; y?: number }) => (
   <motion.div
@@ -149,6 +150,7 @@ const NodeMap = ({ isFull = false }: { isFull?: boolean }) => {
 };
 
 export default function App() {
+  const { lang, changeLanguage, t } = useLanguage();
   const [loading, setLoading] = useState(true);
   const [showAdmin, setShowAdmin] = useState(false);
   const [showPinPrompt, setShowPinPrompt] = useState(false);
@@ -165,6 +167,8 @@ export default function App() {
   const [adminLog, setAdminLog] = useState<any[]>([]);
   const [auditStatus, setAuditStatus] = useState<"IDLE" | "TRANSMITTING" | "COMPLETED">("IDLE");
   const [currentHash, setCurrentHash] = useState(window.location.hash || "#/");
+
+  const currentArticles = lang === 'en' ? intelligenceArticlesEn : intelligenceArticles;
 
   useEffect(() => {
     // Load existing logs
@@ -282,6 +286,24 @@ export default function App() {
           <a href="https://hylten.github.io/Hylten-Invest/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 opacity-10 hover:opacity-100 transition-all duration-1000 group">
             <img src="hylten-gear.png" className="h-4 w-auto grayscale invert opacity-50 group-hover:opacity-100 transition-opacity" alt="Gear" />
           </a>
+          
+          {/* Language Switcher */}
+          <div className="flex items-center gap-2 px-2 py-1 bg-white/5 rounded-sm border border-white/10">
+            <button 
+              onClick={() => changeLanguage('en')}
+              className={`text-[10px] uppercase tracking-[1px] font-bold transition-all ${lang === 'en' ? 'text-[#C4A265] opacity-100' : 'text-white/40 hover:text-white/80'}`}
+            >
+              🇬🇧 English
+            </button>
+            <span className="text-white/20 text-[8px]">|</span>
+            <button 
+              onClick={() => changeLanguage('sv')}
+              className={`text-[10px] uppercase tracking-[1px] font-bold transition-all ${lang === 'sv' ? 'text-[#C4A265] opacity-100' : 'text-white/40 hover:text-white/80'}`}
+            >
+              🇸🇪 Svenska
+            </button>
+          </div>
+
           <div className="hidden md:flex gap-8 text-[10px] uppercase tracking-[4px] text-white/70 items-center">
             <a href="#alpha" className="hover:text-white transition-colors duration-500">HYLTÉN VENTURE STUDIO</a>
             <a href="#studio" className="hover:text-white transition-colors duration-500">EXPANSION</a>
@@ -290,15 +312,15 @@ export default function App() {
           </div>
         </div>
         <div className="hidden md:flex gap-6 text-[10px] uppercase tracking-[4px] text-white/70 items-center">
-          <a href="https://wa.me/?text=https://hylten.github.io/Venture-Studio/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-500" aria-label="Dela kontakt">Share contact</a>
+          <a href="https://wa.me/?text=https://hylten.github.io/Venture-Studio/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-500" aria-label={t('share_contact')}>{t('share_contact')}</a>
           <span className="text-white/10" aria-hidden="true">|</span>
           <a 
             href="/Venture-Studio/contact.vcf"
             download="Jonas_Hylten.vcf"
             className="hover:text-white transition-colors duration-500"
-            aria-label="Spara kontakt"
+            aria-label={t('save_contact')}
           >
-            Save contact
+            {t('save_contact')}
           </a>
           <span className="text-white/10" aria-hidden="true">|</span>
           <button 
@@ -307,9 +329,9 @@ export default function App() {
               window.location.hash = 'qr';
             }}
             className="hover:text-white transition-colors duration-500 uppercase"
-            aria-label="Visa QR-kod"
+            aria-label={t('qr_code')}
           >
-            QR Code
+            {t('qr_code')}
           </button>
         </div>
         {/* Mobile hamburger */}
@@ -328,27 +350,44 @@ export default function App() {
       {showMobileMenu && (
         <div className="fixed inset-0 bg-dark/95 z-[90] md:hidden flex flex-col items-center justify-center gap-8 backdrop-blur-md" onClick={() => setShowMobileMenu(false)}>
           <button className="absolute top-8 right-8 text-white/85 hover:text-white text-xl" onClick={() => setShowMobileMenu(false)}>✕</button>
-          <a href="https://wa.me/?text=https://hylten.github.io/Venture-Studio/" target="_blank" rel="noopener noreferrer" className="text-[11px] uppercase tracking-[6px] text-white/85 hover:text-white transition-colors">Share contact</a>
-          <a href="https://hylten.github.io/Venture-Studio/contact.vcf" download className="text-[11px] uppercase tracking-[6px] text-white/85 hover:text-white transition-colors">Save contact</a>
-          <button onClick={() => { setShowMobileMenu(false); setShowQr(true); window.location.hash = 'qr'; }} className="text-[11px] uppercase tracking-[6px] text-white/85 hover:text-white transition-colors">QR Code</button>
-          <a href="https://wa.me/46701619978?text=Regarding%20Hyltén%20Venture%20Studio:" target="_blank" rel="noopener noreferrer" className="text-[11px] uppercase tracking-[6px] text-[#C4A265] hover:text-white transition-colors font-bold">Contact</a>
+          
+          <div className="flex items-center gap-4 px-4 py-2 bg-white/5 rounded-sm border border-white/10 mb-4">
+            <button 
+              onClick={(e) => { e.stopPropagation(); changeLanguage('en'); setShowMobileMenu(false); }}
+              className={`text-[12px] uppercase tracking-[2px] font-bold transition-all ${lang === 'en' ? 'text-[#C4A265]' : 'text-white/50'}`}
+            >
+              🇬🇧 EN
+            </button>
+            <span className="text-white/20">|</span>
+            <button 
+              onClick={(e) => { e.stopPropagation(); changeLanguage('sv'); setShowMobileMenu(false); }}
+              className={`text-[12px] uppercase tracking-[2px] font-bold transition-all ${lang === 'sv' ? 'text-[#C4A265]' : 'text-white/50'}`}
+            >
+              🇸🇪 SV
+            </button>
+          </div>
+
+          <a href="https://wa.me/?text=https://hylten.github.io/Venture-Studio/" target="_blank" rel="noopener noreferrer" className="text-[11px] uppercase tracking-[6px] text-white/85 hover:text-white transition-colors">{t('share_contact')}</a>
+          <a href="https://hylten.github.io/Venture-Studio/contact.vcf" download className="text-[11px] uppercase tracking-[6px] text-white/85 hover:text-white transition-colors">{t('save_contact')}</a>
+          <button onClick={() => { setShowMobileMenu(false); setShowQr(true); window.location.hash = 'qr'; }} className="text-[11px] uppercase tracking-[6px] text-white/85 hover:text-white transition-colors">{t('qr_code')}</button>
+          <a href="https://wa.me/46701619978?text=Regarding%20Hyltén%20Venture%20Studio:" target="_blank" rel="noopener noreferrer" className="text-[11px] uppercase tracking-[6px] text-[#C4A265] hover:text-white transition-colors font-bold">{t('contact')}</a>
           <div className="w-12 h-px bg-white/10 my-4"></div>
           <a href="#alpha" onClick={() => { setShowMobileMenu(false); window.location.hash = "#/"; }} className="text-[11px] uppercase tracking-[6px] text-white/75 hover:text-white transition-colors">Alpha</a>
           <a href="#studio" onClick={() => { setShowMobileMenu(false); window.location.hash = "#/"; }} className="text-[11px] uppercase tracking-[6px] text-white/75 hover:text-white transition-colors">Expansion</a>
           <a href="#apply" onClick={() => { setShowMobileMenu(false); window.location.hash = "#/"; }} className="text-[11px] uppercase tracking-[6px] text-white/75 hover:text-white transition-colors">Audit</a>
-          <a href="#/intelligence" onClick={() => setShowMobileMenu(false)} className="text-[11px] uppercase tracking-[6px] text-[#C4A265] hover:text-white transition-colors font-bold">Intelligence</a>
+          <a href="#/intelligence" onClick={() => setShowMobileMenu(false)} className="text-[11px] uppercase tracking-[6px] text-[#C4A265] hover:text-white transition-colors font-bold">{t('intelligence')}</a>
         </div>
       )}
 
       {currentHash.startsWith("#/intelligence") ? (
         currentHash.includes("/intelligence/") ? (
           <IntelligenceArticle 
-            article={intelligenceArticles.find(a => a.slug === currentHash.split("/").pop()) || intelligenceArticles[0]} 
-            allArticles={intelligenceArticles}
+            article={currentArticles.find(a => a.slug === currentHash.split("/").pop()) || currentArticles[0]} 
+            allArticles={currentArticles}
             onNavigate={(h) => window.location.hash = h} 
           />
         ) : (
-          <IntelligenceArchive articles={intelligenceArticles} onNavigate={(h) => window.location.hash = h} />
+          <IntelligenceArchive articles={currentArticles} onNavigate={(h) => window.location.hash = h} />
         )
       ) : (
         <>
@@ -365,7 +404,7 @@ export default function App() {
                       transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
                     />
                   </div>
-                  <span className="text-[#C4A265] text-[10px] uppercase tracking-[8px] block font-black">SYSTEM STATUS: ACTIVE</span>
+                  <span className="text-[#C4A265] text-[10px] uppercase tracking-[8px] block font-black">{t('system_status')}</span>
                 </div>
                 <a href="https://hylten.github.io/Alpha/" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity">
                   <MatrixScrambler targetText="SYSTEM_LOG: MANDATE_MMXXVI_VAL_ACTIVE" />
@@ -374,13 +413,13 @@ export default function App() {
             </Reveal>
             <Reveal delay={0.2}>
               <h1 className="text-5xl md:text-8xl font-black mb-8 leading-[1.05] tracking-tighter">
-                Roials Alpha OS
+                {t('hero_title')}
               </h1>
             </Reveal>
             <Reveal delay={0.4}>
               <div>
                 <p className="text-white text-lg md:text-2xl max-w-3xl leading-relaxed mb-4 font-medium italic">
-                  Proprietär GTM-infrastruktur som härdar B2B-bolag till förvärvsbara tillgångar.
+                  {t('hero_subtitle')}
                 </p>
                 <div className="mb-12">
                    <span className="font-mono text-[12px] text-white/70 uppercase tracking-[0.15em]">GTM_INFRASTRUCTURE: PROPRIETARY | AGENT-BASED | BUILD_2026</span>
