@@ -481,9 +481,9 @@ export default function App() {
           <section id="values" className="px-8 md:px-24 py-32 border-t border-white/5 bg-dark">
             <div className="grid md:grid-cols-3">
               {[
-                { icon: <Terminal className="text-white/80 mb-8" size={32} />, title: "PROPRIETARY GTM ENGINEERING", desc: "Agent-baserad säljinfrastruktur. Proprietärt byggd. Systemet är ditt att behålla.", href: "https://hylten.github.io/Alpha/" },
-                { icon: <Zap className="text-white/80 mb-8" size={32} />, title: "Velocity", desc: "Installation av Roials Alpha OS", href: "https://hylten.github.io/Alpha/" },
-                { icon: <Shield className="text-white/80 mb-8" size={32} />, title: "Operational Stewardship", desc: "War Room: veckovis pipeline-genomgång. Likviditet och closing-disciplin.", href: "https://www.linkedin.com/in/hylten" }
+                { icon: <Terminal className="text-white/80 mb-8" size={32} />, title: t('values_title_1'), desc: t('values_desc_1'), href: "https://hylten.github.io/Alpha/" },
+                { icon: <Zap className="text-white/80 mb-8" size={32} />, title: t('values_title_2'), desc: t('values_desc_2'), href: "https://hylten.github.io/Alpha/" },
+                { icon: <Shield className="text-white/80 mb-8" size={32} />, title: t('values_title_3'), desc: t('values_desc_3'), href: "https://www.linkedin.com/in/hylten" }
               ].map((v, i) => (
                   <Reveal delay={i * 0.1} key={i}>
                   <div 
@@ -510,7 +510,7 @@ export default function App() {
             <div className="max-w-6xl mx-auto">
               <Reveal>
                 <div className="text-center mb-32">
-                  <h2 className="text-xl md:text-2xl font-black mb-4 tracking-tighter uppercase text-white/85">Jonas Hylténs kunder har inkluderat:</h2>
+                  <h2 className="text-xl md:text-2xl font-black mb-4 tracking-tighter uppercase text-white/85">{t('trust_title')}</h2>
                 </div>
                 
                 <div className="relative group cursor-default">
@@ -543,10 +543,10 @@ export default function App() {
               <div>
                 <Reveal>
                   <h2 className="text-3xl md:text-5xl font-black mb-8 tracking-tighter max-w-md group-hover/alpha:text-white transition-colors">
-                    Terminal-access till dolt deal flow.
+                    {t('alpha_title')}
                   </h2>
                   <p className="text-white/70 text-lg leading-relaxed mb-12 font-medium italic max-w-lg">
-                    Agent-baserad GTM-infrastruktur.
+                    {t('alpha_subtitle')}
                   </p>
                   <div className="grid grid-cols-3 gap-8 border-t border-[#C4A265]/30 pt-12">
                     <div>
@@ -576,13 +576,13 @@ export default function App() {
           <section className="px-8 md:px-24 py-32">
             <div className="max-w-6xl mx-auto">
               <Reveal>
-                <h2 className="text-4xl md:text-5xl font-black mb-16 tracking-tighter text-center uppercase">Founder Protocol - Fas 1</h2>
+                <h2 className="text-4xl md:text-5xl font-black mb-16 tracking-tighter text-center uppercase">{t('founder_protocol_phase_1')}</h2>
               </Reveal>
               <div className="grid md:grid-cols-3 mb-24">
                 {[
-                  { icon: <Film size={22} />, label: "Operating Review", desc: "Veckovis Operating Review av dina säljsamtal. Data och kalibrering." },
-                  { icon: <Activity size={22} />, label: "Operational Validation", desc: "Operativ prövning" },
-                  { icon: <Shield size={22} />, label: "Strategic Closing", desc: "Vi installerar closing-disciplin som säkrar kassaflöde." }
+                  { icon: <Film size={22} />, label: t('operating_review_title'), desc: t('operating_review_desc') },
+                  { icon: <Activity size={22} />, label: t('operational_validation_title'), desc: t('operational_validation_desc') },
+                  { icon: <Shield size={22} />, label: t('strategic_closing_title'), desc: t('strategic_closing_desc') }
                 ].map((f, i) => (
                   <Reveal delay={i * 0.1} key={i}>
                     <div className={`p-12 flex flex-col items-center text-center h-full ${i < 2 ? 'border-r border-white/10' : ''}`}>
@@ -602,7 +602,7 @@ export default function App() {
                     <div className="max-w-2xl text-center md:text-left">
                       <h3 className="text-xl font-black uppercase tracking-[2px] mb-4 text-white/80 italic">Onboarding Mandate</h3>
                       <p className="font-bold text-sm leading-relaxed opacity-40 italic">
-                        Fas 1 är provspelningen.
+                        {t('phase_1_desc')}
                       </p>
                       <div className="mt-5 mb-7 flex items-center gap-3">
                          <span className="text-[#00FF41] text-[10px]">●</span>
@@ -622,19 +622,19 @@ export default function App() {
                  <div className="opacity-10 mx-auto mb-10 flex justify-center">
                    <Landmark className="text-white h-12 w-12" />
                  </div>
-                 <h2 className="text-4xl md:text-5xl font-black mb-12 tracking-tighter uppercase text-white/85">Expansion Protocol</h2>
+                 <h2 className="text-4xl md:text-5xl font-black mb-12 tracking-tighter uppercase text-white/85">{t('expansion_protocol')}</h2>
                  
                  <div className="flex flex-col gap-4 mb-8">
                    <div className="text-sm font-medium text-white/80 uppercase tracking-[2px]">
-                      <span className="text-[#C4A265] font-bold">FAS 2</span> - <span className="opacity-50 italic">Utökat mandat. Revenue share-struktur.</span>
+                      <span className="text-[#C4A265] font-bold">FAS 2</span> - <span className="opacity-50 italic">{t('phase_2_desc')}</span>
                     </div>
                      <div className="text-sm font-medium text-white/80 uppercase tracking-[2px]">
-                       <span className="text-[#C4A265] font-bold">FAS 3</span> - <span className="opacity-50 italic">Co-ownership. Tillgång till Hyltén-nätverket.</span>
+                       <span className="text-[#C4A265] font-bold">FAS 3</span> - <span className="opacity-50 italic">{t('phase_3_desc')}</span>
                     </div>
                   </div>
 
                  <p className="text-white/85 text-lg leading-relaxed font-medium italic mt-12">
-                   Inbjudan sker direkt. Ingen ansökan.
+                   {t('invitation_only')}
                  </p>
               </Reveal>
             </div>
@@ -779,7 +779,7 @@ export default function App() {
                         {article.description}
                       </p>
                       <div className="flex items-center gap-2 text-[9px] uppercase tracking-[3px] text-white/40 group-hover:text-white transition-colors">
-                        Läs analys <ChevronRight size={12} className="group-hover:translate-x-1 transition-transform" />
+                        {t('read_analysis')} <ChevronRight size={12} className="group-hover:translate-x-1 transition-transform" />
                       </div>
                     </div>
                   </Reveal>
@@ -806,10 +806,10 @@ export default function App() {
             <a href="https://hylten.github.io/Hylten-Invest/" target="_blank" rel="noopener noreferrer" className="text-[10px] uppercase tracking-[3px] text-white/85 hover:text-white/85 transition-colors">Hyltén Invest</a>
             <a href="https://roialscapital.com/" target="_blank" rel="noopener noreferrer" className="text-[10px] uppercase tracking-[3px] text-white/85 hover:text-white/85 transition-colors">Roials Capital</a>
             <button 
-              onClick={() => alert("GDPR: Vi behandlar endast personuppgifter i enlighet med gällande dataskyddslagstiftning. Du kan begära tillgång, rättelse eller radering av dina uppgifter genom att kontakta jonas@roials.co.")}
+              onClick={() => alert(t('legal_alert'))}
               className="text-[10px] uppercase tracking-[3px] text-white/85 hover:text-white/70 transition-colors"
             >
-              Legal
+              {t('legal')}
             </button>
             <a href="https://hylten.github.io/Alpha/" target="_blank" rel="noopener noreferrer" className="text-[10px] uppercase tracking-[3px] text-white/85 hover:text-white/85 transition-colors">Roials Alpha</a>
             <button 
@@ -851,9 +851,9 @@ export default function App() {
               <button 
                 className="absolute top-4 right-4 text-white hover:text-[#C4A265] transition-colors p-2" 
                 onClick={() => setShowQr(false)}
-                aria-label="Stäng modal"
+                aria-label={t('close')}
               >✕</button>
-              <h3 id="qr-title" className="text-center text-white uppercase tracking-[4px] text-xs font-black mb-10">Dela profil</h3>
+              <h3 id="qr-title" className="text-center text-white uppercase tracking-[4px] text-xs font-black mb-10">{t('share_contact')}</h3>
               <div className="bg-white p-6 rounded-sm flex justify-center shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
                  <img 
                     src={`https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=${encodeURIComponent(
@@ -863,7 +863,7 @@ export default function App() {
                     className="w-full max-w-[250px] aspect-square" 
                  />
               </div>
-              <p className="mt-8 text-center text-[9px] uppercase tracking-[3px] text-white/75 font-mono italic">Skanna för att spara kontaktuppgifter direkt i din telefon.</p>
+              <p className="mt-8 text-center text-[9px] uppercase tracking-[3px] text-white/75 font-mono italic">{t('scan_contact')}</p>
            </div>
         </div>
       )}

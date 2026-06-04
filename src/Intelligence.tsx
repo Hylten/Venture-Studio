@@ -26,20 +26,20 @@ const Reveal = ({ children, delay = 0, y = 30 }: { children: React.ReactNode; de
 );
 
 const categories = [
-  { id: "alla", label: "Alla" },
-  { id: "saas-monetization", label: "SaaS-monetisering" },
-  { id: "ai-enterprise", label: "AI i Enterprise" },
-  { id: "capital-markets", label: "Kapitalmarknad" },
-  { id: "fundraising-ipo", label: "Fundraising & IPO" },
-  { id: "gtm", label: "GTM-strategi" },
-  { id: "venture-studio", label: "Venture Studio" },
-];
+  { id: "alla", labelKey: "cat_alla" },
+  { id: "saas-monetization", labelKey: "cat_saas_monetization" },
+  { id: "ai-enterprise", labelKey: "cat_ai_enterprise" },
+  { id: "capital-markets", labelKey: "cat_capital_markets" },
+  { id: "fundraising-ipo", labelKey: "cat_fundraising_ipo" },
+  { id: "gtm", labelKey: "cat_gtm" },
+  { id: "venture-studio", labelKey: "cat_venture_studio" },
+] as const;
 
 export const IntelligenceArchive: React.FC<{ 
   articles: Article[], 
   onNavigate: (route: string) => void 
 }> = ({ articles, onNavigate }) => {
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
   const [selectedCategory, setSelectedCategory] = useState("alla");
   const [showNewsletter, setShowNewsletter] = useState(false);
   const [email, setEmail] = useState("");
@@ -60,8 +60,8 @@ export const IntelligenceArchive: React.FC<{
   return (
     <div className="pt-32 pb-20 px-8 md:px-24">
       <Helmet>
-        <title>Intelligence Arkiv | Hyltén Venture Studio</title>
-        <meta name="description" content="Operativ intelligens och djupanalyser för sent-stadie SaaS, AI Enterprise och kapitalmarknader." />
+        <title>{t('intelligence_meta_title')}</title>
+        <meta name="description" content={t('intelligence_meta_desc')} />
         <link rel="canonical" href="https://hylten.github.io/Venture-Studio/#/intelligence" />
       </Helmet>
 
@@ -95,7 +95,7 @@ export const IntelligenceArchive: React.FC<{
                       : 'border-white/10 text-white/50 hover:border-white/30 hover:text-white/70'
                   }`}
                 >
-                  {cat.label} ({count})
+                  {t(cat.labelKey)} ({count})
                 </button>
               );
             })}
@@ -148,7 +148,7 @@ export const IntelligenceArchive: React.FC<{
                 </span>
               </button>
               <a 
-                href="https://wa.me/46701619978?text=Hej%20Jonas!%20Jag%20vill%20ha%20mer%20information%20om%20Hyltén%20Venture%20Studio."
+                href={`https://wa.me/46701619978?text=${encodeURIComponent(t('whatsapp_hello'))}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 border border-white/20 text-white/70 text-[10px] uppercase tracking-[4px] font-black hover:border-white/40 hover:text-white transition-colors"
@@ -194,12 +194,12 @@ export const IntelligenceArchive: React.FC<{
                   <div className="w-1.5 h-1.5 rounded-full bg-[#00FF41]" />
                   <span className="text-[#C4A265] text-[10px] uppercase tracking-[4px]">INTELLIGENCE_SUBSCRIPTION</span>
                 </div>
-                <h3 className="text-2xl font-black uppercase tracking-tight mb-4">Intelligence-briefing</h3>
-                <p className="text-white/60 mb-8 text-sm">Få våra operativa insikter innan marknaden. Kvartalsvis, hög analysnivå.</p>
+                <h3 className="text-2xl font-black uppercase tracking-tight mb-4">{t('intelligence_archive').split('_')[0]}-briefing</h3>
+                <p className="text-white/60 mb-8 text-sm">{t('insights_desc')}</p>
                 <form onSubmit={handleSubscribe} className="space-y-4">
                   <input 
                     type="email" 
-                    placeholder="din@epost.se"
+                    placeholder={lang === 'sv' ? "din@epost.se" : "your@email.com"}
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
@@ -209,14 +209,14 @@ export const IntelligenceArchive: React.FC<{
                     type="submit"
                     className="w-full py-4 bg-[#C4A265] text-black text-[10px] uppercase tracking-[4px] font-black hover:bg-white transition-colors flex items-center justify-center gap-2"
                   >
-                    <Send size={14} /> Prenumerera
+                    <Send size={14} /> {t('subscribe')}
                   </button>
                 </form>
                 <button 
                   onClick={() => setShowNewsletter(false)}
                   className="mt-6 text-white/30 text-[10px] uppercase tracking-[3px] hover:text-white/60 transition-colors w-full text-center"
                 >
-                  Stäng
+                  {t('close')}
                 </button>
               </>
             ) : (
@@ -224,8 +224,8 @@ export const IntelligenceArchive: React.FC<{
                 <div className="w-12 h-12 rounded-full bg-[#00FF41]/10 border border-[#00FF41]/30 flex items-center justify-center mx-auto mb-6">
                   <span className="text-[#00FF41] text-xl">✓</span>
                 </div>
-                <h3 className="text-xl font-black uppercase tracking-tight mb-4">Prenumeration registrerad</h3>
-                <p className="text-white/60 text-sm">Du kommer få Intelligence-briefing nästa kvartal.</p>
+                <h3 className="text-xl font-black uppercase tracking-tight mb-4">{t('sub_registered')}</h3>
+                <p className="text-white/60 text-sm">{t('sub_thanks')}</p>
               </div>
             )}
           </motion.div>
@@ -381,7 +381,7 @@ export const IntelligenceArticle: React.FC<{
 
           <div className="grid md:grid-cols-2 gap-8">
             <a 
-              href={`https://wa.me/46701619978?text=${encodeURIComponent("Hej Jonas! Jag läste '" + article.title + "' på Venture Studio Intelligence.")}`}
+              href={`https://wa.me/46701619978?text=${encodeURIComponent(t('whatsapp_read_prefix') + article.title + t('whatsapp_read_suffix'))}`}
               target="_blank"
               rel="noopener noreferrer"
               className="block p-8 border border-white/10 hover:border-[#C4A265]/30 bg-white/[0.02] transition-all group"
