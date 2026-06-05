@@ -1,9 +1,10 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Shield, Zap, Activity, Globe, Film, ChevronRight, Terminal, Landmark, Lock } from "lucide-react";
 import { IntelligenceArchive, IntelligenceArticle } from "./Intelligence";
-import { intelligenceArticles, intelligenceArticlesEn } from "./data/intelligence";
-import { useLanguage } from "./i18n";
+import { getIntelligenceArticles } from "./data/intelligence";
+import { useLanguage } from "./i18n/LanguageContext";
+import { ui } from "./i18n/translations";
 
 const Reveal = ({ children, delay = 0, y = 30 }: { children: React.ReactNode; delay?: number; y?: number }) => (
   <motion.div
@@ -150,7 +151,7 @@ const NodeMap = ({ isFull = false }: { isFull?: boolean }) => {
 };
 
 export default function App() {
-  const { lang, changeLanguage, t } = useLanguage();
+  const { lang, setLang, t } = useLanguage();
   const [loading, setLoading] = useState(true);
   const [showAdmin, setShowAdmin] = useState(false);
   const [showPinPrompt, setShowPinPrompt] = useState(false);
@@ -168,7 +169,7 @@ export default function App() {
   const [auditStatus, setAuditStatus] = useState<"IDLE" | "TRANSMITTING" | "COMPLETED">("IDLE");
   const [currentHash, setCurrentHash] = useState(window.location.hash || "#/");
 
-  const currentArticles = lang === 'en' ? intelligenceArticlesEn : intelligenceArticles;
+  const intelligenceArticles = useMemo(() => getIntelligenceArticles(lang), [lang]);
 
   useEffect(() => {
     // Load existing logs
@@ -286,24 +287,6 @@ export default function App() {
           <a href="https://hylten.github.io/Hylten-Invest/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 opacity-10 hover:opacity-100 transition-all duration-1000 group">
             <img src="hylten-gear.png" className="h-4 w-auto grayscale invert opacity-50 group-hover:opacity-100 transition-opacity" alt="Gear" />
           </a>
-          
-          {/* Language Switcher */}
-          <div className="flex items-center gap-2 px-2 py-1 bg-white/5 rounded-sm border border-white/10">
-            <button 
-              onClick={() => changeLanguage('en')}
-              className={`text-[10px] uppercase tracking-[1px] font-bold transition-all ${lang === 'en' ? 'text-[#C4A265] opacity-100' : 'text-white/40 hover:text-white/80'}`}
-            >
-              🇬🇧 English
-            </button>
-            <span className="text-white/20 text-[8px]">|</span>
-            <button 
-              onClick={() => changeLanguage('sv')}
-              className={`text-[10px] uppercase tracking-[1px] font-bold transition-all ${lang === 'sv' ? 'text-[#C4A265] opacity-100' : 'text-white/40 hover:text-white/80'}`}
-            >
-              🇸🇪 Svenska
-            </button>
-          </div>
-
           <div className="hidden md:flex gap-8 text-[10px] uppercase tracking-[4px] text-white/70 items-center">
             <a href="#alpha" className="hover:text-white transition-colors duration-500">HYLTÉN VENTURE STUDIO</a>
             <a href="#studio" className="hover:text-white transition-colors duration-500">EXPANSION</a>
@@ -312,15 +295,15 @@ export default function App() {
           </div>
         </div>
         <div className="hidden md:flex gap-6 text-[10px] uppercase tracking-[4px] text-white/70 items-center">
-          <a href="https://wa.me/?text=https://hylten.github.io/Venture-Studio/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-500" aria-label={t('share_contact')}>{t('share_contact')}</a>
+          <a href="https://wa.me/?text=https://hylten.github.io/Venture-Studio/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-500" aria-label={t(ui.nav.shareContact)}>{t(ui.nav.shareContact)}</a>
           <span className="text-white/10" aria-hidden="true">|</span>
           <a 
             href="/Venture-Studio/contact.vcf"
             download="Jonas_Hylten.vcf"
             className="hover:text-white transition-colors duration-500"
-            aria-label={t('save_contact')}
+            aria-label={t(ui.nav.saveContact)}
           >
-            {t('save_contact')}
+            {t(ui.nav.saveContact)}
           </a>
           <span className="text-white/10" aria-hidden="true">|</span>
           <button 
@@ -329,10 +312,26 @@ export default function App() {
               window.location.hash = 'qr';
             }}
             className="hover:text-white transition-colors duration-500 uppercase"
-            aria-label={t('qr_code')}
+            aria-label={t(ui.nav.qrCode)}
           >
-            {t('qr_code')}
+            {t(ui.nav.qrCode)}
           </button>
+          <span className="text-white/10" aria-hidden="true">|</span>
+          <div className="flex gap-2">
+            <button
+              onClick={() => setLang("en")}
+              className={`transition-colors duration-300 ${lang === "en" ? "text-[#C4A265] font-black" : "text-white/50 hover:text-white"}`}
+            >
+              EN
+            </button>
+            <span className="text-white/10">/</span>
+            <button
+              onClick={() => setLang("sv")}
+              className={`transition-colors duration-300 ${lang === "sv" ? "text-[#C4A265] font-black" : "text-white/50 hover:text-white"}`}
+            >
+              SV
+            </button>
+          </div>
         </div>
         {/* Mobile hamburger */}
         <button 
@@ -350,44 +349,26 @@ export default function App() {
       {showMobileMenu && (
         <div className="fixed inset-0 bg-dark/95 z-[90] md:hidden flex flex-col items-center justify-center gap-8 backdrop-blur-md" onClick={() => setShowMobileMenu(false)}>
           <button className="absolute top-8 right-8 text-white/85 hover:text-white text-xl" onClick={() => setShowMobileMenu(false)}>✕</button>
-          
-          <div className="flex items-center gap-4 px-4 py-2 bg-white/5 rounded-sm border border-white/10 mb-4">
-            <button 
-              onClick={(e) => { e.stopPropagation(); changeLanguage('en'); setShowMobileMenu(false); }}
-              className={`text-[12px] uppercase tracking-[2px] font-bold transition-all ${lang === 'en' ? 'text-[#C4A265]' : 'text-white/50'}`}
-            >
-              🇬🇧 EN
-            </button>
-            <span className="text-white/20">|</span>
-            <button 
-              onClick={(e) => { e.stopPropagation(); changeLanguage('sv'); setShowMobileMenu(false); }}
-              className={`text-[12px] uppercase tracking-[2px] font-bold transition-all ${lang === 'sv' ? 'text-[#C4A265]' : 'text-white/50'}`}
-            >
-              🇸🇪 SV
-            </button>
-          </div>
-
-          <a href="https://wa.me/?text=https://hylten.github.io/Venture-Studio/" target="_blank" rel="noopener noreferrer" className="text-[11px] uppercase tracking-[6px] text-white/85 hover:text-white transition-colors">{t('share_contact')}</a>
-          <a href="https://hylten.github.io/Venture-Studio/contact.vcf" download className="text-[11px] uppercase tracking-[6px] text-white/85 hover:text-white transition-colors">{t('save_contact')}</a>
-          <button onClick={() => { setShowMobileMenu(false); setShowQr(true); window.location.hash = 'qr'; }} className="text-[11px] uppercase tracking-[6px] text-white/85 hover:text-white transition-colors">{t('qr_code')}</button>
-          <a href="https://wa.me/46701619978?text=Regarding%20Hyltén%20Venture%20Studio:" target="_blank" rel="noopener noreferrer" className="text-[11px] uppercase tracking-[6px] text-[#C4A265] hover:text-white transition-colors font-bold">{t('contact')}</a>
+          <a href="https://wa.me/?text=https://hylten.github.io/Venture-Studio/" target="_blank" rel="noopener noreferrer" className="text-[11px] uppercase tracking-[6px] text-white/85 hover:text-white transition-colors">Share contact</a>
+          <a href="https://hylten.github.io/Venture-Studio/contact.vcf" download className="text-[11px] uppercase tracking-[6px] text-white/85 hover:text-white transition-colors">Save contact</a>
+          <button onClick={() => { setShowMobileMenu(false); setShowQr(true); window.location.hash = 'qr'; }} className="text-[11px] uppercase tracking-[6px] text-white/85 hover:text-white transition-colors">QR Code</button>
+          <a href="https://wa.me/46701619978?text=Regarding%20Hyltén%20Venture%20Studio:" target="_blank" rel="noopener noreferrer" className="text-[11px] uppercase tracking-[6px] text-[#C4A265] hover:text-white transition-colors font-bold">Contact</a>
           <div className="w-12 h-px bg-white/10 my-4"></div>
           <a href="#alpha" onClick={() => { setShowMobileMenu(false); window.location.hash = "#/"; }} className="text-[11px] uppercase tracking-[6px] text-white/75 hover:text-white transition-colors">Alpha</a>
           <a href="#studio" onClick={() => { setShowMobileMenu(false); window.location.hash = "#/"; }} className="text-[11px] uppercase tracking-[6px] text-white/75 hover:text-white transition-colors">Expansion</a>
           <a href="#apply" onClick={() => { setShowMobileMenu(false); window.location.hash = "#/"; }} className="text-[11px] uppercase tracking-[6px] text-white/75 hover:text-white transition-colors">Audit</a>
-          <a href="#/intelligence" onClick={() => setShowMobileMenu(false)} className="text-[11px] uppercase tracking-[6px] text-[#C4A265] hover:text-white transition-colors font-bold">{t('intelligence')}</a>
+          <a href="#/intelligence" onClick={() => setShowMobileMenu(false)} className="text-[11px] uppercase tracking-[6px] text-[#C4A265] hover:text-white transition-colors font-bold">Intelligence</a>
         </div>
       )}
 
       {currentHash.startsWith("#/intelligence") ? (
         currentHash.includes("/intelligence/") ? (
           <IntelligenceArticle 
-            article={currentArticles.find(a => a.slug === currentHash.split("/").pop()) || currentArticles[0]} 
-            allArticles={currentArticles}
+            article={intelligenceArticles.find(a => a.slug === currentHash.split("/").pop()) || intelligenceArticles[0]} 
             onNavigate={(h) => window.location.hash = h} 
           />
         ) : (
-          <IntelligenceArchive articles={currentArticles} onNavigate={(h) => window.location.hash = h} />
+          <IntelligenceArchive articles={intelligenceArticles} onNavigate={(h) => window.location.hash = h} />
         )
       ) : (
         <>
@@ -404,7 +385,7 @@ export default function App() {
                       transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
                     />
                   </div>
-                  <span className="text-[#C4A265] text-[10px] uppercase tracking-[8px] block font-black">{t('system_status')}</span>
+                  <span className="text-[#C4A265] text-[10px] uppercase tracking-[8px] block font-black">SYSTEM STATUS: ACTIVE</span>
                 </div>
                 <a href="https://hylten.github.io/Alpha/" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity">
                   <MatrixScrambler targetText="SYSTEM_LOG: MANDATE_MMXXVI_VAL_ACTIVE" />
@@ -413,13 +394,13 @@ export default function App() {
             </Reveal>
             <Reveal delay={0.2}>
               <h1 className="text-5xl md:text-8xl font-black mb-8 leading-[1.05] tracking-tighter">
-                {t('hero_title')}
+                Roials Alpha OS
               </h1>
             </Reveal>
             <Reveal delay={0.4}>
               <div>
                 <p className="text-white text-lg md:text-2xl max-w-3xl leading-relaxed mb-4 font-medium italic">
-                  {t('hero_subtitle')}
+                  {t(ui.hero.subtitle)}
                 </p>
                 <div className="mb-12">
                    <span className="font-mono text-[12px] text-white/70 uppercase tracking-[0.15em]">GTM_INFRASTRUCTURE: PROPRIETARY | AGENT-BASED | BUILD_2026</span>
@@ -481,9 +462,9 @@ export default function App() {
           <section id="values" className="px-8 md:px-24 py-32 border-t border-white/5 bg-dark">
             <div className="grid md:grid-cols-3">
               {[
-                { icon: <Terminal className="text-white/80 mb-8" size={32} />, title: t('values_title_1'), desc: t('values_desc_1'), href: "https://hylten.github.io/Alpha/" },
-                { icon: <Zap className="text-white/80 mb-8" size={32} />, title: t('values_title_2'), desc: t('values_desc_2'), href: "https://hylten.github.io/Alpha/" },
-                { icon: <Shield className="text-white/80 mb-8" size={32} />, title: t('values_title_3'), desc: t('values_desc_3'), href: "https://www.linkedin.com/in/hylten" }
+                { icon: <Terminal className="text-white/80 mb-8" size={32} />, title: t(ui.values.pillar1Title), desc: t(ui.values.pillar1Desc), href: "https://hylten.github.io/Alpha/" },
+                { icon: <Zap className="text-white/80 mb-8" size={32} />, title: "Velocity", desc: t(ui.values.pillar2Desc), href: "https://hylten.github.io/Alpha/" },
+                { icon: <Shield className="text-white/80 mb-8" size={32} />, title: "Operational Stewardship", desc: t(ui.values.pillar3Desc), href: "https://www.linkedin.com/in/hylten" }
               ].map((v, i) => (
                   <Reveal delay={i * 0.1} key={i}>
                   <div 
@@ -510,7 +491,7 @@ export default function App() {
             <div className="max-w-6xl mx-auto">
               <Reveal>
                 <div className="text-center mb-32">
-                  <h2 className="text-xl md:text-2xl font-black mb-4 tracking-tighter uppercase text-white/85">{t('trust_title')}</h2>
+                  <h2 className="text-xl md:text-2xl font-black mb-4 tracking-tighter uppercase text-white/85">{t(ui.trust.heading)}</h2>
                 </div>
                 
                 <div className="relative group cursor-default">
@@ -543,10 +524,10 @@ export default function App() {
               <div>
                 <Reveal>
                   <h2 className="text-3xl md:text-5xl font-black mb-8 tracking-tighter max-w-md group-hover/alpha:text-white transition-colors">
-                    {t('alpha_title')}
+                    {t(ui.alpha.heading)}
                   </h2>
                   <p className="text-white/70 text-lg leading-relaxed mb-12 font-medium italic max-w-lg">
-                    {t('alpha_subtitle')}
+                    {t(ui.alpha.subheading)}
                   </p>
                   <div className="grid grid-cols-3 gap-8 border-t border-[#C4A265]/30 pt-12">
                     <div>
@@ -576,13 +557,13 @@ export default function App() {
           <section className="px-8 md:px-24 py-32">
             <div className="max-w-6xl mx-auto">
               <Reveal>
-                <h2 className="text-4xl md:text-5xl font-black mb-16 tracking-tighter text-center uppercase">{t('founder_protocol_phase_1')}</h2>
+                <h2 className="text-4xl md:text-5xl font-black mb-16 tracking-tighter text-center uppercase">{t(ui.founderProtocol.heading)}</h2>
               </Reveal>
               <div className="grid md:grid-cols-3 mb-24">
                 {[
-                  { icon: <Film size={22} />, label: t('operating_review_title'), desc: t('operating_review_desc') },
-                  { icon: <Activity size={22} />, label: t('operational_validation_title'), desc: t('operational_validation_desc') },
-                  { icon: <Shield size={22} />, label: t('strategic_closing_title'), desc: t('strategic_closing_desc') }
+                  { icon: <Film size={22} />, label: "Operating Review", desc: t(ui.founderProtocol.opReview) },
+                  { icon: <Activity size={22} />, label: "Operational Validation", desc: t(ui.founderProtocol.opValidation) },
+                  { icon: <Shield size={22} />, label: "Strategic Closing", desc: t(ui.founderProtocol.strategicClosingDesc) }
                 ].map((f, i) => (
                   <Reveal delay={i * 0.1} key={i}>
                     <div className={`p-12 flex flex-col items-center text-center h-full ${i < 2 ? 'border-r border-white/10' : ''}`}>
@@ -600,9 +581,9 @@ export default function App() {
                 <div className="bg-white/[0.01] border border-white/5 p-12 text-white/80 rounded-sm relative overflow-hidden group">
                   <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-12">
                     <div className="max-w-2xl text-center md:text-left">
-                      <h3 className="text-xl font-black uppercase tracking-[2px] mb-4 text-white/80 italic">Onboarding Mandate</h3>
+                      <h3 className="text-xl font-black uppercase tracking-[2px] mb-4 text-white/80 italic">{t(ui.founderProtocol.mandateHeading)}</h3>
                       <p className="font-bold text-sm leading-relaxed opacity-40 italic">
-                        {t('phase_1_desc')}
+                        {t(ui.founderProtocol.mandateDesc)}
                       </p>
                       <div className="mt-5 mb-7 flex items-center gap-3">
                          <span className="text-[#00FF41] text-[10px]">●</span>
@@ -622,20 +603,20 @@ export default function App() {
                  <div className="opacity-10 mx-auto mb-10 flex justify-center">
                    <Landmark className="text-white h-12 w-12" />
                  </div>
-                 <h2 className="text-4xl md:text-5xl font-black mb-12 tracking-tighter uppercase text-white/85">{t('expansion_protocol')}</h2>
+                 <h2 className="text-4xl md:text-5xl font-black mb-12 tracking-tighter uppercase text-white/85">Expansion Protocol</h2>
                  
                  <div className="flex flex-col gap-4 mb-8">
                    <div className="text-sm font-medium text-white/80 uppercase tracking-[2px]">
-                      <span className="text-[#C4A265] font-bold">FAS 2</span> - <span className="opacity-50 italic">{t('phase_2_desc')}</span>
-                    </div>
-                     <div className="text-sm font-medium text-white/80 uppercase tracking-[2px]">
-                       <span className="text-[#C4A265] font-bold">FAS 3</span> - <span className="opacity-50 italic">{t('phase_3_desc')}</span>
+                       <span className="text-[#C4A265] font-bold">FAS 2</span> - <span className="opacity-50 italic">{t(ui.expansion.phase2)}</span>
+                     </div>
+                      <div className="text-sm font-medium text-white/80 uppercase tracking-[2px]">
+                        <span className="text-[#C4A265] font-bold">FAS 3</span> - <span className="opacity-50 italic">{t(ui.expansion.phase3)}</span>
                     </div>
                   </div>
 
-                 <p className="text-white/85 text-lg leading-relaxed font-medium italic mt-12">
-                   {t('invitation_only')}
-                 </p>
+                  <p className="text-white/85 text-lg leading-relaxed font-medium italic mt-12">
+                    {t(ui.expansion.invite)}
+                  </p>
               </Reveal>
             </div>
           </section>
@@ -694,7 +675,7 @@ export default function App() {
                 <div className="pt-32 pb-12">
                   <h2 className="text-3xl md:text-5xl font-black mb-6 tracking-tighter uppercase text-white/70">Qualification Audit</h2>
                   <p className="text-white/85 text-sm md:text-base font-bold mb-16 italic uppercase tracking-wider">
-                    Filtrering för operativ disciplin.
+                    {t(ui.qualification.subtitle)}
                   </p>
                 </div>
                 
@@ -779,7 +760,7 @@ export default function App() {
                         {article.description}
                       </p>
                       <div className="flex items-center gap-2 text-[9px] uppercase tracking-[3px] text-white/40 group-hover:text-white transition-colors">
-                        {t('read_analysis')} <ChevronRight size={12} className="group-hover:translate-x-1 transition-transform" />
+                        {t(ui.intelligence.readAnalysis)} <ChevronRight size={12} className="group-hover:translate-x-1 transition-transform" />
                       </div>
                     </div>
                   </Reveal>
@@ -806,10 +787,10 @@ export default function App() {
             <a href="https://hylten.github.io/Hylten-Invest/" target="_blank" rel="noopener noreferrer" className="text-[10px] uppercase tracking-[3px] text-white/85 hover:text-white/85 transition-colors">Hyltén Invest</a>
             <a href="https://roialscapital.com/" target="_blank" rel="noopener noreferrer" className="text-[10px] uppercase tracking-[3px] text-white/85 hover:text-white/85 transition-colors">Roials Capital</a>
             <button 
-              onClick={() => alert(t('legal_alert'))}
+              onClick={() => alert(t(ui.footer.gdprMessage))}
               className="text-[10px] uppercase tracking-[3px] text-white/85 hover:text-white/70 transition-colors"
             >
-              {t('legal')}
+              Legal
             </button>
             <a href="https://hylten.github.io/Alpha/" target="_blank" rel="noopener noreferrer" className="text-[10px] uppercase tracking-[3px] text-white/85 hover:text-white/85 transition-colors">Roials Alpha</a>
             <button 
@@ -851,9 +832,9 @@ export default function App() {
               <button 
                 className="absolute top-4 right-4 text-white hover:text-[#C4A265] transition-colors p-2" 
                 onClick={() => setShowQr(false)}
-                aria-label={t('close')}
+                aria-label={t(ui.qrModal.close)}
               >✕</button>
-              <h3 id="qr-title" className="text-center text-white uppercase tracking-[4px] text-xs font-black mb-10">{t('share_contact')}</h3>
+              <h3 id="qr-title" className="text-center text-white uppercase tracking-[4px] text-xs font-black mb-10">{t(ui.qrModal.title)}</h3>
               <div className="bg-white p-6 rounded-sm flex justify-center shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
                  <img 
                     src={`https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=${encodeURIComponent(
@@ -863,7 +844,7 @@ export default function App() {
                     className="w-full max-w-[250px] aspect-square" 
                  />
               </div>
-              <p className="mt-8 text-center text-[9px] uppercase tracking-[3px] text-white/75 font-mono italic">{t('scan_contact')}</p>
+              <p className="mt-8 text-center text-[9px] uppercase tracking-[3px] text-white/75 font-mono italic">{t(ui.qrModal.subtitle)}</p>
            </div>
         </div>
       )}

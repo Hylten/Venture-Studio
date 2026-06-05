@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { ChevronRight, ArrowLeft, Mail, Download, Calendar, Send } from "lucide-react";
 import { Helmet } from "react-helmet-async";
-import { useLanguage } from "./i18n";
+import { useLanguage } from "./i18n/LanguageContext";
+import { intelligence as i18n } from "./i18n/translations";
 
 export interface Article {
   slug: string;
@@ -25,25 +26,26 @@ const Reveal = ({ children, delay = 0, y = 30 }: { children: React.ReactNode; de
   </motion.div>
 );
 
-const categories = [
-  { id: "alla", labelKey: "cat_alla" },
-  { id: "saas-monetization", labelKey: "cat_saas_monetization" },
-  { id: "ai-enterprise", labelKey: "cat_ai_enterprise" },
-  { id: "capital-markets", labelKey: "cat_capital_markets" },
-  { id: "fundraising-ipo", labelKey: "cat_fundraising_ipo" },
-  { id: "gtm", labelKey: "cat_gtm" },
-  { id: "venture-studio", labelKey: "cat_venture_studio" },
-] as const;
+const categoryLabels: Record<string, { en: string; sv: string }> = {
+  "alla": { en: "All", sv: "Alla" },
+  "saas-monetization": { en: "SaaS monetization", sv: "SaaS-monetisering" },
+  "ai-enterprise": { en: "AI in Enterprise", sv: "AI i Enterprise" },
+  "capital-markets": { en: "Capital markets", sv: "Kapitalmarknad" },
+  "fundraising-ipo": { en: "Fundraising & IPO", sv: "Fundraising & IPO" },
+  "gtm": { en: "GTM strategy", sv: "GTM-strategi" },
+  "venture-studio": { en: "Venture Studio", sv: "Venture Studio" },
+};
 
 export const IntelligenceArchive: React.FC<{ 
   articles: Article[], 
   onNavigate: (route: string) => void 
 }> = ({ articles, onNavigate }) => {
-  const { t, lang } = useLanguage();
+  const { lang, t } = useLanguage();
   const [selectedCategory, setSelectedCategory] = useState("alla");
   const [showNewsletter, setShowNewsletter] = useState(false);
   const [email, setEmail] = useState("");
   const [subscribed, setSubscribed] = useState(false);
+  const categories = Object.entries(categoryLabels).map(([id, l]) => ({ id, label: l[lang] }));
 
   const filteredArticles = selectedCategory === "alla" 
     ? articles 
@@ -60,8 +62,8 @@ export const IntelligenceArchive: React.FC<{
   return (
     <div className="pt-32 pb-20 px-8 md:px-24">
       <Helmet>
-        <title>{t('intelligence_meta_title')}</title>
-        <meta name="description" content={t('intelligence_meta_desc')} />
+        <title>{t(i18n.pageTitle)}</title>
+        <meta name="description" content={t(i18n.metaDescription)} />
         <link rel="canonical" href="https://hylten.github.io/Venture-Studio/#/intelligence" />
       </Helmet>
 
@@ -70,7 +72,7 @@ export const IntelligenceArchive: React.FC<{
           onClick={() => onNavigate("/")}
           className="flex items-center gap-2 text-[10px] uppercase tracking-[4px] text-white/50 hover:text-white transition-colors mb-12"
         >
-          <ArrowLeft size={14} /> {t('back_to_terminal')}
+          <ArrowLeft size={14} /> {t(i18n.backToTerminal)}
         </button>
         
         <div className="flex items-center gap-3 mb-6">
@@ -78,8 +80,8 @@ export const IntelligenceArchive: React.FC<{
           <span className="text-[#C4A265] text-[10px] uppercase tracking-[4px] font-black">INTELLIGENCE_DIVISION</span>
         </div>
         
-        <h2 className="text-4xl md:text-6xl font-black mb-4 tracking-tighter uppercase">{t('intelligence_archive').split('_')[0]}_<span className="text-[#C4A265]">{t('intelligence_archive').split('_')[1]}</span></h2>
-        <p className="text-white/50 text-xs uppercase tracking-[4px] mb-8 italic">{t('intelligence_subtitle')}</p>
+        <h2 className="text-4xl md:text-6xl font-black mb-4 tracking-tighter uppercase">Intelligence_<span className="text-[#C4A265]">{lang === "en" ? "Archive" : "Arkiv"}</span></h2>
+        <p className="text-white/50 text-xs uppercase tracking-[4px] mb-8 italic">{t(i18n.subtitle)}</p>
         
         <div className="flex flex-col md:flex-row gap-8 items-start md:items-center justify-between mb-16 border-b border-white/10 pb-12">
           <div className="flex flex-wrap gap-3">
@@ -95,7 +97,7 @@ export const IntelligenceArchive: React.FC<{
                       : 'border-white/10 text-white/50 hover:border-white/30 hover:text-white/70'
                   }`}
                 >
-                  {t(cat.labelKey)} ({count})
+                  {cat.label} ({count})
                 </button>
               );
             })}
@@ -105,7 +107,7 @@ export const IntelligenceArchive: React.FC<{
             onClick={() => setShowNewsletter(true)}
             className="text-[10px] uppercase tracking-[3px] text-[#C4A265] hover:text-white transition-colors flex items-center gap-2"
           >
-            <Mail size={14} /> {t('subscribe')}
+            <Mail size={14} /> {t(i18n.subscribe)}
           </button>
         </div>
       </Reveal>
@@ -126,7 +128,7 @@ export const IntelligenceArchive: React.FC<{
                 <p className="text-white/60 text-sm leading-relaxed mb-8 line-clamp-3">{article.description}</p>
               </div>
               <div className="flex items-center gap-2 text-[10px] uppercase tracking-[3px] text-white/30 group-hover:text-[#C4A265] transition-colors">
-                {t('read_analysis')} <ChevronRight size={14} />
+                {t(i18n.readAnalysis)} <ChevronRight size={14} />
               </div>
             </div>
           </Reveal>
@@ -136,25 +138,25 @@ export const IntelligenceArchive: React.FC<{
       <Reveal delay={0.5}>
         <div className="mt-24 border-t border-white/10 pt-16">
           <div className="max-w-3xl mx-auto text-center">
-            <h3 className="text-2xl font-black uppercase tracking-tight mb-6">{t('want_insights')}</h3>
-            <p className="text-white/60 mb-8 text-sm italic">{t('insights_desc')}</p>
+            <h3 className="text-2xl font-black uppercase tracking-tight mb-6">{t(i18n.newsletterHeading)}</h3>
+            <p className="text-white/60 mb-8 text-sm italic">{t(i18n.newsletterDesc)}</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
                 onClick={() => setShowNewsletter(true)}
                 className="px-8 py-4 bg-[#C4A265] text-black text-[10px] uppercase tracking-[4px] font-black hover:bg-white transition-colors"
               >
                 <span className="flex items-center justify-center gap-2">
-                  <Mail size={14} /> {t('subscribe_btn')}
+                  <Mail size={14} /> {t(i18n.subscribeTo)}
                 </span>
               </button>
               <a 
-                href={`https://wa.me/46701619978?text=${encodeURIComponent(t('whatsapp_hello'))}`}
+                href="https://wa.me/46701619978?text=Hej%20Jonas!%20Jag%20vill%20ha%20mer%20information%20om%20Hyltén%20Venture%20Studio."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 border border-white/20 text-white/70 text-[10px] uppercase tracking-[4px] font-black hover:border-white/40 hover:text-white transition-colors"
               >
                 <span className="flex items-center justify-center gap-2">
-                  <Calendar size={14} /> {t('book_meeting')}
+                  <Calendar size={14} /> {t(i18n.bookCall)}
                 </span>
               </a>
             </div>
@@ -170,7 +172,7 @@ export const IntelligenceArchive: React.FC<{
             rel="noopener noreferrer"
             className="text-[10px] uppercase tracking-[4px] text-white/30 hover:text-[#C4A265] transition-colors"
           >
-            {t('back_to_studio')}
+            {t(i18n.backToStudio)}
           </a>
         </div>
       </Reveal>
@@ -194,12 +196,12 @@ export const IntelligenceArchive: React.FC<{
                   <div className="w-1.5 h-1.5 rounded-full bg-[#00FF41]" />
                   <span className="text-[#C4A265] text-[10px] uppercase tracking-[4px]">INTELLIGENCE_SUBSCRIPTION</span>
                 </div>
-                <h3 className="text-2xl font-black uppercase tracking-tight mb-4">{t('intelligence_archive').split('_')[0]}-briefing</h3>
-                <p className="text-white/60 mb-8 text-sm">{t('insights_desc')}</p>
+                <h3 className="text-2xl font-black uppercase tracking-tight mb-4">{t(i18n.newsletterModalTitle)}</h3>
+                <p className="text-white/60 mb-8 text-sm">{t(i18n.newsletterModalDesc)}</p>
                 <form onSubmit={handleSubscribe} className="space-y-4">
                   <input 
                     type="email" 
-                    placeholder={lang === 'sv' ? "din@epost.se" : "your@email.com"}
+                    placeholder={t(i18n.emailPlaceholder)}
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
@@ -209,14 +211,14 @@ export const IntelligenceArchive: React.FC<{
                     type="submit"
                     className="w-full py-4 bg-[#C4A265] text-black text-[10px] uppercase tracking-[4px] font-black hover:bg-white transition-colors flex items-center justify-center gap-2"
                   >
-                    <Send size={14} /> {t('subscribe')}
+                    <Send size={14} /> {t(i18n.subscribe)}
                   </button>
                 </form>
                 <button 
                   onClick={() => setShowNewsletter(false)}
                   className="mt-6 text-white/30 text-[10px] uppercase tracking-[3px] hover:text-white/60 transition-colors w-full text-center"
                 >
-                  {t('close')}
+                  {t(i18n.close)}
                 </button>
               </>
             ) : (
@@ -224,8 +226,8 @@ export const IntelligenceArchive: React.FC<{
                 <div className="w-12 h-12 rounded-full bg-[#00FF41]/10 border border-[#00FF41]/30 flex items-center justify-center mx-auto mb-6">
                   <span className="text-[#00FF41] text-xl">✓</span>
                 </div>
-                <h3 className="text-xl font-black uppercase tracking-tight mb-4">{t('sub_registered')}</h3>
-                <p className="text-white/60 text-sm">{t('sub_thanks')}</p>
+                <h3 className="text-xl font-black uppercase tracking-tight mb-4">{t(i18n.subscribedHeading)}</h3>
+                <p className="text-white/60 text-sm">{t(i18n.subscribedDesc)}</p>
               </div>
             )}
           </motion.div>
@@ -236,18 +238,12 @@ export const IntelligenceArchive: React.FC<{
 };
 
 export const IntelligenceArticle: React.FC<{ 
-  article: Article,
-  allArticles?: Article[],
+  article: Article, 
   onNavigate: (route: string) => void 
-}> = ({ article, allArticles = [], onNavigate }) => {
+}> = ({ article, onNavigate }) => {
   const { t } = useLanguage();
   const [email, setEmail] = useState("");
   const [downloaded, setDownloaded] = useState(false);
-  const [shareOpen, setShareOpen] = useState(false);
-
-  const currentIndex = allArticles.findIndex(a => a.slug === article.slug);
-  const prevArticle = currentIndex < allArticles.length - 1 ? allArticles[currentIndex + 1] : null;
-  const nextArticle = currentIndex > 0 ? allArticles[currentIndex - 1] : null;
 
   const handleDownload = (e: React.FormEvent) => {
     e.preventDefault();
@@ -307,21 +303,21 @@ export const IntelligenceArticle: React.FC<{
           onClick={() => onNavigate("/intelligence")}
           className="flex items-center gap-2 text-[10px] uppercase tracking-[4px] text-white/50 hover:text-white transition-colors mb-12"
         >
-          <ArrowLeft size={14} /> {t('back_to_archive')}
+          <ArrowLeft size={14} /> {t(i18n.articleBack)}
         </button>
         
         <div className="flex items-center gap-4 mb-8">
            <div className="w-1.5 h-1.5 rounded-full bg-[#00FF41]" />
-           <span className="text-[#C4A265] text-[10px] uppercase tracking-[4px] font-black">{t('classified_analysis')} {article.author}</span>
+           <span className="text-[#C4A265] text-[10px] uppercase tracking-[4px] font-black">{t(i18n.classifiedLabel)} {article.author}</span>
         </div>
 
         <h1 className="text-4xl md:text-6xl font-black mb-8 tracking-tighter uppercase leading-[1.1]">{article.title}</h1>
         
         <div className="flex flex-wrap gap-8 border-y border-white/10 py-6 mb-16 text-[10px] font-mono uppercase tracking-[2px] text-white/40">
-          <div>{t('date')}: {article.date}</div>
-          <div>{t('author')}: {article.author}</div>
-          <div>{t('status')}: {t('status_published')}</div>
-          <div>{t('level')}: ALPHA_CLEARANCE</div>
+          <div>{t(i18n.date)} {article.date}</div>
+          <div>{t(i18n.author)} {article.author}</div>
+          <div>{t(i18n.status)}</div>
+          <div>{t(i18n.level)}</div>
         </div>
 
         <div className="intelligence-content text-white/80 text-lg leading-relaxed space-y-8 font-medium">
@@ -351,43 +347,43 @@ export const IntelligenceArticle: React.FC<{
           <div className="bg-white/[0.02] border border-white/5 p-8 mb-12">
             <div className="flex items-center gap-3 mb-6">
               <Download size={16} className="text-[#C4A265]" />
-              <span className="text-[10px] uppercase tracking-[4px] text-[#C4A265] font-black">{t('download_report')}</span>
+              <span className="text-[10px] uppercase tracking-[4px] text-[#C4A265] font-black">{t(i18n.downloadHeading)}</span>
             </div>
-            <p className="text-white/60 text-sm mb-6 italic">{t('download_desc')}</p>
+            <p className="text-white/60 text-sm mb-6 italic">{t(i18n.downloadDesc)}</p>
             {!downloaded ? (
               <form onSubmit={handleDownload} className="flex gap-4">
-                <input 
-                  type="email" 
-                  placeholder="din@epost.se"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  required
-                  className="flex-1 bg-white/[0.02] border border-white/10 px-4 py-3 text-white/80 text-sm focus:border-[#C4A265]/40 outline-none transition-colors"
-                />
-                <button 
-                  type="submit"
-                  className="px-6 py-3 bg-[#C4A265] text-black text-[10px] uppercase tracking-[3px] font-black hover:bg-white transition-colors whitespace-nowrap"
-                >
-                  {t('download_btn')}
-                </button>
+                  <input 
+                    type="email" 
+                    placeholder={t(i18n.emailPlaceholder)}
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
+                    className="flex-1 bg-white/[0.02] border border-white/10 px-4 py-3 text-white/80 text-sm focus:border-[#C4A265]/40 outline-none transition-colors"
+                  />
+                  <button 
+                    type="submit"
+                    className="px-6 py-3 bg-[#C4A265] text-black text-[10px] uppercase tracking-[3px] font-black hover:bg-white transition-colors whitespace-nowrap"
+                  >
+                    {t(i18n.downloadBtn)}
+                  </button>
               </form>
             ) : (
               <div className="flex items-center gap-3 text-[#00FF41]">
                 <span className="text-lg">✓</span>
-                <span className="text-sm">{t('download_success')}</span>
+                <span className="text-sm">{t(i18n.downloadSent)}</span>
               </div>
             )}
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
             <a 
-              href={`https://wa.me/46701619978?text=${encodeURIComponent(t('whatsapp_read_prefix') + article.title + t('whatsapp_read_suffix'))}`}
+              href={`https://wa.me/46701619978?text=${encodeURIComponent("Hej Jonas! Jag läste '" + article.title + "' på Venture Studio Intelligence.")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="block p-8 border border-white/10 hover:border-[#C4A265]/30 bg-white/[0.02] transition-all group"
             >
-              <span className="text-[10px] uppercase tracking-[4px] text-[#C4A265] font-black block mb-4">{t('contact_title')}</span>
-              <span className="text-white text-lg font-black uppercase tracking-tight group-hover:text-[#C4A265] transition-colors">{t('contact_desc')}</span>
+              <span className="text-[10px] uppercase tracking-[4px] text-[#C4A265] font-black block mb-4">{t(i18n.contactLabel)}</span>
+              <span className="text-white text-lg font-black uppercase tracking-tight group-hover:text-[#C4A265] transition-colors">{t(i18n.contactText)}</span>
             </a>
             <a 
               href="https://hylten.github.io/Venture-Studio/"
@@ -395,64 +391,9 @@ export const IntelligenceArticle: React.FC<{
               rel="noopener noreferrer"
               className="block p-8 border border-white/10 hover:border-white/30 bg-white/[0.02] transition-all group"
             >
-              <span className="text-[10px] uppercase tracking-[4px] text-white/50 font-black block mb-4">{t('studio_title')}</span>
-              <span className="text-white text-lg font-black uppercase tracking-tight group-hover:text-white/80 transition-colors">{t('studio_desc')}</span>
+              <span className="text-[10px] uppercase tracking-[4px] text-white/50 font-black block mb-4">{t(i18n.studioLabel)}</span>
+              <span className="text-white text-lg font-black uppercase tracking-tight group-hover:text-white/80 transition-colors">{t(i18n.studioText)}</span>
             </a>
-          </div>
-        </div>
-
-        {/* Prev/Next Navigation */}
-        {(prevArticle || nextArticle) && (
-          <div className="mt-24 pt-12 border-t border-white/10">
-            <div className="grid grid-cols-2 gap-8">
-              <div>
-                {prevArticle && (
-                  <button
-                    onClick={() => onNavigate(`/intelligence/${prevArticle.slug}`)}
-                    className="block group text-left"
-                  >
-                    <span className="text-[9px] tracking-[0.2em] text-white/40 uppercase block mb-2">← {t('prev')}</span>
-                    <span className="text-sm text-white/60 group-hover:text-[#C4A265] transition-colors line-clamp-2">{prevArticle.title}</span>
-                  </button>
-                )}
-              </div>
-              <div className="text-right">
-                {nextArticle && (
-                  <button
-                    onClick={() => onNavigate(`/intelligence/${nextArticle.slug}`)}
-                    className="block group"
-                  >
-                    <span className="text-[9px] tracking-[0.2em] text-white/40 uppercase block mb-2">{t('next')} →</span>
-                    <span className="text-sm text-white/60 group-hover:text-[#C4A265] transition-colors line-clamp-2">{nextArticle.title}</span>
-                  </button>
-                )}
-              </div>
-            </div>
-          </div>
-        )}
-
-        {/* Share Button - Static at bottom */}
-        <div className="mt-16 flex justify-center">
-          <div className="relative">
-            <button
-              onClick={() => setShareOpen(!shareOpen)}
-              className="flex items-center gap-2 px-5 py-2 bg-white/[0.03] border border-white/10 rounded-full opacity-40 hover:opacity-80 transition-all"
-            >
-              <span className="text-[10px] tracking-[2px] uppercase text-white/60 font-medium">Share</span>
-              <svg className="w-3 h-3 text-white/60" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M5 15l7-7 7 7" />
-              </svg>
-            </button>
-            {shareOpen && (
-              <div className="absolute bottom-12 left-1/2 -translate-x-1/2 flex gap-3 bg-[#1a1a1a] border border-white/10 px-4 py-3 rounded-2xl shadow-xl">
-                <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(window.location.href)}`} target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-white/10 transition-colors">
-                  <svg className="w-4 h-4 text-[#0077B5]" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-                </a>
-                <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(window.location.href)}&text=${encodeURIComponent(article.title || '')}`} target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-white/10 transition-colors">
-                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                </a>
-              </div>
-            )}
           </div>
         </div>
 
@@ -463,7 +404,7 @@ export const IntelligenceArticle: React.FC<{
             rel="noopener noreferrer"
             className="text-[10px] uppercase tracking-[4px] text-white/30 hover:text-[#C4A265] transition-colors"
           >
-            ← {t('back_to_studio')}
+            ← {t(i18n.backToStudio)}
           </a>
         </div>
       </Reveal>

@@ -1,29 +1,24 @@
 import { intelligenceMetadata, type ArticleMetadata } from './metadata';
-import { intelligenceContent } from './content';
 import { intelligenceMetadataEn } from './metadata_en';
+import { intelligenceContent } from './content';
 import { intelligenceContentEn } from './content_en';
+import type { Language } from '../../i18n/LanguageContext';
 
 export interface Article extends ArticleMetadata {
   content: string;
 }
 
-// Svenska (Standard)
-export const intelligenceArticles: Article[] = intelligenceMetadata
-  .map(meta => ({
-    ...meta,
-    content: intelligenceContent[meta.slug] || ""
-  }))
-  .filter(article => article.content.length > 100);
+export function getIntelligenceArticles(lang: Language): Article[] {
+  const meta = lang === "en" ? intelligenceMetadataEn : intelligenceMetadata;
+  const content = lang === "en" ? intelligenceContentEn : intelligenceContent;
+  return meta
+    .map(a => ({
+      ...a,
+      content: content[a.slug] || ""
+    }))
+    .filter(a => a.content.length > 100);
+}
 
-// English (Fallback to Swedish if not translated yet)
-export const intelligenceArticlesEn: Article[] = intelligenceMetadata
-  .map(meta => {
-    const enMeta = intelligenceMetadataEn.find(m => m.slug === meta.slug);
-    return {
-      ...(enMeta || meta),
-      content: intelligenceContentEn[meta.slug] || intelligenceContent[meta.slug] || ""
-    };
-  })
-  .filter(article => article.content.length > 100);
+export const intelligenceArticles = getIntelligenceArticles("en");
 
 export const publishedCount = intelligenceArticles.length;
