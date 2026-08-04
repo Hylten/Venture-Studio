@@ -12,9 +12,8 @@ export interface Article {
 }
 
 // Decap CMS-källa: content/intelligence/*.md (sv) + content/intelligence_en/*.md (en)
-const glob = (import.meta as any).glob;
-const svFiles = glob('../../../content/intelligence/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
-const enFiles = glob('../../../content/intelligence_en/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+const svFiles = import.meta.glob('../../../content/intelligence/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+const enFiles = import.meta.glob('../../../content/intelligence_en/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
 
 function parse(raw: string): Article {
   const lines = raw.split('\n');
