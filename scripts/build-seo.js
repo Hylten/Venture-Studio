@@ -66,7 +66,7 @@ async function generateSEO() {
         console.warn('⚠️ Could not parse content.ts');
     }
 
-    const publishedArticles = metadata.filter(article => content[article.slug] && content[article.slug].length > 100);
+    const publishedArticles = metadata.filter(article => content[article.slug] && content[article.slug].length > 100 && article.draft !== true);
     
     const listHtml = `
     <div style="background:#050505;min-height:100vh;padding:180px 24px;color:#E5E7EB;font-family:sans-serif;">

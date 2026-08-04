@@ -8,6 +8,7 @@ export interface Article {
   category: string;
   description: string;
   content: string;
+  draft?: boolean;
 }
 
 // Decap CMS-källa: content/intelligence/*.md (sv) + content/intelligence_en/*.md (en)
@@ -37,11 +38,12 @@ function parse(raw: string): Article {
     category: str('categories').replace(/^\[|\]$/g, '').replace(/"/g, ''),
     description: str('description'),
     content: lines.slice(bodyStart).join('\n').trim(),
+    draft: (fm['draft'] || '').replace(/^"|"$/g, '') === 'true',
   };
 }
 
-const svArticles = Object.values(svFiles).map(parse).filter(a => a.content.length > 100);
-const enArticles = Object.values(enFiles).map(parse).filter(a => a.content.length > 100);
+const svArticles = Object.values(svFiles).map(parse).filter(a => a.content.length > 100 && (a as any).draft !== true);
+const enArticles = Object.values(enFiles).map(parse).filter(a => a.content.length > 100 && (a as any).draft !== true);
 
 export function getIntelligenceArticles(lang: Language): Article[] {
   return lang === 'en' ? enArticles : svArticles;
