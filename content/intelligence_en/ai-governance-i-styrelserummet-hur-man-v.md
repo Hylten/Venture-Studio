@@ -36,7 +36,7 @@ The fundamental challenge for a board is that AI models are non‑deterministic.
 
 This makes it impossible for a board to rely on traditional reports that only describe the functionality of the technology. Instead, the board must ask questions about data flows, risk surfaces, behavior patterns, and system effects. Governance thus becomes not a technical craft but an architectural discipline.
 
-## What Boards Need to Understand About AI—Without Being Experts
+## What Boards Need to Understand About AI, Without Being Experts
 
 A common mistake is to believe that board members must understand model architectures to oversee AI. They do not. What is important is to understand how models function as system components, not how their neural layers are constructed.
 
@@ -64,7 +64,7 @@ When AI becomes part of the product core, a new governance layer is created. Thi
 
 This is not about technical configuration questions. It is about direct questions of business risk, customer relations, and operational sustainability. In many cases, these are more important than traditional KPIs because the models govern the automation of the system.
 
-When an AI model makes a mistake, the error spreads linearly—sometimes exponentially. This makes governance a question of system design, not troubleshooting.
+When an AI model makes a mistake, the error spreads linearly, sometimes exponentially. This makes governance a question of system design, not troubleshooting.
 
 ## Why Early AI Strategy Documents Are No Longer Sufficient
 

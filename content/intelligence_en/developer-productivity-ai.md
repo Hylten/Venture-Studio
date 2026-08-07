@@ -31,7 +31,7 @@ First, they’re based on the assumption that humans are the primary production 
 
 Second, many SaaS organizations measure activity rather than outcome. In an environment where AI-driven systems can generate large volumes of code, prototypes, and suggestions in seconds, activity is the least interesting signal. Volume is increasing for everyone right now, which means volume as a competitive advantage is disappearing.
 
-Third, older metrics like cycle time and velocity aren’t designed for environments where AI can generate thousands of diffs, test specifications, or refactoring suggestions in seconds—but where human judgment still determines what gets integrated into production systems.
+Third, older metrics like cycle time and velocity aren’t designed for environments where AI can generate thousands of diffs, test specifications, or refactoring suggestions in seconds, but where human judgment still determines what gets integrated into production systems.
 
 The consequence is that organizations risk measuring the wrong things. They risk evaluating teams based on metrics no longer tied to business value or product quality. And they risk creating the wrong incentives at a time when incentives matter more than ever.
 
@@ -117,7 +117,7 @@ Productivity in the AI era is therefore as much a governance question as a techn
 
 ## A New Definition of Efficiency in SaaS Environments
 
-As systems become more autonomous, the definition of efficiency also changes. Efficiency isn’t about minimizing resources or maximizing output anymore—it’s about maximizing the capacity of the entire system to generate value over time.
+As systems become more autonomous, the definition of efficiency also changes. Efficiency isn’t about minimizing resources or maximizing output anymore, it’s about maximizing the capacity of the entire system to generate value over time.
 
 This means a shift from local optimization to global optimization. Organizations need to reduce friction at handover points, improve context sharing between humans and models, and build infrastructures where automation layers can collaborate rather than compete with each other.
 

@@ -174,7 +174,7 @@ This creates a more capital-efficient expansion model.
 
 ## Technical Debt and the Risk of Permanent Divergence
 
-Asia expansion introduces a structural risk: the product’s architecture may begin to split into two variants—a global version and an Asia-specific version. This is normally managed via configuration layers, but if the product team is pressured by rapid local customer growth, short-term solutions can lead to:
+Asia expansion introduces a structural risk: the product’s architecture may begin to split into two variants, a global version and an Asia-specific version. This is normally managed via configuration layers, but if the product team is pressured by rapid local customer growth, short-term solutions can lead to:
 
 - Unwanted functional duplication
 - Local custom builds that become permanent

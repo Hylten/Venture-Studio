@@ -26,7 +26,6 @@ När investeringstakten i AI, data-infrastruktur och autonom programvara fortsä
 I en studio som bygger portföljer av B2B SaaS-bolag, ofta med AI som kärnkomponent, uppstår ett behov av tekniskt ledarskap som ligger närmare plattformsarkitektur än klassisk produktutveckling. Det handlar om att skapa tekniska system som fungerar som:
 
 1. En källa till tekniska försprång genom återanvändbara moduler för AI-pipelines, data ingestion och core infrastructure.
-
 2. En accelerationsmotor som gör att varje nytt venture kan initieras snabbare tack vare delad kod, gemensamma datamodeller och standardiserade operativa processer.
 
 3. En kvalitetssäkringsmekanism där ingen produkt lanseras utan att vara byggd på skalbara och säkerhetsmässigt korrekta komponenter.

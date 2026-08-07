@@ -64,7 +64,7 @@ These metrics become the foundation for how a customer assesses the system’s u
 
 ## Infrastructure Prerequisites for Agents as Membership Benefits
 
-Behind agent models lies a complex architecture. For an agent-based membership model to be scalable, a range of infrastructural components—traditionally absent from SaaS stacks—are required:
+Behind agent models lies a complex architecture. For an agent-based membership model to be scalable, a range of infrastructural components, traditionally absent from SaaS stacks, are required:
 
 - Stable access to foundation models with controlled cost per token.
 - A policy and governance layer defining what each agent is allowed to do.
@@ -247,4 +247,4 @@ This also means that product development and customer relationships merge. What 
 
 When agents transform membership from feature access to work capacity, a new logic for the entire SaaS ecosystem is created. Members become active co-creators in their agent flows, companies become providers of capacity, and the relationship between user and service shifts toward a form of distributed workforce.
 
-This is not an evolution of today’s SaaS. It is a redefinition. When members gain access to intelligent workforce—not just tools—the entire industry’s value model changes. It is in this landscape that the next generation of SaaS companies will compete, grow, and differentiate themselves.
+This is not an evolution of today’s SaaS. It is a redefinition. When members gain access to intelligent workforce, not just tools, the entire industry’s value model changes. It is in this landscape that the next generation of SaaS companies will compete, grow, and differentiate themselves.

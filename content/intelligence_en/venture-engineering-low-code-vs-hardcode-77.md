@@ -57,7 +57,6 @@ Low-code has an inherent conflict with the type of systems Series C+ SaaS compan
 Three specific problems become clear when you pass the validation phase:
 
 1. **The data model is not controllable.** Low-code platforms’ internal data logic forces teams to work within given structures. For AI-driven ventures that need sample validation, data lineage, and exact control over the data layer, these abstractions become a serious obstacle.
-
 2. **Scalability costs exponentially.** Low-code systems that work for 10 customers crash in cost and performance at 1,000 customers. Instead of being an accelerator, they become an obstacle that requires expensive refactoring or total rewriting.
 
 3. **Integration capabilities become narrow bottlenecks.** The platforms offer integrations, but not with the granularity or transaction control required at enterprise scale.
@@ -85,7 +84,6 @@ Many boards make the mistake of believing migration happens when the market dema
 From a venture studio perspective, the right time is when three conditions coincide:
 
 1. **Market needs are validated.** The team knows the product solves a real and recurring problem.
-
 2. **The architecture will be close to core value.** The system needs to scale not just for volume, but for the product’s future development direction.
 
 3. **Data flows are stable enough to be remodeled.** Low-code is often used for quick hopping between data sources. Migration requires flows to be known enough that you can model them without removing too much operational function.

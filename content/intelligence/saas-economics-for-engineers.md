@@ -241,7 +241,6 @@ SaaS har en märklig egenskap. Den första tusen kunderna kan ha lysande bruttom
 Det finns tre typiska mekanismer bakom detta.
 
 1. Molnkostnader skalar linjärt. Intäkter skalar inte alltid lika snabbt. Många system är byggda på antagandet att belastningen kommer att vara hanterbar. När trafiken ökar tvingas man lägga till fler instanser, mer lagring och dyrare databaskluster. I värsta fall upptäcker man att det inte finns något sätt att skala uppåt utan att kostnaden ökar nästan proportionellt med antalet användare.
-
 2. Tredjepartstjänster är en tyst tickande kostnadsbomb. Varje betalnings-API, varje e-postleverantör, varje analytics SDK och varje videotranscodingtjänst kostar per användning. Man kan inte optimera bort dessa kostnader lika enkelt som egna serverkostnader. Om produkten är beroende av dyra externa tjänster utan att priset syns vid implementering kommer bruttomarginalen att erodera med tiden.
 
 3. Dataskuld växer snabbare än teknisk skuld. När ett bolag växer ökar mängden data per kund nästan alltid snabbare än trafiken. Loggar, historik, kundsessioner och stora objekt lagras ofta utan tydlig livscykelhantering. I början är det obetydligt. Efter några år dominerar lagringskostnaderna och systemet blir dyrt att både köra och underhålla.

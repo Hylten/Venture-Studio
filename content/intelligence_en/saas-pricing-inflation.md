@@ -17,7 +17,7 @@ SaaS Pricing in Inflationary Times: How AI Helps You Raise the Price
 
 ## The Inflation Shock That Stress-Tests the SaaS Economy
 
-The past decade was characterized by a capital market where low interest rates and aggressive growth prioritization stabilized a global SaaS economy with relatively homogeneous pricing. When inflation hit in 2021–2023, the playing field fundamentally changed. Costs for talent, infrastructure, capital, and customer acquisition rose simultaneously as multiples began compressing. The old pricing model, built for an expansive macro climate, was no longer sufficient.
+The past decade was characterized by a capital market where low interest rates and aggressive growth prioritization stabilized a global SaaS economy with relatively homogeneous pricing. When inflation hit in 2021-2023, the playing field fundamentally changed. Costs for talent, infrastructure, capital, and customer acquisition rose simultaneously as multiples began compressing. The old pricing model, built for an expansive macro climate, was no longer sufficient.
 
 In this new environment, leading SaaS companies shift from volume-driven to value-driven expansion. Customers expect higher ROI proof, management seeks new margin sources, and investors have stopped rewarding companies that buy market share through artificially low prices. Inflationary conditions therefore function as a vacuum test: either the company can systematically justify higher prices, or it lacks the infrastructure required to make value visible.
 
@@ -117,7 +117,7 @@ The third is operationalizing pricing in go-to-market systems. An AI-based prici
 
 Pricing Operations thus becomes a necessary function for all SaaS companies wanting to use inflation as an opportunity rather than a threat. The role is not about raising prices, but about building the intelligence that makes price increases possible without harming retention.
 
-It is in this discipline that the SaaS industry is now converging toward a new standard for how pricing should be conducted—not as a decision, but as a systemic capability.
+It is in this discipline that the SaaS industry is now converging toward a new standard for how pricing should be conducted, not as a decision, but as a systemic capability.
 
 ## When Inflation Forces New Pricing Models
 

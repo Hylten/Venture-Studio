@@ -23,7 +23,7 @@ But something has broken this continuity. The data type growing fastest in moder
 
 This is why BI architecture is facing its first fundamental restructuring since the cloud’s arrival. When information flows are no longer just tables with primary keys but multidimensional spaces of meaning, context, and probabilistic patterns, a gap emerges between what SQL layers can semantically express and what organizations need to understand.
 
-That gap defines the next generation of Business Intelligence—and that gap is closed by vector architecture.
+That gap defines the next generation of Business Intelligence, and that gap is closed by vector architecture.
 
 ## SQL as an Abstraction Layer: Strengths and Systemic Limitations
 
@@ -32,7 +32,6 @@ It is important to clearly distinguish what SQL is good at and what SQL was neve
 But three types of questions fall outside its capacity:
 
 1. **Questions about semantics:** "Which customer conversations suggest latent dissatisfaction even when sentiment is neutral?"
-
 2. **Questions about structure without schema:** "Which user behaviors are most similar, even when they don’t have identical event patterns?"
 
 3. **Questions about natural language content:** "What is the dominant theme in internal support tickets over the last quarter?"
@@ -45,7 +44,7 @@ Instead, what is needed is a representation that carries meaning. A representati
 
 A vector is, in its simplest form, a list of numbers. But in AI infrastructure, vectors function as carriers of abstraction. An embedding model takes text, images, log sequences, or user behavior and projects it into a high-dimensional space where distance represents semantic closeness.
 
-This changes what can be analyzed structurally. Instead of trying to extract labels, keywords, or categories from unstructured data, you can work directly in a semantic space. Vector architecture thus becomes a layer that complements—and sometimes replaces—traditional indexing strategies.
+This changes what can be analyzed structurally. Instead of trying to extract labels, keywords, or categories from unstructured data, you can work directly in a semantic space. Vector architecture thus becomes a layer that complements, and sometimes replaces, traditional indexing strategies.
 
 In practice, this means BI infrastructure no longer just needs a SQL layer and an OLAP layer, but also:
 
@@ -66,7 +65,7 @@ Second, the acceleration of vector databases and reduced latencies in ANN search
 
 Third, the creation of a new class of hybrid pipelines where both structured and unstructured data are integrated into the same query model. This drives the need for a complete semantic indexing strategy, not just pointwise NLP functions.
 
-It is in this combination that SQL no longer suffices. The system needs a new primitive—and that primitive is the vector.
+It is in this combination that SQL no longer suffices. The system needs a new primitive, and that primitive is the vector.
 
 ## Development Lines of BI Architecture: From Columnar Databases to Semantic Indexes
 
@@ -81,7 +80,7 @@ The consequence is that vector architecture is not an addition to BI stacks. It 
 
 The difference is that vectors cannot interact directly with SQL without losing their semantic bearing. Therefore, a new class of hybrid queries emerges, where SQL handles filtering and structure while vectors handle similarity and context.
 
-Modern BI systems must be able to handle both in a single query plan. This is not a feature—it is a system architecture.
+Modern BI systems must be able to handle both in a single query plan. This is not a feature, it is a system architecture.
 
 ## Cost Structures and Latency Restrictions
 
@@ -113,7 +112,7 @@ The last point is often the bottleneck. Many teams solve it by creating ad hoc s
 
 An interesting pattern among Series C+ SaaS companies is that they often believe they have not yet "invested in AI infrastructure." In practice, several of their product flows already have embedding-dependent components: search, recommendations, auto-replies, routing.
 
-This means vector architecture is already an implicit part of the product stack—but missing from the analytical stack. BI teams therefore sit with two representations of reality:
+This means vector architecture is already an implicit part of the product stack, but missing from the analytical stack. BI teams therefore sit with two representations of reality:
 
 - The product’s operational semantic space
 - The BI layer’s structured table space
@@ -245,7 +244,7 @@ Over time, the differences become clear:
 2. Fewer dashboards need maintenance because semantic query functions replace many static reports.
 3. Data teams avoid building a new model for every analytical need because the vector representation acts as a universal layer.
 
-This does not mean everything is replaced. SQL and structured analysis remain important. But the center of gravity shifts—and it is this shift that makes it possible to scale both data and teams with less friction.
+This does not mean everything is replaced. SQL and structured analysis remain important. But the center of gravity shifts, and it is this shift that makes it possible to scale both data and teams with less friction.
 
 ## How Organizations Change Their Workflows with BI
 

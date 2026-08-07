@@ -33,7 +33,7 @@ Acquisition decisions in a modern SaaS environment are no longer primarily drive
 
 When a SaaS company reaches a point where its own product development no longer meaningfully alters the competitive landscape, acquisitions become a strategic means to accelerate system capacity. Product growth is replaced by capacity growth.
 
-In mature categories such as HR-tech, fintech infrastructure, logistics platforms, and data automation, this logic is clear. Companies are not buying a tool; they are buying a node—a functional module in a larger distributed system.
+In mature categories such as HR-tech, fintech infrastructure, logistics platforms, and data automation, this logic is clear. Companies are not buying a tool; they are buying a node, a functional module in a larger distributed system.
 
 ## Market Share as a Result of Network Effects and Contract Strength
 
@@ -194,7 +194,7 @@ When acquisitions are used consistently over time, an architectural transformati
 
 In this shift, the competitive landscape moves from functionality to control over value chains. The company’s position becomes less dependent on individual features and more dependent on how well it can hold together the broader system.
 
-This is where the truly large SaaS players create market dominance—not by building more, but by integrating more.
+This is where the truly large SaaS players create market dominance, not by building more, but by integrating more.
 
 ## Toward a Consolidated Future
 
@@ -202,7 +202,7 @@ The SaaS market is entering a phase where consolidation is not a trend but a str
 
 In an era where every digital process produces data traces and every workflow can be automated, the company that owns the most processes becomes the actual infrastructure.
 
-It is in this dynamic that the next generation of market leaders is formed—not through isolation, but through orchestration.
+It is in this dynamic that the next generation of market leaders is formed, not through isolation, but through orchestration.
 
 Further analysis requires diving deeper into how these acquisition strategies are operationalized in practice and how technical systems are designed to absorb new components without losing coherence. This is where the difference between opportunistic acquisitions and systematic acquisitions becomes visible.
 

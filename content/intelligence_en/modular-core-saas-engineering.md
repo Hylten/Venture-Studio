@@ -87,7 +87,7 @@ This is the layer where analysis, modeling, inference, and operational decisions
 
 In a well-modularized core, these layers are strictly separated, not only in code but also in conceptual architecture. The goal is to avoid the Control layer starting to rewrite Record data according to opportunistic rules, or the Intelligence layer injecting logic directly into process control without proper contract management.
 
-When these three layers are kept separate, the core becomes predictable—a prerequisite for modules to be replaceable.
+When these three layers are kept separate, the core becomes predictable, a prerequisite for modules to be replaceable.
 
 ## Contract Design as a Central Tool
 

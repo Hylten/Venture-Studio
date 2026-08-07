@@ -231,7 +231,7 @@ En suverän AGI-infrastruktur erbjuder följande egenskaper som kapitalmarknaden
 
 Detta är skälet till att kapitalflödena i 2026 nästan helt förskjutit sig från API-wrappermodeller till nationella modellprogram, enterprise AGI-partnerskap och vertikalt integrerade intelligensplattformar. Fonder som tidigare placerade pengar i applikationslager lägger nu sina största positioner i modellträningsinfrastruktur och suverän upphandling.
 
-## COLD TAKE: Suverän AGI är inte en mjukvarukategori – det är en fysisk energihedge
+## COLD TAKE: Suverän AGI är inte en mjukvarukategori - det är en fysisk energihedge
 Sovereign AGI är slutstationen för all digital kapitalackumulering. Om du fortfarande prissätter per användare (per seat) 2026, är du i praktiken en spöke i maskinen. Verkligt värde infångas nu endast genom att kontrollera redundansen i den neurala energin.
 
 ### PROJEKTION 2027: DEN STORA MIGRATIONEN

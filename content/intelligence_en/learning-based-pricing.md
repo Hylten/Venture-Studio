@@ -17,7 +17,7 @@ Learning-Based Pricing: Monetizing Model Improvement
 
 ## Introduction: When Software Value Is No Longer Static
 
-In traditional SaaS economics, the value of a product is assumed to be relatively constant over time. The customer pays for access, performance, and reliability. Improvements occur in the background, and the cost is distributed across the total customer base. When software is learning—when it changes and refines itself with every interaction—the logic breaks down.
+In traditional SaaS economics, the value of a product is assumed to be relatively constant over time. The customer pays for access, performance, and reliability. Improvements occur in the background, and the cost is distributed across the total customer base. When software is learning, when it changes and refines itself with every interaction, the logic breaks down.
 
 In a world dominated by foundation models, fine-tuning, and user-driven optimization, it is no longer the software itself that is the product. It is the learning, the upgrading, the autotrophic ability to become better through data flows. This is where the question of learning-based pricing arises, and it is a question that cannot be answered with traditional methods.
 
@@ -33,7 +33,7 @@ In a data-driven company, it is the improved decisions that have value, not the 
 
 ## Model Improvement as a Form of Capital Formation
 
-Learning is not consumption. It is accumulation. When a model improves—whether through fine-tuning, reinforcement learning, or continuous adaptation—an asset is built. It is not decoupled from the customer, but dependent on the customer’s behavior, processes, and data.
+Learning is not consumption. It is accumulation. When a model improves, whether through fine-tuning, reinforcement learning, or continuous adaptation, an asset is built. It is not decoupled from the customer, but dependent on the customer’s behavior, processes, and data.
 
 For organizations building intelligent platforms, their internal models become a form of institutional memory. It is a distributed decision layer that improves through operations and then improves operations in turn. In this circular dynamic, it is not just the operating cost that creates value. It is the ongoing optimization.
 

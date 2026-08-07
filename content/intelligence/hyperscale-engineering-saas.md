@@ -26,7 +26,6 @@ Den centrala frågan är därför inte hur man skalar system. Den är hur man by
 När en SaaS-plattform växer snabbare än sina egna interna feedback-loopar uppstår en ny kategori av tekniska krav. Tre av dessa definierar hyperscale-arbetet:
 
 1. Extrem datavolym i drift snarare än endast i lagring. Detta är inte en kostnadsfråga, utan en arkitekturfråga. Genomströmningen i pipeline designar den organisatoriska strukturen.
-
 2. Distribution av beslutsfattande till systemen själva. I hyperscale-miljöer kan inte mänskliga team aktivt orkestrera alla delsystem. Arkitekturen behöver därför mekanismer för självbeteende, självoptimering och autonoma kapacitetsanpassningar.
 
 3. Kontinuerlig omstrukturering av komponenter. Där en traditionell SaaS-plattform bygger upp en stabil modulär kärna, kommer en hyperscale-plattform behöva ersätta denna kärna regelbundet. Det är en paradox: stabilitet levereras genom kapacitet för destruktion och ombyggnad.
@@ -110,7 +109,6 @@ I hyperscale-plattformar blir observability en intelligensfunktion. Det handlar 
 Ett moget hyperscale-system exponerar alltid tre kategorier av signaler:
 
 1. Fysiska signaler från infrastrukturresurser
-
 2. Logiska signaler från applikationslager och datastreams
 
 3. Systemiska signaler som beskriver beteendemönster, emergenta köbildningar och latent instabilitet

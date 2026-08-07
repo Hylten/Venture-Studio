@@ -13,7 +13,7 @@ draft: false
 author: "Skeptical Investor (Leaked)"
 ---
 
-## Problems Worth Solving — A Filter Model for Identifying 100M+ ARR Verticals
+## Problems Worth Solving ,  A Filter Model for Identifying 100M+ ARR Verticals
 
 ## Introduction: Why Vertical Problems Require a Different Lens
 
@@ -32,7 +32,6 @@ The central mistake in many venture strategies is the assumption that all vertic
 Three observations recur:
 
 1. Verticals that reach this scale are not primarily large, but deep. They have enormous chain length of activities and dependencies, creating opportunities to become the central system to which everything else adapts.
-
 2. Revenue distribution within these verticals is often characterized by intermediaries, consultants, or manual process operators representing convertible spend. When such an ecosystem is digitized, a significant portion of historical cost mass can be shifted to software fees.
 
 3. Data flows in these verticals are often chronically incomplete. This means an actor who can create a structured data pipeline quickly becomes the standard, since no one else has a complete representation of the process.

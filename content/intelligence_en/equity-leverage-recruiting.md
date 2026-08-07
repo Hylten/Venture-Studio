@@ -157,7 +157,7 @@ An effective model is to describe three levels.
 
 The first level is the nominal ownership stake offered. It should always be communicated alongside the total number of outstanding shares to avoid cosmetic percentage communication.
 
-The second level is the economic potential. Here, it helps to visualize multiple scenarios—a conservative, a realistic, and an ambitious one. Candidates appreciate being able to see what their shares could be worth under different exit levels.
+The second level is the economic potential. Here, it helps to visualize multiple scenarios, a conservative, a realistic, and an ambitious one. Candidates appreciate being able to see what their shares could be worth under different exit levels.
 
 The third level is the operational dimension. Which key decisions affect value creation, and how can the candidate as a future owner be part of shaping this? This part is often more important than the numbers, because it shows that equity is not just a paper entry but a real part of company governance.
 

@@ -246,11 +246,9 @@ During the first wave of AI hype, modern data platforms, centralized pipelines, 
 In 2026, we see five classic signals that immediately stop an M&A process before it even gains momentum.
 
 1. The connection between product data and customer data is weak or missing. The buyer immediately sees that the potential for AI-driven features and retention models is severely limited.
-
 2. The company cannot present a unified view of the customer journey. Instead, scattered data sources exist in CRM, support tools, and product logs without consolidation.
 
 3. There is no documentation of data models, ownership, and governance. The buyer realizes that integration will be expensive and risky.
-
 4. Forecasts and reports are created manually. This signals that the leadership team lacks operational understanding of data-driven KPIs.
 
 5. Data is not available for AI models in real time. This is now an absolute showstopper because the buyer’s own AI roadmap is compromised.

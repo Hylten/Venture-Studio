@@ -52,7 +52,6 @@ I praktiken innebär det att ett MaaSS-program inte startar med ett investment m
 Ett MaaSS-ekosystem består av tre primära arkitekturlager som måste designas innan transaktioner påbörjas.
 
 1. Det autonoma produktlagret där varje förvärvad enhet bibehåller sin identitet och roadmap.
-
 2. Det semantiska integrationslagret där datamodeller, identiteter, autentisering och event-strömmar standardiseras.
 
 3. Det metatekniska orkestreringslagret där AI-modeller analyserar, optimerar och automatiserar systemets beteende.

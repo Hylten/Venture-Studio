@@ -19,7 +19,7 @@ Enterprise AI Readiness: A Matrix for Evaluating Customer Data Maturity Before D
 
 Organizations seeking to implement AI at scale today operate in a technical landscape fundamentally different from that of previous generations of digitalization initiatives. The difference is structural. AI systems are not a product category to be integrated on top of existing systems. They depend on an underlying data infrastructure that must be sufficiently stable, observable, and controllable to enable continuous retraining, operation, and monitoring. In practice, this means companies without a mature data organization will struggle to implement even relatively simple AI workflows.
 
-It is in this context that an AI readiness matrix is needed—not as an assessment catalog, but as a framework for determining which type of deployment, data integration, and operational models are even realistic for a given customer. Venture studios and AI infrastructure companies operating in a market with Series C+ clients need to be able to distinguish between technically attractive customers and those whose data environments imply three to four times higher implementation costs.
+It is in this context that an AI readiness matrix is needed, not as an assessment catalog, but as a framework for determining which type of deployment, data integration, and operational models are even realistic for a given customer. Venture studios and AI infrastructure companies operating in a market with Series C+ clients need to be able to distinguish between technically attractive customers and those whose data environments imply three to four times higher implementation costs.
 
 A well-formulated AI readiness matrix enables:
 

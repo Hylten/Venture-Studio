@@ -17,7 +17,7 @@ AGI Infrastructure as a National Asset: Why States Are Investing in Venture Stud
 
 ## Introduction: The Shift from Digital Economy to Cognitive Economy
 
-Over the past fifteen years, digitalization infrastructure has been built around cloud computing, mobility, and global SaaS platforms. This model has been sufficient to support e-commerce, fintech, logistics, and industrial-scale data analytics. But it is no longer adequate to carry the growth of generative and autonomous AI at production scale. The development of AGI-like systems—regardless of how conservative the definition of AGI may be—is now driving a transition toward a cognitive economy where computational capacity, data domains, training pipelines, and model governance form the core of national competitiveness.
+Over the past fifteen years, digitalization infrastructure has been built around cloud computing, mobility, and global SaaS platforms. This model has been sufficient to support e-commerce, fintech, logistics, and industrial-scale data analytics. But it is no longer adequate to carry the growth of generative and autonomous AI at production scale. The development of AGI-like systems, regardless of how conservative the definition of AGI may be, is now driving a transition toward a cognitive economy where computational capacity, data domains, training pipelines, and model governance form the core of national competitiveness.
 
 States have begun to perceive AI infrastructure in the same way they have long regarded energy grids, telecommunications, transport corridors, and financial systems: as strategic assets that must be built, owned, controlled, and secured. This has led to a new investment pattern where public institutions do not only fund research but also seek operational models to create scalable, reusable, and commercializable AI capacities. One of the most tangible expressions of this shift is the increased interest of states in venture studios as instruments for building the necessary infrastructure.
 
@@ -47,7 +47,7 @@ Three dimensions emerge clearly.
 
 ## 1. Compute as a National Scarcity
 
-For a generation, data centers were considered commercial cost centers. With the rise of large-scale transformer models, qualified compute has become a limited resource—not just for companies but for entire countries. States are now competing for:
+For a generation, data centers were considered commercial cost centers. With the rise of large-scale transformer models, qualified compute has become a limited resource, not just for companies but for entire countries. States are now competing for:
 
 - GPU capacity
 - Proximity between compute and regulatorily approved data environments
@@ -174,7 +174,7 @@ When generative AI began scaling globally, the technology was long perceived as 
 
 States realize that control over data centers, specialized hardware, model training chains, and the intellectual capital behind advanced model development forms the foundation for both economic and geopolitical capacity. Without access to these resources, countries risk losing maneuvering room, competitiveness, and strategic independence. The reliance on foreign actors introduces a dependency that can have far-reaching consequences.
 
-This recalibration is driven by the fact that AGI infrastructure does not merely produce value—it shapes entire systems of decision-making and governance. Therefore, governments have begun constructing long-term strategies to ensure national ownership, or at least national control, over key components of the AI value chain.
+This recalibration is driven by the fact that AGI infrastructure does not merely produce value, it shapes entire systems of decision-making and governance. Therefore, governments have begun constructing long-term strategies to ensure national ownership, or at least national control, over key components of the AI value chain.
 
 At the same time, simply building more data centers or funding a few research programs is not enough. Modern AI ecosystems are built on rapid innovation, cross-disciplinary expertise, and the ability to shape hundreds of applications in parallel. This is where venture studios enter as a structural tool rather than a financing instrument.
 
@@ -284,6 +284,6 @@ This results in a diversified ecosystem where no single initiative determines th
 
 ## The Path Forward: AGI Infrastructure as a National Platform
 
-States have begun to understand that AGI develops in layers. At the bottom lies hardware, then models, then applications, and above them the entire societal system that must adapt. Controlling the two lowest layers—infra­structure and base models—becomes decisive for influencing the rest of the value chain. Venture studios are the mechanism that transforms these layers into concrete companies, innovations, and solutions that strengthen the country’s position.
+States have begun to understand that AGI develops in layers. At the bottom lies hardware, then models, then applications, and above them the entire societal system that must adapt. Controlling the two lowest layers, infra­structure and base models, becomes decisive for influencing the rest of the value chain. Venture studios are the mechanism that transforms these layers into concrete companies, innovations, and solutions that strengthen the country’s position.
 
 This is where the real value emerges. A country investing in AGI infrastructure and venture studios is not just building technology. It is building future economic maneuvering room, national security, and geopolitical influence.

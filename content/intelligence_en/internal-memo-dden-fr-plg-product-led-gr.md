@@ -81,7 +81,7 @@ This means that much of the PLG toolbox is not just reduced in value but becomes
 
 PLG is not just a go-to-market model. It is a cultural structure. It is a product philosophy that values minimalism, gradual discovery, and user-triggered value. This culture works poorly when the system needs to build agent ecosystems, autonomy, complex integration layers, and advanced data processing.
 
-In an agent-dominated product, value is a function of data infrastructure, model performance, and integration depth. This is system-building, not experience optimization. The natural impulse of PLG culture—to reduce complexity for the user—conflicts with building the type of complexity an agent needs to act autonomously. This leads to organizational friction where product teams cling to a model that no longer drives the business, while data and agent teams try to scale new architectures.
+In an agent-dominated product, value is a function of data infrastructure, model performance, and integration depth. This is system-building, not experience optimization. The natural impulse of PLG culture, to reduce complexity for the user, conflicts with building the type of complexity an agent needs to act autonomously. This leads to organizational friction where product teams cling to a model that no longer drives the business, while data and agent teams try to scale new architectures.
 
 It is simply impossible to drive an agent ecosystem with a PLG cultural core. The two logics are incompatible.
 

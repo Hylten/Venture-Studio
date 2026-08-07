@@ -41,7 +41,7 @@ In scaled SaaS systems, this challenge becomes even clearer. Platform customers 
 
 ## AI as a Mirror of the Organization’s Relational Architecture
 
-A lesser-known fact is that AI in customer-facing environments reflects not just data, but also the organization’s relational architecture. How employees communicate, how support and sales collaborate, how products are explained, which priorities are set in internal workflows—all of this materializes in the model’s behavior.
+A lesser-known fact is that AI in customer-facing environments reflects not just data, but also the organization’s relational architecture. How employees communicate, how support and sales collaborate, how products are explained, which priorities are set in internal workflows, all of this materializes in the model’s behavior.
 
 When companies attempt to scale AI without considering this phenomenon, a paradoxical problem arises: the systems amplify differences, biases, and preferences already present in the organization, making it harder to achieve uniformity and predictability in the customer experience. A human in the loop does not function as a blocker here, but as a consequence analyst with the ability to understand what the model is reflecting.
 

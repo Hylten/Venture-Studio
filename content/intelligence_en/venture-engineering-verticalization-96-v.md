@@ -182,7 +182,7 @@ Second is the problem of verification chains. Domain-specific AI can implement i
 
 Third is the problem of tool-specific agency. A vertical model can design tool chains that align with the industry’s real work methods. It can have specialized agent modules that handle legal controls, regulatory assessments, or calculations requiring exact domain knowledge. A general model has no such prior understanding.
 
-These limitations mean general models excel at what they are designed for—being generalists—but become increasingly poor at competing against vertical systems with direct connections to real processes.
+These limitations mean general models excel at what they are designed for, being generalists, but become increasingly poor at competing against vertical systems with direct connections to real processes.
 
 ## Data as a Structural Asset
 

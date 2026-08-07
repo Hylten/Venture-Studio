@@ -21,7 +21,7 @@ The concept of sovereignty has long been associated with geopolitics, state inde
 
 This shift is occurring as global cloud platforms reach maturity. They remain central, but they are no longer the only path to scalable capacity. Venture capital in Series C+ rounds is now seeking systemic positions deeper in the tech stack, where value does not primarily come from functionality or user experience, but from structural properties: latency, data jurisdiction, verifiability, auditability, and control over operational topologies.
 
-In this landscape, local clouds are emerging as an increasingly important architectural and financial node. They do not just offer compute and storage; they provide a form of digital sovereignty that traditional hyperscalers are not designed to deliver. Capital is moving there for a simple reason: investors see that business-critical systems—especially in AI, sensor networks, and regulated industries—require more than generic global platforms to scale in a way that is technically, legally, and commercially sustainable.
+In this landscape, local clouds are emerging as an increasingly important architectural and financial node. They do not just offer compute and storage; they provide a form of digital sovereignty that traditional hyperscalers are not designed to deliver. Capital is moving there for a simple reason: investors see that business-critical systems, especially in AI, sensor networks, and regulated industries, require more than generic global platforms to scale in a way that is technically, legally, and commercially sustainable.
 
 Sovereignty is thus becoming not a political label, but a parameter in risk models and valuation logic.
 
@@ -131,7 +131,7 @@ This is particularly well-suited for:
 
 Asymmetric scaling gives companies the ability to optimize their operations for both innovation and continuity. This is one of the most attractive aspects for investors, because it allows local clouds to function as stable long-term foundations for scalable SaaS models.
 
-SaaS companies in later stages building on local clouds also tend to experience stronger contract growth—not because of functionality, but because their offerings become structurally compatible with customers’ infrastructure strategies.
+SaaS companies in later stages building on local clouds also tend to experience stronger contract growth, not because of functionality, but because their offerings become structurally compatible with customers’ infrastructure strategies.
 
 ## Resilience as an Economic Principle
 

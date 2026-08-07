@@ -62,11 +62,9 @@ Men enterprise är en annan miljö. Den har andra mål, andra begränsningar och
 Enterprise-PLS kännetecknas av fyra faktorer:
 
 1. Köpresan är distribuerad över flera interna aktörer, inte en individ.
-
 2. Integrationskomplexiteten och säkerhetskraven är en del av köpbeslutet.
 
 3. Användningsdata måste aggregeras, normaliseras och kvalitetssäkras för att bli beslutsunderlag.
-
 4. Expansion kräver både produktbaserad evidens och organisatoriskt sponsorskap.
 
 Det innebär att enterprise inte kan förlita sig på "self-serve plus viralitet". I stället krävs en systemarkitektur som förenar produktdata, kunddata, teknisk telemetri och kontextuell förståelse av kundens arbetsflöden.
@@ -118,7 +116,6 @@ Ett ofta underskattat perspektiv är att PLS även förändrar produktteamens be
 Det leder till tre strukturella förändringar:
 
 1. Prioritering baserad på absolut påverkan på kundvärde.
-
 2. Iterationscykler som samordnas med faktiska användningsmönster, inte interna planer.
 
 3. Produktbeslut som kopplas direkt till affärsutfall.
@@ -136,7 +133,6 @@ I den traditionella modellen hanterar säljaren discovery, behovsanalys, värdea
 Det förändrar säljarens roll till tre centrala funktioner:
 
 1. Att synkronisera intern alignment hos kunden.
-
 2. Att lösa organisatoriska hinder som inte kan hanteras av produkten.
 
 3. Att orkestrera expansionslogik baserad på användardata.
@@ -148,7 +144,6 @@ Det är en mer analytisk och strategisk roll, där relationer byggs på evidens 
 För att PLS ska acceptas av inköp krävs en tydlig struktur för hur data ska tolkas, verifieras och presenteras. Enterprise behöver därför tre typer av dokumentation:
 
 1. Användningsbaserade rapporter som visar adoption, effekt och riskreducering.
-
 2. Tekniska kontroller som visar hur produkten uppfyller arkitektur- och säkerhetskrav.
 
 3. Ekonomiska modeller som kopplar användning till konkret ROI.
@@ -164,7 +159,6 @@ När PLS implementeras korrekt uppstår en strukturell fördel vid expansion. De
 Expansion blir en funktion av:
 
 1. Cross-team adoption på organisationsnivå.
-
 2. Identifiering av parallella arbetsflöden med liknande beteenden.
 
 3. Prediktiv modellering av användningsmönster över tid.

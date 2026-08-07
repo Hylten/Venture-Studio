@@ -36,11 +36,9 @@ För att bygga en ML-driven retentionmotor krävs en robust systemdesign som bin
 En modern retentionstack bygger på några grundkomponenter:
 
 1. Ett unifierat datalager där produktloggar, ekonomiska transaktioner och användarbeteenden konsolideras och normaliseras.
-
 2. En feature store som kontinuerligt genererar prediktiva features från rådata, både sekventiella (tidsserier) och aggregerade (sammanfattningsmått).
 
 3. ML-modeller som upptäcker förändringar i beteendemönster, antingen genom klassificering eller genom sekvensmodellering.
-
 4. En trigger-motor som operationaliserar modellresultat direkt in i kundinteraktioner, produktflöden eller automatiserade insatser.
 
 5. Ett feedbacksystem som matar tillbaka resultatet av interventioner in i datalagret för att förbättra modellerna över tid.
@@ -54,7 +52,6 @@ Det är först när denna loop är operationaliserad på systemnivå som retenti
 Ett centralt problem i många SaaS-miljöer är att datasystemen inte är konstruerade för prediktiva workloads. Databaserna är ofta optimerade för transaktioner, API:er eller analysdashboardar, inte för kontinuerliga modelluppdateringar. En prediktiv retentionstack måste hantera tre tekniska krav:
 
 1. Historiska tidsserier av användarbeteenden som är rena, kompletta och konsistenta över längre tidsperioder.
-
 2. Event streams i nära realtid som fångar förändringar i beteende med minimal latens.
 
 3. Ett system för att bygga features som är stabila över tid och inte bryts när produktteam gör schemaförändringar.
@@ -70,7 +67,6 @@ En av de mest underskattade delarna av retentionarbete är featuriseringen. Det 
 I de mest effektiva retentionmodellerna ingår vanligtvis tre typer av features:
 
 1. Frekvens- och intensitetsmått som hur ofta och hur länge användare interagerar med kritiska delar av produkten.
-
 2. Sekventiella beteendemönster, till exempel förändringar i hur en användare rör sig mellan olika moduler eller funktioner över tid.
 
 3. Kontextsbaserade variabler som kontostorlek, användarroller eller vilka integrationspunkter kunden aktiverat.
@@ -86,7 +82,6 @@ Valet av modellarkitektur beror på vilken typ av data företaget har och vilken
 Mer avancerade modeller använder tidsseriedata och sekvensmodellering. Här finns tre kategorier som blir allt viktigare för retentionarbete:
 
 1. Rekurrerande nätverk och deras varianter som kan lära sig längsgående beteendeförändringar.
-
 2. Transformerbaserade modeller som gör det möjligt att väga olika delar av användarens aktivitetssekvens mot varandra.
 
 3. Hybridmodeller som kombinerar tabulär data med sekventiella embeddings för att skapa en mer komplett bild av användarbeteendet.
@@ -102,7 +97,6 @@ Den största feluppfattningen kring churn-prediktion är att modellen i sig skap
 Operationalisering sker i tre lager:
 
 1. Kundinsatser där Customer Success-teamet får prioriterade listor med riskkonton och kan agera innan kunden blir inaktiv.
-
 2. Produktinsatser där produkten själv triggar in-app-interventioner baserat på beteendemönster.
 
 3. Systeminsatser där interna pipelines och triggers förändras för att stabilisera beteenden på makronivå.
@@ -116,7 +110,6 @@ För att retention ska bli en strategisk fördel måste organisationen strukture
 Det innebär tre strukturella förändringar:
 
 1. Datateamen måste ha en domänförståelse för produktens användningsmönster, inte bara tekniska pipelines.
-
 2. Produktteamen måste förstå hur beteendedata översätts till features och modeller.
 
 3. Customer Success måste arbeta med prediktiva insikter som primär insats, inte manuella varningssignaler.
@@ -132,7 +125,6 @@ När AI-assisterade produkter blir normen kommer användarbeteenden förändras 
 De bolag som investerar i prediktiv retention tidigt får strukturella fördelar:
 
 1. De kan bygga mer modulära produktarkitekturer eftersom systemen fångar beteendemässiga risker innan de blir akuta.
-
 2. De kan skala Customer Success-team utan att öka kostnaderna exponentiellt.
 
 3. De kan arbeta med mer experimentdrivna produktstrategier eftersom beteendeförändringar analyseras automatiskt.

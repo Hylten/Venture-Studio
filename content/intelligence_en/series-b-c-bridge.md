@@ -17,7 +17,7 @@ author: "Jonas Hyltén"
 
 ## Introduction
 
-The bridge between Series B and Series C is the most underestimated and most devastating part of the modern SaaS journey. This is where the majority of companies perish—not because the product is poor, not because the market is missing, but because the company never built the systems required to scale beyond its MVP-centric structure. This bridge is not a logistical challenge, not a question of endurance, and not a question of more capital. It is a system redesign.
+The bridge between Series B and Series C is the most underestimated and most devastating part of the modern SaaS journey. This is where the majority of companies perish, not because the product is poor, not because the market is missing, but because the company never built the systems required to scale beyond its MVP-centric structure. This bridge is not a logistical challenge, not a question of endurance, and not a question of more capital. It is a system redesign.
 
 When a company reaches Series B, product-market fit is typically established, customers are in place, and a certain organizational structure has begun to take shape. But the transition to Series C is not about more of the same; it is about an entirely different type of company. It is the shift from product-driven entrepreneurship to system-driven industrial scaling. The two worlds operate under different laws, different tempos, and different dependencies.
 
@@ -196,7 +196,7 @@ The transition from MVP to scale is fundamentally a transition from a human syst
 
 ## The Psychological Trap: When the Same DNA That Created Success Starts Destroying It
 
-The paradox of the period between Series B and Series C is that companies often sit on the exact same strengths that carried them through MVP and Series A phases—but these strengths begin to have the opposite effect. The core team is often shaped around rapid iteration, short cycles, direct customer contact, and an extreme ability to solve problems in the moment. When the organization grows, a new reality emerges where improvisation becomes risky, the consequences of poor decisions increase in line with the size of the customer base, and responsibility must be delegated throughout the organization.
+The paradox of the period between Series B and Series C is that companies often sit on the exact same strengths that carried them through MVP and Series A phases, but these strengths begin to have the opposite effect. The core team is often shaped around rapid iteration, short cycles, direct customer contact, and an extreme ability to solve problems in the moment. When the organization grows, a new reality emerges where improvisation becomes risky, the consequences of poor decisions increase in line with the size of the customer base, and responsibility must be delegated throughout the organization.
 
 This becomes a psychological threshold that many companies do not overcome. Founders remain deeply involved in micro-decisions while investors begin demanding structures to manage complexity. The internal tension between vision and organization is often the first indicator that the bridge between B and C will be difficult.
 

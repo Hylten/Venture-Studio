@@ -30,7 +30,6 @@ När organisationer förlitar sig på en modell för funktioner som textklassifi
 Risken förstärks av tre strukturella faktorer:
 
 1. Marknadskoncentration. Ett fåtal globala aktörer dominerar inferensmarknaden. De är alla utsatta för liknande regulatoriska tryck, energikostnader och infrastrukturbegränsningar. Detta innebär att underliggande risker är korrelerade.
-
 2. Ogenomskinliga modelluppdateringar. Uppdateringar sker ofta tyst. De kan påverka latency, svarskvalitet, säkerhetsnivåer och interoperabilitet. Detta gör att incidenter ibland upptäcks först när driftspåverkan redan är ett faktum.
 
 3. Inbakning av modellbeteenden i applikationslogik. Många team bygger funktionaliteter där modellens implicit lärda heuristik blir en del av affärslogiken. Resultatet är att en modelländring motsvarar att en dold del av systemet omskrivs utan att någon utvecklare ändrat en rad kod.
@@ -55,7 +54,6 @@ Detta kräver en teknisk arkitektur som behandlar modeller som utbytbara kapacit
 Riskerna kan grupperas i tre kategorier som ofta samverkar.
 
 1. Tekniska risker. Latency, kapacitetsbegränsningar, tokenkostnader, svarsavbrott och API-fel. Denna kategori är den mest synliga, men inte den mest riskfyllda.
-
 2. Semantiska risker. Användningen av en modell skapar implicit beroende av dess tolkningslogik. När modeller förändras kan klassificeringsbeteenden, strukturell konsistens och instruktionsefterlevnad förändras på subtila sätt som inte upptäcks i traditionella testmiljöer.
 
 3. Governance-risker. Leverantörspolicys, datariktlinjer, geografisk hosting, efterlevnad och regulatoriska krav kan förändras och plötsligt diskvalificera en modell från vissa arbetsflöden.
@@ -69,7 +67,6 @@ För organisationer som bygger system i skala är diversifiering inte en fråga 
 Detta har tre effekter:
 
 1. Kostnadskontroll. Genom att kunna växla mellan modeller baserat på prissignaler eller intern kostnadsbudget kan man optimera inferenskapaciteten utan att riskera stagnation i produktfunktioner.
-
 2. Beteendestabilitet. Genom att kontinuerligt benchmarka modeller mot interna dataset kan man tidigt detektera driftsavvikelser och rotera bort modeller som inte längre uppfyller kvalitetskrav.
 
 3. Strategisk förhandlingskraft. Diversifiering förhindrar inlåsningseffekter och skapar förutsättningar för bättre avtal och strategiska partnerskap med modellleverantörer.

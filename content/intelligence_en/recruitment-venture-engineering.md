@@ -21,7 +21,7 @@ In a traditional tech company, engineering roles are shaped by established produ
 
 Recruiting the right talent for a venture engineering environment is therefore not about finding the most credentialed developers, but identifying the system builders who can envision how an entire technical infrastructure will function while it is still in its most abstract form. This requires a different methodology, a different kind of candidate assessment, and a different understanding of how technical capacity is expressed when the boundaries are not given from the start.
 
-It is this dynamic that makes venture engineering a distinct competency area with its own principles for recruitment, team design, and capacity development. To attract the right people, clarity is needed about what working in a venture studio entails—technically and cognitively.
+It is this dynamic that makes venture engineering a distinct competency area with its own principles for recruitment, team design, and capacity development. To attract the right people, clarity is needed about what working in a venture studio entails, technically and cognitively.
 
 ## The foundation: Venture engineering as system design in unknown environments
 

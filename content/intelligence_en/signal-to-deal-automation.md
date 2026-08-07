@@ -40,7 +40,7 @@ Manual work arises in every link between signal and deal:
 
 In practice, it is a chain of micro-decisions. None of them are difficult, but all are costly when multiplied. Each micro-decision extends the time between signal and action, and that time determines conversion rate. In fast-growing SaaS, where competition happens on the margins of attention, hours or days of delay directly translate to pipeline loss.
 
-The human salesperson is simply not designed to be a real-time processor of distributed signal data across multiple systems. Yet organizations continue to give them dashboards, scorecards, and notifications—and expect efficiency.
+The human salesperson is simply not designed to be a real-time processor of distributed signal data across multiple systems. Yet organizations continue to give them dashboards, scorecards, and notifications, and expect efficiency.
 
 ## Why traditional RevOps models don’t scale
 
@@ -49,7 +49,6 @@ Traditional RevOps is built for a world where the volume of signals was manageab
 Three systemic limitations emerge:
 
 1. The models rely on human triggers. Most flows only start when a salesperson does something: opens a lead, logs an activity, or updates a field.
-
 2. RevOps teams work iteratively, but the systems they build are static. Rules and scorecards age quickly and have no natural feedback loop.
 
 3. Automation logic is often isolated to specific tools. Each tool optimizes its own function, but no one controls the whole from signal to deal.
@@ -113,7 +112,7 @@ The key is that everything happens in the background. The salesperson should nev
 
 ## From lead scoring to signal prioritization
 
-Lead scoring is a dinosaur in modern B2B automation. It is an approximate model that assigns the same score to entirely different types of behaviors. It assumes that everything generating points is equivalent—which it rarely is.
+Lead scoring is a dinosaur in modern B2B automation. It is an approximate model that assigns the same score to entirely different types of behaviors. It assumes that everything generating points is equivalent, which it rarely is.
 
 Signal prioritization operates on a different level. It is based on:
 

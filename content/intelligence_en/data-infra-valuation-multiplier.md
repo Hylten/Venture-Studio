@@ -54,7 +54,7 @@ A capital asset must be:
 3. Low marginal cost
 4. Anchored in control planes that guarantee quality and reliability
 
-Data only becomes valuable when it resides in a stable architecture where quality does not degrade with scale. This is central to multiples because the market values recurring yield and predictability. Systems with self-reinforcing data capital—where each new data point increases the value of the entire data mass—exhibit exponential value behavior rather than linear.
+Data only becomes valuable when it resides in a stable architecture where quality does not degrade with scale. This is central to multiples because the market values recurring yield and predictability. Systems with self-reinforcing data capital, where each new data point increases the value of the entire data mass, exhibit exponential value behavior rather than linear.
 
 This is particularly evident in AI-driven SaaS platforms, where model improvement rates are directly tied to data quality, data diversity, and metadata hygiene. A well-constructed data system can shift margins in favor of superior product performance through automated model training and contextual enrichment.
 

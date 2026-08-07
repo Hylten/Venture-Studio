@@ -57,7 +57,6 @@ Low‑code har en inneboende konflikt med den typ av system som Series C+ SaaS�
 Tre specifika problem blir tydliga när man passerar valideringsfasen:
 
 1. Datamodellen är inte kontrollerbar. Low‑code‑plattformars interna datalogik tvingar team att arbeta inom givna strukturer. För AI‑drivna ventures som behöver stickprovsvalidering, data lineage och exakt kontroll över dataskiktet blir dessa abstraktioner ett allvarligt hinder.
-
 2. Skalbarhet kostar exponentiellt. Low‑code‑system som fungerar för 10 kunder kraschar i kostnad och prestanda vid 1000 kunder. Istället för att vara en accelerator blir de ett hinder som kräver dyr refaktorering eller total omskrivning.
 
 3. Integrationsmöjligheterna blir trånga flaskhalsar. Plattformarna erbjuder integrationer, men inte med den granularitet eller transaktionskontroll som krävs vid enterprise‑skala.
@@ -85,7 +84,6 @@ Många styrelser gör felet att tro att migrationen sker när marknaden kräver 
 I ett venture‑studio‑perspektiv är rätt tidpunkt när tre villkor sammanfaller:
 
 1. Marknadens behov är validerat. Teamet vet att produkten löser ett reellt och återkommande problem.
-
 2. Arkitekturen kommer att ligga nära kärnvärdet. Systemet behöver skalas inte bara för volym, utan för produktens framtida utvecklingsriktning.
 
 3. Dataflödena är stabila nog att modelleras om. Low‑code används ofta för snabb hopkoppling av datakällor. Migration kräver att flödena är så pass kända att man kan modellera dem utan att ta bort för mycket operativ funktion.

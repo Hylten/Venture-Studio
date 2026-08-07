@@ -64,7 +64,6 @@ När multiplar pressas brukar förklaringen vara makro. Men 2026 års multipelko
 Det finns tre huvudanledningar till detta:
 
 1. Funktioner blivit språk. Tidigare krävde funktioner kod; nu kräver de prompt-strukturer och modellkonfigurationer.
-
 2. Integrationskostnader har sjunkit dramatiskt. Applikationens defensibilitet byggde delvis på besväret att byta system. När AGI-infrastruktur erbjuder abstraktionslager som gör integrationer generiska försvinner denna försvarslinje.
 
 3. Marginaler korrigeras. De bruttomarginaler som ansågs skyddade i SaaS har börjat eroderas när inferencekostnader slår mot applikationernas COGS, samtidigt som kunder förväntar sig snabbare iterationer utan vilja att betala mer.
@@ -76,11 +75,9 @@ Detta gör att marknaden inte ser multipelkompressionen som en temporär effekt.
 Marknadens logik just nu är enkel: investera där värdet är kumulativt, inte där värdet är förbrukningsbart. Infrastrukturlagret genererar kumulativt värde genom fyra mekanismer:
 
 1. Skalfördelar i compute ökar med varje ytterligare kund, eftersom pipelineoptimering och modellmonitorering förbättras.
-
 2. Defensibilitet ökar genom att modellernas kompetens är beroende av träningsdata, något som inte kan imiteras utan extrem kostnad.
 
 3. Nätverkseffekter i datainmatning skapar förbättringar som sprids över hela kundbasen.
-
 4. Regulatoriska trösklar gynnas av spillover-effekter där compliance på infrastruktur-nivå täcker applikationslagret som helhet.
 
 Applikationslager har inga av dessa fyra mekanismer i sin struktur. Deras värde är linjärt med varje ny kund snarare än exponentiellt. Det är därför multiplarna divergerar.

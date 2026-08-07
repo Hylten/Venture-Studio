@@ -15,27 +15,26 @@ author: "Jonas Hyltén"
 
 ## Introduction: The New Type of Chain Risk in AI Infrastructure
 
-Most organizations building production-grade systems on large language models (LLMs) today have yet to internalize the consequences of their core functionality now relying on a handful of globally dominant model providers. This shift doesn’t just alter technical architectures—it transforms risk profiles. When applications are no longer deterministic pipelines but probabilistic systems dependent on external inference engines, a qualitatively new type of systemic risk emerges. It is hidden, cumulative, and interconnected.
+Most organizations building production-grade systems on large language models (LLMs) today have yet to internalize the consequences of their core functionality now relying on a handful of globally dominant model providers. This shift doesn’t just alter technical architectures, it transforms risk profiles. When applications are no longer deterministic pipelines but probabilistic systems dependent on external inference engines, a qualitatively new type of systemic risk emerges. It is hidden, cumulative, and interconnected.
 
 In a market where more products are built on similar model stacks, aggregated concentration risk arises. It remains invisible until it suddenly becomes acute: when an API changes behavior overnight, when capacity constraints emerge, when model versions are deprecated faster than product teams can revalidate their use cases, or when vendor policies shift in ways that impact inference capabilities, data storage, or operational costs.
 
-From a venture perspective, this is particularly relevant for SaaS companies in Series C+ stages, where system stability is not just a technical concern but a business-critical prerequisite. At that scale, there is neither tolerance nor capacity for random degradations. Organizations must be able to isolate, observe, and control model behavior in the same way they control other infrastructural dependencies. Relying on a single-model strategy is no longer an option—it is a structural vulnerability.
+From a venture perspective, this is particularly relevant for SaaS companies in Series C+ stages, where system stability is not just a technical concern but a business-critical prerequisite. At that scale, there is neither tolerance nor capacity for random degradations. Organizations must be able to isolate, observe, and control model behavior in the same way they control other infrastructural dependencies. Relying on a single-model strategy is no longer an option, it is a structural vulnerability.
 
 ## Why LLM Dependence Creates a New Category of Systemic Risk
 
-To understand the risk, one must first grasp the nature of the model as an external counterparty. This counterparty is not stable over time. Unlike traditional software libraries, LLMs lack a strict semantic contract module. Versions change in ways that directly affect outputs. Context windows, temperature limits, tokenization logic, safety filters, fine-tuning support, and implicit behavior controls vary significantly between versions—sometimes without warning.
+To understand the risk, one must first grasp the nature of the model as an external counterparty. This counterparty is not stable over time. Unlike traditional software libraries, LLMs lack a strict semantic contract module. Versions change in ways that directly affect outputs. Context windows, temperature limits, tokenization logic, safety filters, fine-tuning support, and implicit behavior controls vary significantly between versions, sometimes without warning.
 
-When organizations rely on a single model for functions like text classification, policy generation, workflow orchestration, decision support, or data extraction, they become dependent on its predictive behavior over time. This behavior is part of the product’s quality attributes. But because model behavior cannot be guaranteed as stable—and is not fully observable—the entire application is indirectly dependent on the vendor’s internal model pipeline.
+When organizations rely on a single model for functions like text classification, policy generation, workflow orchestration, decision support, or data extraction, they become dependent on its predictive behavior over time. This behavior is part of the product’s quality attributes. But because model behavior cannot be guaranteed as stable, and is not fully observable, the entire application is indirectly dependent on the vendor’s internal model pipeline.
 
 The risk is amplified by three structural factors:
 
 1. **Market concentration.** A handful of global players dominate the inference market. They are all subject to similar regulatory pressures, energy costs, and infrastructure constraints. This means underlying risks are correlated.
-
 2. **Opaque model updates.** Updates often occur silently. They can affect latency, response quality, safety levels, and interoperability. This makes incidents detectable only when operational impact is already a reality.
 
 3. **Embedding of model behavior in application logic.** Many teams build functionalities where the model’s implicitly learned heuristics become part of business logic. The result is that a model change is equivalent to rewriting a hidden part of the system without any developer changing a single line of code.
 
-Together, this creates a risk category unlike traditional vendor dependency, because it is both technical and semantic. It doesn’t just affect operations—it affects meaning.
+Together, this creates a risk category unlike traditional vendor dependency, because it is both technical and semantic. It doesn’t just affect operations, it affects meaning.
 
 ## When Dependence Becomes Business-Critical
 
@@ -55,7 +54,6 @@ This requires a technical architecture that treats models as interchangeable cap
 Risks can be grouped into three categories that often interact.
 
 1. **Technical risks.** Latency, capacity constraints, token costs, response failures, and API errors. This category is the most visible, but not the most dangerous.
-
 2. **Semantic risks.** Using a model creates an implicit dependency on its interpretive logic. When models change, classification behavior, structural consistency, and instruction adherence can subtly shift in ways not detected by traditional testing environments.
 
 3. **Governance risks.** Vendor policies, data guidelines, geographic hosting, compliance, and regulatory requirements can change and suddenly disqualify a model from certain workflows.
@@ -64,12 +62,11 @@ To manage these risks, an architecture is needed that minimizes the concentratio
 
 ## The Value of Diversification in Model Calls
 
-For organizations building systems at scale, diversification is not a question of optimization—it is a survival strategy. Diversification does not mean using many models simultaneously. It means designing infrastructure so that multiple models can be used interchangeably without extensive redesign.
+For organizations building systems at scale, diversification is not a question of optimization, it is a survival strategy. Diversification does not mean using many models simultaneously. It means designing infrastructure so that multiple models can be used interchangeably without extensive redesign.
 
 This has three effects:
 
 1. **Cost control.** By switching between models based on price signals or internal cost budgets, organizations can optimize inference capacity without risking stagnation in product features.
-
 2. **Behavioral stability.** By continuously benchmarking models against internal datasets, organizations can detect operational deviations early and rotate away models that no longer meet quality requirements.
 
 3. **Strategic negotiating power.** Diversification prevents lock-in effects and creates conditions for better agreements and strategic partnerships with model providers.

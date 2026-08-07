@@ -23,7 +23,7 @@ It turns out that was wrong.
 
 2026 is the year when every Series C+ data platform company has been forced to rethink its technical foundation. Token arbitrage is not just an eroding business model; it is mathematically indefensible. Every margin gain achieved by normalizing usage against generative models is erased faster than the products can launch new features. Inference costs are falling, but value capture is falling faster, and customers are becoming more price-sensitive as they internalize that the core function is interchangeable.
 
-At the same time, a new industrial reality stands before us: only actors that control full-stack AGI infrastructure—including their own weight forms, data composites, and optimized inference pipelines—gain access to capital flows at Series D scale. This is not an aesthetic preference from fund managers. It is a consequence of how modern capital allocation strategies index against energy costs, model competitiveness, and geopolitical risk.
+At the same time, a new industrial reality stands before us: only actors that control full-stack AGI infrastructure, including their own weight forms, data composites, and optimized inference pipelines, gain access to capital flows at Series D scale. This is not an aesthetic preference from fund managers. It is a consequence of how modern capital allocation strategies index against energy costs, model competitiveness, and geopolitical risk.
 
 To understand why, we must start with the numbers.
 
@@ -114,7 +114,7 @@ Ultimately, wrappers are measured not as SaaS companies but as agencies with aut
 
 The centralizing force of AGI infrastructure is not about model intelligence. It is about control over the representation space where all future business logic will be written. As companies move toward internal AGI assistants, internal knowledge models, and internal pipelines for self-optimization, external SaaS products are integrated into the same agent layer.
 
-The consequence is brutal but simple: SaaS products that add value at the user interface layer face the same pressure as mobile apps during the mobile revolution—but faster and with higher automation.
+The consequence is brutal but simple: SaaS products that add value at the user interface layer face the same pressure as mobile apps during the mobile revolution, but faster and with higher automation.
 
 AGI centralizes:
 
@@ -147,7 +147,7 @@ In 2026, the chain is inverted:
 
 It is steps one through three that capture all capital. It is here that exit multiples lie. The SaaS layers above no longer control semantics, energy, cost, or answer quality. And without control over at least two of these four factors, no company can scale.
 
-The only remaining strategic value lies in owning system layers that self-optimize their own representation forms—that is, the AGI layer.
+The only remaining strategic value lies in owning system layers that self-optimize their own representation forms, that is, the AGI layer.
 
 This is why capital concentrates. This is why wrappers die. This is why Series D+ flows are now entirely directed at actors with sovereign control over model and pipeline.
 
@@ -163,7 +163,7 @@ This means their revenue moves correlated with a global macro variable they cann
 
 Wrappers are not technically insolvent on the balance sheet. But they are structurally insolvent because their revenue potential is limited to a commodity market with falling prices.
 
-The only variable that can break this correlation is control over the model. This is why AGI infrastructure is necessary—not as a research project, but as a financial survival strategy.
+The only variable that can break this correlation is control over the model. This is why AGI infrastructure is necessary, not as a research project, but as a financial survival strategy.
 
 ## The Path Forward: Why SaaS Must Become System Builders or Die
 
@@ -221,7 +221,7 @@ There were attempts to build proprietary model variants to create differentiatio
 
 ## Why Series D and Later Rounds Now Go Exclusively to Sovereign Model Owners
 
-A recurring pattern in venture capital flows is that late-stage investors seek structures that can own or dominate an entire value chain. During the internet boom, it was data centers and server logistics. During the cloud boom, it was hyperscaler platforms. During the AI boom, it was first the API layer—but when that collapsed, capital moved up the intelligence stack.
+A recurring pattern in venture capital flows is that late-stage investors seek structures that can own or dominate an entire value chain. During the internet boom, it was data centers and server logistics. During the cloud boom, it was hyperscaler platforms. During the AI boom, it was first the API layer, but when that collapsed, capital moved up the intelligence stack.
 
 A sovereign AGI infrastructure offers the following properties that capital markets value highly:
 
@@ -233,7 +233,7 @@ A sovereign AGI infrastructure offers the following properties that capital mark
 
 This is why capital flows in 2026 have almost entirely shifted from API wrapper models to national model programs, enterprise AGI partnerships, and vertically integrated intelligence platforms. Funds that previously placed capital in the application layer now deploy their largest positions in model training infrastructure and sovereign procurement.
 
-## COLD TAKE: Sovereign AGI Is Not a Software Category—It’s a Physical Energy Hedge
+## COLD TAKE: Sovereign AGI Is Not a Software Category, It’s a Physical Energy Hedge
 
 Sovereign AGI is the final destination of all digital capital accumulation. If you are still pricing per user (per seat) in 2026, you are effectively a ghost in the machine. Real value is now captured only by controlling the redundancy of neural energy.
 

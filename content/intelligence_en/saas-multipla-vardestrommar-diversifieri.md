@@ -17,11 +17,11 @@ SaaS Multiple Value Streams: Architecting Data as Revenue in the Next Generation
 
 ## Introduction: SaaS in a Phase of Structural Transformation
 
-As software as a service matures, the market is moving away from the traditional model where business logic follows a simple linear relationship between product, license, and usage. Global Series C+ players have already passed the phase where scaling is about more users and larger accounts. New value is instead extracted from the underlying data the platform generates, aggregates, and structures. It’s the data that’s the asset—but it’s the ability to package that asset that determines which players establish themselves as systemic hubs in their ecosystems.
+As software as a service matures, the market is moving away from the traditional model where business logic follows a simple linear relationship between product, license, and usage. Global Series C+ players have already passed the phase where scaling is about more users and larger accounts. New value is instead extracted from the underlying data the platform generates, aggregates, and structures. It’s the data that’s the asset, but it’s the ability to package that asset that determines which players establish themselves as systemic hubs in their ecosystems.
 
 This evolution creates a demand for a different kind of architecture. It’s no longer enough to have a well-constructed product or a solid pipeline for feature development. Organizations need an internal structure for multiple value streams, where data isn’t just used to improve the core product but becomes the foundation for standalone revenue streams with varying degrees of abstraction, interoperability, and autonomy.
 
-A new type of strategic question emerges: How do you design platforms where data can become a raw material, a service, an API, an analytics layer, and a decision support tool—without creating baroque data stacks or unmanageable dependencies?
+A new type of strategic question emerges: How do you design platforms where data can become a raw material, a service, an API, an analytics layer, and a decision support tool, without creating baroque data stacks or unmanageable dependencies?
 
 This article series analyzes the architectures, organizational structures, and governance models required for Series C+ SaaS companies to diversify while strengthening their core. In this first part, the focus is on system principles, data-driven value hierarchies, and the structural shifts that occur when a company transitions from a product-driven to a data-driven revenue model.
 
@@ -36,7 +36,7 @@ Systematic values, where data is used to optimize workflows for customers
 Operational values, where data itself is a product customers can consume  
 Meta-values, where data functions as the foundation for new competencies, predictive models, and external partnerships  
 
-But to extract these values, an architecture is needed that enables separation, exposure, and differentiation. If all data sits in a monolithic database with hardcoded assumptions, value streams are impossible to isolate. The risk is creating more technical debt than revenue. The modern SaaS organization needs a structural shift from product monolith to value stream portfolio—and this shift can’t start at the commercial level. It must begin in the infrastructure.
+But to extract these values, an architecture is needed that enables separation, exposure, and differentiation. If all data sits in a monolithic database with hardcoded assumptions, value streams are impossible to isolate. The risk is creating more technical debt than revenue. The modern SaaS organization needs a structural shift from product monolith to value stream portfolio, and this shift can’t start at the commercial level. It must begin in the infrastructure.
 
 ## The Internal Logic of Multiple Value Streams
 
@@ -134,7 +134,7 @@ A mature SaaS company uses architecture as a strategic instrument. It’s not ab
 
 ## The Venture Perspective: Why Multiple Value Streams Are Defensive
 
-From a venture and investment perspective, multiple value streams don’t just add new revenue—they increase a SaaS company’s strategic resilience through three mechanisms.
+From a venture and investment perspective, multiple value streams don’t just add new revenue, they increase a SaaS company’s strategic resilience through three mechanisms.
 
 A diversified revenue base reduces dependence on individual product lines and makes cash flow more stable.
 
@@ -142,9 +142,9 @@ Technical moats increase when customers’ workflows, decision logic, and system
 
 Ecosystem control is strengthened when external actors use the platform’s data to develop their own solutions. This creates a multiplier effect.
 
-Companies that succeed in building these structures move up the value chain. They’re no longer just a product provider—they become an infrastructure player. When they reach that level, their expansion is governed more by how quickly they can scale their data model than by how many salespeople they can hire or which features are on the roadmap.
+Companies that succeed in building these structures move up the value chain. They’re no longer just a product provider, they become an infrastructure player. When they reach that level, their expansion is governed more by how quickly they can scale their data model than by how many salespeople they can hire or which features are on the roadmap.
 
-It’s this shift that underpins the current generational change within SaaS. The companies that win aren’t the ones building the most functionality—they’re the ones building the most system capital.
+It’s this shift that underpins the current generational change within SaaS. The companies that win aren’t the ones building the most functionality, they’re the ones building the most system capital.
 
 ## The Path Forward: From Semantics to Interoperability
 
@@ -226,7 +226,7 @@ An important aspect is that the portfolio must be governed so that multiple prod
 
 ## Security and Access Layers as Enablers of Scalable Monetization
 
-As organizations begin selling data externally, security requirements increase across multiple dimensions. It’s not just about protecting data from unauthorized access—it’s also about limiting each customer’s access to exactly what they’ve purchased. A granular and dynamic access layer is therefore a critical part of the architecture.
+As organizations begin selling data externally, security requirements increase across multiple dimensions. It’s not just about protecting data from unauthorized access, it’s also about limiting each customer’s access to exactly what they’ve purchased. A granular and dynamic access layer is therefore a critical part of the architecture.
 
 A modern access layer should support:
 

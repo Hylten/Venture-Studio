@@ -21,7 +21,7 @@ SaaS companies have historically priced their products based on user seats, feat
 
 In this shifting architecture, a new economic reality emerges: gross margins are no longer primarily determined by sales packaging or customer size, but by the load flowing through API interfaces and underlying data platforms. This is a transformative change that requires technology and business organizations to work with a shared understanding of how application layers, queue management, embeddings indexes, inference architecture, and cache strategies impact willingness to pay and margin structure.
 
-For venture builders and investors focused on Series C+ SaaS, the question is not just how to drive profitable growth, but how to design systems that make gross margins scalable over time. API load-based pricing is one of the most promising—and simultaneously challenging—paths forward.
+For venture builders and investors focused on Series C+ SaaS, the question is not just how to drive profitable growth, but how to design systems that make gross margins scalable over time. API load-based pricing is one of the most promising, and simultaneously challenging, paths forward.
 
 ## Why API Load Is the New Currency
 
@@ -63,7 +63,6 @@ Every SaaS product has an underlying economic physics: a latent system of cost d
 Three principles typically dominate:
 
 1. Each API call has a marginal cost that is either linear, logarithmic, or exponential depending on model complexity and caching strategy.
-
 2. API load is unevenly distributed among customers; a small portion of customers often accounts for the majority of infrastructure load, creating a Pareto distribution in cost profiles.
 
 3. The system’s internal interactions can multiply external load. A customer’s trigger can cascade through microservice layers and event loops.
@@ -82,7 +81,6 @@ Most SaaS companies built between 2010 and 2022 are optimized for:
 When LLM-based features and autonomous workflows are introduced, the cost profile shifts rapidly. Two central problems arise:
 
 1. Costs become dynamic. Any change in model size, embedding strategy, or token budget directly affects gross margin.
-
 2. Consumption becomes machine-driven, not user-driven. It is no longer user seats or click patterns that determine load, but how many agents the customer runs, what triggers they have, and how intensively internal pipelines are activated.
 
 Without a pricing model that follows these patterns, the company risks structurally eroded margins.
@@ -163,7 +161,7 @@ This is where tomorrow’s gross margins are decided: the ability to handle load
 
 During the transition phase, another critical insight emerges: the need to...
 
-## The Operators’ Historical Grip—and Why It Is Now Loosening
+## The Operators’ Historical Grip, and Why It Is Now Loosening
 
 For several decades, telecom operators’ business models rested on a relatively stable foundation. It did not matter much what type of data was transported as long as it passed through their network. Revenues followed capacity, not value. Those who managed to expand their networks faster than competitors could often recoup investments, because margins were embedded in the infrastructure itself.
 

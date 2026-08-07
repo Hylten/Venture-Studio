@@ -209,7 +209,7 @@ Incident processes must therefore become more forensic and data-oriented.
 
 ## 3. Technical debt in two dimensions
 
-Code debt can be addressed through refactoring. Data debt requires different tools: improved data quality, systematized annotation, documented lineage, and formalized trust models. When probabilistic systems dominate, the conversation shifts from technical debt to epistemic debt—that is, how much uncertainty is allowed to accumulate in the data foundation.
+Code debt can be addressed through refactoring. Data debt requires different tools: improved data quality, systematized annotation, documented lineage, and formalized trust models. When probabilistic systems dominate, the conversation shifts from technical debt to epistemic debt, that is, how much uncertainty is allowed to accumulate in the data foundation.
 
 ## Where development is headed: From duality to synthesis
 

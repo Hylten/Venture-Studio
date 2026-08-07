@@ -49,7 +49,7 @@ Integrating AI organizations often means accepting a polyglot ecosystem of data 
 
 ## Data Structures as the Integration Hub: The First Real Conflict
 
-In nearly all AI-focused acquisitions, data integration is the deepest source of risk—and also where most acquirers underestimate complexity. When two organizations have built separate data stacks, they haven’t just created different tables, schemas, or pipelines. They’ve built different epistemologies about what data means, how it’s validated, how it’s used, and how much uncertainty is tolerated in decision-making.
+In nearly all AI-focused acquisitions, data integration is the deepest source of risk, and also where most acquirers underestimate complexity. When two organizations have built separate data stacks, they haven’t just created different tables, schemas, or pipelines. They’ve built different epistemologies about what data means, how it’s validated, how it’s used, and how much uncertainty is tolerated in decision-making.
 
 When these two data worlds collide, three types of conflicts arise:
 
@@ -177,7 +177,7 @@ A key rule is to avoid so-called big bang transitions. Tech platforms should, wh
 
 Technical integration should rest on three principles. The first is continuity. Teams must be able to continue their work even while integration is ongoing. The second is robustness. Changes to infrastructure must not introduce operational disruptions or degrade model performance. The third is scalability. The future organization should be able to grow and handle larger data volumes and more models than each company could manage separately.
 
-By working with parallel tech flows—where the existing system remains active while the new one is built—the risk of disruption is reduced. This method requires clear role distribution and documentation that is as detailed as it is accessible. This way, the organization can continue development without losing tempo.
+By working with parallel tech flows, where the existing system remains active while the new one is built, the risk of disruption is reduced. This method requires clear role distribution and documentation that is as detailed as it is accessible. This way, the organization can continue development without losing tempo.
 
 ## Building Shared Processes for Model Development and Data Management
 

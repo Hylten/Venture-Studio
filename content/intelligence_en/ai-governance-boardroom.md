@@ -36,7 +36,7 @@ The fundamental challenge for a board is that AI models are non-deterministic. T
 
 This makes it impossible for a board to rely on traditional reports that only describe the technology’s functionality. Instead, the board must ask questions about data flows, risk surfaces, behavioral patterns, and system effects. Governance thus becomes not a technical craft but an architectural discipline.
 
-## What Boards Need to Understand About AI—Without Being Experts
+## What Boards Need to Understand About AI, Without Being Experts
 
 A common mistake is believing that board members must understand model architectures to oversee AI. They do not. What matters is understanding how models function as system components, not how their neural layers are constructed.
 
@@ -45,7 +45,6 @@ There are four core elements sufficient for maintaining a high level of control:
 1. Data quality and data context
 2. Model behavior and change patterns
 3. Risk exposure and operational impact
-
 4. Measurability and control signals
 
 These dimensions are far closer to business governance than technical governance. They can be described using structural indicators that non-technical members can understand, provided the framework is clearly defined.

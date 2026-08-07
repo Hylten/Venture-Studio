@@ -28,7 +28,6 @@ In Series A through Series C, the internal model is primarily centered around hy
 Three structural shifts typically occur:
 
 1. Margins begin to drive valuation more than growth rate.
-
 2. Operational complexity becomes exponential in relation to headcount.
 
 3. The leadership team can no longer compensate for tech and data structural debt through individual effort.
@@ -140,7 +139,7 @@ To reach 40 percent EBITDA, the architecture must enable:
 - low operational cost through observability and self-correcting systems,
 - the ability to integrate AI as a predictive component across the entire tech stack.
 
-This is why many of the most successful SaaS companies entering Series D make controlled rebuilds of core systems—not to modernize, but to enable a new type of efficiency. System architecture becomes a direct margin driver here.
+This is why many of the most successful SaaS companies entering Series D make controlled rebuilds of core systems, not to modernize, but to enable a new type of efficiency. System architecture becomes a direct margin driver here.
 
 ## GTM Systems That Deliver Efficiency, Not Volume
 
@@ -262,4 +261,4 @@ This is where companies often encounter their first internal friction. Teams acc
 
 Ultimately, this shift is about discipline. Series D rewards companies that manage to combine continued innovation with strict cost control and structural stability. It is this balance that makes it possible to approach or exceed EBITDA margins of 40 percent.
 
-The operational journey in Series D is one of the most critical phases in a company’s lifecycle. It is here that the foundation for long-term resilience is built, and it is also here that the organization gets its first proof that it can compete for real—not just in vision but in execution. When the company has established this type of operational strength, the path to the next funding round or IPO is wide open.
+The operational journey in Series D is one of the most critical phases in a company’s lifecycle. It is here that the foundation for long-term resilience is built, and it is also here that the organization gets its first proof that it can compete for real, not just in vision but in execution. When the company has established this type of operational strength, the path to the next funding round or IPO is wide open.

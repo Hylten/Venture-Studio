@@ -28,7 +28,6 @@ Venture studios opererar med systemkapital snarare än enskilda produktteam. De 
 Tre skillnader är särskilt relevanta:
 
 1. En prototyp är inte en isolerad kodbas utan ett nytt nodtillägg i studions existerande infrastrukturella nätverk.
-
 2. Validering måste ske parallellt med att man bygger kapacitet för senare skalning, eftersom studions affärsmodell är beroende av multipla bolagslyft snarare än enskilda exit-case.
 
 3. Hastighet är bara en konkurrensfördel om den integreras med förutsägbarhet. Det är den tekniska determinismen som särskiljer de mest framgångsrika studiorna: en prototyp som byggs snabbt men felaktigt skapar en kaskad av operationaliseringsproblem längre fram.

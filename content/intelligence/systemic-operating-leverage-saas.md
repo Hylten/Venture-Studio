@@ -202,11 +202,9 @@ Företag med hög operativ hävstång säljer inte med människor. De säljer me
 Det finns fyra centrala mekanismer i denna maskin:
 
 1. Självservering. Användaren ska kunna upptäcka, utvärdera, testa och betala utan att någonsin prata med en människa.
-
 2. Progressiv aktivering. Systemet styr användaren mot de features som är mest relevanta för dem baserat på beteendedata. Detta leder till att betalning framstår som en naturlig fortsättning på användarens resa.
 
 3. Inbyggd expansion. Tänk på att användaren inte bara ska betala en gång, utan gradvis betala mer i takt med sitt eget värdeuttag. Detta genom användarvolym, funktioner eller resultatbaserade prismodeller.
-
 4. Maskinell prissättning. När priset justeras baserat på beteende, segment eller värdeuttag i realtid kan bolaget optimera intäkterna utan att någon säljare behövs.
 
 Resultatet är en försäljningsmotor som skalar med användarbasen, inte med headcount. När fler använder produkten säljer den mer, helt på egen hand.
@@ -228,7 +226,6 @@ Support är den största fienden till operativ hävstång i SaaS. Varje support�
 Detta sker genom tre lager av system:
 
 1. Preventiva flöden. Produkter och funktioner designas så att användaren inte kan göra fel. De styrs intuitivt och förhindrar missförstånd genom UI, copy och validering.
-
 2. Självläkande system. När något går fel ska systemet identifiera felet och lösa det automatiskt. Användaren ska aldrig behöva kontakta någon.
 
 3. Maskinell support. När en mänsklig interaktion ändå behövs ska den hanteras av AI-drivna supportassistenter som har tillgång till hela företagets kunskapsbas och tekniska system.

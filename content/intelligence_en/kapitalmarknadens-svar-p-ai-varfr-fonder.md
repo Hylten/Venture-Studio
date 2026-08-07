@@ -29,7 +29,7 @@ The industry's fundamental assumptions about scalability, margin structure, and 
 
 From 2023 to 2025, the investment climate was dominated by consumer-facing generative AI applications. This was an extension of the SaaS era logic where the application was seen as the primary value driver. But in 2026, another shift has emerged: investors now clearly distinguish between the application layer and the infrastructure level.
 
-Funds conducting systemic risk assessments identify that the application layer is maturing faster than expected. Barriers to differentiation are increasing, margin pressure is intensifying, and the model is becoming homogenized. This creates an investment landscape where value is increasingly tied to layers that enable uniqueness—namely data architecture, proprietary model pipelines, and operational workflows.
+Funds conducting systemic risk assessments identify that the application layer is maturing faster than expected. Barriers to differentiation are increasing, margin pressure is intensifying, and the model is becoming homogenized. This creates an investment landscape where value is increasingly tied to layers that enable uniqueness, namely data architecture, proprietary model pipelines, and operational workflows.
 
 AI infrastructure is now divided into three primary domains:
 
@@ -37,7 +37,7 @@ AI infrastructure is now divided into three primary domains:
 2. Data management, preprocessing, and environments for controlled data access
 3. Operationalization of AI through agent frameworks and automated pipelines
 
-For capital markets, this means the ability to analyze technical debt, data sharing efficiency, and model dependencies becomes central parts of the due diligence process. Funds are adapting their teams, recruiting technical partners, and building internal models to assess latency, token cost, dataset layering, and model optimization—areas that previously lay outside traditional financial analysis.
+For capital markets, this means the ability to analyze technical debt, data sharing efficiency, and model dependencies becomes central parts of the due diligence process. Funds are adapting their teams, recruiting technical partners, and building internal models to assess latency, token cost, dataset layering, and model optimization, areas that previously lay outside traditional financial analysis.
 
 It is this split between application and infrastructure that is driving the wave of portfolio restructuring in funds. The application layer continues to grow, but the risk profile is changing. Infrastructure, on the other hand, is perceived as more robust because it addresses bottlenecks in the global AI ecosystem.
 
@@ -124,9 +124,9 @@ All these macro factors are driving portfolio restructurings because funds are s
 
 ## Conclusion: Capital Markets' System Logic Is Changing
 
-Funds are restructuring their portfolios because AI infrastructure has become a new production layer on a global scale. Value is no longer created primarily in applications but in the system that enables their scaling, adaptation, and robustness. This changes capital markets' fundamental assumptions and creates a situation where new types of companies—with deep control over data, model, and pipeline—are perceived as the future market leaders.
+Funds are restructuring their portfolios because AI infrastructure has become a new production layer on a global scale. Value is no longer created primarily in applications but in the system that enables their scaling, adaptation, and robustness. This changes capital markets' fundamental assumptions and creates a situation where new types of companies, with deep control over data, model, and pipeline, are perceived as the future market leaders.
 
-This shift is not a temporary positioning but a permanent structural change. And as AI becomes more integrated into industrial systems, capital markets' preferences will continue to move toward companies that can build and own the next generation of AI operational systems—from data layers to model compilation and full-scale inference operations.
+This shift is not a temporary positioning but a permanent structural change. And as AI becomes more integrated into industrial systems, capital markets' preferences will continue to move toward companies that can build and own the next generation of AI operational systems, from data layers to model compilation and full-scale inference operations.
 
 It is in this context that funds' portfolio restructurings must be understood. They are not reactive. They are a consequence of a fundamentally new technical architecture that is shaping the global production logic. As we move into the second half of 2026, the question is how quickly these changes spread to adjacent sectors and which gates in the value chain open for the next generation of AI companies to...
 

@@ -38,7 +38,6 @@ Many companies treat AI as an add-on component in their analysis stack. The bigg
 A system architecture for AI-driven market analysis consists of three layers:
 
 1. **Data supply**: Collection, normalization, and contextualization of market data from internal systems, open data sources, third-party services, and competitors’ digital footprints.
-
 2. **Model composition**: Combined predictive and semantic models that transform data streams into hypotheses about competitive dynamics, probability distributions, and scenario models.
 
 3. **Decision interfaces**: Operational surfaces within the organization where models are integrated into product planning, pricing optimization, GTM strategy, and investment decisions.

@@ -73,7 +73,7 @@ Infrastructure versioning: all infrastructure should be defined via code. If par
 
 Environment parity: staging, test, and production environments must have high parity. If staging does not realistically reflect the production environment, the buyer gets the impression that engineering does not work systematically.
 
-Operational safety metrics: MTTR, incident logs, change history, runbooks, and preparedness routines should be established and, above all, used in practice—not just documented.
+Operational safety metrics: MTTR, incident logs, change history, runbooks, and preparedness routines should be established and, above all, used in practice, not just documented.
 
 Cost optimization as system design: for Series C companies, the infrastructure cost profile is an indicator of maturity. Buyers want to see that costs are predictable and scalable. Over-optimization signals premature complexity. Under-optimization signals sloppiness.
 

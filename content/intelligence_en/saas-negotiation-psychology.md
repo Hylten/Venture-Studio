@@ -15,7 +15,7 @@ author: "Jonas Hyltén"
 
 ## Introduction: When SaaS Stops Being Software and Becomes Infrastructure
 
-In most traditional SaaS practices, sales and negotiation are still viewed as a function tied to pipeline optimization and tactical closures. In high-ticket SaaS—especially in segments where annual license values exceed 10M SEK—the playing field changes. The sales process is no longer a dialogue about features, competition, or discounts. Instead, it becomes an architectural process where the customer must be convinced to integrate yet another critical system into their operational backbone.
+In most traditional SaaS practices, sales and negotiation are still viewed as a function tied to pipeline optimization and tactical closures. In high-ticket SaaS, especially in segments where annual license values exceed 10M SEK, the playing field changes. The sales process is no longer a dialogue about features, competition, or discounts. Instead, it becomes an architectural process where the customer must be convinced to integrate yet another critical system into their operational backbone.
 
 When a deal exceeds 10M SEK, it is almost never a product that is sold. Nor is it a classic enterprise deployment. It is a strategic decision to unlock or redefine a part of the customer’s system landscape. This affects data structures, control planes, cost of compute, governance models, and often even their internal organizational design.
 
@@ -29,7 +29,7 @@ This is not negotiation. This is alignment design.
 
 Deals in the 10M SEK and above class are characterized by three structural factors that make them fundamentally different from ordinary enterprise SaaS.
 
-First, the investment is significant enough to attract multiple internal power centers. IT, security, data engineering, business leaders, finance, and often legal must be aligned. This means the negotiation takes place in a complex internal political structure—not between two parties, but among at least six stakeholders, each trying to minimize different types of risks.
+First, the investment is significant enough to attract multiple internal power centers. IT, security, data engineering, business leaders, finance, and often legal must be aligned. This means the negotiation takes place in a complex internal political structure, not between two parties, but among at least six stakeholders, each trying to minimize different types of risks.
 
 Second, the time horizon is longer. Licenses, implementations, and roadmaps stretch over 3 to 10 years. This means nearly every decision is built on assumptions about future capacity, market development, and internal technical choices. The negotiation then becomes a process where you need to help the customer validate their own assumptions.
 
@@ -43,7 +43,7 @@ In high-ticket SaaS, sales is not a game of terms. It is a game of risk prioriti
 
 The first principle is risk transfer. Organizations want to shift risk away from themselves and toward the vendor. They want to know that the vendor takes responsibility for scaling, uptime, regulatory compliance, and future integrations. When this is not clear, the negotiation becomes sluggish.
 
-The second principle is risk sharing. It’s not about transferring all risk, but about understanding which types of risk the customer is willing to bear—such as internal change management, data migration, or contractual debt commitments.
+The second principle is risk sharing. It’s not about transferring all risk, but about understanding which types of risk the customer is willing to bear, such as internal change management, data migration, or contractual debt commitments.
 
 The third principle is risk compensation. When the organization accepts risk, it does so only if it perceives a proportionate upside. Deals over 10M SEK often fail for this reason: the price is discussed before the risk compensation is clear.
 
@@ -138,7 +138,7 @@ It’s only when you make the risks visible that the customer can begin to inter
 
 ## The Psychological Reality of Enterprise Negotiations
 
-When a SaaS deal passes 10 million SEK, the psychological playing field changes fundamentally. It’s no longer just about value arguments, ROI calculations, or integration requirements. Decision-makers at this level are driven to a much greater extent by internal forces, personal incentives, and social risk. They need to feel secure—not just with the solution, but with how the decision will reflect on their career, their managers’ expectations, and their own strategic narrative.
+When a SaaS deal passes 10 million SEK, the psychological playing field changes fundamentally. It’s no longer just about value arguments, ROI calculations, or integration requirements. Decision-makers at this level are driven to a much greater extent by internal forces, personal incentives, and social risk. They need to feel secure, not just with the solution, but with how the decision will reflect on their career, their managers’ expectations, and their own strategic narrative.
 
 This shift means the negotiation can no longer be treated as a rational process. It becomes a psychological, relational, and political process where technical details are often used as a smokescreen for entirely different motives. Understanding this gives an advantage that is almost impossible to compensate for through price adjustments, increased functionality, or harder arguments.
 
@@ -200,7 +200,7 @@ This is not manipulation in the classic sense. It’s about giving the customer 
 
 ## The Delayed Decision Anxiety
 
-When everything seems settled—prices are accepted, terms are set—an almost inevitable silent phase occurs where the customer becomes emotionally anxious. This is the psychological equivalent of the anxiety one might feel after pressing the purchase button for something big. But in enterprise deals, it’s much stronger because the decision affects budgets, people, tech stacks, and political relationships.
+When everything seems settled, prices are accepted, terms are set, an almost inevitable silent phase occurs where the customer becomes emotionally anxious. This is the psychological equivalent of the anxiety one might feel after pressing the purchase button for something big. But in enterprise deals, it’s much stronger because the decision affects budgets, people, tech stacks, and political relationships.
 
 This period is dangerous. It’s where deals that have taken months can lose momentum and fall apart. Sales organizations that don’t recognize this phenomenon often interpret the silence as everything being under control. It almost never is. The correct reaction at this stage is not to push, not to rush, and not to panic. It’s to create clarity and security.
 
@@ -216,7 +216,7 @@ It’s not the demand that must be handled. It’s the need behind the demand.
 
 ## Summary of Part 2
 
-What characterizes negotiation psychology at this level is not grand gestures, advanced technical arguments, or tactical negotiation steps. It’s the ability to understand the people behind the decisions—their own risks, ambitions, and internal political climate.
+What characterizes negotiation psychology at this level is not grand gestures, advanced technical arguments, or tactical negotiation steps. It’s the ability to understand the people behind the decisions, their own risks, ambitions, and internal political climate.
 
 When a seller navigates all of this with calm, attentiveness, and structured curiosity, the deal shifts from a transaction to a decision the customer feels secure about. This is the core of high-ticket SaaS negotiations: creating a psychologically stable path to a big decision.
 

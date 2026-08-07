@@ -41,7 +41,7 @@ When AI was integrated into SaaS products, it was assumed that margins would tem
 
 The first is inference elasticity. Unlike classic software, costs scale with usage intensity, not the number of users. This means that product shifts from static interactions to generative sessions exponentially increase costs for active customers.
 
-The second is data gravity. As more data is used for fine-tuning, personalization, and contextual analysis, storage and indexing costs rise—especially when data must be kept real-time synchronized and segmented.
+The second is data gravity. As more data is used for fine-tuning, personalization, and contextual analysis, storage and indexing costs rise, especially when data must be kept real-time synchronized and segmented.
 
 The third is the expansion of the security stack. Regulatory complexity, customer requirements, and risk exposure demand more isolation layers, encryption modules, and ML-based anomaly detection, raising per-user costs over time.
 
@@ -180,7 +180,7 @@ The tech stack must be cost-effective and modern.
 Customer value must be clear and not require heavy manual support.
 The internal organization must minimize duplication and parallel initiatives.
 
-Companies that today still maintain margins in the 80–90 percent range almost always exhibit precisely these characteristics.
+Companies that today still maintain margins in the 80-90 percent range almost always exhibit precisely these characteristics.
 
 ## The Silent Margin Drain
 

@@ -37,7 +37,7 @@ Degree of refinement is now measured in three dimensions:
 
 SaaS companies that integrate AI deeply into decision logic can justify entirely new pricing categories. An AI tool that reduces churn by 15 percent carries a multiplier value that a GPT-like summarization feature lacks. Similarly, AI can improve system capacity, for example by handling more data points, more customer interactions, or more transactions without increasing staff or infrastructure costs. This directly impacts gross margins.
 
-But the biggest economic leverage lies in output complexity: when the model creates something the customer cannot create themselves, not even with more time. An example is AI systems that generate financial scenario models in real time based on live data. Month-long work processes are condensed into seconds, but the value doesn’t lie in time savings—it lies in the ability to simulate more options.
+But the biggest economic leverage lies in output complexity: when the model creates something the customer cannot create themselves, not even with more time. An example is AI systems that generate financial scenario models in real time based on live data. Month-long work processes are condensed into seconds, but the value doesn’t lie in time savings, it lies in the ability to simulate more options.
 
 ROI is therefore defined not by time savings, but by result optimization. This can translate into significantly higher willingness to pay and enables pricing models closer to management consulting levels than traditional SaaS. But this development also creates a new economic friction: increased model costs must be supported by a business model that is sufficiently anchored in the customer’s P&L to justify the price.
 
@@ -51,15 +51,15 @@ First, there are huge cost differences between models and inference environments
 
 Second, refinement margins affect how much expansion revenue can be realized. A company where each additional customer usage costs too much in model runs ends up with negative margin elasticity. This means the company grows top-line but sees deteriorating unit economics. This is a risk that didn’t exist in traditional SaaS and that investors now scrutinize rigorously.
 
-High-performing AI SaaS companies therefore work with margin design as a discipline. This means the product team doesn’t just design features—they also plan the economic energy required to run the model. They work with margin budgeting in the same way a factory manager handles material costs.
+High-performing AI SaaS companies therefore work with margin design as a discipline. This means the product team doesn’t just design features, they also plan the economic energy required to run the model. They work with margin budgeting in the same way a factory manager handles material costs.
 
-This creates a new type of product manager—one who understands both inference optimization and P&L. The leading companies of 2026 have already organized product development around these principles, where model costs are treated as a direct input variable in business strategy.
+This creates a new type of product manager, one who understands both inference optimization and P&L. The leading companies of 2026 have already organized product development around these principles, where model costs are treated as a direct input variable in business strategy.
 
 ## 3. Usage-Based Pricing Shifts from Experiment to Design Principle
 
 Usage-based pricing was long an exception in SaaS, and widespread adoption was limited by customers’ desire for predictability. But AI changes the calculus. Partly because the model costs money every time it runs, and partly because the value is directly tied to output volume.
 
-In 2026, usage is not a pricing strategy—it’s a system design question. Leading companies start development backward: they define which economic variable best represents the value creation, then build product flows around that variable. This could be the number of data points analyzed, the number of forecasts generated, the number of interactions, or the number of automated decisions.
+In 2026, usage is not a pricing strategy, it’s a system design question. Leading companies start development backward: they define which economic variable best represents the value creation, then build product flows around that variable. This could be the number of data points analyzed, the number of forecasts generated, the number of interactions, or the number of automated decisions.
 
 The key is that the usage model must reflect value creation, not model cost. This is the most common mistake among younger companies: pricing based on inference cost rather than value. The result is often customers experiencing a price threshold that lacks business logic.
 
@@ -75,7 +75,7 @@ Expansion in traditional SaaS often comes from more users or more modules. AI ch
 
 NRR expansion therefore becomes a function of data maturity, not just user intensity. This is a fundamental shift. Companies that succeed in building data-centric expansion have significantly more stable SaaS economics. They can predict NRR with high precision based on initial data profiles, data density, and system integrations.
 
-The key is that the model performs better over time, which means the customer naturally expands usage. This is a form of organic expansion that is hard to compete away. A new tool doesn’t just need to replicate functionality—it also needs to train through the same data volume and context, which can take months or years.
+The key is that the model performs better over time, which means the customer naturally expands usage. This is a form of organic expansion that is hard to compete away. A new tool doesn’t just need to replicate functionality, it also needs to train through the same data volume and context, which can take months or years.
 
 Leading companies therefore build customer-specific model training as a core mechanism in their business. They design pipelines that improve inferences over time without requiring new sales activities. This also means data onboarding has become an even more strategic process. A company’s ability to quickly access high-signal data determines NRR two years later.
 
@@ -85,7 +85,7 @@ In this sense, AI SaaS resembles enterprise machine learning more than classic S
 
 ## 5. Verticalization Shifts from Choice to Necessity
 
-The broad market for generative AI solutions saturated faster than many expected. General tools are hard to differentiate, as both model performance and user flows tend toward standardization. Therefore, competition is shifting toward verticalization—not as a niche choice, but as a business necessity.
+The broad market for generative AI solutions saturated faster than many expected. General tools are hard to differentiate, as both model performance and user flows tend toward standardization. Therefore, competition is shifting toward verticalization, not as a niche choice, but as a business necessity.
 
 Vertical AI SaaS builds the entire model around a specific domain’s rules, systems, and data types. This creates several economic advantages.
 
@@ -107,7 +107,7 @@ The most tangible shift in 2026 is that AI is no longer sold as a promise of eff
 
 In 2023 and 2024, it was enough to say an AI function saved time. In 2025, more customers started asking how much time, for whom, and how it shows up in results. This year, the playing field is even narrower. Customers across industries from law to logistics want to know every week how AI-based functions affect costs, output, and quality.
 
-Leading SaaS companies therefore build ROI instruments directly into the product. Instead of presenting an abstract estimate, they show a running report of the number of automated tasks, estimated time savings, and in some cases even financial consequences. This creates a psychological effect for the customer where the value is no longer something to be justified internally—it’s visible in the dashboard every time they log in.
+Leading SaaS companies therefore build ROI instruments directly into the product. Instead of presenting an abstract estimate, they show a running report of the number of automated tasks, estimated time savings, and in some cases even financial consequences. This creates a psychological effect for the customer where the value is no longer something to be justified internally, it’s visible in the dashboard every time they log in.
 
 For SaaS companies that succeed with this, real-time ROI leads not only to higher customer satisfaction but also to greater tolerance for premium pricing. When customers can see exactly how much AI delivers, pricing becomes less sensitive. It also shifts focus from cost per user to value per activity. This opens up entirely new revenue streams where AI functions are effectively sold against a proven ROI gradient.
 
@@ -121,7 +121,7 @@ A recurring pattern is that companies now use combinations of open and proprieta
 
 This hybrid setup reduces inference costs by 35 to 70 percent depending on the industry. Margins also increase when companies introduce smart routing layers that decide which model to use based on complexity, customer type, and SLA.
 
-Another factor affecting margins is how quickly companies adapt their data platform. Those that have established formal control over data—at least at the encrypted token level—can use customer history to improve quality without locking into expensive proprietary data stores.
+Another factor affecting margins is how quickly companies adapt their data platform. Those that have established formal control over data, at least at the encrypted token level, can use customer history to improve quality without locking into expensive proprietary data stores.
 
 In summary, margins are initially pressured by AI, but the right technical choices allow companies to climb back toward historical SaaS levels. Those that don’t optimize risk getting stuck in a vicious cycle of increasing usage and decreasing gross margins.
 

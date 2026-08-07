@@ -47,7 +47,6 @@ Traditionell RevOps är byggd för en värld där volymen av signaler var hanter
 Tre systemiska begränsningar uppstår:
 
 1. Modellerna bygger på mänskliga triggers. De flesta flöden startar först när en säljare gör någonting: öppnar ett lead, loggar en aktivitet eller uppdaterar ett fält.
-
 2. RevOps-team arbetar iterativt men systemen de bygger är statiska. Regler och scorecards åldras snabbt och har ingen naturlig feedbackloop.
 
 3. Automationslogiken är ofta isolerad till specifika verktyg. Varje verktyg optimerar sin egen funktion men ingen kontrollerar helheten från signal till affär.

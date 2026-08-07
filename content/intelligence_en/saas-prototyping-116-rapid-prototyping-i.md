@@ -13,7 +13,7 @@ draft: false
 author: "Jonas Hyltén"
 ---
 
-SaaS Prototyping 116: Rapid Prototyping in a Venture Studio – From Architecture to 1M ARR in 12 Weeks
+SaaS Prototyping 116: Rapid Prototyping in a Venture Studio - From Architecture to 1M ARR in 12 Weeks
 
 ## Introduction: A Systems Perspective on Fast Time-to-Market
 
@@ -30,7 +30,6 @@ Venture studios operate with system capital rather than individual product teams
 Three differences are particularly relevant:
 
 1. A prototype is not an isolated codebase but a new node addition to the studio’s existing infrastructural network.
-
 2. Validation must occur in parallel with building capacity for later scaling, since the studio’s business model depends on multiple company launches rather than single exit cases.
 
 3. Speed is only a competitive advantage if integrated with predictability. It is technical determinism that distinguishes the most successful studios: a prototype built quickly but incorrectly creates a cascade of operationalization problems further down the line.

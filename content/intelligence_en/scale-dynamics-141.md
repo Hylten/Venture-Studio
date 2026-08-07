@@ -13,7 +13,7 @@ draft: false
 author: "Skeptical Investor (Leaked)"
 ---
 
-Scale Dynamics 141: The Mathematics of Scaling – Why Linear Forecasts Are Dangerous in Hyperscale
+Scale Dynamics 141: The Mathematics of Scaling - Why Linear Forecasts Are Dangerous in Hyperscale
 
 ## The New Reality in the Hyperscale Ecosystem
 

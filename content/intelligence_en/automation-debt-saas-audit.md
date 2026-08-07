@@ -54,7 +54,7 @@ Some of the most common cost drivers:
 - Overinvestment in tools because the company tries to solve structural problems by buying more features.
 - Onboarding costs where each new employee must learn a landscape that is not comprehensible without historical context.
 
-It is not uncommon for a SaaS company at 300–500 employees to have at least 5–7 people spending most of their time understanding, adjusting, and rescuing flows that should be self-sustaining. This cost is often called operations, but fundamentally it is a function of architecture, not staffing.
+It is not uncommon for a SaaS company at 300-500 employees to have at least 5-7 people spending most of their time understanding, adjusting, and rescuing flows that should be self-sustaining. This cost is often called operations, but fundamentally it is a function of architecture, not staffing.
 
 The real problem is not the cost itself but the momentum loss built into the organization’s long-term ability to act. Automation debt affects how quickly the company can execute, iterate, scale, and transform. When the debt is high enough, every strategic change becomes heavy and slow because it must account for hundreds of hidden dependencies.
 

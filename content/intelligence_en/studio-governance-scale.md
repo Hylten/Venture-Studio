@@ -251,7 +251,7 @@ These three structures need to be separate but synchronized. If they are mixed, 
 
 ## How to Avoid Governance Chaos
 
-When the number of companies passes a certain threshold—often around eight to ten—a new type of problem emerges. It is no longer the individual companies that are hard to govern but the relationships between them. Insights must be shared, resources prioritized, and conflicts between companies’ needs become inevitable.
+When the number of companies passes a certain threshold, often around eight to ten, a new type of problem emerges. It is no longer the individual companies that are hard to govern but the relationships between them. Insights must be shared, resources prioritized, and conflicts between companies’ needs become inevitable.
 
 To avoid governance chaos, structures that prepare the organization for scaling are required.
 

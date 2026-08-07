@@ -13,7 +13,7 @@ draft: false
 author: "Skeptical Investor (Leaked)"
 ---
 
-saas-late-pricing-74: Pricing Dynamics in Late-Stage SaaS — Why Linear Expansion Kills Series E
+saas-late-pricing-74: Pricing Dynamics in Late-Stage SaaS ,  Why Linear Expansion Kills Series E
 
 ## Introduction
 
@@ -21,7 +21,7 @@ The late SaaS stage has changed faster than any other phase in the software capi
 
 When the interest rate environment is higher, margin requirements are stricter, and institutional investors assess cash flow capability earlier in the value chain, a new fact emerges: linear expansion kills Series E. The underlying reason is that SaaS as a system is no longer evaluated by traditional logic. Capital is not just seeking growth; it is seeking non-linear growth points that show how the product can generate increased revenue per unit of volume without the cost base following the same slope.
 
-In practice, this means that companies entering late rounds with a traditional, tiered pricing model — seats, tiers, meters — often lock their own multiple. Their revenue per customer does not scale in proportion to the customer’s value increase. This is not a sales problem. It is a systems problem. And systems problems cannot be solved by more salespeople, more marketing, or a new onboarding process.
+In practice, this means that companies entering late rounds with a traditional, tiered pricing model ,  seats, tiers, meters ,  often lock their own multiple. Their revenue per customer does not scale in proportion to the customer’s value increase. This is not a sales problem. It is a systems problem. And systems problems cannot be solved by more salespeople, more marketing, or a new onboarding process.
 
 For investors in the late stage, the question is therefore not how fast the company is growing, but how fast the revenue engine becomes adaptive. It is about breaking linearity in a system that was originally designed to be controllable, predictable, and stable. Stability was a value during the 2010s SaaS era. In the 2020s and 2030s capital dynamics, it is a burden.
 
@@ -31,7 +31,7 @@ This article dissects why linear pricing fails in late stages, which structural 
 
 In the early SaaS model, value exchange was built around a constant: the cost of a user, a team, or a volume unit. This constancy was easy to model, easy to scale organizationally, and provided high predictability. But it also carried a lock-in: every growth unit required proportional increase in either adoption or product scope.
 
-In early stages, especially Series A to C, this works. Customer value grows slowly, the market is immature, and the company needs simplicity to avoid drowning in operational complexity. But after Series C, a shift occurs that few companies perceive in time. What was once a strength — simple linearity — now becomes a capacity limit. The revenue engine cannot accelerate faster than its own pricing model allows.
+In early stages, especially Series A to C, this works. Customer value grows slowly, the market is immature, and the company needs simplicity to avoid drowning in operational complexity. But after Series C, a shift occurs that few companies perceive in time. What was once a strength ,  simple linearity ,  now becomes a capacity limit. The revenue engine cannot accelerate faster than its own pricing model allows.
 
 When a company reaches 50 to 100 million USD in ARR, a new dimension of revenue elasticity is expected. It is not the growth itself that is priced, but the system’s ability to generate exponential leverage on the same customer base. Investors in Series D and E primarily assess three things:
 

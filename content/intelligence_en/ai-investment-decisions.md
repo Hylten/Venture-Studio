@@ -71,7 +71,7 @@ There is a tendency in the industry to frame AI as a competitor to human investo
 
 When AI models are integrated into the core of an investment organization, three central dimensions change:
 
-1. **Time Horizon:** Machines handle micro‑second feedback loops and monthly data in parallel—something humans cannot do.
+1. **Time Horizon:** Machines handle micro‑second feedback loops and monthly data in parallel, something humans cannot do.
 2. **Signal Depth:** AI can extract signals from information sources that were previously too complex or too large for human processing.
 3. **Reasoning Structure:** The machine offers probabilistic reasoning, while humans provide strategic reasoning.
 

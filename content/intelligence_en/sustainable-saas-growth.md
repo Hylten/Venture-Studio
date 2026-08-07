@@ -156,7 +156,7 @@ Companies that ignore this difference risk building products that are impressive
 
 ## Why a Clear Value Chain Is Critical to Avoiding an AI Bubble
 
-An AI bubble arises when the market focuses more on the technology than on the value. New technology tends to create hype, but hype is fundamentally just a temporary shift in expectations. Sustainable growth is not based on expectations, but on proven utility. To navigate away from bubble risks, companies must create clear value chains where each component—from data collection to delivered function—has a defined purpose and an economic logic.
+An AI bubble arises when the market focuses more on the technology than on the value. New technology tends to create hype, but hype is fundamentally just a temporary shift in expectations. Sustainable growth is not based on expectations, but on proven utility. To navigate away from bubble risks, companies must create clear value chains where each component, from data collection to delivered function, has a defined purpose and an economic logic.
 
 A strong value chain means the company knows exactly why each part exists. It also means each link in the chain can be explained to customers, investors, and employees without technical jargon. When the value chain is clear, it also becomes easier to prioritize away features that are technically impressive but commercially meaningless.
 

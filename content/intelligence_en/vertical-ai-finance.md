@@ -19,7 +19,7 @@ author: "Jonas Hyltén"
 
 The financial sector is undergoing one of its most structural transformations since the digitization of trading systems in the 1990s. The past decade’s AI development has primarily focused on general models that have moved interaction, analysis, and automation broadly. But the financial sector is now moving toward a new system class: vertical AI platforms deeply integrated with domain-specific data, domain-specific logic, and domain-specific risk requirements.
 
-In this new environment, accuracy is not just a quality parameter—it is an infrastructural prerequisite. Financial markets, core banking systems, risk engines, credit decisions, and regulatory processes allow no margin for error.
+In this new environment, accuracy is not just a quality parameter, it is an infrastructural prerequisite. Financial markets, core banking systems, risk engines, credit decisions, and regulatory processes allow no margin for error.
 
 General models are built for amplitude. Vertical models in finance are built for precision. It is a fundamental difference.
 

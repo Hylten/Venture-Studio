@@ -26,7 +26,6 @@ Det är mot denna bakgrund som secondaries framstår som en nyckelmekanism. De k
 I SaaS-sektorn har förändringen av kapitalstrukturen accelererat. Det beror på tre överlappande krafter:
 
 1. Ett växande institutionellt ägarlandskap där pensionsfonder, infrastrukturinvesterare och stora internationella fonder har andra förväntningar på likviditet och riskhantering än traditionella VC-aktörer.
-
 2. En högre produktionskomplexitet i bolagens tekniska system, särskilt efter AI-transformationen 2022-2025, vilket skapat mer kapitalkrävande expansionsfaser i go-to-market, databehandling och modellträning.
 
 3. En marknad som kräver längre privata livscykler innan IPO, ofta 10 till 12 år, vilket innebär att incitamentsstrukturerna för grundare, operativa team och tidiga anställda behöver justeras för att förbli funktionella.

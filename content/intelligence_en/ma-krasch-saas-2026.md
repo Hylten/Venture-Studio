@@ -39,7 +39,7 @@ Buyers ask in the first meeting:
 
 If a company cannot answer these questions, the process is effectively dead. Buyers no longer want to acquire application logic. They want to acquire data infrastructure in vertical domains, with operational leverage in automation and a trainable surface that can scale in their own environment.
 
-This is why several well-known Nordic SaaS companies with strong brands have received not a single serious bid in 2025–2026, despite strong financial performance. Technically, they are no longer acquisition targets. They are functional shells without a learning core.
+This is why several well-known Nordic SaaS companies with strong brands have received not a single serious bid in 2025-2026, despite strong financial performance. Technically, they are no longer acquisition targets. They are functional shells without a learning core.
 
 ## Why the Shift Came So Quickly
 
@@ -73,7 +73,7 @@ When the data room opens, buyers now immediately see whether the company is a po
 
 ## Why GTM Competence No Longer Saves Valuation
 
-The biggest misunderstanding in SaaS 2025–2026 is that go-to-market can still compensate for technical debt. This was true until 2024. It is not true today.
+The biggest misunderstanding in SaaS 2025-2026 is that go-to-market can still compensate for technical debt. This was true until 2024. It is not true today.
 
 The reason is that sales has become a secondary factor in a market where the product’s internal intelligence generates its own growth channels.
 
@@ -99,8 +99,8 @@ In 2026, the multiple is effectively a function of three infrastructure paramete
 
 We see the following patterns in deal flow:
 
-- Companies with robust internal data models and rich instrumentation receive multiples of 7–11x ARR even with mediocre growth.
-- Companies with weak or fragmented data infrastructure are valued at 2–4x ARR even if they grow faster.
+- Companies with robust internal data models and rich instrumentation receive multiples of 7-11x ARR even with mediocre growth.
+- Companies with weak or fragmented data infrastructure are valued at 2-4x ARR even if they grow faster.
 - Companies without ML-relevant data infrastructure receive no bids at all.
 
 This shows that the market has realized something fundamental: Data infrastructure is not a cost. It is the value function itself in a modern SaaS company.
@@ -113,8 +113,8 @@ Previously, technical debt was seen mostly as a refactoring theme. In 2026, it i
 
 Rebuilding data infrastructure in a mature SaaS company typically costs:
 
-- 18–36 months
-- SEK 15–40 million
+- 18-36 months
+- SEK 15-40 million
 - Full stop to feature development during the period
 - Decline in NRR and increased customer issues
 - High churn in tech teams
@@ -141,7 +141,7 @@ The Nordic ecosystem has built many strong SaaS companies, but there is a struct
 
 In the US and Israel, the venture tradition has been to build AI infrastructure early, even if the product is not finished. In the Nordics, the culture has been to build features until customers are satisfied and only then think about data.
 
-When the AI shift became explosive in 2024–2025, the result was that many Nordic SaaS companies woke up with a product that works but a system that cannot be used as a learning platform.
+When the AI shift became explosive in 2024-2025, the result was that many Nordic SaaS companies woke up with a product that works but a system that cannot be used as a learning platform.
 
 This is why Nordic companies have been hit especially hard by the M&A crash. Buyers see them as solid but heavy to integrate. And a solid product without acceleration potential is now valued lower than a half-finished product with strong data infrastructure.
 
@@ -172,7 +172,7 @@ They test:
 - Are pipelines schema-first or log-first?
 - Is there a clear distinction between operational data, analytical data, and training data?
 
-When the mapping fails, the process collapses. This is why so many sellers in 2025–2026 were surprised: It wasn’t their KPIs that were the problem. It was their system.
+When the mapping fails, the process collapses. This is why so many sellers in 2025-2026 were surprised: It wasn’t their KPIs that were the problem. It was their system.
 
 ## The Market’s Frontline: From Application to System Architecture
 
@@ -218,7 +218,7 @@ But as generative AI accelerates market changes in every industry, data has beco
 
 ## What Used to Be Nice to Have Is Now the Buyer’s First Red Flag
 
-During the first wave of AI hype, modern data platforms, centralized pipelines, and robust event tracking were seen as something to address when the organization grew larger—a kind of bonus project for the product team that sat just behind the roadmap’s business-critical features. That has changed completely.
+During the first wave of AI hype, modern data platforms, centralized pipelines, and robust event tracking were seen as something to address when the organization grew larger, a kind of bonus project for the product team that sat just behind the roadmap’s business-critical features. That has changed completely.
 
 In 2026, we see five classic signals that immediately halt an M&A process before it even gains momentum.
 

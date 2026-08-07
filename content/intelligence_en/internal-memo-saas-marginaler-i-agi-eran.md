@@ -21,11 +21,11 @@ For two decades, the success of mature SaaS companies was defined by a single me
 
 In 2026, this narrative is not just outdated. It is functionally unusable as a strategic tool.
 
-AGI-based services, foundation models, inference costs, tokens as commodities, and processor-oriented data infrastructure have dramatically altered the cost landscape. Instead of static, linear margin structures, SaaS companies now operate in an environment where backend costs vary dynamically—often at the minute level—based on model choice, token consumption, RAM scaling, GPU allocation, streaming latency, and customer quality demands.
+AGI-based services, foundation models, inference costs, tokens as commodities, and processor-oriented data infrastructure have dramatically altered the cost landscape. Instead of static, linear margin structures, SaaS companies now operate in an environment where backend costs vary dynamically, often at the minute level, based on model choice, token consumption, RAM scaling, GPU allocation, streaming latency, and customer quality demands.
 
 In practice, this means the traditional idea of 80 percent gross margin no longer has any stable grounding. It is a relic from an era when the cloud was predictable, usage was repeatable, and the marginal cost of an additional API call was close to zero. That era is over.
 
-This is an internal PM directed at operations teams, product leaders, and investment managers. Its purpose is to formulate a new framework for how we assess margin, cost structure, and product architecture in a world where every SaaS product is, in fact, an AI infrastructure company—regardless of what the slide deck says.
+This is an internal PM directed at operations teams, product leaders, and investment managers. Its purpose is to formulate a new framework for how we assess margin, cost structure, and product architecture in a world where every SaaS product is, in fact, an AI infrastructure company, regardless of what the slide deck says.
 
 ## Why the Classic SaaS Margin Is Obsolete in 2026
 
@@ -47,7 +47,7 @@ For foundation models from major players, the price per million tokens currently
 
 The effect is that margin becomes a function of token mix. A company using 80 percent low-cost models and only activating more expensive models in specific cases achieves much higher gross margins than a company that defaults to the latest generalist model. The difference is not cosmetic. It can mean ten or twenty percentage points in margin difference, entirely based on architectural decisions.
 
-A technically mature company therefore needs an internal token P&L—a kind of cost calculator that continuously optimizes model choice, caching strategies, batch inference, and context compression. Companies lacking this function will never have control over their gross margin, no matter how skilled their finance team is.
+A technically mature company therefore needs an internal token P&L, a kind of cost calculator that continuously optimizes model choice, caching strategies, batch inference, and context compression. Companies lacking this function will never have control over their gross margin, no matter how skilled their finance team is.
 
 This implies a new leadership paradigm. The tech team controls margin just as much as the CFO.
 

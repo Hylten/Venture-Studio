@@ -17,7 +17,7 @@ author: "Jonas Hyltén"
 
 The AI industry is driving a structural shift in how tech companies are built, scaled, and consolidated. In traditional SaaS environments, M&A has often revolved around customer bases, revenue streams, geographic expansion, or product complementarity. In the modern AI economy, the valuation foundation shifts toward three fundamentals: system expertise, model capability, and control over infrastructure.
 
-In a market where compute power is now as strategically important as capital—and where access to talent is a bottleneck for every AI initiative—companies face a new question: What is actually optimal to acquire? Is it better to buy teams with unique system and model development expertise, or to acquire companies that already possess assets like data centers, GPU clusters, and infrastructure agreements?
+In a market where compute power is now as strategically important as capital, and where access to talent is a bottleneck for every AI initiative, companies face a new question: What is actually optimal to acquire? Is it better to buy teams with unique system and model development expertise, or to acquire companies that already possess assets like data centers, GPU clusters, and infrastructure agreements?
 
 This question is not trivial, as value is negotiated within a domain where technical asymmetry dominates, market statistics are young, and AI-native systems require a different organizational logic than traditional software architecture. The most robust M&A strategy for AI companies requires an understanding of how expertise, infrastructure, and model capability interact at the system level.
 
@@ -33,7 +33,7 @@ This means M&A becomes one of the fastest ways to build expertise or gain access
 
 ## Two Primary Acquisition Paths: Talent and Compute Power
 
-When AI companies evaluate M&A, the difference is usually clear: they either buy teams or they buy capability. In AI contexts, this often translates to acquiring developers, researchers, system architects, and product leaders—or acquiring access to compute, data, and infrastructure-adjacent systems.
+When AI companies evaluate M&A, the difference is usually clear: they either buy teams or they buy capability. In AI contexts, this often translates to acquiring developers, researchers, system architects, and product leaders, or acquiring access to compute, data, and infrastructure-adjacent systems.
 
 But upon deeper analysis, these categories are interconnected through the real bottleneck: control over the AI value chain.
 
@@ -59,7 +59,7 @@ This is extremely difficult to buy as a consulting service. Therefore, talent ac
 
 In an AI organization, talent is much more than individuals. It’s the collective ability to build abstractions that can scale. A team that can build model platforms, optimize inference, set up data models, or define robust data governance represents not just expertise but the ability to structure future product innovation.
 
-This is why acquisitions of small AI teams often have an outsized effect in the market. A team trained in model architecture directly contributes to an organization’s system understanding—something difficult to replace with documentation or standardized onboarding.
+This is why acquisitions of small AI teams often have an outsized effect in the market. A team trained in model architecture directly contributes to an organization’s system understanding, something difficult to replace with documentation or standardized onboarding.
 
 Acquiring AI talent is therefore less about filling roles and more about buying the ability to future-proof an entire technical paradigm.
 

@@ -135,7 +135,7 @@ When different types of agents are introduced into an organization, a natural di
 
 In many organizations, this is first noticed as small delays. An analysis model produces data that another model cannot interpret. An automated decision support system systematizes information in a way that does not match the formats used by another group. At first glance, the problems are technical, but their effects are strategic. Every time a human must step in to translate, reformulate, or correct something that two systems should be able to handle themselves, time, context, and precision are lost.
 
-As the number of agents grows, this friction increases exponentially. It leads to people becoming intermediaries between systems instead of agents acting as amplifiers of human capability. The result is that the organization’s intelligence does not scale—which is the opposite of what agent-based automation is supposed to achieve.
+As the number of agents grows, this friction increases exponentially. It leads to people becoming intermediaries between systems instead of agents acting as amplifiers of human capability. The result is that the organization’s intelligence does not scale, which is the opposite of what agent-based automation is supposed to achieve.
 
 One of the most important conclusions is that linguistic fragmentation never resolves itself. It must be managed through active design choices where a shared semantic infrastructure is established that all agents understand and follow. This is not just a technical decision but part of how the organization defines its way of thinking, analyzing, and acting.
 
@@ -204,7 +204,7 @@ Without communication, agents cannot:
 
 The effect of silence is not neutrality. It is fragmentation, duplication of work, and loss of context. This is why agent communication should be standard from the beginning. It is easier to create a conversation between agents than to force it later when the systems have already diverged.
 
-When agents talk to each other, spontaneous patterns of collaboration and task distribution emerge. They begin to actively seek relevant information, ask each other for help, and improve their conclusions based on collective memory. This is how intelligence arises—not through isolated islands of functionality, but through continuous conversations that evolve over time.
+When agents talk to each other, spontaneous patterns of collaboration and task distribution emerge. They begin to actively seek relevant information, ask each other for help, and improve their conclusions based on collective memory. This is how intelligence arises, not through isolated islands of functionality, but through continuous conversations that evolve over time.
 
 ## When Humans and Agents Speak the Same Language
 

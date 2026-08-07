@@ -29,7 +29,7 @@ Industry assumptions about scalability, margin structure, and product cycles are
 
 From 2023 to 2025, the investment climate was dominated by consumer-facing generative AI applications. This was an extension of the SaaS era’s logic, where the application was seen as the primary value driver. But in 2026, a different shift has emerged: investors now clearly distinguish between the application layer and the infrastructure level.
 
-Funds conducting systemic risk assessments identify that the application layer is reaching maturity faster than expected. Barriers to differentiation are increasing, margin pressure is intensifying, and the model is becoming homogenized. This creates an investment landscape where value is increasingly tied to layers that enable uniqueness—namely, data architecture, proprietary model pipelines, and operational workflows.
+Funds conducting systemic risk assessments identify that the application layer is reaching maturity faster than expected. Barriers to differentiation are increasing, margin pressure is intensifying, and the model is becoming homogenized. This creates an investment landscape where value is increasingly tied to layers that enable uniqueness, namely, data architecture, proprietary model pipelines, and operational workflows.
 
 AI infrastructure is now divided into three primary domains:
 
@@ -37,7 +37,7 @@ AI infrastructure is now divided into three primary domains:
 2. **Data management, preprocessing, and controlled data access environments**
 3. **Operationalization of AI through agent frameworks and automated pipelines**
 
-For the capital markets, this means that the ability to analyze technical debt, data sharing efficiency, and model dependencies becomes central parts of the due diligence process. Funds are adapting their teams, recruiting technical partners, and building internal models to assess latency, token cost, dataset layering, and model optimization—factors that previously lay outside traditional financial analysis.
+For the capital markets, this means that the ability to analyze technical debt, data sharing efficiency, and model dependencies becomes central parts of the due diligence process. Funds are adapting their teams, recruiting technical partners, and building internal models to assess latency, token cost, dataset layering, and model optimization, factors that previously lay outside traditional financial analysis.
 
 It is precisely this split between application and infrastructure that is driving the wave of portfolio restructuring in funds. The application layer continues to grow, but the risk profile is changing. Infrastructure, on the other hand, is perceived as more robust because it addresses bottlenecks in the global AI ecosystem.
 
@@ -124,7 +124,7 @@ All these macro factors are driving portfolio realignments because funds are see
 
 ## Conclusion: Capital Markets’ System Logic Is Changing
 
-Funds are restructuring their portfolios because AI infrastructure has become a new production layer on a global scale. Value is no longer primarily created in applications but in the systems that enable their scaling, adaptation, and robustness. This changes the capital markets’ fundamental assumptions and creates a situation where new types of companies—with deep control over data, models, and pipelines—are perceived as the market leaders of the future.
+Funds are restructuring their portfolios because AI infrastructure has become a new production layer on a global scale. Value is no longer primarily created in applications but in the systems that enable their scaling, adaptation, and robustness. This changes the capital markets’ fundamental assumptions and creates a situation where new types of companies, with deep control over data, models, and pipelines, are perceived as the market leaders of the future.
 
 This realignment is not a temporary positioning but a permanent structural change. And as AI becomes more integrated into industrial systems, capital markets’ preferences will continue to shift toward companies that can build and own the next generation of AI operating systems, from data layers to model compilation and full-scale inference operations.
 

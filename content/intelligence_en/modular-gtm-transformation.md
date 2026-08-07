@@ -23,9 +23,9 @@ What has changed is not that the market has become more complex. It’s that it 
 
 This is why modular GTM becomes the next structural shift. It’s the same kind of system redesign that SaaS architectures underwent when moving from monolith to microservices. The difference is that this time, the transformation is happening in commercial systems rather than technical stacks.
 
-And just like with technical systems, the advantage of a modular GTM structure isn’t that it’s new—it’s that it’s composable. It allows an organization to reconfigure its sales engine in four weeks without having to rip out the entire infrastructure. This means it can operate with the same kind of accelerated iteration that product teams had when moving from quarterly releases to continuous deploys.
+And just like with technical systems, the advantage of a modular GTM structure isn’t that it’s new, it’s that it’s composable. It allows an organization to reconfigure its sales engine in four weeks without having to rip out the entire infrastructure. This means it can operate with the same kind of accelerated iteration that product teams had when moving from quarterly releases to continuous deploys.
 
-But to enable this, the GTM system must be broken down into its fundamental building blocks and redesigned with system requirements—not role profiles—as the starting point.
+But to enable this, the GTM system must be broken down into its fundamental building blocks and redesigned with system requirements, not role profiles, as the starting point.
 
 ## GTM as an Operational System Instead of an Organization
 
@@ -75,7 +75,7 @@ The first fundamental, a unified data warehouse, is critical because modularity 
 
 The second fundamental, workflow interfaces, is what makes it possible to swap out a module without affecting the entire system. Just as microservices require stable APIs, modular GTM requires handoff points to be clearly defined. It’s not enough with an MQL definition or an owner document. You need system-level specifications that define data requirements, SLAs, decision criteria, and which signals trigger the module’s start and end.
 
-The third fundamental, capacity planning, is what differentiates professionally built GTM systems from informal team structures. A scalable commercial system isn’t built on activity targets but on a capacity matrix that defines how many data points, interactions, and analysis segments each module can handle per week. When capacity changes—whether due to automation, new roles, or shifting strategic goals—the entire GTM topology updates without having to rewrite processes.
+The third fundamental, capacity planning, is what differentiates professionally built GTM systems from informal team structures. A scalable commercial system isn’t built on activity targets but on a capacity matrix that defines how many data points, interactions, and analysis segments each module can handle per week. When capacity changes, whether due to automation, new roles, or shifting strategic goals, the entire GTM topology updates without having to rewrite processes.
 
 When these three fundamentals are in place, it becomes technically possible to rebuild the sales engine on a weekly basis without compromising stability, quality, or forecasting ability.
 

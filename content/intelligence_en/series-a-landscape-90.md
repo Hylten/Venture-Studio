@@ -13,13 +13,13 @@ draft: false
 author: "Skeptical Investor (Leaked)"
 ---
 
-The Series A Landscape 2026 – Why Capital Migration Toward Sovereign Architecture Begins Early
+The Series A Landscape 2026 - Why Capital Migration Toward Sovereign Architecture Begins Early
 
 ## Introduction: A New Phase in Early Capital Allocation
 
 By 2026, the Series A market in the Nordics and Continental Europe has shifted from generic SaaS metrics to a more systemic valuation of architecture, the sustainability of the data stack, and the degree of sovereign control over infrastructure. It is no longer a niche issue. It is the foundation for how capital migrates in early rounds.
 
-This shift is most visible in tech companies building toward AI infrastructure, real-time analytics, automated workflows, and distributed systems. These companies face an investor base that has learned from three cycles of overinvestment in thin application layers and now seeks underlying capabilities that scale with the market’s complexity—not just with the size of the customer base.
+This shift is most visible in tech companies building toward AI infrastructure, real-time analytics, automated workflows, and distributed systems. These companies face an investor base that has learned from three cycles of overinvestment in thin application layers and now seeks underlying capabilities that scale with the market’s complexity, not just with the size of the customer base.
 
 The migration toward sovereign architecture beginning as early as Series A is an indicator that the SaaS model of the 2010s is no longer a default recipe for technical scale. What has changed is not just investors’ risk appetite but the entire expectation of how a system should behave when it meets a world where data volumes, regulatory demands, and inference costs accelerate faster than any linear expansion can compensate for.
 

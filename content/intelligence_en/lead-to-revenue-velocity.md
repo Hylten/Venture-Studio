@@ -38,7 +38,7 @@ It is affected by:
 • ERP integration and order management
 • Customer’s internal buying resources and project maturity
 
-When lead-to-revenue velocity is viewed as an isolated sales metric, the bottlenecks that often arise long before a salesperson opens a deal—and long after the contract is verbally accepted—are ignored. In enterprise SaaS, it is just as common for speed to be slowed by incorrect lead routing as by delayed legal reviews.
+When lead-to-revenue velocity is viewed as an isolated sales metric, the bottlenecks that often arise long before a salesperson opens a deal, and long after the contract is verbally accepted, are ignored. In enterprise SaaS, it is just as common for speed to be slowed by incorrect lead routing as by delayed legal reviews.
 
 The system perspective enables diagnosis of intervention points at each node in the flow. Organizations that fail to scale their revenue engine almost always lack a formal model for measuring velocity between each stage. The result is that problems only surface when growth has already stalled, not when early system deviations occur.
 

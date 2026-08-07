@@ -241,7 +241,6 @@ SaaS has a peculiar property. The first thousand customers can have excellent gr
 There are three typical mechanisms behind this.
 
 1. Cloud costs scale linearly. Revenue does not always scale as fast. Many systems are built on the assumption that load will be manageable. When traffic increases, you are forced to add more instances, more storage, and more expensive database clusters. In the worst case, you discover there is no way to scale upward without cost increasing almost proportionally with the number of users.
-
 2. Third-party services are a silent ticking cost bomb. Every payments API, every email provider, every analytics SDK, and every video transcoding service costs per usage. You cannot optimize these costs away as easily as your own server costs. If the product depends on expensive external services without the price being visible at implementation, gross margin will erode over time.
 
 3. Data debt grows faster than technical debt. As a company grows, the amount of data per customer almost always increases faster than traffic. Logs, history, customer sessions, and large objects are often stored without clear lifecycle management. In the beginning, it is insignificant. After a few years, storage costs dominate and the system becomes expensive to both run and maintain.

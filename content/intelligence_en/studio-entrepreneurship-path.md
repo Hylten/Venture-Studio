@@ -15,7 +15,7 @@ author: "Jonas Hyltén"
 
 ## A New Architecture for Entrepreneurship
 
-Over the past decade, venture studios have emerged as their own institutional category alongside traditional accelerators, incubators, and venture capital funds. Unlike the more well-known models, venture studios build companies through an internal, reusable system architecture where idea selection, product development, recruitment, and go-to-market structures are formalized into robust operational frameworks. For an increasing number of experienced entrepreneurs, this model has become a deliberate career shift—not a side path.
+Over the past decade, venture studios have emerged as their own institutional category alongside traditional accelerators, incubators, and venture capital funds. Unlike the more well-known models, venture studios build companies through an internal, reusable system architecture where idea selection, product development, recruitment, and go-to-market structures are formalized into robust operational frameworks. For an increasing number of experienced entrepreneurs, this model has become a deliberate career shift, not a side path.
 
 The shift is not driven by romance or fatigue with company building but by an analytical insight: value creation in today’s B2B SaaS economy is increasingly a function of data infrastructure, system design, and process predictability. Entrepreneurs who have closely observed the traditional path from zero to one discover that their ability to build repeatable companies increases significantly when they operate within a system designed precisely for this purpose: a venture studio framework with its own technical backend, deal flow, experimental product engines, and portfolio logic that reduces friction.
 
@@ -44,7 +44,7 @@ What differentiates venture studios from accelerator models is not primarily the
 - Proprietary capital allocation that minimizes fundraising friction.
 - A production system of reusable components that shortens timelines from idea to market.
 
-Entrepreneurs who previously built companies solo encounter a different kind of playing field where their individual capacity is multiplied by an underlying machine. This is especially attractive to founders who have burned energy on repetitive tasks in their previous companies and now seek a framework where their time is used for high-value activities: idea evaluation, market analysis, product leadership, and capital strategy—rather than the logistical details that consume most of the startup phase.
+Entrepreneurs who previously built companies solo encounter a different kind of playing field where their individual capacity is multiplied by an underlying machine. This is especially attractive to founders who have burned energy on repetitive tasks in their previous companies and now seek a framework where their time is used for high-value activities: idea evaluation, market analysis, product leadership, and capital strategy, rather than the logistical details that consume most of the startup phase.
 
 ## Why Experienced Entrepreneurs Make the Switch
 
@@ -102,7 +102,7 @@ This professionalization makes entrepreneurs perceive studios as a serious caree
 - maturity in capital structure and ownership architecture
 - defined recruitment frameworks for early leadership teams
 
-Formally, venture studios are increasingly resembling institutions for technical and commercial company manufacturing—not loose networks of founders. This is central to understanding why the career shift has become legitimate.
+Formally, venture studios are increasingly resembling institutions for technical and commercial company manufacturing, not loose networks of founders. This is central to understanding why the career shift has become legitimate.
 
 ## The Personal Dimension
 

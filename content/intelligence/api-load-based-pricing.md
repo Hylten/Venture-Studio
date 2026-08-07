@@ -61,7 +61,6 @@ Varje SaaS-produkt har en underliggande ekonomisk fysik: ett latent system av ko
 Tre principer brukar dominera:
 
 1. Varje API-anrop har en marginalkostnad som är antingen linjär, logaritmisk eller exponentiell beroende på modellens komplexitet och caching-strategi.
-
 2. API-last fördelas ojämt mellan kunder; en liten del av kunderna står ofta för majoriteten av infrastrukturen och skapar en Pareto-fördelning i kostnadsprofilen.
 
 3. Systemets interna interaktioner kan multiplicera extern last. En kunds trigger kan ge upphov till kaskadeffekter genom mikroservicelager och event-loopar.
@@ -80,7 +79,6 @@ De flesta SaaS-bolag som byggts mellan 2010 och 2022 är optimerade för:
 När LLM-baserade funktioner och autonoma workflows introduceras skiftar kostnadsprofilen snabbt. Två centrala problem uppstår:
 
 1. Kostnaderna blir dynamiska. Varje förändring i modellstorlek, embeddingsstrategi eller tokenbudget påverkar bruttoresultatet direkt.
-
 2. Konsumtionen blir maskindriven, inte användardriven. Det är inte lengre användarsäten eller klickmönster som avgör belastningen, utan hur många agenter kunden kör, vilka triggers de har och hur intensivt interna pipelines aktiveras.
 
 Utan en prissättningsmodell som följer dessa mönster riskerar bolaget strukturellt urholkade marginaler.

@@ -19,7 +19,7 @@ author: "Jonas Hyltén"
 
 Something fundamental is happening in enterprise SaaS that has not yet been captured by the industry’s public narrative. Product-led growth, the former holy grail for Series C+ companies, is losing its systemic value. It is not a tactical weakness or poor execution. It is a structural collapse. A module in the go-to-market architecture that previously functioned with friction as its primary driving force is now dissolving as friction disappears.
 
-The entry of agents into core operational workflows is not just changing how users interact with the system—it is also changing how value is measured, how adoption occurs, and how demand is initiated. PLG was a response to a world where users needed guidance, proof-by-usage, and gradual exposure to functionality. In an agent-driven ecosystem, it is the model itself that drives the user. The classic sales funnel, in both its self-serve and enterprise iterations, becomes a relic from an era when software was a tool and not an actor.
+The entry of agents into core operational workflows is not just changing how users interact with the system, it is also changing how value is measured, how adoption occurs, and how demand is initiated. PLG was a response to a world where users needed guidance, proof-by-usage, and gradual exposure to functionality. In an agent-driven ecosystem, it is the model itself that drives the user. The classic sales funnel, in both its self-serve and enterprise iterations, becomes a relic from an era when software was a tool and not an actor.
 
 This is an internal memo directed at system builders. To organizations that have already passed the initial scaling stages and now face a new structure where AI agents control data circulation, automate decision logic, and effectively create their own user journeys. For these actors, PLG is no longer an acceleration engine but an anachronistic obstacle.
 
@@ -35,7 +35,7 @@ But that economy no longer holds.
 
 When autonomous or semi-autonomous agents become the core of the product’s value delivery, the user is no longer the pilot. The agent performs the work. The agent initiates processes. The agent drives information supply. The agent connects systems with other systems. This means the entire PLG theory is inverted. Instead of the user driving adoption, the model drives adoption.
 
-An agent-led product does not need to be onboarded by the user. It onboards itself by connecting to data sources, analyzing context, and initiating workflows. It does not need proof-by-usage. It generates proof-by-output. This means the steps that PLG built its existence on are no longer meaningful. Friction has not just been reduced—it has been abstracted away entirely.
+An agent-led product does not need to be onboarded by the user. It onboards itself by connecting to data sources, analyzing context, and initiating workflows. It does not need proof-by-usage. It generates proof-by-output. This means the steps that PLG built its existence on are no longer meaningful. Friction has not just been reduced, it has been abstracted away entirely.
 
 This makes the classic self-service funnel irrelevant, but also the enterprise-adapted variant where users were supposed to "feel the value" before scaling. Value is now the first thing that happens, because agents produce value as soon as they receive data. The sales funnel loses its function when output precedes adoption.
 
@@ -43,9 +43,9 @@ This makes the classic self-service funnel irrelevant, but also the enterprise-a
 
 In enterprise contexts, organizations often invest in software before they understand how it will be used. There has always been a structural tension between procurement and usage. PLG was a partially successful solution because it forced adoption to occur before expansion. For the first time in a long time, value and pricing synchronized toward actual behaviors.
 
-But when agents become operational actors, that relationship shifts again. The difference this time is that friction cannot be reintroduced, and the agent’s output becomes the primary value—not user activity. System-driven teams, often within data, operations, and product, begin purchasing agent capacity rather than software. Enterprise customers are not looking at interfaces, features, or user flows. They are looking at how quickly an agent can integrate with their own data networks and what level of autonomy can be permitted without risk.
+But when agents become operational actors, that relationship shifts again. The difference this time is that friction cannot be reintroduced, and the agent’s output becomes the primary value, not user activity. System-driven teams, often within data, operations, and product, begin purchasing agent capacity rather than software. Enterprise customers are not looking at interfaces, features, or user flows. They are looking at how quickly an agent can integrate with their own data networks and what level of autonomy can be permitted without risk.
 
-This means PLG flows are no longer relevant for capturing enterprise buyer attention. They do not want to trial a user interface. They want to test an agent in their own data environment. These are two entirely different things. Traditional PLG signals—such as daily usage, activated flows, or expansion through user groups—become noise. They measure human engagement in a model where humans are no longer doing the work.
+This means PLG flows are no longer relevant for capturing enterprise buyer attention. They do not want to trial a user interface. They want to test an agent in their own data environment. These are two entirely different things. Traditional PLG signals, such as daily usage, activated flows, or expansion through user groups, become noise. They measure human engagement in a model where humans are no longer doing the work.
 
 ## Expansion shifts from bottom-up to inside-out
 
@@ -78,7 +78,7 @@ This means a large part of the PLG toolbox is not just reduced in value but beco
 
 PLG is not just a go-to-market model. It is a cultural structure. It is a product philosophy that values minimalism, gradual discovery, and user-triggered value. That culture works poorly when the system needs to build agent ecosystems, autonomy, complex integration layers, and advanced data processing.
 
-In an agent-dominated product, value is a function of data infrastructure, model performance, and integration depth. This is system building, not experience optimization. The natural impulse of PLG culture—to reduce complexity for the user—conflicts with building the type of complexity an agent needs to act autonomously. This leads to organizational friction where product teams cling to a model that no longer drives the business, while data and agent teams try to scale new architectures.
+In an agent-dominated product, value is a function of data infrastructure, model performance, and integration depth. This is system building, not experience optimization. The natural impulse of PLG culture, to reduce complexity for the user, conflicts with building the type of complexity an agent needs to act autonomously. This leads to organizational friction where product teams cling to a model that no longer drives the business, while data and agent teams try to scale new architectures.
 
 It is simply impossible to drive an agent ecosystem with a PLG cultural core. The two logics are incompatible.
 
@@ -104,7 +104,7 @@ Much of the public discussion assumes that sales-led models will return when PLG
 
 Therefore, a new model is emerging: **Agent Led Growth (ALG)**.
 
-Here, it is the agent’s integrated output—not the user’s behavior—that drives expansion. The agent functions as product, distribution, and proof simultaneously. It is a model built on the premise that autonomy leads to demand. It requires an entirely different organization, entirely different instrumentation, entirely different GTM tools, and entirely different financing models.
+Here, it is the agent’s integrated output, not the user’s behavior, that drives expansion. The agent functions as product, distribution, and proof simultaneously. It is a model built on the premise that autonomy leads to demand. It requires an entirely different organization, entirely different instrumentation, entirely different GTM tools, and entirely different financing models.
 
 In an ALG system, the product is no longer something that is distributed. It is something that deploys itself, seeks new workspaces, and initiates its own value chain. PLG is structurally incompatible with this.
 
@@ -209,7 +209,7 @@ PLG logic, built on human micro-signals, cannot keep up.
 
 ## Marketing’s role changes radically
 
-Marketing directed at humans still works for general brand building. But traditional PLG marketing—focused on tutorials, inspiration, and case studies for individual users—has lost power.
+Marketing directed at humans still works for general brand building. But traditional PLG marketing, focused on tutorials, inspiration, and case studies for individual users, has lost power.
 
 It is no longer individuals who need to be convinced.
 

@@ -149,7 +149,7 @@ Over the past decade, the cloud has been presented as the self-evident destinati
 
 The question is no longer how quickly a company can connect to a cloud model, but how well it can control its data and ensure that information does not end up in unwanted legal zones. This is where local models begin to gain ground. They offer advantages that large cloud providers struggle to match because their business logic is built on global distribution and centralized operations.
 
-The cloud's strength—the global infrastructure—is also its weakness. The models are trained on gigantic datasets often collected and stored across multiple jurisdictions. This creates conflict with European requirements for data minimization, transparency, and traceability. The result is that some industries simply cannot use them fully, despite benefiting the most from AI.
+The cloud's strength, the global infrastructure, is also its weakness. The models are trained on gigantic datasets often collected and stored across multiple jurisdictions. This creates conflict with European requirements for data minimization, transparency, and traceability. The result is that some industries simply cannot use them fully, despite benefiting the most from AI.
 
 ## When Compliance Becomes Business-Critical
 

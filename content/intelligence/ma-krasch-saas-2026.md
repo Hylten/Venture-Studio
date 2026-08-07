@@ -246,11 +246,9 @@ Under den första vågen av AI-hype betraktades modern dataplattform, centralise
 2026 ser vi fem klassiska signaler som direkt stoppar en M&A-process innan den ens får fart.
 
 1. Kopplingen mellan produktdata och kunddata är svag eller saknas. Köparen ser omedelbart att möjligheten till AI-drivna funktioner och retention-modeller är kraftigt begränsad.
-
 2. Bolaget kan inte presentera en samlad bild av kundresan. Istället finns spridda datakällor i CRM, supportverktyg och produktloggar utan sammanslagning.
 
 3. Det saknas dokumentation av datamodeller, ägarskap och governance. Köparen inser att en integration kommer att bli dyr och riskfylld.
-
 4. Prognoser och rapporter skapas manuellt. Detta signalerar att ledningsgruppen saknar operativ förståelse för datadrivna KPI:er.
 
 5. Data är inte tillgänglig för AI-modeller i realtid. Detta är numera en absolut showstopper eftersom köparens egen AI-roadmap blir lidande.

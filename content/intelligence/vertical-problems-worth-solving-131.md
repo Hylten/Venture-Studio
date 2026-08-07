@@ -34,7 +34,6 @@ Det centrala misstaget i många venture-strategier är antagandet att alla verti
 Tre observationer återkommer:
 
 1. Vertikaler som når denna skala är inte primärt stora, utan djupa. De har enorm kedjelängd av aktiviteter och beroenden, vilket skapar möjligheter att bli det centrala systemet som allt annat anpassar sig efter.
-
 2. Intäktsfördelningen inom dessa vertikaler präglas ofta av intermediärer, konsulter eller manuella processoperatörer som representerar konverterbar spend. När ett sådant ekosystem digitaliseras kan en betydande del av den historiska kostnadsmassan flyttas över till mjukvaruavgifter.
 
 3. Dataflödena i dessa vertikaler är ofta kroniskt ofullständiga. Det innebär att en aktör som kan skapa en strukturerad datapipeline snabbt kan bli standard, eftersom ingen annan har en fullständig representation av processen.

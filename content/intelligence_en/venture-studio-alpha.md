@@ -51,7 +51,7 @@ The strength of venture studios does not primarily lie in generating better idea
 - An internal team that builds alongside founders
 - A long-term perspective based on ownership, not program length
 
-The studio’s work is not advisory—it is construction. This means every company that emerges from a studio has:
+The studio’s work is not advisory, it is construction. This means every company that emerges from a studio has:
 
 - Readiness for enterprise-level operations far earlier
 - Automated data pipelines and decision tools from day one
@@ -88,7 +88,7 @@ A traditional accelerator program offers mentorship, workshops, and some access 
 
 In 2026, the bottleneck is not knowledge but capacity.
 
-Companies succeed because they can manage increasing complexity in their technical and commercial structure—not because they have more mentors. Venture studios address this through operational density: an internal team that, depending on the model, includes technology, design, data, GTM, compliance, and systems architecture.
+Companies succeed because they can manage increasing complexity in their technical and commercial structure, not because they have more mentors. Venture studios address this through operational density: an internal team that, depending on the model, includes technology, design, data, GTM, compliance, and systems architecture.
 
 This means:
 

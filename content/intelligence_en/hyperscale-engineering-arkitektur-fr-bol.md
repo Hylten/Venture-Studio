@@ -26,7 +26,6 @@ The central question is therefore not how to scale systems. It’s how to build 
 When a SaaS platform grows faster than its own internal feedback loops, a new category of technical requirements emerges. Three of these define hyperscale work:
 
 1. Extreme data volume in operation rather than just storage. This is not a cost issue, but an architecture issue. Pipeline throughput designs the organizational structure.
-
 2. Distribution of decision-making to the systems themselves. In hyperscale environments, human teams cannot actively orchestrate all subsystems. The architecture therefore needs mechanisms for self-behavior, self-optimization, and autonomous capacity adjustments.
 
 3. Continuous restructuring of components. Where a traditional SaaS platform builds up a stable modular core, a hyperscale platform will need to replace that core regularly. It’s a paradox: stability is delivered through the capacity for destruction and rebuilding.
@@ -75,7 +74,7 @@ The third is the ability to offload unnecessary work from the main systems. Data
 
 ## The Data Environment in Hyperscale Platforms
 
-Data is the material hyperscale platforms are built from. But in hyperscale environments, data is not static assets—it’s moving systems.
+Data is the material hyperscale platforms are built from. But in hyperscale environments, data is not static assets, it’s moving systems.
 
 ## Real-Time Data as Operational Foundation
 
@@ -106,7 +105,6 @@ In hyperscale platforms, observability becomes an intelligence function. It’s 
 A mature hyperscale system always exposes three categories of signals:
 
 1. Physical signals from infrastructure resources
-
 2. Logical signals from application layers and data streams
 
 3. Systemic signals describing behavior patterns, emerging queues, and latent instability
@@ -157,7 +155,7 @@ And this is where we move to the next level of hyperscale engineering, where the
 
 The first real bottleneck in a hyperscale SaaS company rarely occurs in the code. It occurs in the data model’s ability to absorb unforeseen complexity. When growth shoots upward, relationships that were previously stable transform into multiple, dynamic, and sometimes chaotic data structures.
 
-A data model that works well with 5,000 customers can collapse completely at 500,000—not because the volume itself is too large, but because the semantic complexity grows in line with the users. Each customer adds a unique structure of behavioral data, integration logic, and configuration parameters that must be handled in real time.
+A data model that works well with 5,000 customers can collapse completely at 500,000, not because the volume itself is too large, but because the semantic complexity grows in line with the users. Each customer adds a unique structure of behavioral data, integration logic, and configuration parameters that must be handled in real time.
 
 To prevent the data model from becoming an obstacle, three principles are required.
 

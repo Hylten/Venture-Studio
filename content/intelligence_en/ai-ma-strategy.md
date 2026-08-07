@@ -59,7 +59,7 @@ This is extremely difficult to buy as a consulting service. Talent acquisition t
 
 In an AI organization, talent is much more than individuals. It is collective ability to build abstractions that can scale. A team that can build model platforms, optimize inference, set up data models, or define robust data governance does not just represent competence but also the ability to structure future product innovation.
 
-This is why acquisitions of small AI teams often have outsized effects in the market. A team trained in model architecture directly contributes to an organization’s system understanding—something difficult to replace with documentation or standardized onboarding.
+This is why acquisitions of small AI teams often have outsized effects in the market. A team trained in model architecture directly contributes to an organization’s system understanding, something difficult to replace with documentation or standardized onboarding.
 
 Acquiring AI talent is therefore less about filling roles and more about buying the ability to future-proof an entire technical paradigm.
 

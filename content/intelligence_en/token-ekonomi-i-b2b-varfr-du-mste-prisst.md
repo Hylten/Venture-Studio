@@ -159,7 +159,7 @@ It is in this shift that many B2B players risk falling behind. Those who do not 
 
 ## The Real Problem: Selling Something the Customer No Longer Needs to Pay For
 
-When a tool integrates AI, the user becomes less active. Processes previously requiring human intervention become automated or semi-automated. This means traditional user-based revenue logic loses its foundation. A customer does not need more user accounts to achieve more—they need more compute cycles to perform more work.
+When a tool integrates AI, the user becomes less active. Processes previously requiring human intervention become automated or semi-automated. This means traditional user-based revenue logic loses its foundation. A customer does not need more user accounts to achieve more, they need more compute cycles to perform more work.
 
 This creates a paradox for companies clinging to an old model: the customer’s business can grow without the supplier’s revenue growing. In the past, this was impossible. More users meant more licenses. Now, an entire department can perform its work through a single AI agent. When this happens without the price following, the company’s gross margin erodes slowly and invisibly. Eventually, the cost per customer exceeds what the customer pays, even if revenue initially looked stable.
 
@@ -208,7 +208,7 @@ Now, a customer can calculate:
 
 This means your price must be reasonable relative to the actual energy you use. Margins can still be created through better product design, better models, better infrastructure, and better workflows. But the customer’s ability to compare is significantly greater than before.
 
-Transparency is not just an advantage—it is a requirement.
+Transparency is not just an advantage, it is a requirement.
 
 ## Why Fixed Pricing Is Dangerous in AI Products
 
@@ -226,7 +226,7 @@ Energy is the only variable that always moves in line with the customer’s actu
 
 ## The Customer’s Psychological Image of Value Changes
 
-Previously, the customer paid for a tool and then tried to extract as much value as possible from it. Now, the customer pays for value directly. This changes how they experience the purchasing process. Many customers feel, for the first time, that they are treated fairly. They pay only when they produce something—not for having an account, not for having a team, not for someone to click a button.
+Previously, the customer paid for a tool and then tried to extract as much value as possible from it. Now, the customer pays for value directly. This changes how they experience the purchasing process. Many customers feel, for the first time, that they are treated fairly. They pay only when they produce something, not for having an account, not for having a team, not for someone to click a button.
 
 There is a psychological dimension where energy-based pricing creates:
 
@@ -234,7 +234,7 @@ There is a psychological dimension where energy-based pricing creates:
 - A sense of scalability
 - A sense that the product is working, not the customer
 
-This is the same feeling the cloud gave when moving from physical servers to pay-as-you-go. It was not just economically attractive—it was a mental relief.
+This is the same feeling the cloud gave when moving from physical servers to pay-as-you-go. It was not just economically attractive, it was a mental relief.
 
 ## Token Economics Makes the Product’s Value Measurable in a New Way
 
@@ -251,7 +251,7 @@ This makes ROI measurable down to the smallest unit. For the first time, AI work
 - This process previously cost 200 SEK in human time and five minutes.
 - With AI, it costs 40 öre in energy and two seconds.
 
-This is a completely new type of business dialogue that was not possible in software before, because traditional tools did not do the work for the customer—they just helped a human do it.
+This is a completely new type of business dialogue that was not possible in software before, because traditional tools did not do the work for the customer, they just helped a human do it.
 
 ## Risks for B2B Companies That Do Not Switch to Energy-Based Pricing
 

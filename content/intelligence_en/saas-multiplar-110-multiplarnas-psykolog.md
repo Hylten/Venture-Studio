@@ -13,11 +13,11 @@ draft: false
 author: "Jonas Hyltén"
 ---
 
-SaaS Multiples 110: The Psychology of Multiples in 2026 – Why the Market Chooses AGI Infrastructure Over Application Layers
+SaaS Multiples 110: The Psychology of Multiples in 2026 - Why the Market Chooses AGI Infrastructure Over Application Layers
 
 ## Introduction: Multiples Move Ahead of Narratives
 
-In the SaaS sector, multiples always come first. They move before revenue, before adoption, before regulatory dust settles, and long before operational realities catch up. The market isn’t a judge of the present—it’s a discounting machine for future dominance. Yet 2026 is an exception in one respect: multiple expansion and multiple contraction are now driven less by macro factors and more by a sharp structural difference between two categories of companies. One category absorbs capital, talent, and narrative. The other gets left behind in a technological backwater where pricing, margins, and integrations gradually lose strategic value.
+In the SaaS sector, multiples always come first. They move before revenue, before adoption, before regulatory dust settles, and long before operational realities catch up. The market isn’t a judge of the present, it’s a discounting machine for future dominance. Yet 2026 is an exception in one respect: multiple expansion and multiple contraction are now driven less by macro factors and more by a sharp structural difference between two categories of companies. One category absorbs capital, talent, and narrative. The other gets left behind in a technological backwater where pricing, margins, and integrations gradually lose strategic value.
 
 What was once a narrow vertical within data platforms has become the main artery of the investment system: AGI infrastructure. Not as slogans, but as actual system-level dependencies. This shift has two effects: multiples for infrastructure companies are pulled up by an expected oligopolization, while multiples for application layers are pushed down by increasing substitutability, margin compression, and a predictable consolidation under a few horizontal services.
 
@@ -51,7 +51,7 @@ In this reality, AGI infrastructure companies become more like energy producers 
 
 From late 2024 onward, models began solving problems that previously sat at the application layer: contextual understanding, multi-step logic, domain restrictions, real-time integration, data transformation, semantic search, and pipeline generation. This means applications are increasingly reduced to workflow configurations.
 
-When model capabilities accelerate faster than application rollout cycles, the market’s rational conclusion is that the application’s value isn’t permanent. A functional advantage becomes a short-lived arbitrage position. Multiples that previously rewarded gross margins and recurring revenue now move toward rewarding technical moat creation capacity—something the application layer struggles to demonstrate.
+When model capabilities accelerate faster than application rollout cycles, the market’s rational conclusion is that the application’s value isn’t permanent. A functional advantage becomes a short-lived arbitrage position. Multiples that previously rewarded gross margins and recurring revenue now move toward rewarding technical moat creation capacity, something the application layer struggles to demonstrate.
 
 ## The Return of Data Systems
 
@@ -66,7 +66,6 @@ When multiples are compressed, the explanation is usually macro. But 2026’s mu
 There are three main reasons for this:
 
 1. Features have become language. Previously, features required code; now they require prompt structures and model configurations.
-
 2. Integration costs have fallen dramatically. Part of the application’s defensibility was the hassle of switching systems. When AGI infrastructure offers abstraction layers that make integrations generic, this line of defense disappears.
 
 3. Margins are correcting. The gross margins once considered protected in SaaS are now eroding as inference costs hit the application’s COGS, while customers expect faster iterations without paying more.
@@ -78,11 +77,9 @@ This makes the market not see the multiple compression as a temporary effect. It
 The market’s logic right now is simple: invest where value is cumulative, not where value is consumable. The infrastructure layer generates cumulative value through four mechanisms:
 
 1. Scale advantages in compute increase with every additional customer, as pipeline optimization and model monitoring improve.
-
 2. Defensibility increases as model competence depends on training data, which can’t be imitated without extreme cost.
 
 3. Network effects in data input create improvements that spread across the entire customer base.
-
 4. Regulatory thresholds benefit from spillover effects where compliance at the infrastructure level covers the application layer as a whole.
 
 Application layers have none of these four mechanisms in their structure. Their value is linear with each new customer rather than exponential. That’s why multiples diverge.

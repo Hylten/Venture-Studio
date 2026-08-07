@@ -403,7 +403,7 @@ As the workplace becomes increasingly automated, the definition of a user change
 
 Customers will not accept a pricing model that does not match their internal reality, and companies that do not adapt will see investors’ patience run out.
 
-## Conclusion
+## Summary
 
 The per-seat model did not die due to fatigue or market whims. It died because it no longer captures the value customers actually extract from products. Series D is the point where this becomes business-critical. Companies that switch in time achieve higher expansion rates, more stable revenue, and better negotiation positions. Those that wait will face a pricing model that actively undermines their growth goals.
 

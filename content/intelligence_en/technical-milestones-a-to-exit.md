@@ -207,7 +207,7 @@ But at the same time, this is a phase where the right investments yield signific
 
 ## The Shift Toward Modular Architecture
 
-One of the most critical changes occurring after Series A is the transition from a monolithic product to the insight that modularity is necessary. This does not always mean a company must immediately move to microservices—a mistake many have made in thinking this is an obligatory standard. It does mean, however, that the team must understand where the boundaries in the system should be drawn and how different components can be developed without negatively affecting each other.
+One of the most critical changes occurring after Series A is the transition from a monolithic product to the insight that modularity is necessary. This does not always mean a company must immediately move to microservices, a mistake many have made in thinking this is an obligatory standard. It does mean, however, that the team must understand where the boundaries in the system should be drawn and how different components can be developed without negatively affecting each other.
 
 Modular architecture is about isolation, clear responsibility allocation, and reproducible patterns. In practice, this means, for example, that functions for payments, user management, or data calculations can be developed in separate flows without anyone needing to dig into the entire codebase. This not only reduces technical debt but also makes it easier to onboard new developers and deliver features faster.
 

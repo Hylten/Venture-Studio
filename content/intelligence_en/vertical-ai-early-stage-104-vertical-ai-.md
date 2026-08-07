@@ -130,7 +130,7 @@ The uniqueness of vertical AI is that every customer interaction produces three 
 - operational signals: how the output affects operational workflows
 - domain-specific signals: expert knowledge that cements the model’s understanding
 
-This triad of signals makes vertical models significantly more powerful than generic models in their domain. But it also requires building systems to capture, structure, validate, and feed these signals back into the pipeline. This is where most fail—and it is also where the strongest moat effects emerge.
+This triad of signals makes vertical models significantly more powerful than generic models in their domain. But it also requires building systems to capture, structure, validate, and feed these signals back into the pipeline. This is where most fail, and it is also where the strongest moat effects emerge.
 
 An effective vertical feedback loop consists of:
 
@@ -230,7 +230,7 @@ In the next part, we will dive deeper into how to establish a data supply chain 
 
 In early stages, most teams get caught up in a hectic hunt for functionality, users, and data sources. This is natural but often creates a blind spot. The blind spot concerns the question of what should actually be the sovereign core of the product. When building vertical AI, you cannot rely on the same abstraction levels as horizontal platforms do. You cannot drive your strategy with the assumption that the model itself is the differentiation. This is especially true when everyone uses the same open models and when large proprietary models only get stronger.
 
-The sovereign core lies in the ability to own and shape a workflow so specific and precise that no general competing tools can replicate it without drastically increasing their own costs. This must be in place from the very beginning of the product. The goal is to create an early spiral where the product’s use generates new opportunities that in turn make the product more defensible—not just more feature-rich.
+The sovereign core lies in the ability to own and shape a workflow so specific and precise that no general competing tools can replicate it without drastically increasing their own costs. This must be in place from the very beginning of the product. The goal is to create an early spiral where the product’s use generates new opportunities that in turn make the product more defensible, not just more feature-rich.
 
 To succeed with this, an early team must understand which parts of an industry will never become standardized in horizontal tools. These areas can then become the foundation around which the model is built. This is where sovereignty lies. This is what allows a vertical AI to continue growing even when underlying models become commoditized.
 

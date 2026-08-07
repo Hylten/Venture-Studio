@@ -17,7 +17,7 @@ author: "Jonas Hyltén"
 
 The MENA region has, in a short time, become one of the world’s most aggressive and long-term investors in AI infrastructure, data ecosystems, and technical foundations for model development. The region is not moving in sync with Silicon Valley but on a parallel expansion curve where capital, government strategies, and industrial needs converge with unusual synchronization. This creates an environment where technical platforms, data domains, and venture ecosystems grow in symbiosis, and where barriers that traditionally slow AI adoption are reduced or eliminated entirely.
 
-What historically has been missing in MENA—above all, a unified and enduring infrastructure for large-scale digital transformations—is now being rapidly built. Central actors in the Gulf states are positioning themselves not as users of AI but as fundamental owners of pipelines, compute, data flows, and regulatory predictability. The result is a region where market dynamics more closely resemble a system build than a technology adoption.
+What historically has been missing in MENA, above all, a unified and enduring infrastructure for large-scale digital transformations, is now being rapidly built. Central actors in the Gulf states are positioning themselves not as users of AI but as fundamental owners of pipelines, compute, data flows, and regulatory predictability. The result is a region where market dynamics more closely resemble a system build than a technology adoption.
 
 ## Structural Advantages of the Region: Capital, Time Horizons, and Political Unity
 
@@ -196,7 +196,7 @@ The regulations are designed to enable and accelerate innovation, not limit it. 
 - Responsible AI rules based on risk level rather than technology type
 - Faster approval processes and more flexible interpretation of regulations
 
-This means companies wanting to develop advanced models—including areas like medical AI or autonomous logistics—can do so significantly faster than in Europe. At the same time, there are clear rules of the game that make investors and partners perceive the market as more predictable than, for example, the U.S., where regulation is still fragmented.
+This means companies wanting to develop advanced models, including areas like medical AI or autonomous logistics, can do so significantly faster than in Europe. At the same time, there are clear rules of the game that make investors and partners perceive the market as more predictable than, for example, the U.S., where regulation is still fragmented.
 
 This balance between strict security and rapid innovation is something that attracts more international players to locate their research in the region.
 

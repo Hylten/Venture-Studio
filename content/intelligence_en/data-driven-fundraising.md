@@ -143,7 +143,7 @@ The investment then becomes financing of a model that already works.
 
 ## Predictive Models as Part of the Pitch Itself
 
-The most advanced companies use predictive models as a central part of their narrative—not to showcase technical capability, but to increase the investor’s confidence in scalability. When an investor sees that the company already operates with:
+The most advanced companies use predictive models as a central part of their narrative, not to showcase technical capability, but to increase the investor’s confidence in scalability. When an investor sees that the company already operates with:
 
 - LTV models based on real-time data
 - Churn prediction built on behavioral matrices
@@ -181,7 +181,7 @@ Investors in Series C+ are not primarily seeking innovation. They are seeking pr
 
 Data is the only way to prove this. Narratives can inspire. But only data can remove uncertainty.
 
-When a company presents its data architecture—not just its numbers—it shows that it operates at the same system level as the investor.
+When a company presents its data architecture, not just its numbers, it shows that it operates at the same system level as the investor.
 
 This is when the relationship changes. This is when the conversation shifts from pitch to structural analysis. This is when the investor begins to see the company not as a candidate, but as a platform for capital intensification.
 

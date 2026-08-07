@@ -17,9 +17,9 @@ author: "Jonas Hyltén"
 
 Over the past decade, the software market has undergone a structural shift. Features spread faster than ever, UX parity is achieved in months rather than years, and generative AI has further lowered the threshold for copying the surface layer of a product. At the same time, enterprise customers have become more technically mature and act less on individual features and more on systemic properties: data flows, integrability, robustness, operating costs, latency, security, observability, and the ability to build further on a stable foundation.
 
-In this landscape, infrastructure—in the broadest sense—has become the most underestimated form of intangible asset. Not as a bureaucratic cost base, but as a long-term protective moat. A company that controls its infrastructure controls its destiny. A company that does not becomes dependent on suppliers’ roadmaps, generic models, and a data structure that cannot be changed once scale is achieved.
+In this landscape, infrastructure, in the broadest sense, has become the most underestimated form of intangible asset. Not as a bureaucratic cost base, but as a long-term protective moat. A company that controls its infrastructure controls its destiny. A company that does not becomes dependent on suppliers’ roadmaps, generic models, and a data structure that cannot be changed once scale is achieved.
 
-In an era when anyone can build an MVP in a weekend, it is not the MVP that is the capital. The capital is the infrastructure that allows companies to scale, learn, improve, and integrate—faster and more predictably than competitors. This is where IP actually emerges: through systems, not slides.
+In an era when anyone can build an MVP in a weekend, it is not the MVP that is the capital. The capital is the infrastructure that allows companies to scale, learn, improve, and integrate, faster and more predictably than competitors. This is where IP actually emerges: through systems, not slides.
 
 ## From functionality to predictability: The new competitive matrix
 

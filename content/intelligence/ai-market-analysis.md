@@ -36,7 +36,6 @@ Många företag behandlar AI som en tilläggskomponent i sin analysstack. Den st
 En systemarkitektur för AI-drivna marknadsanalyser utgår från tre lager:
 
 1. Dataförsörjning: Insamling, normalisering och kontextualisering av marknadsdata från interna system, öppna datakällor, tredjepartstjänster och konkurrenters digitala fotspår.
-
 2. Modellkomposition: Kombinerade prediktiva och semantiska modeller som omvandlar dataströmmar till hypoteser om konkurrensdynamik, sannolikhetsfördelningar och scenariomodeller.
 
 3. Beslutsgränssnitt: Operativa ytor i organisationen där modellerna integreras i produktplanering, prisoptimering, GTM-strategi och investeringsbeslut.

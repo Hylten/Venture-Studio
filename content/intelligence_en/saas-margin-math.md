@@ -17,7 +17,7 @@ The Mathematics of SaaS Margins: A Deep Dive into PnL
 
 ## Why Margin Mathematics is the Foundation of Modern SaaS Architecture
 
-In mature SaaS companies, particularly those at Series C and beyond, every strategic decision is effectively a decision about margin structure. Choices around product, GTM design, architectural trade-offs, contract logic, and usage patterns don’t just influence costs and revenue—they determine the relationship between them. As valuations become more tightly linked to cash flow and structural profitability rather than narrative, this relationship moves to the center of the conversation.
+In mature SaaS companies, particularly those at Series C and beyond, every strategic decision is effectively a decision about margin structure. Choices around product, GTM design, architectural trade-offs, contract logic, and usage patterns don’t just influence costs and revenue, they determine the relationship between them. As valuations become more tightly linked to cash flow and structural profitability rather than narrative, this relationship moves to the center of the conversation.
 
 There’s a common misconception that SaaS margins automatically expand with scale. This only holds true when the underlying systems are engineered with margin expansion as a primary requirement. In reality, margins emerge from the interplay of data volumes, infrastructure characteristics, automation levels, customer behavior, contract design, and organizational structure.
 
@@ -56,7 +56,7 @@ Data-driven expansion points where usage follows natural flows
 Pricing indexed to customer value, not internal costs  
 A balance between subscription revenue and usage-based elements  
 
-The hard part isn’t creating revenue—it’s creating the right kind of revenue. Many companies lock themselves into structures where the revenue model correlates weakly with customer value but strongly with the company’s own costs, which lowers gross margins as the product gains adoption.
+The hard part isn’t creating revenue, it’s creating the right kind of revenue. Many companies lock themselves into structures where the revenue model correlates weakly with customer value but strongly with the company’s own costs, which lowers gross margins as the product gains adoption.
 
 ## COGS as a Technical System: Why Gross Margins Diverge Over Time
 
@@ -79,7 +79,7 @@ The most critical observation is that margin problems are almost always data and
 
 ## Gross Margins as a Strategic Indicator
 
-Gross margin isn’t just an accounting line—it’s an indicator of how efficiently the company transforms infrastructure into customer value. An 85% gross margin means only 15% of revenue is tied up in costs to deliver the product. A 65% margin suggests the product’s business model is under technical pressure.
+Gross margin isn’t just an accounting line, it’s an indicator of how efficiently the company transforms infrastructure into customer value. An 85% gross margin means only 15% of revenue is tied up in costs to deliver the product. A 65% margin suggests the product’s business model is under technical pressure.
 
 The structurally important drivers for gross margin expansion in a modern SaaS company are:
 
@@ -117,7 +117,7 @@ When leadership doesn’t see R&D as margin infrastructure but as a production c
 
 ## Sales and Marketing Costs: Why CAC Behavior Changes After Series C
 
-In SaaS, sales isn’t just a pipeline function—it’s a capital allocation function. Every krona invested in sales must be viewed in relation to gross margin because it’s gross margin that finances the payback of CAC.
+In SaaS, sales isn’t just a pipeline function, it’s a capital allocation function. Every krona invested in sales must be viewed in relation to gross margin because it’s gross margin that finances the payback of CAC.
 
 After Series C, a change almost always occurs in CAC dynamics: the marginal cost of reaching additional segments increases. At the same time, buying processes become more complex and involve more stakeholders.
 
@@ -130,7 +130,7 @@ Low-friction integration nodes
 
 ...have structurally better conditions for keeping CAC low than companies dependent on manual, process-driven sales.
 
-In strict economic terms, sales and marketing aren’t just a cost line—they’re a function of how well the product is designed to sell itself. In high-margin SaaS, the sales organization is an amplification function, not a distribution machine.
+In strict economic terms, sales and marketing aren’t just a cost line, they’re a function of how well the product is designed to sell itself. In high-margin SaaS, the sales organization is an amplification function, not a distribution machine.
 
 ## Support, Customer Success, and the Invisible COGS Trap
 
@@ -152,7 +152,7 @@ The central relationship is simple: more support needs mean more hidden costs, w
 
 EBITDA is the result of the interplay between revenue, COGS, and opex. But in SaaS, EBITDA is effectively an indicator of how well the company has designed its systems. High EBITDA means the company has created a product, infrastructure, and GTM model where friction is low and marginal effect is strong.
 
-In this sense, EBITDA isn’t a bottom line—it’s a consequence line. Strong EBITDA results from:
+In this sense, EBITDA isn’t a bottom line, it’s a consequence line. Strong EBITDA results from:
 
 Product architecture  
 Infrastructure design  
@@ -187,7 +187,7 @@ These factors determine how seamless margin expansion can be.
 
 This is where companies differ the most. The strongest SaaS platforms have a low cost gradient per new data point. The weakest see their margins fall for every customer that scales up usage.
 
-And it’s in this gap—between data needs and cost control—that the difference between a scalable SaaS machine and a technically overloaded product is decided.
+And it’s in this gap, between data needs and cost control, that the difference between a scalable SaaS machine and a technically overloaded product is decided.
 
 ## The Real Significance of Gross Margin
 
@@ -204,7 +204,7 @@ The first question to ask is which parts of these costs scale with revenue and w
 
 A high gross margin in early stages may seem impressive but often hides the fact that the infrastructure is under-dimensioned and therefore cheap. As the customer base grows, the company is forced to make increased investments in availability and redundancy, causing the margin to fall. Similarly, a company with a relatively low gross margin in early stages may prove to have a robust cost structure that improves markedly with volume.
 
-The real value of gross margin lies in its development curve over time and how well it correlates with customer volume. A mature SaaS company with a stable product should see continuously improving margins approaching a ceiling. If margins instead fluctuate wildly, it suggests the product is still technically volatile or that support and implementation costs are rising faster than revenue—a sign the product isn’t self-documenting or user-friendly enough, which in turn can force increased headcount.
+The real value of gross margin lies in its development curve over time and how well it correlates with customer volume. A mature SaaS company with a stable product should see continuously improving margins approaching a ceiling. If margins instead fluctuate wildly, it suggests the product is still technically volatile or that support and implementation costs are rising faster than revenue, a sign the product isn’t self-documenting or user-friendly enough, which in turn can force increased headcount.
 
 ## The Invisible Cost: The Customer’s Impact on Margin
 

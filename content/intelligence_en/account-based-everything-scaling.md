@@ -25,7 +25,7 @@ In this article, we focus on the technical and organizational architecture behin
 
 Companies often talk about personalization and relevance but rely on production chains not built to deliver them. Many organizations try to answer a systemic question with tactical tools: more touchpoints, more variants, more campaigns. The result is a burdened GTM organization whose output becomes more volume than value. Relevance declines, complexity increases, and the insights layer becomes increasingly difficult to synchronize.
 
-Account-Based Everything instead shifts focus from volume production to network-oriented impact within specific accounts. The central principle is that all activities—whether from marketing, sales, customer success, or product—are optimized to increase the likelihood that a given account moves through a specific progression.
+Account-Based Everything instead shifts focus from volume production to network-oriented impact within specific accounts. The central principle is that all activities, whether from marketing, sales, customer success, or product, are optimized to increase the likelihood that a given account moves through a specific progression.
 
 What makes this complex is not the idea itself, but that it requires the company to build a coherent data backbone that can model reality around and within each account. This includes:
 
@@ -61,7 +61,7 @@ This shift is central to Account-Based Everything. Relevance is no longer depend
 
 ## Organizational Architecture: From Functional Silos to Account-Operational Synchronization
 
-The biggest obstacle to implementing Account-Based Everything is not the technology. It is how companies traditionally structure their organizations. Marketing, sales, and customer success often have their own goals, processes, and production logics. Even when these teams collaborate, they usually do so through campaigns, handoffs, or deal support—not through a shared operational system.
+The biggest obstacle to implementing Account-Based Everything is not the technology. It is how companies traditionally structure their organizations. Marketing, sales, and customer success often have their own goals, processes, and production logics. Even when these teams collaborate, they usually do so through campaigns, handoffs, or deal support, not through a shared operational system.
 
 In an ABE architecture, the company is instead organized around accounts, not functions. This does not mean departments disappear, but that their output is defined by a shared success criterion: the account’s progression through its lifecycle. This requires:
 

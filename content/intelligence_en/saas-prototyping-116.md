@@ -13,7 +13,7 @@ draft: false
 author: "Skeptical Investor (Leaked)"
 ---
 
-SaaS‑prototyping 116: Rapid Prototyping in a Venture Studio – From Architecture to 1M ARR in 12 Weeks
+SaaS‑prototyping 116: Rapid Prototyping in a Venture Studio - From Architecture to 1M ARR in 12 Weeks
 
 ## Introduction: A Systems Perspective on Rapid Deployment
 
@@ -30,7 +30,6 @@ Venture studios operate with system capital rather than individual product teams
 Three differences are particularly relevant:
 
 1. A prototype is not an isolated codebase but a new node addition in the studio’s existing infrastructural network.
-
 2. Validation must occur in parallel with building capacity for later scaling, since the studio’s business model depends on multiple company launches rather than single exit cases.
 
 3. Speed is only a competitive advantage if integrated with predictability. It is the technical determinism that distinguishes the most successful studios: a prototype built quickly but incorrectly creates a cascade of operationalization problems further down the line.
@@ -39,7 +38,7 @@ Rapid Prototyping at venture studio scale is therefore a balance between technic
 
 ## A 12‑Week Model for Accelerated Value Generation
 
-The 12‑week window is not arbitrary. For a venture studio aiming to produce 6–12 new SaaS companies per year, a cycle is required where:
+The 12‑week window is not arbitrary. For a venture studio aiming to produce 6-12 new SaaS companies per year, a cycle is required where:
 
 - technical capacity
 - market analysis
@@ -50,11 +49,11 @@ can repeat without friction.
 
 The prototyping cycle must therefore be based on a production system rather than project‑oriented thinking. We can describe it as three blocks:
 
-Week 1–4: Architecture, data modeling, system scope, first pipelines  
-Week 5–8: Functional prototype, initial user flows, connection to infrastructure  
-Week 9–12: Stabilization, pricing model, first paying customers, revenue discipline
+Week 1-4: Architecture, data modeling, system scope, first pipelines  
+Week 5-8: Functional prototype, initial user flows, connection to infrastructure  
+Week 9-12: Stabilization, pricing model, first paying customers, revenue discipline
 
-This model is not linear. Each part builds iteratively but with strict prioritization. A clear example is data modeling, which is often handled too late in classic startup environments. In a venture studio, it must be in weeks 1–3, because it governs both scalability and interoperability with the studio’s other systems. It is the data model that determines integration cost, potential multi‑tenant requirements, AI enablement, and what the product’s future API landscape looks like.
+This model is not linear. Each part builds iteratively but with strict prioritization. A clear example is data modeling, which is often handled too late in classic startup environments. In a venture studio, it must be in weeks 1-3, because it governs both scalability and interoperability with the studio’s other systems. It is the data model that determines integration cost, potential multi‑tenant requirements, AI enablement, and what the product’s future API landscape looks like.
 
 ## Architecture as the First Sprint: A Structural Foundation for Rapid Validation
 
@@ -166,7 +165,7 @@ It is this link between technology and market that determines whether the protot
 
 ## From Prototype to Paying Customer: The Operational Inflection Point
 
-When a prototype reaches weeks 9–12, focus must shift from technical delivery to systemic stability and commercialization. This stage requires:
+When a prototype reaches weeks 9-12, focus must shift from technical delivery to systemic stability and commercialization. This stage requires:
 
 - early payment flows  
 - clear pricing  
@@ -223,7 +222,7 @@ In a venture studio, time is the most critical asset. Money can be lost and rega
 
 This is where most teams fail. They try to build perfect scalability before building something that even deserves to scale. The result is expensive, slow development and a product no one wants to pay for. A venture studio lacks that luxury. The prototype must be constructed as a controlled risk: neither too advanced nor too simplified.
 
-In practice, this requires a compromise demanding strict discipline. And this is where architecture in weeks 1–2 becomes decisive.
+In practice, this requires a compromise demanding strict discipline. And this is where architecture in weeks 1-2 becomes decisive.
 
 ## Architecture in 48 Hours: Exactly How Much Is Needed
 
@@ -337,4 +336,4 @@ It is this cycle that enables a company to go from architecture to 1M ARR in 12 
 
 The only thing that matters is whether the user pays.
 
-In the next part, we will deepen the process and go through exactly what the iterations in weeks 3–6 look like, what pitfalls appear, and how to measure progress without getting blinded by irrelevant numbers.
+In the next part, we will deepen the process and go through exactly what the iterations in weeks 3-6 look like, what pitfalls appear, and how to measure progress without getting blinded by irrelevant numbers.

@@ -19,7 +19,7 @@ Traditional technical due diligence (DD) has focused on codebase quality, archit
 
 This new layer is not a single subsystem but a connected ecosystem of data infrastructure, model-specific pipeline logic, inference costs, regulatory dependencies, and operational risks. For investors and acquiring companies, this means technical due diligence must broaden its scope. It is no longer sufficient to note that a team has ML expertise or that the product uses a GPT integration. What is required is a structured review of how the company’s AI layer actually functions, how it impacts margins, and how it positions the company relative to future shifts in the system.
 
-Technical DD 2.0 is, in practice, an assessment of how well a company can own its intelligence stack—and how much of its product differentiation depends on external models and vendors.
+Technical DD 2.0 is, in practice, an assessment of how well a company can own its intelligence stack, and how much of its product differentiation depends on external models and vendors.
 
 ## Why the AI Layer Requires a Separate Due Diligence Dimension
 
@@ -73,7 +73,7 @@ What often distinguishes a company with scalable AI advantage is not the number 
 - How data is exposed to models
 - Which data flows are customer-specific versus general
 
-The key is to understand whether the company has a data monopoly—that is, access to a dataset that no competitor can obtain from public sources. This data monopoly must then be linked to the AI layer to determine how much of the product’s intelligence is driven by exclusive data versus general models.
+The key is to understand whether the company has a data monopoly, that is, access to a dataset that no competitor can obtain from public sources. This data monopoly must then be linked to the AI layer to determine how much of the product’s intelligence is driven by exclusive data versus general models.
 
 A common problem in due diligence is that companies overestimate the value of their data. Many assume that a large dataset is an advantage, while truly unique datasets are often small, curated, and contextually rich. The DD process must therefore focus on:
 
@@ -245,4 +245,4 @@ During due diligence, the company must map where intelligence resides, what depe
 
 The AI layer means technical due diligence can no longer focus on code, architecture, and processes in isolation. It is about understanding systems that learn, systems that change over time, and systems whose behavior depends on data quality and model selection.
 
-Acquirers must therefore expand their review methods. Otherwise, they risk acquiring companies where value does not lie where they think—or where the biggest risks are invisible in traditional materials. The AI layer is now as central to technical due diligence as financial models are to commercial due diligence. It requires a new discipline, new tools, and a new understanding of what technical value actually means in an AI-driven product world.
+Acquirers must therefore expand their review methods. Otherwise, they risk acquiring companies where value does not lie where they think, or where the biggest risks are invisible in traditional materials. The AI layer is now as central to technical due diligence as financial models are to commercial due diligence. It requires a new discipline, new tools, and a new understanding of what technical value actually means in an AI-driven product world.

@@ -25,7 +25,7 @@ The ESG function in the energy system by 2026 is no longer about reporting, but 
 
 The previous generation of ESG leaders worked toward a unified goal: ensuring compliance, collecting data points, and publishing reports. Today, ESG teams in the energy sector are integrated into critical operational planning processes. They manage system design: how technical and operational decisions about grids, facilities, supply chains, and energy optimization impact long-term positioning.
 
-This makes ESG an architecture question. The teams leading this work operate with modeling tools, LCA frameworks, automated data collection, contract interpretation, energy trading risk parameters, and fill rates in battery and storage solutions. They expect every external actor reaching out to contribute something that strengthens the logic of their system—not just their reporting cycle.
+This makes ESG an architecture question. The teams leading this work operate with modeling tools, LCA frameworks, automated data collection, contract interpretation, energy trading risk parameters, and fill rates in battery and storage solutions. They expect every external actor reaching out to contribute something that strengthens the logic of their system, not just their reporting cycle.
 
 Outbound strategies must therefore be based on system compatibility: how data, models, or infrastructure components can integrate into the ESG decision-maker’s existing architecture without creating friction or increasing validation burdens.
 
@@ -54,7 +54,7 @@ The energy sector has no single ESG decision-maker. Mandates are fragmented acro
 
 Each group owns a subset of ESG-related decisions and uses different data structures. Outbound strategies must therefore begin by mapping the cognitive work environment of the recipient. This requires a persona architecture built for system organizations, not market segments.
 
-An ESG team working with lifecycle models, for example, needs entirely different reasoning than a team optimizing investment portfolios to meet EU Taxonomy requirements. Outbound must be structured around these cognitive gaps. The ability to quickly validate which category a decision-maker belongs to—based on language use and priorities in public documents or annual reports—becomes a strategic advantage.
+An ESG team working with lifecycle models, for example, needs entirely different reasoning than a team optimizing investment portfolios to meet EU Taxonomy requirements. Outbound must be structured around these cognitive gaps. The ability to quickly validate which category a decision-maker belongs to, based on language use and priorities in public documents or annual reports, becomes a strategic advantage.
 
 ## Outbound in an Environment Where Decision-Makers Have an Overabundance of Signals but a Shortage of Integratable Frameworks
 

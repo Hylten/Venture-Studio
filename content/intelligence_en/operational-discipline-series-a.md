@@ -193,7 +193,7 @@ A COO sets the tone for how cross-functional collaboration happens, how demands 
 
 ## The First COO Must Be a Generalist with High Tolerance for Chaos
 
-A common misconception is that a COO should always be a process person with a background from large companies. This is often the wrong profile for a Series A company. The first COO a growth company needs is a generalist. Someone who understands product, people, revenue model, delivery, and data—even if they are not an expert in each area.
+A common misconception is that a COO should always be a process person with a background from large companies. This is often the wrong profile for a Series A company. The first COO a growth company needs is a generalist. Someone who understands product, people, revenue model, delivery, and data, even if they are not an expert in each area.
 
 The most important thing is that the person has the ability to bring order to chaos without becoming rigid. A COO in Series A must thrive in an environment where conditions change every week and where the work is often about building new things as much as scaling existing ones. This is a role that requires pragmatism and the ability to prioritize what creates the greatest impact quickly.
 

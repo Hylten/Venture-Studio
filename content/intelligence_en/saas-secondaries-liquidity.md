@@ -26,8 +26,7 @@ It is against this backdrop that secondaries emerge as a key mechanism. They con
 In the SaaS sector, the transformation of capital structures has accelerated. This is due to three overlapping forces:
 
 1. A growing institutional ownership landscape where pension funds, infrastructure investors, and large international funds have different expectations regarding liquidity and risk management than traditional VC actors.
-
-2. Higher production complexity in the companies’ technical systems, especially after the AI transformation of 2022–2025, which has created more capital-intensive expansion phases in go-to-market, data processing, and model training.
+2. Higher production complexity in the companies’ technical systems, especially after the AI transformation of 2022-2025, which has created more capital-intensive expansion phases in go-to-market, data processing, and model training.
 
 3. A market that requires longer private lifecycles before IPO, often 10 to 12 years, which means that incentive structures for founders, operational teams, and early employees need to be adjusted to remain functional.
 

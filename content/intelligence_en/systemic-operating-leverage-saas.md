@@ -21,7 +21,7 @@ There is a recurring misconception that scaling to 10M ARR requires a proportion
 
 But what is happening now is something more fundamental. AI infrastructure, modular data stacks, autonomous pipeline systems, and distribution mechanisms integrated into the product are changing the playing field itself. As a result, a small team, organized around systems rather than functions, can generate power that previously required 50 to 150 people.
 
-This article is about how systemic operating leverage is constructed in a modern SaaS company and why an organization with five highly capable operators, the right tool stack, and a strict architectural mindset can reach 10M ARR faster, more predictably, and with significantly higher margins than the traditional model. This is not an evangelism of automation or a celebration of small teams for their own sake. It is a walkthrough of how value-creating functionality in a SaaS company can now be shifted from people to systems without reducing quality—in fact, increasing it.
+This article is about how systemic operating leverage is constructed in a modern SaaS company and why an organization with five highly capable operators, the right tool stack, and a strict architectural mindset can reach 10M ARR faster, more predictably, and with significantly higher margins than the traditional model. This is not an evangelism of automation or a celebration of small teams for their own sake. It is a walkthrough of how value-creating functionality in a SaaS company can now be shifted from people to systems without reducing quality, in fact, increasing it.
 
 ## The Diminishing Returns of Traditional Growth Models
 
@@ -217,7 +217,7 @@ There are four central mechanisms in this machine:
 4. **Machine-driven pricing**
    When pricing is adjusted based on behavior, segment, or value extraction in real time, the company can optimize revenue without any salesperson needed.
 
-The result is a sales engine that scales with the user base, not with headcount. As more people use the product, it sells more—completely on its own.
+The result is a sales engine that scales with the user base, not with headcount. As more people use the product, it sells more, completely on its own.
 
 ## Building Block 3: Centralized Intelligence Driving the Entire System
 

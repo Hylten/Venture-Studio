@@ -29,7 +29,7 @@ In earlier digital eras, fragmentation was a phase, not the end result. The mark
 2. Parallel emergence of AI-native infrastructure that is not compatible with older API paradigms.
 3. An explosion of data models that diverge in structure, semantics, and inference logic.
 
-The result is that every SaaS product is both a tool and a microsystem. Acquirers are therefore not just buying an application but a microsystem with its own internal physics. This explains why integrations become more expensive, technically complex, and strategically charged. It is not profitable to acquire companies requiring incompatible system logics to be reconciled. However, acquisitions that exploit fragmentation as raw material—where variance in system logics becomes a strategic tool—can create outsized advantages.
+The result is that every SaaS product is both a tool and a microsystem. Acquirers are therefore not just buying an application but a microsystem with its own internal physics. This explains why integrations become more expensive, technically complex, and strategically charged. It is not profitable to acquire companies requiring incompatible system logics to be reconciled. However, acquisitions that exploit fragmentation as raw material, where variance in system logics becomes a strategic tool, can create outsized advantages.
 
 Organizations that are deeply system-oriented view fragmentation as a form of landscape geometry. They map the topology to determine where the cuts are most favorable. They see breakpoints rather than categories. They approach the market by identifying systemic asymmetries in how data flows, is stored, and can be restructured to generate scale benefits.
 

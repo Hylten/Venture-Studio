@@ -15,7 +15,7 @@ author: "Jonas Hyltén"
 
 ## Introduction
 
-The bridge between Series B and Series C is the most underestimated and most devastating part of the modern SaaS journey. This is where the vast majority of companies die—not because the product is bad, not because the market is missing, but because the company never built the systems required to scale beyond its MVP-centered structure. This bridge is not a logistical challenge, not a question of endurance, and not a question of more capital. It is a system overhaul.
+The bridge between Series B and Series C is the most underestimated and most devastating part of the modern SaaS journey. This is where the vast majority of companies die, not because the product is bad, not because the market is missing, but because the company never built the systems required to scale beyond its MVP-centered structure. This bridge is not a logistical challenge, not a question of endurance, and not a question of more capital. It is a system overhaul.
 
 When a company reaches Series B, product-market fit is usually established, customers are in place, and some organizational structure has begun to take shape. But the transition to Series C is not about more of the same; it is about an entirely different type of company. It is the shift from product-driven entrepreneurship to system-driven industrial scaling. The two worlds operate under different laws, different tempos, and different dependencies.
 

@@ -23,7 +23,7 @@ It turns out that was wrong.
 
 2026 is the year when every Series C+ data platform company has been forced to reassess its technical foundation. Token arbitrage is not just an eroding business model; it is mathematically indefensible. Every margin gain achieved by normalizing usage against generative models is erased faster than the products can launch new features. Inference costs are falling, but value capture is falling faster, and customers are becoming more price-sensitive as they internalize that the core function is interchangeable.
 
-At the same time, a new industrial reality stands before us: only actors controlling full-stack AGI infrastructure—including proprietary weight forms, data composites, and optimized inference pipelines—gain access to capital flows at Series D scale. This is not an aesthetic preference from fund managers. It is a consequence of how modern capital allocation strategies index against energy costs, model competitiveness, and geopolitical risk.
+At the same time, a new industrial reality stands before us: only actors controlling full-stack AGI infrastructure, including proprietary weight forms, data composites, and optimized inference pipelines, gain access to capital flows at Series D scale. This is not an aesthetic preference from fund managers. It is a consequence of how modern capital allocation strategies index against energy costs, model competitiveness, and geopolitical risk.
 
 To understand why, we must start with the numbers.
 
@@ -147,7 +147,7 @@ In 2026, the chain is inverted:
 
 It is steps one through three that capture all capital. It is here exit multiples lie. The SaaS layers above no longer control semantics, energy, cost, or answer quality. And without control over at least two of these four factors, no company can scale.
 
-The only remaining strategic value lies in owning system layers that self-optimize their own representation forms—that is, the AGI layer.
+The only remaining strategic value lies in owning system layers that self-optimize their own representation forms, that is, the AGI layer.
 
 This is why capital concentrates. This is why wrappers die. This is why Series D flows are now entirely directed at actors with sovereign control over model and pipeline.
 
@@ -163,7 +163,7 @@ This means their revenue moves correlated with a global macro variable they cann
 
 Wrappers are not technically insolvent on paper. But they are structurally insolvent because their revenue potential is limited to a commodity market with falling prices.
 
-The only variable that can break this correlation is control over the model. This is why AGI infrastructure is necessary—not as a research project, but as a financial survival strategy.
+The only variable that can break this correlation is control over the model. This is why AGI infrastructure is necessary, not as a research project, but as a financial survival strategy.
 
 ## The Path Forward: Why SaaS Must Become System Builders or Die
 
@@ -177,7 +177,7 @@ It is in these three layers that value can accumulate. It is only here that comp
 
 Wrappers are not dying because they are bad products. They are dying because they are mathematically incompatible with the energy-economy that governs AGI-era digital infrastructure.
 
-## COLD TAKE: Sovereign AGI Is Not a Software Category—It Is a Physical Energy Hedge
+## COLD TAKE: Sovereign AGI Is Not a Software Category, It Is a Physical Energy Hedge
 
 Sovereign AGI is the endpoint of all digital capital accumulation. If you are still pricing per user (per seat) in 2026, you are effectively a ghost in the machine. Real value is now only captured by controlling the redundancy of neural energy.
 

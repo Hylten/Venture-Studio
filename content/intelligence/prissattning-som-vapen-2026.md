@@ -403,7 +403,7 @@ När arbetsplatsen blir allt mer automatiserad förändras även definitionen av
 
 Kunder kommer inte acceptera en prismodell som inte matchar deras egen interna realitet och företag som inte anpassar sig kommer se investerarnas tålamod ta slut.
 
-## Slutsats
+## Sammanfattning
 
 Per-seat-modellen dog inte på grund av trötthet eller marknadens nycker. Den dog för att den inte längre fångar värdet kunderna faktiskt utvinner ur produkterna. Series D är den punkt där detta blir affärskritiskt. De företag som byter i tid får högre expansionstal, stabilare intäkter och bättre förhandlingsposition. De som väntar kommer möta en prismodell som aktivt motverkar deras tillväxtmål.
 

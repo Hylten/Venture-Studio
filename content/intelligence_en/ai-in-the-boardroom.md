@@ -182,4 +182,4 @@ Third, organizations should ensure that human disagreement does not disappear bu
 
 The biggest risk is not incorrect decisions. It is decisions that are too correct according to the model but too weak according to reality.
 
-When AI is integrated at the board level, humans must still be at the core—but now in relation to a system that never sleeps, never forgets, and always measures. This makes the role more complex but also more significant. It is only when we understand this new power dynamic that we can govern the technology instead of being governed by it.
+When AI is integrated at the board level, humans must still be at the core, but now in relation to a system that never sleeps, never forgets, and always measures. This makes the role more complex but also more significant. It is only when we understand this new power dynamic that we can govern the technology instead of being governed by it.

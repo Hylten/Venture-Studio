@@ -177,7 +177,7 @@ Det är i dessa tre lager som värde kan ackumuleras. Det är endast här som f�
 
 Wrappers dör inte därför att de är dåliga produkter. De dör därför att de är matematiskt inkompatibla med den energi-ekonomi som styr AGI-era digital infrastruktur.
 
-## COLD TAKE: Suverän AGI är inte en mjukvarukategori – det är en fysisk energihedge
+## COLD TAKE: Suverän AGI är inte en mjukvarukategori - det är en fysisk energihedge
 Sovereign AGI är slutstationen för all digital kapitalackumulering. Om du fortfarande prissätter per användare (per seat) 2026, är du i praktiken en spöke i maskinen. Verkligt värde infångas nu endast genom att kontrollera redundansen i den neurala energin.
 
 ### PROJEKTION 2027: DEN STORA MIGRATIONEN

@@ -169,7 +169,7 @@ Common data sources include:
 
 By combining these data streams, the AI identifies correlations that humans often miss. For example, it may detect that a certain product’s demand increases sharply in connection with specific weather patterns, or that a local event affects stores further away than expected.
 
-This also makes the forecasts self-correcting. If the AI realizes behaviors deviate from previous patterns—for example, customers stop buying a certain type of product due to new trends—it adjusts the model without human intervention. This reduces both over-purchasing and out-of-stock situations and improves the flow of goods throughout the chain.
+This also makes the forecasts self-correcting. If the AI realizes behaviors deviate from previous patterns, for example, customers stop buying a certain type of product due to new trends, it adjusts the model without human intervention. This reduces both over-purchasing and out-of-stock situations and improves the flow of goods throughout the chain.
 
 ## Optimizing Inventory and Replenishment in Real Time
 

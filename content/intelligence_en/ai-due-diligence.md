@@ -15,11 +15,11 @@ author: "Jonas Hyltén"
 
 ## Introduction: A New Due Diligence Paradigm
 
-Over the past decade, M&A processes in the software sector have evolved toward increasing system complexity, shorter analysis windows, and growing dependence on data-driven business models. For companies in Series C and above—particularly in SaaS—this has meant a gradual professionalization of technical due diligence. But with the breakthrough of the AI era, the entire playing field has changed. Today, buyers face a situation where the key value in a target company does not primarily reside in the codebase or the scalability of its cloud infrastructure, but in a black box: a combination of models, data flows, internal tooling, system behaviors, and organizational processes that cannot be easily isolated or understood using traditional audit tools.
+Over the past decade, M&A processes in the software sector have evolved toward increasing system complexity, shorter analysis windows, and growing dependence on data-driven business models. For companies in Series C and above, particularly in SaaS, this has meant a gradual professionalization of technical due diligence. But with the breakthrough of the AI era, the entire playing field has changed. Today, buyers face a situation where the key value in a target company does not primarily reside in the codebase or the scalability of its cloud infrastructure, but in a black box: a combination of models, data flows, internal tooling, system behaviors, and organizational processes that cannot be easily isolated or understood using traditional audit tools.
 
 AI systems are not like classic SaaS engines. They are not deterministic processes where input and output stand in clear relation. They are probabilistic machines whose behavior changes over time, often without anyone in the organization knowing exactly why. When an increasing share of margins in modern SaaS models depends on automation levels and model performance, due diligence becomes a question of understanding uncertainty. That question is structurally different from understanding technical debt or cloud architecture.
 
-It is in this landscape that an institutional approach to AI due diligence is beginning to take shape. It involves treating AI systems as living, dynamic data systems—not as static product features. Acquirers therefore need a new mental framework: a system-builder perspective where AI components are audited as previously were core architectures, pipelines, and data volumes.
+It is in this landscape that an institutional approach to AI due diligence is beginning to take shape. It involves treating AI systems as living, dynamic data systems, not as static product features. Acquirers therefore need a new mental framework: a system-builder perspective where AI components are audited as previously were core architectures, pipelines, and data volumes.
 
 ## From Code Review to Model Review
 
@@ -44,7 +44,7 @@ In practice, this means buyers must establish a language for model evaluation th
 
 One of the most central problems in AI due diligence is that many modern systems are designed as black boxes both technically and organizationally. It is not just that model weights are complex. It is that the model lives in an ecosystem of data, pipelines, cloud services, annotation tools, orchestration systems, QA processes, and internal manual labor that is not transparent in itself.
 
-AI companies in rapid growth stages tend to build internal systems organically. This means fragmented datasets, technical debt in annotation flows, ad hoc scaling, and a multitude of undocumented decisions in model versions. This type of structural disorder is not necessarily a risk in itself—many high-performing AI teams build effectively in chaos. But acquirers must understand what constitutes necessary quick fixes and what constitutes long-term risk.
+AI companies in rapid growth stages tend to build internal systems organically. This means fragmented datasets, technical debt in annotation flows, ad hoc scaling, and a multitude of undocumented decisions in model versions. This type of structural disorder is not necessarily a risk in itself, many high-performing AI teams build effectively in chaos. But acquirers must understand what constitutes necessary quick fixes and what constitutes long-term risk.
 
 Auditing a black box is not about understanding every component. It is about understanding the system’s emergent behaviors. For M&A, this means shifting focus from static artifacts to dynamic patterns. Examples:
 
@@ -87,7 +87,7 @@ It is therefore important to see data not as static rows in a warehouse, but as 
 
 Is the data in the target company a renewable resource or a one-time asset?
 
-If the data is renewable, it means the system has strong feedback loops. If it is one-time in nature—for example, proprietary datasets without natural replenishment—the buyer must understand how quickly the value will erode.
+If the data is renewable, it means the system has strong feedback loops. If it is one-time in nature, for example, proprietary datasets without natural replenishment, the buyer must understand how quickly the value will erode.
 
 ## The Economic Value of the Model
 
@@ -167,7 +167,7 @@ AI due diligence is not an isolated technical activity. It is also an organizati
 
 This means auditing AI components is simultaneously auditing the company’s operational ability. This dimension becomes even more important when AI systems are deeply integrated into core business. A model pipeline that works well is often a sign of an organization with internal discipline and an understanding of lifecycle management for complex systems. A pipeline that works poorly often reveals structural deficiencies far beyond the technology.
 
-This is why AI due diligence must be seen as a holistic diagnosis: a way to assess whether the company has built a resilient system, both technically and organizationally. This type of analysis requires buyers to develop a new institutional competence—one that combines data technical expertise with systems thinking and business strategy.
+This is why AI due diligence must be seen as a holistic diagnosis: a way to assess whether the company has built a resilient system, both technically and organizationally. This type of analysis requires buyers to develop a new institutional competence, one that combines data technical expertise with systems thinking and business strategy.
 
 It is in this intersection that the most critical due diligence insights usually emerge, especially in later funding rounds and larger acquisitions. Here, the difference becomes clear between companies that have grown with structure and those that have grown with improvisation. Both types can be successful in the short term, but only one is long-term robust in an AI-driven market.
 

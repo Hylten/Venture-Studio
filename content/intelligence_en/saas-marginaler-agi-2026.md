@@ -17,7 +17,7 @@ INTERNAL PM: SaaS Margins in the AGI Era - Why 80% Gross Margin Is a Lie in 2026
 
 ## Introduction: A Fundamental Shift in SaaS Economics
 
-For two decades, the success of mature SaaS companies was defined by a single number: gross margin. A well-run company in Series C or later was expected to land around 75–85 percent. Anything below 70 percent was seen as either a pricing problem or a sign of poor technical architecture. Investors, especially in US markets, made this parameter a kind of valuation axis: high recurring revenue and high margins meant scalability, and scalability justified multiples.
+For two decades, the success of mature SaaS companies was defined by a single number: gross margin. A well-run company in Series C or later was expected to land around 75-85 percent. Anything below 70 percent was seen as either a pricing problem or a sign of poor technical architecture. Investors, especially in US markets, made this parameter a kind of valuation axis: high recurring revenue and high margins meant scalability, and scalability justified multiples.
 
 In 2026, this narrative is not just outdated. It is functionally unusable as a strategic instrument.
 
