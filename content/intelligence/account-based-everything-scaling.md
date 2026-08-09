@@ -88,10 +88,10 @@ Account-Based Everything omdefinierar därför relevans på tre viktiga sätt:
 Relevans är dynamisk
 Ett konto kan växla beteende snabbt baserat på interna beslut, externt tryck eller produktupplevelsen. Systemet måste därför uppdatera prioriteringar kontinuerligt.
 
-Relevans är probabilistisk
+Den är probabilistisk
 Det är inte en fråga om rätt eller fel insats, utan sannolikheter. ABE handlar om att maximera sannolikheten att en mikrorörelse leder till makrovärde.
 
-Relevans är systemgenererad
+Den är systemgenererad
 När relevans blir en emergent egenskap av företagets data- och beslutsmotor kan team fokusera på kvalitet i insatser snarare än att försöka gissa timing eller kontext.
 
 Det är detta som gör Account-Based Everything kraftfullt. Det skalar genom att låta systemet hantera komplexiteten, medan människor levererar expertis, kreativitet och relationell tyngd där det behövs.
@@ -124,9 +124,9 @@ Företag i denna fas möter tre strukturella utmaningar:
 
 De har fler konton än de kan bearbeta manuellt.
 
-De har fler datapunkter än deras system kan integrera.
+Datapunkterna överstiger vad systemen kan integrera.
 
-De har fler team än deras organisation kan koordinera.
+Teamens omfattning överstiger vad organisationen kan koordinera.
 
 Account-Based Everything fungerar som en motkraft mot denna fragmentering. Det skapar en GTM-arkitektur där komplexitet blir en tillgång snarare än ett hinder. AI-infrastruktur absorberar datavolymerna, processarkitekturen styr koordineringen och kontomodellen löser fragmenteringsproblemet.
 

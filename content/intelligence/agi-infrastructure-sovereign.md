@@ -160,9 +160,9 @@ När stater börjar investera i venture studios uppstår en ny hybridmodell där
 
 För det första är teknologin modulär och uppdateras varje vecka. Systemet måste därför vara designat för konstant iteration.  
 
-För det andra är kapitalet asymmetriskt. Compute och datainfrastruktur kräver massiva uppstartsinvesteringar, medan mjukvaran skalar billigt.  
+Kapitalet är dessutom asymmetriskt. Compute och datainfrastruktur kräver massiva uppstartsinvesteringar, medan mjukvaran skalar billigt.  
 
-För det tredje är användningsområdena så breda att traditionella sektorsindelningar kollapsar. Hälso‑ och sjukvård, försvar, industriell automation och finansiella system blir delar av samma kontinuerligt lärande modellarkitektur.
+Användningsområdena är slutligen så breda att traditionella sektorsindelningar kollapsar. Hälso‑ och sjukvård, försvar, industriell automation och finansiella system blir delar av samma kontinuerligt lärande modellarkitektur.
 
 Det är i denna komplexa miljö som venture studios blir nödvändiga som koordinationspunkter. De skapar den operativa ordning som gör AI-infrastruktur användbar och integrerbar.
 

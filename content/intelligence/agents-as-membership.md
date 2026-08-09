@@ -31,9 +31,9 @@ Detta skapar tre strukturella förändringar i hur värde realiseras i mjukvarus
 
 För det första blir värdet mindre kopplat till funktioner och mer till kompetensnivå. En avancerad agent kan ersätta eller förstärka flera separata funktioner genom sin förmåga att generalisera över arbetsuppgifter.
 
-För det andra förändras skalning. I stället för att team växer med personal kan de växa med fler agentoperatörer, vilket introducerar ett nytt kostnads- och kapacitetslager som är linjärt, förutsägbart och modulärt.
+Skalningen förändras också. I stället för att team växer med personal kan de växa med fler agentoperatörer, vilket introducerar ett nytt kostnads- och kapacitetslager som är linjärt, förutsägbart och modulärt.
 
-För det tredje blir systemets slutprodukt inte längre en UI-driven arbetsyta utan ett nätverk av agenter som kontinuerligt driver operativa flöden. Kundens främsta interaktion är konfiguration, datokoppling och övervakning.
+Slutligen blir systemets slutprodukt inte längre en UI-driven arbetsyta utan ett nätverk av agenter som kontinuerligt driver operativa flöden. Kundens främsta interaktion är konfiguration, datokoppling och övervakning.
 
 I detta landskap blir agenter som medlemsförmån en logisk förpackning. Kunden köper inte programvara, utan tillgång till ett orkestrerat kognitivt system som arbetar åt dem.
 
@@ -175,9 +175,9 @@ När företag uppgraderar till agentmedlemskap gör de det främst av tre skäl:
 
 De vill minska tiden mellan data och handling.
 
-De vill ersätta manuella insatser med kontinuerlig systemdriven aktivitet.
+Manuella insatser ska ersättas av kontinuerlig systemdriven aktivitet.
 
-De vill få ett mer resilient operativt system där agentflottan fungerar som en redundansmekanism vid toppar eller personalförändringar.
+Ett mer resilient operativt system är det tredje målet där agentflottan fungerar som en redundansmekanism vid toppar eller personalförändringar.
 
 Det är också därför företag allt oftare betraktar agentkapacitet som en intern produktkategori som budgeteras på liknande sätt som molnkapacitet eller cybersecurity. När agenter är en kapacitetsresurs blir medlemskap den ekonomiskt mest förutsägbara modellen.
 
